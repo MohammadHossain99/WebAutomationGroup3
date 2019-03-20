@@ -21,8 +21,9 @@ public class TestSearch extends CommonAPI {
 
     @Test
     public void testFromDBsearch() throws Exception{
-        SearchInCNN searchCnn= PageFactory.initElements(driver,SearchInCNN.class);
-        searchCnn.searchItemsAndSubmitButton();
+        searchInCNN.searchItemsAndSubmitButton();
+//        SearchInCNN searchCnn= PageFactory.initElements(driver,SearchInCNN.class);
+//        searchCnn.searchItemsAndSubmitButton();
     }
 
 

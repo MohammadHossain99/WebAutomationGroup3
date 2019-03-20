@@ -11,6 +11,7 @@
     <modules>
         <module>Generic</module>
         <module>CNNnews</module>
+        <module>FaceBook</module>
     </modules>
 
     <dependencyManagement>

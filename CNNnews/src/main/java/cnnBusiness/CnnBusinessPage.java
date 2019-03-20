@@ -22,16 +22,22 @@ public class CnnBusinessPage extends CommonAPI {
 
     @FindBy(id = "downshift-0-input")
     WebElement inputSearchInBusiness;
-    /**
-     * pass sendkeys nike and move back
-     */
 
     @FindBy(xpath = "//img[@class='media__image']")
     WebElement testImage;  //use boolean to test the image isDispalyed or not
 
+    @FindBy(xpath = "//a[@href='/2019/03/18/tech/apple-new-ipad-air-mini/index.html']//img")
+    WebElement topTitleImage;
 
-    @FindBy(xpath = "//div[@id='4630']/div[1]/img")
-    WebElement testImage2;
+    @FindBy(css = "//label[text()='Credit Cards']")
+    WebElement craditCardChosing;
+
+
+    @FindBy(xpath = "//div[@id='outbrain_widget_0']//div//div//ul//li[3]")
+    WebElement imageInPaidcontent;
+
+    @FindBy(xpath = "//section[@id='business-zone-4']/div[2]/div/div[1]/div/div[2]/article/div/div[1]/a/img")
+    WebElement testImage3;
 
 
 
@@ -48,22 +54,34 @@ public class CnnBusinessPage extends CommonAPI {
         driver.navigate().back();
     }
 
-
     public void image1(){
         boolean img = testImage.isDisplayed();
         Assert.assertTrue(img);
     }
-    public void image2(){
-        boolean img2 = testImage2.isDisplayed();
-        Assert.assertTrue(img2);
-    }
-
 
     public void seeNikeTrade(String locator) throws Exception{
         inputSearchInBusiness.sendKeys(locator, Keys.ENTER);
         Thread.sleep(2000);
     }
+    public void tradeScrolclick(){
+        tredeScrolling.click();
+    }
 
+    public void setTopTitleImage(){
+       boolean titleVideo = topTitleImage.isDisplayed();
+       Assert.assertTrue(titleVideo);
+    }
+    public void craditCard(){
+//      String str=  craditCardChosing.getText();
+//      Assert.assertEquals(str,"Credit Cards");
+      craditCardChosing.click();
+    }
+
+    public void paidContentImage(){
+       boolean paidContent= imageInPaidcontent.isDisplayed();
+       Assert.assertTrue(paidContent);
+
+    }
 
 
 

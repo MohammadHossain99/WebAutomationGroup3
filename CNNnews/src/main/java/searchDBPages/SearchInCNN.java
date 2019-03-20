@@ -29,13 +29,14 @@ public class SearchInCNN extends CommonAPI {
     }
 
 
+    public void submitSearchButton(){
+        getSubmitButton().click();
+    }
+
 
     public void searchFor(String value){
         getSearchInputWebElement().sendKeys(value, Keys.ENTER);
 
-    }
-    public void submitSearchButton(){
-        getSubmitButton().click();
     }
 
 

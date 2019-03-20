@@ -26,8 +26,8 @@ import java.util.concurrent.TimeUnit;
 public class CommonAPI {
 
     public static WebDriver driver = null;
-    public String browserstack_username= "";
-    public String browserstack_accesskey = "";
+    public String browserstack_username= "mdabutaherjewal1";
+    public String browserstack_accesskey = "mhzLmtQczk7tgqkKwy3w";
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
@@ -48,7 +48,6 @@ public class CommonAPI {
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
-//        driver.get(url);
     }
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
@@ -205,7 +204,7 @@ public class CommonAPI {
         return splitString;
     }
 
-    public void clickOnCss(String locator) {
+    public static void clickOnCss(String locator) {
         driver.findElement(By.cssSelector(locator)).click();
     }
 
@@ -274,7 +273,7 @@ public class CommonAPI {
     public static List<String> getTextFromWebElements(String locator) {
         List<WebElement> element = new ArrayList<WebElement>();
         List<String> text = new ArrayList<String>();
-        element = driver.findElements(By.cssSelector(locator));
+        element = driver.findElements(By.id(locator));
         for (WebElement web : element) {
             String st = web.getText();
             text.add(st);
