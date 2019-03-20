@@ -66,8 +66,6 @@ public class TestVerifyingClass extends CommonAPI {
         verfyingLogInPage.setClickSignUp();
     }
 
-
-
 //    @Test
 //    public void test1(){
 //        driver.findElement(By.id("email")).sendKeys("jewal ahmed", Keys.ENTER);
