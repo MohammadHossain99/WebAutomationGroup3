@@ -16,6 +16,7 @@
     <test name = "FaceBook Home">
         <classes>
             <class name="TestSignInPage.TestVerifyingClass"/>
+            <class name="TestSignInPage.TestSignInonly"/>
         </classes>
     </test>
 
