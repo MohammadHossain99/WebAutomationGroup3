@@ -13,6 +13,7 @@ public class VerfyingLogInPage extends CommonAPI {
 
     @FindBy(css = "#pass")
     WebElement inputpasword;
+
     @FindBy(id = "u_0_c")
     WebElement seeFisrtName;
 

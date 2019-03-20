@@ -68,16 +68,6 @@ public class TestVerifyingClass extends CommonAPI {
 
 
 
-
-
-
-
-
-
-
-
-
-
 //    @Test
 //    public void test1(){
 //        driver.findElement(By.id("email")).sendKeys("jewal ahmed", Keys.ENTER);
