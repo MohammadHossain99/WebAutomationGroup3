@@ -47,6 +47,8 @@ public class TestProfileHome extends CommonAPI {
     @Test(priority = 6)
     public void clickOnFindFriend(){
         faceBookProHome.setFindFriend();
+        driver.navigate().back();
+
     }
     @Test(priority = 7)
     public void testlistSearch() throws Exception{
@@ -55,6 +57,7 @@ public class TestProfileHome extends CommonAPI {
     @Test(priority = 8)
     public void testQuicHelpTab(){
         faceBookProHome.getListOfQuickHelp();
+        driver.navigate().refresh();
     }
 
     @Test(priority = 9)

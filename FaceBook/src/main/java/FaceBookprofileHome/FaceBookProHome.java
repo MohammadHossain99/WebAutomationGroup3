@@ -1,6 +1,7 @@
 package FaceBookprofileHome;
 
 import base.CommonAPI;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
@@ -70,9 +71,10 @@ public class FaceBookProHome extends CommonAPI {
         inputStatus.sendKeys(value);
         clenInput();
         closeInput();
-        setHomeTab();
-        hendlePopup();
-        driver.navigate().to("https://www.facebook.com/");
+//        setHomeTab();
+       Alert at= driver.switchTo().alert();
+       at.dismiss();
+        //driver.navigate().to("https://www.facebook.com/");
     }
     public void setHomeTab()throws Exception{
         homeTab.click();
