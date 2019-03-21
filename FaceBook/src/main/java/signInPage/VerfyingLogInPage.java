@@ -4,6 +4,8 @@ import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 public class VerfyingLogInPage extends CommonAPI {
 
@@ -34,6 +36,11 @@ public class VerfyingLogInPage extends CommonAPI {
 
     @FindBy(xpath = "//button[@id='u_0_u']")
     WebElement clickSignUp;
+
+    @FindBy(css = ".fb_logo.img")
+    WebElement testFaceBookLogo;
+
+
 
 
     public void putInpass(String password){
@@ -69,4 +76,14 @@ public class VerfyingLogInPage extends CommonAPI {
    public void setClickSignUp(){
         clickSignUp.click();
    }
+   public void setTestFaceBookLogo(){
+       boolean fblogo= testFaceBookLogo.isDisplayed();
+       Assert.assertTrue(fblogo);
+
+   }
+    public  void setMonthInDropDown(WebElement element, String value){
+        Select select = new Select(element);
+        select.selectByVisibleText(value);
+
+    }
 }
