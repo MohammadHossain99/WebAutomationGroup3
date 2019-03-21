@@ -17,6 +17,7 @@
         <classes>
             <class name="TestSignInPage.TestVerifyingClass"/>
             <class name="TestSignInPage.TestSignInonly"/>
+            <class name="FaceBookprofileHome.FaceBookProHome"/>
         </classes>
     </test>
 

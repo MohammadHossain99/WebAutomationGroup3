@@ -1,11 +1,15 @@
 package signInPage;
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class VerfyingLogInPage extends CommonAPI {
 
@@ -85,5 +89,16 @@ public class VerfyingLogInPage extends CommonAPI {
         Select select = new Select(element);
         select.selectByVisibleText(value);
 
+    }
+    public static List<String> getTextFromWebElements(String locator) {
+        List<WebElement> element = new ArrayList<WebElement>();
+        List<String> text = new ArrayList<String>();
+        element = driver.findElements(By.id(locator));
+        for (WebElement web : element) {
+            String st = web.getText();
+            text.add(st);
+        }
+
+        return text;
     }
 }

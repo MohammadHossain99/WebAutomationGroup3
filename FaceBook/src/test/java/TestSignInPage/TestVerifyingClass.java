@@ -36,14 +36,19 @@ public class TestVerifyingClass extends CommonAPI {
         verfyingLogInPage.typeOnInputFirstName("MD ABU");
     }
 
-//    @Test
-//    public void inputSureName(){
-//        verfyingLogInPage.typeOnSUreNameInput();
-//    }
-
     @Test
     public void variFyday(){
-      CommonAPI.getTextFromWebElements("day");
+        List<String> text = new ArrayList<String>();
+
+      text =  verfyingLogInPage.getTextFromWebElements("day");
+        System.out.println(text);
+    }
+    @Test
+    public void variFymonth(){
+        List<String> text;
+        text=  CommonAPI.getTextFromWebElements("month");
+        System.out.println(text);
+
     }
     @Test
     public void testDayDOB(){
@@ -81,7 +86,7 @@ public class TestVerifyingClass extends CommonAPI {
         verfyingLogInPage.setTestFaceBookLogo();
     }
 
-    String  DOB = "09-May-1992";
+    String  DOB = "9-May-1992";
     String[] arrayDob = DOB.split("-");
 
     @Test
@@ -98,19 +103,7 @@ public class TestVerifyingClass extends CommonAPI {
     public void selectingyear(){
         WebElement year = driver.findElement(By.id("year"));
         verfyingLogInPage.setMonthInDropDown(year,arrayDob[2]);
-    }
-
-
-    @Test
-    public void getElement(){
-       List<Integer> str = new ArrayList<Integer>();
-    //  str= driver.findElements(By.id("year"));
 
     }
-
-
-
-
-
 
 }

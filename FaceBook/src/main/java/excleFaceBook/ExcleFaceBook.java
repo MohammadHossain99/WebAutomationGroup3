@@ -1,5 +1,6 @@
-package logInViaExcleFile;
+package excleFaceBook;
 
+import base.CommonAPI;
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
@@ -12,53 +13,23 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class UseOfExcle {
+public class ExcleFaceBook extends CommonAPI {
 
-   static HSSFWorkbook wb = null;
-
-    static HSSFSheet sheet = null;
-   static Cell cell = null;
-   FileOutputStream fio = null;
+    HSSFWorkbook wb = null;
+    HSSFSheet sheet = null;
+    Cell cell = null;
+    FileOutputStream fio = null;
     int numberOfRows, numberOfCol, rowNum;
 
-    public static void main(String[] args)throws Exception {
-        UseOfExcle ux = new UseOfExcle();
-       String path = "/Users/jewal/IntelliJ/WebAutomationGroup3/FaceBook/src/main/java/login.creatAccount.xlsx";
-       String sName = "login.creatAccount";
 
-
-
-
-        FileInputStream fio = new FileInputStream(path);
-       wb = new HSSFWorkbook(fio);
-       sheet = wb.getSheet(sName);
-       cell = sheet.getRow(1).getCell(2);
-       String cellData = cell.getStringCellValue();
-        System.out.println("cell data :"+cellData);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public static void main(String[] args) throws Exception{
+        ExcleFaceBook fb = new ExcleFaceBook();
+        String path ="/Users/jewal/IntelliJ/WebAutomationGroup3/FaceBook/src/main/java/login.xlsx";
+        fb.fileReader2(path,0);
     }
 
-    public String[][] fileReader1(String path,int sheetIndex) throws IOException {
+    public String[][] fileReader1(String path, int sheetIndex) throws IOException {
         String[][] data = {};
-
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);
         wb = new HSSFWorkbook(fis);
@@ -71,8 +42,8 @@ public class UseOfExcle {
             HSSFRow rows = sheet.getRow(i);
             for (int j = 0; j < numberOfCol; j++) {
                 HSSFCell cell = rows.getCell(j);
-                String cellData = getCellValue(cell);
-                data[i][j] = cellData;
+//                String cellData = getCellValue(cell);
+//                data[i][j] = cellData;
             }
         }
         return data;
@@ -88,35 +59,35 @@ public class UseOfExcle {
         numberOfCol = sheet.getRow(0).getLastCellNum();
         data = new String[numberOfRows + 1];
 
-        for (int i = 1; i < data.length; i++) {
-            HSSFRow rows = sheet.getRow(i);
-            for (int j = 0; j < numberOfCol; j++) {
-                HSSFCell cell = rows.getCell(j);
-                String cellData = getCellValue(cell);
-                data[i] = cellData;
-            }
-        }
+//        for (int i = 1; i < data.length; i++) {
+//            HSSFRow rows = sheet.getRow(i);
+//            for (int j = 0; j < numberOfCol; j++) {
+//                HSSFCell cell = rows.getCell(j);
+//                String cellData = getCellValue(cell);
+//                data[i] = cellData;
+//            }
+//        }
         return data;
     }
 
-    public String getCellValue(HSSFCell cell) {
-        Object value = null;
-
-        int dataType = cell.getCellType();
-        switch (dataType) {
-            case HSSFCell.CELL_TYPE_NUMERIC:
-                value = cell.getNumericCellValue();
-                break;
-            case HSSFCell.CELL_TYPE_STRING:
-                value = cell.getStringCellValue();
-                break;
-            case HSSFCell.CELL_TYPE_BOOLEAN:
-                value = cell.getBooleanCellValue();
-                break;
-        }
-        return value.toString();
-
-    }
+//    public String getCellValue(HSSFCell cell) {
+//        Object value = null;
+//
+//        CellType dataType = cell.getCellType();
+//        switch (dataType) {
+//            case HSSFCell.CELL_TYPE_NUMERIC:
+//                value = cell.getNumericCellValue();
+//                break;
+//            case HSSFCell.CELL_TYPE_STRING:
+//                value = cell.getStringCellValue();
+//                break;
+//            case HSSFCell.CELL_TYPE_BOOLEAN:
+//                value = cell.getBooleanCellValue();
+//                break;
+//        }
+//        return value.toString();
+//
+//    }
 
     public void writeBack(String value) throws IOException {
         wb = new HSSFWorkbook();
@@ -133,7 +104,4 @@ public class UseOfExcle {
         fio.close();
         wb.close();
     }
-
-
-
 }
