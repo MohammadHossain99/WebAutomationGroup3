@@ -1,117 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="340b4818-5e59-4623-8f8b-5bd30200d5ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arrays,-Java-inbuilt-Lists,-Autoboxing-and-Unboxing-ArrayList-Part-2-Source-code/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arrays,-Java-inbuilt-Lists,-Autoboxing-and-Unboxing-ArrayList-Part-2-Source-code/lib/gson-2.6.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-13/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-13/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-13/driver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-13/lib/byte-buddy-1.8.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-13/lib/client-combined-3.141.59-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-13/lib/client-combined-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-13/lib/commons-exec-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-13/lib/guava-25.0-jre.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-13/lib/okhttp-3.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-13/lib/okio-1.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-13/lib/selenium-server-standalone-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-13/lib/testng-7.0.0-beta3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-13/src/amazon/AmazonHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-13/src/amazon/TestAmazon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-13/src/automationPractice/TestAutomation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class14/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class14/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class14/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class14/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class14/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class14/Class14.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class14/Generic/Generic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class14/Generic/driver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class14/Generic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class14/Generic/src/main/java/base/CommonApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class14/amazon/amazon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class14/amazon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class14/amazon/src/main/java/title/AmazonHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class14/amazon/src/test/java/title/AmazonHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class14/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseOpsJan2019" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntelliJ.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/.idea/libraries/testng_7_0_0_beta3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/MIDTERM.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/out/production/MIDTERM/META-INF/MIDTERM.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/out/production/MIDTERM/Testing/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/out/production/MIDTERM/Testing/TestNG.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/out/production/MIDTERM/algorithms/InsertionSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/out/production/MIDTERM/algorithms/SelectionSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/out/production/MIDTERM/dataBase/MongoDB/ConnectToMongo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/out/production/MIDTERM/dataBase/MySqlConnect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/out/production/MIDTERM/dataBase/mongo-java-driver-3.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/out/production/MIDTERM/dataBase/mysql-connector-java-8.0.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/out/production/MIDTERM/dataStructure/Hashmap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/out/production/MIDTERM/dataStructure/Students.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/out/production/MIDTERM/dataStructure/UseArrayList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/out/production/MIDTERM/oopDesign/BOABrooklyn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/out/production/MIDTERM/oopDesign/BOAManhattan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/out/production/MIDTERM/oopDesign/BOARules.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/src/Testing/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/src/Testing/TestNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/src/algorithms/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/src/algorithms/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/src/dataBase/MongoDB/ConnectToMongo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/src/dataBase/MySqlConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/src/dataBase/mongo-java-driver-3.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/src/dataBase/mysql-connector-java-8.0.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/src/dataStructure/Hashmap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/src/dataStructure/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/src/dataStructure/UseArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/src/oopDesign/BOABrooklyn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/src/oopDesign/BOAManhattan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MIDTERM/src/oopDesign/BOARules.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/secret.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/test/test/menuTest/titleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../forpractice7/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jewalFramWork/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jewalFramWork/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jewalFramWork/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jewalFramWork/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jewalFramWork/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jewalFramWork/automation/automation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jewalFramWork/automation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jewalFramWork/automation/src/main/java/homePage/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jewalFramWork/automation/src/test/java/TestHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jewalFramWork/common/common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jewalFramWork/common/driver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jewalFramWork/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jewalFramWork/common/src/main/java/base/BaseClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jewalFramWork/jewalFramWork.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jewalFramWork/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/IntelliJ/homePractice/Home.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/IntelliJ/homePractice/Program.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/homePractice/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/homePractice/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webAutomation/Generic/target/NetFliex-1.0-SNAPSHOT.jar" afterDir="false" />
-    </list>
+    <list default="true" id="340b4818-5e59-4623-8f8b-5bd30200d5ac" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -128,8 +18,8 @@
     <favorites_list name="WebAutomationGroup3" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -150,32 +40,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+            <state relative-caret-position="-743">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2635" />
+            <state relative-caret-position="276">
+              <caret line="152" column="33" lean-forward="true" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="33" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/secret.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -188,17 +83,17 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/secret.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/test/test/menuTest/titleTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/secret.properties" />
       </list>
     </option>
   </component>
@@ -234,11 +129,13 @@
       <select />
     </treeState>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="147" />
     <option name="y" value="23" />
-    <option name="width" value="1392" />
-    <option name="height" value="828" />
+    <option name="width" value="1280" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -246,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,16 +177,54 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-archiver" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+
+    
+
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552923249601" />
+
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -354,9 +290,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="147" y="23" width="1392" height="827" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="742" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.24640805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.2421875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -365,12 +302,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010225" side_tool="true" weight="0.24640805" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11228534" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21174653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33024693" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32893" />
@@ -379,26 +316,20 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Codota" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.42186087" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.42109376" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/test/test/menuTest/titleTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2635" />
+        <state relative-caret-position="180">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/secret.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -407,24 +338,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/test/test/menuTest/titleTest.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/secret.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        <state relative-caret-position="-743">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="276">
+          <caret line="152" column="33" lean-forward="true" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="33" />
         </state>
       </provider>
     </entry>
