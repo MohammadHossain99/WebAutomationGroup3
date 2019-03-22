@@ -15,10 +15,11 @@
 
     <test name = "CNN Home">
         <classes>
-            <!--<class name="testhompage.TestHomePage"/>-->
-            <!--<class name="testDBSearch.TestSearch"/>-->
-            <!--<class name="testcnnBusiness.TestCnnBusinessPage"/>-->
+            <class name="testhompage.TestHomePage"/>
+            <class name="testDBSearch.TestSearch"/>
+            <class name="testcnnBusiness.TestCnnBusinessPage"/>
             <class name="testCnnUsPage.TestCnnUsPage"/>
+            <class name="testCnnHealthPage.TestCnnHealth"/>
         </classes>
     </test>
 
