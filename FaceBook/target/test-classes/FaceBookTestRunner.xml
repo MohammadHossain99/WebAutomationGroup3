@@ -15,9 +15,9 @@
 
     <test name = "FaceBook Home">
         <classes>
-            <!--<class name="TestSignInPage.TestVerifyingClass"/>-->
-            <!--<class name="TestSignInPage.TestSignInonly"/>-->
-            <!--<class name="FaceBookprofileHome.FaceBookProHome"/>-->
+            <class name="TestSignInPage.TestVerifyingClass"/>
+            <class name="TestSignInPage.TestSignInonly"/>
+            <class name="FaceBookprofileHome.FaceBookProHome"/>
             <class name="testIdProfileHomePage.TestIdProfilePage"/>
         </classes>
     </test>
