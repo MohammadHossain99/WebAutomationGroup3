@@ -11,10 +11,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -29,17 +26,17 @@ import java.util.concurrent.TimeUnit;
 public class CommonAPI {
 
     public static WebDriver driver = null;
-    public String browserstack_username= "";
-    public String browserstack_accesskey = "";
+    public String browserstack_username= "mdabutaherjewal1";
+    public String browserstack_accesskey = "mhzLmtQczk7tgqkKwy3w";
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
-    @BeforeMethod
+    @BeforeClass
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("http://www.amazon.com") String url)throws IOException {
-        //System.setProperty("webdriver.chrome.driver", "/Users/peoplentech/eclipse-workspace-March2018/SeleniumProject1/driver/chromedriver");
+                              String browserVersion, @Optional("http://www.cnn.com/") String url)throws IOException {
+//        System.setProperty("webdriver.chrome.driver", "/Users/jewal/IntelliJ/WebAutomationGroup3/Generic/browser-driver/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -51,8 +48,6 @@ public class CommonAPI {
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
-        driver.get(url);
-        //driver.manage().window().maximize();
     }
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
@@ -109,7 +104,7 @@ public class CommonAPI {
         return driver;
     }
 
-    @AfterMethod
+    @AfterClass
     public void cleanUp() {
         driver.close();
     }
@@ -209,7 +204,7 @@ public class CommonAPI {
         return splitString;
     }
 
-    public void clickOnCss(String locator) {
+    public static void clickOnCss(String locator) {
         driver.findElement(By.cssSelector(locator)).click();
     }
 
@@ -278,7 +273,7 @@ public class CommonAPI {
     public static List<String> getTextFromWebElements(String locator) {
         List<WebElement> element = new ArrayList<WebElement>();
         List<String> text = new ArrayList<String>();
-        element = driver.findElements(By.cssSelector(locator));
+        element = driver.findElements(By.id(locator));
         for (WebElement web : element) {
             String st = web.getText();
             text.add(st);
