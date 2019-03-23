@@ -1,8 +1,9 @@
+import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
-public class HomePage {
+public class HomePage extends CommonAPI {
 
     @FindBy(css = "#reg-firstname")
     WebElement firstNameInput;
@@ -21,6 +22,18 @@ public class HomePage {
 
     @FindBy(className = "reg-alert")
     WebElement alert;
+
+    @FindBy(id = "login-email")
+    WebElement loginEmail;
+
+    @FindBy(id="login-password")
+    WebElement loginPassword;
+
+    @FindBy(id="login-submit")
+    WebElement loginButton;
+
+    @FindBy(linkText = "Forgot password?")
+    WebElement forgotPassword;
 
     public void inputFirstName(String fName){
         firstNameInput.sendKeys(fName);
@@ -49,5 +62,22 @@ public class HomePage {
         String expectedAlert = "";
 
         return expectedAlert ;
+    }
+
+    public void enterEmailLogin(String email){
+        loginEmail.sendKeys(email);
+    }
+
+    public void enterPasswordLogin(String password){
+        loginPassword.sendKeys(password);
+    }
+
+    public void logIn(){
+        loginButton.click();
+    }
+
+    public void setForgotPassword(){
+        forgotPassword.click();
+
     }
 }

@@ -1,10 +1,9 @@
-import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TestHomePage extends CommonAPI {
+public class TestHomePage extends HomePage {
 
     HomePage homePage;
     String homePageUrl = "https://www.linkedin.com/";
@@ -63,6 +62,7 @@ public class TestHomePage extends CommonAPI {
         Thread.sleep(3000);
         String expectedAlert = "Please enter your last name";
         Assert.assertEquals(homePage.alert.getText(), expectedAlert);
+        System.out.println(homePage.alert.getText());
     }
 
     @Test
@@ -74,6 +74,7 @@ public class TestHomePage extends CommonAPI {
         Thread.sleep(3000);
         String expectedAlert = "Please enter your email address";
         Assert.assertEquals(homePage.alert.getText(), expectedAlert);
+        System.out.println(homePage.alert.getText());
 
     }
     @Test
@@ -85,6 +86,7 @@ public class TestHomePage extends CommonAPI {
         Thread.sleep(3000);
         String expectedAlert = "Please enter your password";
         Assert.assertEquals(homePage.alert.getText(), expectedAlert);
+        System.out.println(homePage.alert.getText());
 
     }
 
@@ -94,7 +96,51 @@ public class TestHomePage extends CommonAPI {
         Thread.sleep(3000);
         String expectedAlert = "Please enter your first name";
         Assert.assertEquals(homePage.alert.getText(), expectedAlert);
+        System.out.println(homePage.alert.getText());
     }
+
+    @Test
+    public void emailLogin(){
+        homePage.enterEmailLogin("stest7380@gmail.com");
+    }
+
+    @Test
+    public void passwordLogin(){
+        homePage.enterPasswordLogin("stest312@t");
+    }
+
+
+    @Test
+    public void signIn() throws Exception{
+        emailLogin();
+        passwordLogin();
+        homePage.logIn();
+        Thread.sleep(3000);
+        String expectedUrl = "https://www.linkedin.com/feed/";
+        Assert.assertEquals(driver.getCurrentUrl(), expectedUrl );
+    }
+
+    @Test
+    public void invalidLogInCredentials() throws Exception{
+        homePage.enterEmailLogin("blah blah blah");
+        homePage.enterPasswordLogin("blah blah");
+        homePage.logIn();
+        Thread.sleep(3000);
+        String expectedUrl = "https://www.linkedin.com/uas/login-submit?loginSubmitSource=GUEST_HOME";
+        Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
+    }
+
+    @Test
+    public void navigateToForgotPasswordPage() throws Exception{
+        homePage.setForgotPassword();
+        Thread.sleep(3000);
+        String expectedUrl = "https://www.linkedin.com/uas/request-password-reset?trk=uno-reg-guest-home-forgot-password";
+        Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
+    }
+
+
+
+
 
 
 }
