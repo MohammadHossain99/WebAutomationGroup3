@@ -10,6 +10,7 @@ public class TestCnnHealth extends CommonAPI {
 
 
     String cnnHelthUrl = "https://www.cnn.com/health";
+
     CnnHealth health;
 
     @BeforeClass

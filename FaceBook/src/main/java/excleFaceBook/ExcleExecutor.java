@@ -19,6 +19,7 @@ public class ExcleExecutor extends CommonAPI {
 
     @FindBy(xpath = "//input[@value='Log In']")
     WebElement loginTab;
+
     @FindBy(xpath = "//input[@name='q']")
     WebElement inputSearch;
 
