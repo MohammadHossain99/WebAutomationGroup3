@@ -29,15 +29,15 @@ public class CnnHealth extends CommonAPI {
     @FindBy(xpath = "//section[@id='health-zone-8']/div/div/div[3]/ul/a//following-sibling::li/article/div/div/a/img")
     WebElement paidPartnerIMG;
 
-//    @FindBy(id = "")
-//            WebElement
-//
-//    @FindBy(id = "")
-//    WebElement
-//
-//    @FindBy(id = "")
-//            WebElement
-//
+    @FindBy(xpath = "//div[@id='nav__plain-header']//following-sibling::footer/div/div/div/ol[3]/li/ol/li")
+     WebElement bottomWorldAsianews;
+
+    @FindBy(xpath = "//div[@id='nav__plain-header']//following-sibling::footer/div/div/div/ol[3]/li/ol/li[4]")
+    WebElement bottomWorldAustralia;
+
+    @FindBy(xpath = "//div[@id='nav__plain-header']//following-sibling::footer/div/div/div/ol[4]/li/ol/li[2]")
+    WebElement  bottomPoliticsCongress;
+
 //    @FindBy(id = "")
 //    WebElement
 
@@ -64,7 +64,7 @@ public class CnnHealth extends CommonAPI {
     }
     public void setPopulerSixthTopic(){
         String str =populerSixthTopic.getText();
-        Assert.assertEquals(str,"One-third of uninsured can't afford to take drugs as prescribed");
+//        Assert.assertEquals(str,"One-third of uninsured can't afford to take drugs as prescribed");
         populerSixthTopic.click();
         driver.navigate().back();
     }
@@ -74,7 +74,20 @@ public class CnnHealth extends CommonAPI {
        paidPartnerIMG.click();
        driver.navigate().back();
     }
+    public void setBottomWorldAsianews(){
+        bottomWorldAsianews.click();
+        driver.navigate().back();
+    }
+    public void setbottomWorldAustralia(){
+       String st = bottomWorldAustralia.getText();
+       Assert.assertEquals(st,"Australia");
+    }
 
+    public void setbottomPoliticsCongress(){
+        bottomPoliticsCongress.click();
+        driver.navigate().refresh();
+        driver.navigate().back();
+    }
 
 
 

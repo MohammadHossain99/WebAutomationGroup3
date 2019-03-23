@@ -46,6 +46,18 @@ public class TestCnnHealth extends CommonAPI {
         health.setpaidPartnerIMG();
 
     }
+    @Test
+    public void testsetBottomWorldAsianews(){
+        health.setBottomWorldAsianews();
+    }
+    @Test
+    public void testsetbottomWorldAustralia(){
+        health.setbottomWorldAustralia();
+    }
+    @Test
+    public void testsetbottomPoliticsCongress(){
+        health.setbottomPoliticsCongress();
+    }
 
 
 
