@@ -11,5 +11,9 @@
         <module name="Generic" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CNNnews" target="1.5" />
+      <module name="FaceBook" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
