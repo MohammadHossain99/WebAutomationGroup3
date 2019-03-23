@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="340b4818-5e59-4623-8f8b-5bd30200d5ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Linkedin/src/main/java/Feed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linkedin/src/test/java/TestFeed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/Feed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/test/java/TestHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/TestFeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/test/java/TestFeed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Linkedin/target/classes/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/target/classes/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/target/test-classes/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/target/test-classes/TestHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/SearchWithDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/main/java/SearchWithDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestHomePage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,8 +34,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="314">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/Feed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Linkedin/src/test/java/TestFeed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -42,35 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linkedin/src/test/java/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/Feed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/SearchWithDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Linkedin/src/test/java/TestFeed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            <state relative-caret-position="877">
+              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
             </state>
           </provider>
         </entry>
@@ -111,14 +103,14 @@
         <option value="$PROJECT_DIR$/UltaBeauty/src/test/java/UltaMakeUpPageTest.java" />
         <option value="$PROJECT_DIR$/UltaBeauty/src/main/java/UltaMakeUpPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestHomePage.java" />
         <option value="$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestMakeUpPage.java" />
         <option value="$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestSignUpPage.java" />
         <option value="$PROJECT_DIR$/Linkedin/pom.xml" />
-        <option value="$PROJECT_DIR$/Linkedin/src/main/java/HomePage.java" />
-        <option value="$PROJECT_DIR$/Linkedin/src/test/java/TestHomePage.java" />
         <option value="$PROJECT_DIR$/UltaBeauty/src/main/java/SearchWithDB.java" />
+        <option value="$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestHomePage.java" />
+        <option value="$PROJECT_DIR$/Linkedin/src/test/java/TestHomePage.java" />
         <option value="$PROJECT_DIR$/Linkedin/src/main/java/Feed.java" />
+        <option value="$PROJECT_DIR$/Linkedin/src/main/java/HomePage.java" />
         <option value="$PROJECT_DIR$/Linkedin/src/test/java/TestFeed.java" />
       </list>
     </option>
@@ -149,7 +141,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="793" />
     <option name="width" value="814" />
     <option name="height" value="867" />
@@ -210,47 +202,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -260,11 +211,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553316267062" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553366863235" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
@@ -298,11 +249,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestHomePage.navigateToForgotPasswordPage">
-    <configuration name="TestHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestFeed.signIn">
+    <configuration name="TestFeed.signIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Linkedin" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestHomePage" />
+      <option name="MAIN_CLASS_NAME" value="TestFeed" />
+      <option name="METHOD_NAME" value="signIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFeed.testSearchDB" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Linkedin" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestFeed" />
+      <option name="METHOD_NAME" value="testSearchDB" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -333,23 +298,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage.registerWithNoCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.signInLinkedIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Linkedin" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestHomePage" />
-      <option name="METHOD_NAME" value="registerWithNoCredentials" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHomePage.registerWithNoPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Linkedin" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestHomePage" />
-      <option name="METHOD_NAME" value="registerWithNoPassword" />
+      <option name="METHOD_NAME" value="signInLinkedIn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -359,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestHomePage.navigateToForgotPasswordPage" />
+        <item itemvalue="TestNG.TestFeed.signIn" />
+        <item itemvalue="TestNG.TestFeed.testSearchDB" />
         <item itemvalue="TestNG.TestHomePage.invalidLogInCredentials" />
-        <item itemvalue="TestNG.TestHomePage" />
-        <item itemvalue="TestNG.TestHomePage.registerWithNoCredentials" />
-        <item itemvalue="TestNG.TestHomePage.registerWithNoPassword" />
+        <item itemvalue="TestNG.TestHomePage.navigateToForgotPasswordPage" />
+        <item itemvalue="TestNG.TestHomePage.signInLinkedIn" />
       </list>
     </recent_temporary>
   </component>
@@ -381,39 +334,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHomePage_registerWithNoLastName - 2019.03.22 at 23h 08m 55s.xml">
-      <configuration name="TestHomePage.registerWithNoLastName" configurationId="TestNG" />
+    <history-entry file="TestFeed_testSearchDB - 2019.03.23 at 13h 05m 46s.xml">
+      <configuration name="TestFeed.testSearchDB" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_registerWithNoLastName - 2019.03.22 at 23h 16m 06s.xml">
-      <configuration name="TestHomePage.registerWithNoLastName" configurationId="TestNG" />
+    <history-entry file="TestFeed_testSearchDB - 2019.03.23 at 13h 15m 04s.xml">
+      <configuration name="TestFeed.testSearchDB" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_registerWithNoLastName - 2019.03.22 at 23h 30m 08s.xml">
-      <configuration name="TestHomePage.registerWithNoLastName" configurationId="TestNG" />
+    <history-entry file="TestFeed_testSearchDB - 2019.03.23 at 13h 16m 15s.xml">
+      <configuration name="TestFeed.testSearchDB" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_registerWithNoEmail - 2019.03.22 at 23h 35m 50s.xml">
-      <configuration name="TestHomePage.registerWithNoEmail" configurationId="TestNG" />
+    <history-entry file="TestFeed_testSearchDB - 2019.03.23 at 13h 17m 11s.xml">
+      <configuration name="TestFeed.testSearchDB" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_registerWithNoEmail - 2019.03.22 at 23h 36m 25s.xml">
-      <configuration name="TestHomePage.registerWithNoEmail" configurationId="TestNG" />
+    <history-entry file="TestHomePage_signInLinkedIn - 2019.03.23 at 13h 28m 19s.xml">
+      <configuration name="TestHomePage.signInLinkedIn" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_registerWithNoPassword - 2019.03.22 at 23h 37m 59s.xml">
-      <configuration name="TestHomePage.registerWithNoPassword" configurationId="TestNG" />
+    <history-entry file="TestHomePage_signInLinkedIn - 2019.03.23 at 13h 29m 12s.xml">
+      <configuration name="TestHomePage.signInLinkedIn" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_registerWithNoCredentials - 2019.03.22 at 23h 39m 50s.xml">
-      <configuration name="TestHomePage.registerWithNoCredentials" configurationId="TestNG" />
+    <history-entry file="TestHomePage_navigateToForgotPasswordPage - 2019.03.23 at 13h 30m 04s.xml">
+      <configuration name="TestHomePage.navigateToForgotPasswordPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage - 2019.03.22 at 23h 43m 26s.xml">
-      <configuration name="TestHomePage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_invalidLogInCredentials - 2019.03.23 at 00h 24m 47s.xml">
+    <history-entry file="TestHomePage_invalidLogInCredentials - 2019.03.23 at 13h 30m 25s.xml">
       <configuration name="TestHomePage.invalidLogInCredentials" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_navigateToForgotPasswordPage - 2019.03.23 at 00h 35m 10s.xml">
-      <configuration name="TestHomePage.navigateToForgotPasswordPage" configurationId="TestNG" />
+    <history-entry file="TestFeed_testSearchDB - 2019.03.23 at 13h 33m 28s.xml">
+      <configuration name="TestFeed.testSearchDB" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestFeed_signIn - 2019.03.23 at 13h 36m 05s.xml">
+      <configuration name="TestFeed.signIn" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.17480719" />
@@ -425,12 +378,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010225" side_tool="true" weight="0.24640805" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16554509" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2664872" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26244953" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14535666" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14401077" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3270525" />
@@ -445,7 +398,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.17480719" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.17480719" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -454,12 +407,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010225" side_tool="true" weight="0.24640805" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2920592" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2664872" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26244953" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19919246" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14401077" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3270525" />
@@ -540,13 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/secret.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -575,27 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/UltaSignUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-911">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/TestSearchWithDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestSignUpPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1282">
@@ -619,64 +544,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        <state relative-caret-position="441">
+          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/UltaHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="81" column="55" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="55" />
+        <state relative-caret-position="288">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestMakeUpPage.java">
+    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/UltaSignUpPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/UltaMakeUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="63" column="35" lean-forward="true" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linkedin/src/test/java/TestHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+        <state relative-caret-position="18">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/SearchWithDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="477">
+          <caret line="32" column="5" selection-start-line="11" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Linkedin/src/test/java/TestFeed.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/interactions/Actions.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        <state relative-caret-position="251">
+          <caret line="381" column="31" lean-forward="true" selection-start-line="381" selection-start-column="31" selection-end-line="381" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/interactions/Action.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestMakeUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/UltaMakeUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/TestSearchWithDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/secret.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linkedin/src/test/java/TestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="877">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/Feed.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linkedin/src/test/java/TestFeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -732,7 +699,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Generic</last-edited>
+          <last-edited>UltaBeauty</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

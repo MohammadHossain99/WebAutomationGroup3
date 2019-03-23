@@ -87,13 +87,9 @@ public class UltaTestHomePage extends CommonAPI{
 
     @Test
     public void ableToSignUpForUltaThroughSticky() throws Exception {
-
         ultaHomePage.signUpForUltaBeauty();
         Thread.sleep(5000);
         String urlExpected = "https://www.ulta.com/";
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
-
     }
-
-
 }
