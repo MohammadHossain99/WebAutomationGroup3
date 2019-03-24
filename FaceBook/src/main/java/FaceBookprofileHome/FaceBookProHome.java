@@ -71,10 +71,8 @@ public class FaceBookProHome extends CommonAPI {
         inputStatus.sendKeys(value);
         clenInput();
         closeInput();
-//        setHomeTab();
        Alert at= driver.switchTo().alert();
        at.dismiss();
-        //driver.navigate().to("https://www.facebook.com/");
     }
     public void setHomeTab()throws Exception{
         homeTab.click();

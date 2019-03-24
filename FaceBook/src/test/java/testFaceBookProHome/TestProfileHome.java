@@ -17,8 +17,6 @@ public class TestProfileHome extends CommonAPI {
         driver.get(homeUrl);
         faceBookProHome = PageFactory.initElements(driver,FaceBookProHome.class);
     }
-
-
     @Test(priority = 1)
     public void inputEmail(){
         faceBookProHome.setLoginEmail("taherjuwel3262@gmail.com");
@@ -41,14 +39,10 @@ public class TestProfileHome extends CommonAPI {
     public void testsetTestImage(){
         faceBookProHome.setTestImage();
     }
-
-
-
     @Test(priority = 6)
     public void clickOnFindFriend(){
         faceBookProHome.setFindFriend();
         driver.navigate().back();
-
     }
     @Test(priority = 7)
     public void testlistSearch() throws Exception{
@@ -59,18 +53,9 @@ public class TestProfileHome extends CommonAPI {
         faceBookProHome.getListOfQuickHelp();
         driver.navigate().refresh();
     }
-
     @Test(priority = 9)
     public void testInputStatus()throws Exception{
         String str = "Today is a sunny day but can't go out due to lot of home work todo";
         faceBookProHome.setInputStatus(str);
     }
-
-
-
-
-
-
-
-
 }

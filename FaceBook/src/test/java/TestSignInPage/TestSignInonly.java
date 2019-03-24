@@ -29,7 +29,4 @@ public class TestSignInonly extends CommonAPI {
     public void testLogInTab(){
         signInOnly.setLoginTab();
     }
-
-
-
 }

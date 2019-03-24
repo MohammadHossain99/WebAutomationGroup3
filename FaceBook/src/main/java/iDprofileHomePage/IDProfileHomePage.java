@@ -9,8 +9,6 @@ import java.util.List;
 
 public class IDProfileHomePage extends CommonAPI {
 
-
-
     @FindBy(id = "email")
     WebElement loginEmail;
 

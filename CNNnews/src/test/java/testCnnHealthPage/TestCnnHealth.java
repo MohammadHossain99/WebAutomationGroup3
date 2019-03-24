@@ -45,7 +45,6 @@ public class TestCnnHealth extends CommonAPI {
     @Test
     public void testsetpaidPartnerIMG(){
         health.setpaidPartnerIMG();
-
     }
     @Test
     public void testsetBottomWorldAsianews(){
@@ -59,10 +58,5 @@ public class TestCnnHealth extends CommonAPI {
     public void testsetbottomPoliticsCongress(){
         health.setbottomPoliticsCongress();
     }
-
-
-
-
-
 
 }

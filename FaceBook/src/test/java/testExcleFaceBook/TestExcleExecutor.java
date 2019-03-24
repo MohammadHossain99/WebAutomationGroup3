@@ -9,8 +9,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class TestExcleExecutor extends CommonAPI {
-
-
     ExcleFilereader reader = new ExcleFilereader();
     ExcleExecutor executor;
     String path = "/Users/jewal/IntelliJ/WebAutomationGroup3/FaceBook/src/main/java/login.xls";
@@ -25,17 +23,11 @@ public class TestExcleExecutor extends CommonAPI {
         executor.setLoginPassword("Juwel1234");
         executor.setLoginTab();
     }
-
     public void searchinput(){
         executor.getFriendList();
     }
-
-//    String path = "/Users/jewal/IntelliJ/WebAutomationGroup3/FaceBook/src/main/java/login.xlsx";
-
-
     @Test
     public void testFBinExcle() {
-
         String[] testSteps = reader.getExcelData(path,0);
         for (String str : testSteps){
 
@@ -44,12 +36,8 @@ public class TestExcleExecutor extends CommonAPI {
             } else if (str.equalsIgnoreCase("search")) {
                 searchinput();
             } else {
-
                 throw new InvalidArgumentException("Invalid choice");
             }
         }
-
-
     }
-
 }
