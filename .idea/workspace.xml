@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="340b4818-5e59-4623-8f8b-5bd30200d5ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Generic/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bbc/target/surefire/surefire4790522852753066482tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bbc/target/surefire/surefire_08888983468369100016tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bbc/target/surefire/surefirebooter4350836089196383197.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/browser-driver/IEDriverServer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/drivers/IEDriverServer.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/browser-driver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/drivers/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/browser-driver/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/drivers/geckodriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/browser-driver/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/drivers/geckodriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/src/test/java/test/TestBbcAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/src/test/java/test/TestBbcAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/src/test/resources/bbcTestRuneer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/src/test/resources/bbcTestRuneer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/bbc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/bbc-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/Command line suite/Command line test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/Command line suite/Command line test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/Command line suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/Command line suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcAccount.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcAccount.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcAddCart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcAddCart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcArt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcArt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcAustralia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcAustralia.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcBusiness.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcBusiness.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcCapital.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcCapital.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcCart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcCart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcCricket.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcCricket.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcCulture.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcCulture.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcFootball.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcFootball.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcLibrary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcLibrary.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcLogin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcLogin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcMessi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcMessi.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcNZReport.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcNZReport.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcPhoto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcPhoto.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcReport.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcReport.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcRonaldo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcRonaldo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcSearch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcSearch.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcShoping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcShoping.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcSports.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcSports.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcUSA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcUSA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcUrlAssert.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcUrlAssert.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcWeather.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcWeather.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcWeatherNY.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcWeatherNY.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcYouTube.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcYouTube.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestHomeElement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestHomeElement.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestHomePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestHomePage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestLoginAuthentication.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestLoginAuthentication.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestSearchApple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestSearchApple.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestTravel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestTravel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/bbcTestRuneer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/bbcTestRuneer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcAccount.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="17" column="138" selection-start-line="17" selection-start-column="138" selection-end-line="17" selection-end-column="138" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bbc/src/test/resources/bbcTestRuneer.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+            <state relative-caret-position="187">
+              <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -351,7 +292,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553449462488" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553452126408" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -526,9 +467,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHomePage_registerWithNoEmail - 2019.03.22 at 23h 36m 25s.xml">
-      <configuration name="TestHomePage.registerWithNoEmail" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestHomePage_registerWithNoPassword - 2019.03.22 at 23h 37m 59s.xml">
       <configuration name="TestHomePage.registerWithNoPassword" configurationId="TestNG" />
     </history-entry>
@@ -556,6 +494,9 @@
     <history-entry file="TestBbcAccount_testsearchInput - 2019.03.24 at 13h 16m 45s.xml">
       <configuration name="TestBbcAccount.testsearchInput" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_nehal_project_WebAutomationGroup3_bbc_src_test_resources_bbcTestRuneer_xml - 2019.03.24 at 13h 43m 44s.xml">
+      <configuration name="C:/Users/nehal/project/WebAutomationGroup3/bbc/src/test/resources/bbcTestRuneer.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -578,12 +519,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010225" side_tool="true" weight="0.24640805" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.42634562" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17988668" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4036827" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26244953" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" x="23" y="581" width="1490" height="199" id="Terminal" order="7" type="FLOATING" weight="0.19830029" />
+      <window_info active="true" anchor="bottom" x="26" y="203" width="1484" height="418" id="Terminal" order="7" type="FLOATING" visible="true" weight="0.19830029" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3243626" />
@@ -592,7 +533,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Codota" order="4" />
-      <window_info active="true" anchor="right" id="Maven" order="5" visible="true" weight="0.20738254" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.20738254" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -775,20 +716,20 @@
     <entry file="file://$PROJECT_DIR$/Generic/browser-driver/chromedriver.exe">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+    <entry file="file://$PROJECT_DIR$/bbc/src/test/resources/bbcTestRuneer.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bbc/src/test/resources/bbcTestRuneer.xml">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+        <state relative-caret-position="289">
+          <caret line="17" column="138" selection-start-line="17" selection-start-column="138" selection-end-line="17" selection-end-column="138" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
