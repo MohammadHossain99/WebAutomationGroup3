@@ -21,7 +21,7 @@ public class ConnectToSqlDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("C:\\Users\\Sylvana Rahman\\IntelliJ idea projects\\WebAutomationGroup3\\Generic\\src\\main\\java\\secret.properties");
+        InputStream ism = new FileInputStream("DocumentsDocuments");
         prop.load(ism);
         ism.close();
         return prop;
