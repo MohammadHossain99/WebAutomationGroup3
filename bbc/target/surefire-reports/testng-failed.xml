@@ -3,14 +3,30 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test thread-count="5" verbose="0" name="Command line test(failed)">
     <classes>
-      <class name="test.TestBbcSearch">
+      <class name="test.TestBbcAddCart">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="initializing"/>
+          <include name="testsearchInput"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.TestBbcAddCart -->
+      <class name="test.TestBbcWeatherNY">
+        <methods>
+          <include name="testsearchInput"/>
+          <include name="setUp"/>
+          <include name="initializing"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- test.TestBbcWeatherNY -->
+      <class name="test.TestBbcArt">
         <methods>
           <include name="testsearchInput"/>
           <include name="initializing"/>
           <include name="setUp"/>
           <include name="cleanUp"/>
         </methods>
-      </class> <!-- test.TestBbcSearch -->
+      </class> <!-- test.TestBbcArt -->
       <class name="test.TestBbcUrlAssert">
         <methods>
           <include name="cleanUp"/>
@@ -19,6 +35,30 @@
           <include name="initializing"/>
         </methods>
       </class> <!-- test.TestBbcUrlAssert -->
+      <class name="test.TestHomePage">
+        <methods>
+          <include name="testsearchInput"/>
+          <include name="initializing"/>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.TestHomePage -->
+      <class name="test.TestLoginAuthentication">
+        <methods>
+          <include name="initializing"/>
+          <include name="cleanUp"/>
+          <include name="testsearchInput"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.TestLoginAuthentication -->
+      <class name="test.TestBbcShoping">
+        <methods>
+          <include name="testsearchInput"/>
+          <include name="cleanUp"/>
+          <include name="initializing"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.TestBbcShoping -->
       <class name="test.TestBbcUSA">
         <methods>
           <include name="testsearchInput"/>
@@ -27,6 +67,62 @@
           <include name="cleanUp"/>
         </methods>
       </class> <!-- test.TestBbcUSA -->
+      <class name="test.TestBbcMessi">
+        <methods>
+          <include name="testsearchInput"/>
+          <include name="initializing"/>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.TestBbcMessi -->
+      <class name="test.TestBbcWeather">
+        <methods>
+          <include name="initializing"/>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+          <include name="testsearchInput"/>
+        </methods>
+      </class> <!-- test.TestBbcWeather -->
+      <class name="test.TestBbcSports">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="initializing"/>
+          <include name="testsearchInput"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.TestBbcSports -->
+      <class name="test.TestBbcRonaldo">
+        <methods>
+          <include name="initializing"/>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+          <include name="testsearchInput"/>
+        </methods>
+      </class> <!-- test.TestBbcRonaldo -->
+      <class name="test.TestBbcCricket">
+        <methods>
+          <include name="testsearchInput"/>
+          <include name="initializing"/>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.TestBbcCricket -->
+      <class name="test.TestBbcCart">
+        <methods>
+          <include name="testsearchInput"/>
+          <include name="initializing"/>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.TestBbcCart -->
+      <class name="test.TestBbcAccount">
+        <methods>
+          <include name="testsearchInput"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="initializing"/>
+        </methods>
+      </class> <!-- test.TestBbcAccount -->
       <class name="test.TestBbcYouTube">
         <methods>
           <include name="initializing"/>
@@ -43,174 +139,14 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- test.TestBbcReport -->
-      <class name="test.TestBbcRonaldo">
-        <methods>
-          <include name="initializing"/>
-          <include name="cleanUp"/>
-          <include name="setUp"/>
-          <include name="testsearchInput"/>
-        </methods>
-      </class> <!-- test.TestBbcRonaldo -->
-      <class name="test.TestBbcWeather">
-        <methods>
-          <include name="initializing"/>
-          <include name="cleanUp"/>
-          <include name="setUp"/>
-          <include name="testsearchInput"/>
-        </methods>
-      </class> <!-- test.TestBbcWeather -->
-      <class name="test.TestBbcLibrary">
-        <methods>
-          <include name="cleanUp"/>
-          <include name="initializing"/>
-          <include name="setUp"/>
-          <include name="testsearchInput"/>
-        </methods>
-      </class> <!-- test.TestBbcLibrary -->
-      <class name="test.TestSearchApple">
-        <methods>
-          <include name="initializing"/>
-          <include name="testsearchInput"/>
-          <include name="cleanUp"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.TestSearchApple -->
-      <class name="test.TestBbcFootball">
-        <methods>
-          <include name="testsearchInput"/>
-          <include name="setUp"/>
-          <include name="initializing"/>
-          <include name="cleanUp"/>
-        </methods>
-      </class> <!-- test.TestBbcFootball -->
-      <class name="test.TestBbcLogin">
-        <methods>
-          <include name="initializing"/>
-          <include name="testsearchInput"/>
-          <include name="cleanUp"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.TestBbcLogin -->
-      <class name="test.TestBbcWeatherNY">
-        <methods>
-          <include name="testsearchInput"/>
-          <include name="setUp"/>
-          <include name="initializing"/>
-          <include name="cleanUp"/>
-        </methods>
-      </class> <!-- test.TestBbcWeatherNY -->
-      <class name="test.TestBbcAustralia">
-        <methods>
-          <include name="testsearchInput"/>
-          <include name="setUp"/>
-          <include name="cleanUp"/>
-          <include name="initializing"/>
-        </methods>
-      </class> <!-- test.TestBbcAustralia -->
-      <class name="test.TestBbcSports">
-        <methods>
-          <include name="cleanUp"/>
-          <include name="initializing"/>
-          <include name="testsearchInput"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.TestBbcSports -->
-      <class name="test.TestBbcCricket">
-        <methods>
-          <include name="testsearchInput"/>
-          <include name="initializing"/>
-          <include name="cleanUp"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.TestBbcCricket -->
-      <class name="test.TestBbcPhoto">
-        <methods>
-          <include name="cleanUp"/>
-          <include name="testsearchInput"/>
-          <include name="initializing"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.TestBbcPhoto -->
-      <class name="test.TestBbcMessi">
-        <methods>
-          <include name="testsearchInput"/>
-          <include name="initializing"/>
-          <include name="cleanUp"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.TestBbcMessi -->
-      <class name="test.TestBbcArt">
+      <class name="test.TestBbcSearch">
         <methods>
           <include name="testsearchInput"/>
           <include name="initializing"/>
           <include name="setUp"/>
           <include name="cleanUp"/>
         </methods>
-      </class> <!-- test.TestBbcArt -->
-      <class name="test.TestBbcBusiness">
-        <methods>
-          <include name="testsearchInput"/>
-          <include name="initializing"/>
-          <include name="cleanUp"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.TestBbcBusiness -->
-      <class name="test.TestBbcCart">
-        <methods>
-          <include name="testsearchInput"/>
-          <include name="initializing"/>
-          <include name="cleanUp"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.TestBbcCart -->
-      <class name="test.TestBbcNZReport">
-        <methods>
-          <include name="cleanUp"/>
-          <include name="initializing"/>
-          <include name="testsearchInput"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.TestBbcNZReport -->
-      <class name="test.TestHomePage">
-        <methods>
-          <include name="testsearchInput"/>
-          <include name="initializing"/>
-          <include name="cleanUp"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.TestHomePage -->
-      <class name="test.TestBbcCapital">
-        <methods>
-          <include name="testsearchInput"/>
-          <include name="setUp"/>
-          <include name="initializing"/>
-          <include name="cleanUp"/>
-        </methods>
-      </class> <!-- test.TestBbcCapital -->
-      <class name="test.TestLoginAuthentication">
-        <methods>
-          <include name="initializing"/>
-          <include name="cleanUp"/>
-          <include name="testsearchInput"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.TestLoginAuthentication -->
-      <class name="test.TestBbcAddCart">
-        <methods>
-          <include name="cleanUp"/>
-          <include name="initializing"/>
-          <include name="testsearchInput"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.TestBbcAddCart -->
-      <class name="test.TestHomeElement">
-        <methods>
-          <include name="cleanUp"/>
-          <include name="testsearchInput"/>
-          <include name="initializing"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.TestHomeElement -->
+      </class> <!-- test.TestBbcSearch -->
       <class name="test.TestTravel">
         <methods>
           <include name="cleanUp"/>
@@ -219,30 +155,14 @@
           <include name="initializing"/>
         </methods>
       </class> <!-- test.TestTravel -->
-      <class name="test.TestBbcAccount">
+      <class name="test.TestBbcFootball">
         <methods>
-          <include name="cleanUp"/>
           <include name="testsearchInput"/>
           <include name="setUp"/>
           <include name="initializing"/>
-        </methods>
-      </class> <!-- test.TestBbcAccount -->
-      <class name="test.TestBbcShoping">
-        <methods>
-          <include name="testsearchInput"/>
-          <include name="cleanUp"/>
-          <include name="initializing"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.TestBbcShoping -->
-      <class name="test.TestBbcCulture">
-        <methods>
-          <include name="initializing"/>
-          <include name="testsearchInput"/>
-          <include name="setUp"/>
           <include name="cleanUp"/>
         </methods>
-      </class> <!-- test.TestBbcCulture -->
+      </class> <!-- test.TestBbcFootball -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
