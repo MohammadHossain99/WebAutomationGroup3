@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bbc" />
         <module name="Generic" />
-        <module name="Linkedin" />
-        <module name="UltaBeauty" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Linkedin" target="1.5" />
+      <module name="UltaBeauty" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

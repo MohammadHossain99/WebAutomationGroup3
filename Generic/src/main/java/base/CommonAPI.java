@@ -18,7 +18,7 @@ public class CommonAPI {
     //@Parameters({"url"})
     @BeforeMethod
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sylvana Rahman\\IntelliJ idea projects\\WebAutomationGroup3\\Generic\\browser-driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\nehal\\project\\WebAutomationGroup3\\Generic\\browser-driver\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
