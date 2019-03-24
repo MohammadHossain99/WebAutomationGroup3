@@ -2,6 +2,7 @@ package TestSignInPage;
 
 import base.CommonAPI;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeClass;
@@ -20,7 +21,6 @@ public class TestVerifyingClass extends CommonAPI {
         driver.get(homeURL);
         verfyingLogInPage = PageFactory.initElements(driver,VerfyingLogInPage.class);
     }
-
     @Test
     public void testInputEmail(){
         verfyingLogInPage.putInEmail("taherjuwel@gmail.com");
@@ -76,10 +76,10 @@ public class TestVerifyingClass extends CommonAPI {
         verfyingLogInPage.setClickSignUp();
     }
 
-//    @Test
-//    public void test1(){
-//        driver.findElement(By.id("email")).sendKeys("jewal ahmed", Keys.ENTER);
-//    }
+    @Test
+    public void test1(){
+        driver.findElement(By.id("email")).sendKeys("jewal ahmed", Keys.ENTER);
+    }
 
     @Test
     public void testFaceBookLogoIsDisplayed(){

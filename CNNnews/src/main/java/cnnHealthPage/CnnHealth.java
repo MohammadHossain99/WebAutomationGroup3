@@ -38,9 +38,6 @@ public class CnnHealth extends CommonAPI {
     @FindBy(xpath = "//div[@id='nav__plain-header']//following-sibling::footer/div/div/div/ol[4]/li/ol/li[2]")
     WebElement  bottomPoliticsCongress;
 
-//    @FindBy(id = "")
-//    WebElement
-
     public void setstorisSix(){
        String str = storisSix.getText();
         Assert.assertEquals(str,"Kentucky governor says he exposed his children to chickenpox rather than getting vaccine");
@@ -64,7 +61,7 @@ public class CnnHealth extends CommonAPI {
     }
     public void setPopulerSixthTopic(){
         String str =populerSixthTopic.getText();
-//        Assert.assertEquals(str,"One-third of uninsured can't afford to take drugs as prescribed");
+        Assert.assertEquals(str,"One-third of uninsured can't afford to take drugs as prescribed");
         populerSixthTopic.click();
         driver.navigate().back();
     }
@@ -82,13 +79,9 @@ public class CnnHealth extends CommonAPI {
        String st = bottomWorldAustralia.getText();
        Assert.assertEquals(st,"Australia");
     }
-
     public void setbottomPoliticsCongress(){
         bottomPoliticsCongress.click();
         driver.navigate().refresh();
         driver.navigate().back();
     }
-
-
-
 }

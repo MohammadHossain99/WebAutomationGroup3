@@ -1,6 +1,7 @@
 package excleFaceBook;
 
 import base.CommonAPI;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -34,7 +35,7 @@ public class ExcleExecutor extends CommonAPI {
         loginPassword.sendKeys(password);
     }
     public void setInputSearch(String friends){
-        inputSearch.sendKeys(friends);
+        inputSearch.sendKeys(friends, Keys.ENTER);
     }
     public void crearInputsearch(){
         inputSearch.clear();
@@ -43,7 +44,7 @@ public class ExcleExecutor extends CommonAPI {
 //    public static void main(String[] args) {
 
 
-    public void getFriendList(){
+    public void getFriendList() {
 
         List<String> friendList = new ArrayList<String>();
         friendList.add("Sylavan");
@@ -53,21 +54,14 @@ public class ExcleExecutor extends CommonAPI {
         friendList.add("Shah Param");
         friendList.add("Nabil ppnt");
 
-       for (int i =0; i < friendList.size(); i++){
-           String str = friendList.get(i);
-           setInputSearch(str);
-           crearInputsearch();
+        for (int i = 0; i < friendList.size(); i++) {
+            String str = friendList.get(i);
+            setInputSearch(str);
+            crearInputsearch();
 //           System.out.println(str);
-       }
-
-
+        }
 
 
     }
-
-
-
-
-
 
 }

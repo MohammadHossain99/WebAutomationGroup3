@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="TestSignInPage.TestVerifyingClass">
+        <methods>
+          <include name="initializing"/>
+          <include name="testFaceBookLogoIsDisplayed"/>
+          <include name="testInputPassword"/>
+          <include name="selectingday"/>
+          <include name="cleanUp"/>
+          <include name="testInputEmail"/>
+          <include name="variFyday"/>
+          <include name="selectingMonth"/>
+          <include name="testGenderSeletion"/>
+          <include name="inputFirstName"/>
+          <include name="testSignUpButton"/>
+          <include name="testEmailSignUpInput"/>
+          <include name="testSignUpPass"/>
+          <include name="testDayDOB"/>
+          <include name="setUp"/>
+          <include name="selectingyear"/>
+          <include name="testSurName"/>
+          <include name="variFymonth"/>
+        </methods>
+      </class> <!-- TestSignInPage.TestVerifyingClass -->
+      <class name="testIdProfileHomePage.TestIdProfilePage">
+        <methods>
+          <include name="initializing"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="inputEmail"/>
+        </methods>
+      </class> <!-- testIdProfileHomePage.TestIdProfilePage -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -39,7 +39,6 @@ public class SearchInCNN extends CommonAPI {
 
     }
 
-
     public void clearInput(){
         getSearchInputWebElement().clear();
     }
