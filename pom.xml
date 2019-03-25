@@ -15,8 +15,8 @@
     </modules>
 
     <dependencyManagement>
-        <dependencies>
 
+        <dependencies>
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-server</artifactId>
@@ -47,8 +47,8 @@
                 <artifactId>poi</artifactId>
                 <version>3.17</version>
             </dependency>
-
         </dependencies>
+
     </dependencyManagement>
 
 </project>
