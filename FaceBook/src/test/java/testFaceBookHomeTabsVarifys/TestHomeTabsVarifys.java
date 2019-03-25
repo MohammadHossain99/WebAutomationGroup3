@@ -18,13 +18,11 @@ public class TestHomeTabsVarifys extends CommonAPI {
         homeTabsVarifys = PageFactory.initElements(driver,HomeTabsVarifys.class);
         homeTabsVarifys.setLogIn();
     }
-
     @Test
     public void testSetNewsFeed(){
         TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homeTabsVarifys.setNewsFeed();
     }
-
     @Test
     public void testSetMessengerTab(){
         TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -35,7 +33,6 @@ public class TestHomeTabsVarifys extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homeTabsVarifys.setWatchTab();
     }
-
     @Test
     public void testSetWellcomeTab(){
         TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -78,6 +75,33 @@ public class TestHomeTabsVarifys extends CommonAPI {
     }
     @Test
     public void testFindFriendTab(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homeTabsVarifys.setFindfriendTab();
     }
+    @Test
+    public void testWeatherTab(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homeTabsVarifys.setWeatherTab();
+    }
+    @Test
+    public void testRecomendationTab() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homeTabsVarifys.setRecomendationTab();
+    }
+    @Test
+    public void testMessegerKidsTab(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homeTabsVarifys.setMessengerKidsTab();
+    }
+    @Test
+    public void testTownHallTab(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homeTabsVarifys.setTownHallTab();
+    }
+    @Test
+    public void testGamingVideo(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homeTabsVarifys.setGamingVideoTab();
+    }
+
 }
