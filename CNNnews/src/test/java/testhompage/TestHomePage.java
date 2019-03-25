@@ -20,20 +20,22 @@ public class TestHomePage extends CommonAPI {
     }
 
     @Test
-    public void clickOnSerchTab(){
+    public void clickOnSerchTab() {
         homePage.clickOnSearch();
     }
+
     @Test
-    public void searchWithsearchIteems() throws Exception{
+    public void searchWithSearchIteems() throws Exception {
         homePage.SearchWithtext("christchurch");
         Thread.sleep(3000);
         clearInput(".cnn-search__input");
         navigateBack();
     }
+
     @Test
-    public void titleMatching(){
-      String str = "CNN - Breaking News, Latest News and Videos";
-      Assert.assertEquals(str, driver.getTitle());
+    public void titleMatching() {
+        String str = "CNN - Breaking News, Latest News and Videos";
+        Assert.assertEquals(str, driver.getTitle());
     }
 
 

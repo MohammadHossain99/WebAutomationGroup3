@@ -73,18 +73,17 @@ public class HomeTabsVarifys extends CommonAPI {
     @FindBy(id = "navItem_176339666193022")
     WebElement townHallTab;
 
+    @FindBy(css = "#navItem_285571681929755")
+    WebElement gamingVideoTab;
 
-     @FindBy(css = "#navItem_285571681929755")
-        WebElement gamingVideoTab;
+    @FindBy(xpath = "//li[@id='navItem_977114232337111']")
+    WebElement jobsTab;
 
-    //    @FindBy(xpath = "//ul[@class='_bui _3-96']/li[@id='navItem_2356318349']")
-    //    WebElement findfriendTab;
-    //
-    //    @FindBy(xpath = "//li[@id='navItem_526732794016279']")
-    //    WebElement weatherTab;
-    //
-    //    @FindBy(id = "navItem_577076605805053")
-    //    WebElement recomendationTab;
+    @FindBy(id = "navItem_526732794016279")
+    WebElement offerTab;
+
+    @FindBy(id = "navItem_1291706757509010")
+    WebElement filmTab;
     //
     //    @FindBy(css = "#navItem_421935831521247")
     //    WebElement messengerKidsTab;
@@ -102,15 +101,18 @@ public class HomeTabsVarifys extends CommonAPI {
         loginPass.sendKeys("Juwel1234");
         loginTab.click();
     }
+
     public boolean seeMore() {
         seeMore.click();
         return seeMore.isDisplayed();
     }
+
     public void setNewsFeed() {
         String text = newsFeed.getText();
         newsFeed.click();
         Assert.assertEquals(text, text);
     }
+
     public void setMessengerTab() {
         String text = messengerTab.getText();
         messengerTab.click();
@@ -169,6 +171,7 @@ public class HomeTabsVarifys extends CommonAPI {
         Assert.assertEquals(title, "Instant Games");
         driver.navigate().to("https://www.facebook.com/");
     }
+
     public void setFundRisers() throws Exception {
         seeMore();
         String text = fundRisers.getText();
@@ -176,23 +179,27 @@ public class HomeTabsVarifys extends CommonAPI {
         Assert.assertEquals(text, text);
         Thread.sleep(4000);
     }
+
     public void setMemoriesTab() {
         seeMore();
         String text = memoriesTab.getText();
         Assert.assertEquals(text, "Memories");
         driver.navigate().to("https://www.facebook.com/");
     }
+
     public void setFindfriendTab() {
         seeMore();
         boolean findTab = findfriendTab.isDisplayed();
         Assert.assertTrue(findTab);
     }
+
     public void setWeatherTab() {
         seeMore();
         String text = weatherTab.getText();
         Assert.assertEquals(text, text);
         driver.navigate().to("https://www.facebook.com/");
     }
+
     public void setRecomendationTab() throws Exception {
         seeMore();
         recomendationTab.click();
@@ -201,24 +208,49 @@ public class HomeTabsVarifys extends CommonAPI {
         Assert.assertEquals(title, "Learn more");
         driver.navigate().to("https://www.facebook.com/");
     }
+
     public void setMessengerKidsTab() {
         seeMore();
         String text = messengerKidsTab.getText();
         Assert.assertEquals(text, "Messenger Kids");
         driver.navigate().to("https://www.facebook.com/");
     }
-    public void setTownHallTab(){
+
+    public void setTownHallTab() {
         seeMore();
         String text = townHallTab.getText();
-        Assert.assertEquals(text,text);
+        Assert.assertEquals(text, text);
         driver.navigate().to("https://www.facebook.com/");
     }
-    public void setGamingVideoTab(){
+
+    public void setGamingVideoTab() {
         seeMore();
         gamingVideoTab.click();
         String currentUrl = driver.getCurrentUrl();
         String url = "https://www.facebook.com/gaming/?external_ref=games_video_bookmark";
-        Assert.assertEquals(currentUrl,url);
+        Assert.assertEquals(currentUrl, url);
         driver.navigate().to("https://www.facebook.com/");
+    }
+
+    public void setJobsTab() {
+        seeMore();
+        String text = jobsTab.getText();
+        Assert.assertEquals(text, "Jobs");
+        driver.navigate().to("https://www.facebook.com/");
+    }
+
+    public void setOfferTab() {
+        seeMore();
+        offerTab.click();
+        String st = driver.getWindowHandle();
+        System.out.println(st);
+        driver.navigate().to("https://www.facebook.com/");
+    }
+
+    public void setFilmTab() {
+        seeMore();
+        String text = filmTab.getText();
+        Assert.assertEquals(text, "Films");
+        driver.get("https://www.facebook.com/");
     }
 }

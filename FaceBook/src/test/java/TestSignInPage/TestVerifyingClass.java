@@ -103,7 +103,5 @@ public class TestVerifyingClass extends CommonAPI {
     public void selectingyear(){
         WebElement year = driver.findElement(By.id("year"));
         verfyingLogInPage.setMonthInDropDown(year,arrayDob[2]);
-
     }
-
 }

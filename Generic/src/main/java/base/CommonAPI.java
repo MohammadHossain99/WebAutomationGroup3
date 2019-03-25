@@ -89,8 +89,6 @@ public class CommonAPI {
         return calendar.getTime();
     }
 
-
-
     /********************************/
 
 

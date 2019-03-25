@@ -103,5 +103,19 @@ public class TestHomeTabsVarifys extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homeTabsVarifys.setGamingVideoTab();
     }
-
+    @Test
+    public void testJobTab(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homeTabsVarifys.setJobsTab();
+    }
+    @Test
+    public void testOfferTab(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homeTabsVarifys.setOfferTab();
+    }
+    @Test
+    public void testFilmTab(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homeTabsVarifys.setFilmTab();
+    }
 }
