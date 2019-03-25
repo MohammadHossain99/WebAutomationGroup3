@@ -18,7 +18,6 @@ public class UltaMakeUpPage extends CommonAPI {
     @FindBy(css = "#xlsImpprod13631033")
     WebElement lipsSection1stFrame;
 
-
     @FindBy(css = "#xlsImpprod18121011")
     WebElement faceMakeUp3rdFrame;
 
@@ -62,14 +61,12 @@ public class UltaMakeUpPage extends CommonAPI {
         boolean ultaImg = UltaBeautyLogo.isDisplayed();
         System.out.println(UltaBeautyLogo.getText());
         Assert.assertTrue(ultaImg);
-
     }
 
     public void hoverShopByBrands() throws InterruptedException{
 
         mouseHoverByXpath("//*[@id=\'hide-desk-nav\']/div[2]/ul/li[2]/a");
         Thread.sleep(5000);
-
     }
 
     public void hoverNChooseFromBrands() throws InterruptedException{
@@ -77,7 +74,4 @@ public class UltaMakeUpPage extends CommonAPI {
         Thread.sleep(3000);
         driver.findElement(By.xpath("//*[@id=\'hide-desk-nav\']/div[2]/ul/li[2]/div/div/div/div[3]/ul/li[1]/a/img")).click();
     }
-
-
-
 }

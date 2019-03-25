@@ -1,6 +1,6 @@
 import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class TestSearchWithDB extends CommonAPI {
@@ -8,7 +8,7 @@ public class TestSearchWithDB extends CommonAPI {
    String homeUrl = "https://www.ulta.com/";
    SearchWithDB searchWithDB;
 
-   @BeforeClass
+   @BeforeMethod
    public void init(){
        driver.navigate().to(homeUrl);
        searchWithDB = PageFactory.initElements(driver,SearchWithDB.class);
