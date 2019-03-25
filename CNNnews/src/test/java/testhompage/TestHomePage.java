@@ -12,7 +12,6 @@ public class TestHomePage extends CommonAPI {
     String homepageUrl = "https://www.cnn.com/";
     HomePage homePage;
 
-
     @BeforeClass
     public void initialize() {
         driver.navigate().to(homepageUrl);
@@ -27,9 +26,7 @@ public class TestHomePage extends CommonAPI {
     @Test
     public void searchWithSearchIteems() throws Exception {
         homePage.SearchWithtext("christchurch");
-        Thread.sleep(3000);
-        clearInput(".cnn-search__input");
-        navigateBack();
+
     }
 
     @Test
