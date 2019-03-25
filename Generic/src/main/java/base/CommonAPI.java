@@ -492,7 +492,7 @@ public class CommonAPI {
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
 
-    public void waitUntilVisible(By locator) {
+    public static void waitUntilVisible(By locator) {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }

@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 import searchDBPages.SearchInCNN;
 
 public class TestSearch extends CommonAPI {
@@ -21,6 +22,7 @@ public class TestSearch extends CommonAPI {
 
     @Test
     public void testFromDBsearch() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchInCNN.searchItemsAndSubmitButton();
 
     }
