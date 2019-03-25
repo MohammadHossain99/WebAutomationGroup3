@@ -33,16 +33,16 @@ public class TestCnnBusinessPage extends CommonAPI {
     }
 
     @Test(priority = 3)
-    public void glaceAtMarket() throws Exception{//pass
+    public void glaceAtMarket() throws Exception{
         cnnBusinessPage.seeMarketaGlance();
     }
     @Test(priority = 4)
-    public void imageTesting1()throws Exception{//pass
+    public void imageTesting1()throws Exception{
         cnnBusinessPage.image1();
     }
 
     @Test(priority = 5)
-    public void nikeTraging() throws Exception {//pass
+    public void nikeTraging() throws Exception {
         cnnBusinessPage.seeNikeTrade("Nike");
         driver.navigate().back();
     }
@@ -63,7 +63,7 @@ public class TestCnnBusinessPage extends CommonAPI {
     }
 
     @Test(priority = 9)
-    public void testPaidContent()throws Exception{//pass
+    public void testPaidContent()throws Exception{
         cnnBusinessPage.paidContentImage();
 
     }
