@@ -10,6 +10,7 @@ public class SearchWithDB extends CommonAPI {
 
 
     ConnectToSqlDB database = new ConnectToSqlDB();
+
     @FindBy(css = "#searchInput")
     WebElement searchInput;
 
