@@ -80,10 +80,10 @@ public class HomePage extends CommonAPI {
         forgotPassword.click();
 
     }
-    //
-//    public void logInLinkedIn(String email, String password ){
-//        enterEmailLogin(email);
-//        enterPasswordLogin(password);
-//        logIn();
-//    }
+
+    public void logInLinkedIn(String email, String password ){
+        enterEmailLogin(email);
+        enterPasswordLogin(password);
+        logIn();
+    }
 }

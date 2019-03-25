@@ -16,6 +16,11 @@ public class TestHomePage extends HomePage {
     }
 
     @Test
+    public void getTitleOfHomePage(){
+        driver.getTitle();
+    }
+
+    @Test
     public void enterFirstName(){
         homePage.inputFirstName("Selenium");
     }

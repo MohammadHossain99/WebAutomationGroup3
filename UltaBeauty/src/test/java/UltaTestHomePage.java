@@ -1,11 +1,10 @@
 
-import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class UltaTestHomePage extends CommonAPI{
+public class UltaTestHomePage extends UltaHomePage{
 
     UltaHomePage ultaHomePage;
     String homePageUrl = "https://www.ulta.com/";
@@ -15,7 +14,6 @@ public class UltaTestHomePage extends CommonAPI{
     public void initialize() {
         driver.navigate().to(homePageUrl);
         ultaHomePage = PageFactory.initElements(driver, UltaHomePage.class);
-
     }
 
     @Test
@@ -24,7 +22,6 @@ public class UltaTestHomePage extends CommonAPI{
         String title = "Cosmetics, Fragrance, Skincare and Beauty Gifts | Ulta Beauty";
         Assert.assertEquals(driver.getTitle(), title);
     }
-
 
     @Test
     public void enterSearchBox() {
@@ -39,9 +36,7 @@ public class UltaTestHomePage extends CommonAPI{
         Thread.sleep(3000);
         String urlExpected = "https://www.ulta.com/promotion/buy-more-save-more/";
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
-
     }
-
 
     @Test
     public void navigateToSignIn() {
@@ -65,9 +60,10 @@ public class UltaTestHomePage extends CommonAPI{
     }
 
     @Test
-    public void navigateToFIndAStore() {
+    public void navigateToFIndAStore() throws Exception {
         ultaHomePage.findAStore();
-        String urlExpected = "https://www.ulta.com/stores/#/?q=&z=4&c=37.09020000000001%2C-95.71289999999999\n";
+        Thread.sleep(3000);
+        String urlExpected = "https://www.ulta.com/stores/#/?q=&z=12&c=40.67181512990815%2C-73.82387679211968";
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 

@@ -1,9 +1,9 @@
-
+import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class UltaHomePage {
+public class UltaHomePage extends CommonAPI {
 
     @FindBy(css = "#searchInput")
     WebElement searchBox;
@@ -81,5 +81,6 @@ public class UltaHomePage {
         lastNameStickySignUp.sendKeys("Rahman");
         emailStickySignUp.sendKeys("stest7380@gmail.com");
         submitInStickySignUp.click();
+
     }
 }
