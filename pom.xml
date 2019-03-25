@@ -10,8 +10,6 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Generic</module>
-        <module>UltaBeauty</module>
-        <module>Linkedin</module>
     </modules>
 
     <dependencyManagement>
