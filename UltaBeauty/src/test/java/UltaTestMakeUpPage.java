@@ -15,6 +15,13 @@ public class UltaTestMakeUpPage extends UltaMakeUpPage {
     }
 
     @Test
+    public void makeUpPageTitle(){
+        driver.getTitle();
+        String currentUrl = "";
+        Assert.assertEquals(driver.getCurrentUrl(),currentUrl);
+    }
+
+    @Test
     public void chooseNewArrival1stFrame() throws Exception{
         ultaMakeUpPage.setMacPallete();
         Thread.sleep(5000);
