@@ -37,14 +37,15 @@ public class ExcleExecutor extends CommonAPI {
     public void setInputSearch(String friends){
         inputSearch.sendKeys(friends, Keys.ENTER);
     }
-    public void crearInputsearch(){
+    public void crearInputsearch()throws Exception{
+        Thread.sleep(1000);
         inputSearch.clear();
     }
 
 //    public static void main(String[] args) {
 
 
-    public void getFriendList() {
+    public void getFriendList() throws Exception{
 
         List<String> friendList = new ArrayList<String>();
         friendList.add("Sylavan");
@@ -58,7 +59,6 @@ public class ExcleExecutor extends CommonAPI {
             String str = friendList.get(i);
             setInputSearch(str);
             crearInputsearch();
-//           System.out.println(str);
         }
 
 

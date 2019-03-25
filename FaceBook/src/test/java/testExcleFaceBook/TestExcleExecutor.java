@@ -23,11 +23,11 @@ public class TestExcleExecutor extends CommonAPI {
         executor.setLoginPassword("Juwel1234");
         executor.setLoginTab();
     }
-    public void searchinput(){
+    public void searchinput()throws Exception{
         executor.getFriendList();
     }
     @Test
-    public void testFBinExcle() {
+    public void testFBinExcle() throws Exception{
         String[] testSteps = reader.getExcelData(path,0);
         for (String str : testSteps){
 
