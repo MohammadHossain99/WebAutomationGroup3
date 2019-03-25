@@ -82,7 +82,7 @@ public class IDProfileHomePage extends CommonAPI {
     }
     public void testUploadingPicture()throws Exception{
         clickOnUploadImage.click();
-        Thread.sleep(5000);
+        Thread.sleep(3000);
        String str=uplodingTag.getText();
         System.out.println(str);
         uplodingTag.sendKeys("/Users/jewal/poxlm");
