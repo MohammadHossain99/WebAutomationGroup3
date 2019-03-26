@@ -60,9 +60,59 @@ public class HomePage extends CommonAPI {
 
     @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[6]/li/a")
     WebElement opinioSource;
+
+    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[7]/li/ol/li[1]/a")
+    WebElement foodSource;
+
+    /**********************/
+
+    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[7]/li/ol/li[2]")
+    WebElement fitnessSource;
+
+    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[7]/li/ol/li[3]")
+    WebElement wellnessSource;
+
+    @FindBy(css = ".l-footer__content div div ol:nth-child(7) li ol li:nth-child(5) a")
+    WebElement liveLongerSource;
+
+    @FindBy(css = ".l-footer__content div div ol:nth-child(10) li ol li:nth-child(1)")
+    WebElement artSource;
+
+    @FindBy(css = ".l-footer__content div div ol:nth-child(10) li ol li:nth-child(2)")
+    WebElement designSource;
+
+    @FindBy(css = ".l-footer__content div div ol:nth-child(10) li ol li:nth-child(3)")
+    WebElement fasionSoure;
+
+    @FindBy(css = ".l-footer__content div div ol:nth-child(10) li ol li:nth-child(5)")
+    WebElement luxurySource;
+
+//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[6]/a")
+//    WebElement europeSource;
 //
-//    @FindBy(id = "search-input-field")
-//    WebElement searchInput;
+//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[7]")
+//    WebElement middleEast;
+//
+//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[8]")
+//    WebElement indiaSource;
+//
+//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[4]/li/ol/li[3]")
+//    WebElement suprimeCourtSource;
+//
+//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[4]/li/ol/li[3]")
+//    WebElement factsFirst;
+//
+//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[6]/li/a")
+//    WebElement opinioSource;
+//
+//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[7]/li/ol/li[1]/a")
+//    WebElement foodSource;
+//
+
+
+    /***********************/
+
+
 
 
     public void setBottomHome() {
@@ -136,7 +186,45 @@ public class HomePage extends CommonAPI {
         String text = opinioSource.getText();
         Assert.assertEquals(text,"Opinion");
     }
+    public void setFoodSource() throws Exception{
+        Thread.sleep(3000);
+        driver.navigate().refresh();
+        foodSource.click();
+        String text = driver.getTitle();
+        System.out.println(text);
+        Assert.assertEquals(text,"Food and Diet - CNN");
+    }
+    public void setFitnessSource(){
+       String text = fitnessSource.getText();
+       Assert.assertEquals(text, "Fitness");
+    }
+    public void setWellnessSource(){
+      boolean select = wellnessSource.isDisplayed();
+        Assert.assertTrue(select);
+    }
+    public void setLiveLongerSource() throws Exception{
+        Thread.sleep(3000);
+        String title =liveLongerSource.getText();
+        System.out.println(title);
+        Assert.assertEquals(title,"Live Longer");
+    }
+    public void setArtSource(){
+       boolean selected = artSource.isDisplayed();
+       Assert.assertTrue(selected);
+    }
+    public void setDesignSource(){
+        boolean selected = designSource.isSelected();
+        Assert.assertFalse(selected);
+    }
+    public void setFasionSoure(){
+        String title = fasionSoure.getText();
+        Assert.assertEquals(title,"Fashion");
+    }
+    public void setLuxurySource()throws Exception {
+        boolean text = luxurySource.isEnabled();
+        Assert.assertTrue(text);
 
+    }
 
 
 
