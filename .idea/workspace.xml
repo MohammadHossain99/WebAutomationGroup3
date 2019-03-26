@@ -137,10 +137,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+        <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="509" column="16" selection-start-line="509" selection-start-column="16" selection-end-line="509" selection-end-column="16" />
+            <state relative-caret-position="212">
+              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
               <folding>
                 <element signature="imports" />
               </folding>
@@ -149,19 +149,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="31" column="25" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="31" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="217">
+              <caret line="102" column="38" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -237,8 +228,8 @@
         <option value="$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleExecutor.java" />
         <option value="$PROJECT_DIR$/FaceBook/src/test/java/TestSignInPage/TestVerifyingClass.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java" />
         <option value="$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java" />
+        <option value="$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java" />
       </list>
     </option>
   </component>
@@ -363,7 +354,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553555432691" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553559738286" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -396,18 +387,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestHomePage.clickOnSerchTab">
-    <configuration name="TestExcleExecutor.testFBinExcle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FaceBook" />
+  <component name="RunManager" selected="TestNG.TestHomePage.testAsiaSoure">
+    <configuration name="TestHomePage.testAfricaSorce" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CNNnews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testExcleFaceBook.*" />
+          <option name="PATTERN" value="testhompage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testExcleFaceBook" />
-      <option name="MAIN_CLASS_NAME" value="testExcleFaceBook.TestExcleExecutor" />
-      <option name="METHOD_NAME" value="testFBinExcle" />
+      <option name="PACKAGE_NAME" value="testhompage" />
+      <option name="MAIN_CLASS_NAME" value="testhompage.TestHomePage" />
+      <option name="METHOD_NAME" value="testAfricaSorce" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -415,7 +406,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.testAmericaSource" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNNnews" />
       <extension name="coverage">
         <pattern>
@@ -425,24 +416,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testhompage" />
       <option name="MAIN_CLASS_NAME" value="testhompage.TestHomePage" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHomePage.clickOnSerchTab" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CNNnews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testhompage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testhompage" />
-      <option name="MAIN_CLASS_NAME" value="testhompage.TestHomePage" />
-      <option name="METHOD_NAME" value="clickOnSerchTab" />
+      <option name="METHOD_NAME" value="testAmericaSource" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -450,7 +424,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage.searchWithSearchIteems" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.testAsiaSoure" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNNnews" />
       <extension name="coverage">
         <pattern>
@@ -460,7 +434,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testhompage" />
       <option name="MAIN_CLASS_NAME" value="testhompage.TestHomePage" />
-      <option name="METHOD_NAME" value="searchWithSearchIteems" />
+      <option name="METHOD_NAME" value="testAsiaSoure" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -468,7 +442,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage.titleMatching" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.testSpaceScince" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNNnews" />
       <extension name="coverage">
         <pattern>
@@ -478,7 +452,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="testhompage" />
       <option name="MAIN_CLASS_NAME" value="testhompage.TestHomePage" />
-      <option name="METHOD_NAME" value="titleMatching" />
+      <option name="METHOD_NAME" value="testSpaceScince" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage.testWorldNews" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CNNnews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testhompage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testhompage" />
+      <option name="MAIN_CLASS_NAME" value="testhompage.TestHomePage" />
+      <option name="METHOD_NAME" value="testWorldNews" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -488,11 +480,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestHomePage.clickOnSerchTab" />
-        <item itemvalue="TestNG.TestHomePage.searchWithSearchIteems" />
-        <item itemvalue="TestNG.TestHomePage.titleMatching" />
-        <item itemvalue="TestNG.TestHomePage" />
-        <item itemvalue="TestNG.TestExcleExecutor.testFBinExcle" />
+        <item itemvalue="TestNG.TestHomePage.testAsiaSoure" />
+        <item itemvalue="TestNG.TestHomePage.testAmericaSource" />
+        <item itemvalue="TestNG.TestHomePage.testAfricaSorce" />
+        <item itemvalue="TestNG.TestHomePage.testWorldNews" />
+        <item itemvalue="TestNG.TestHomePage.testSpaceScince" />
       </list>
     </recent_temporary>
   </component>
@@ -510,35 +502,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHomeTabsVarifys_testOfferTab - 2019.03.25 at 17h 23m 03s.xml">
-      <configuration name="TestHomeTabsVarifys.testOfferTab" configurationId="TestNG" />
+    <history-entry file="TestHomePage_testEnargyEnvironmentSource - 2019.03.25 at 19h 46m 49s.xml">
+      <configuration name="TestHomePage.testEnargyEnvironmentSource" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomeTabsVarifys_testOfferTab - 2019.03.25 at 17h 23m 30s.xml">
-      <configuration name="TestHomeTabsVarifys.testOfferTab" configurationId="TestNG" />
+    <history-entry file="TestHomePage_testExtremeWeather - 2019.03.25 at 19h 53m 10s.xml">
+      <configuration name="TestHomePage.testExtremeWeather" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomeTabsVarifys - 2019.03.25 at 17h 26m 15s.xml">
-      <configuration name="TestHomeTabsVarifys" configurationId="TestNG" />
+    <history-entry file="TestHomePage_testExtremeWeather - 2019.03.25 at 19h 53m 41s.xml">
+      <configuration name="TestHomePage.testExtremeWeather" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomeTabsVarifys_testFilmTab - 2019.03.25 at 17h 30m 51s.xml">
-      <configuration name="TestHomeTabsVarifys.testFilmTab" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestExcleExecutor_testFBinExcle - 2019.03.25 at 17h 36m 23s.xml">
-      <configuration name="TestExcleExecutor.testFBinExcle" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage - 2019.03.25 at 17h 46m 32s.xml">
-      <configuration name="TestHomePage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_titleMatching - 2019.03.25 at 17h 46m 55s.xml">
+    <history-entry file="TestHomePage_titleMatching - 2019.03.25 at 19h 54m 50s.xml">
       <configuration name="TestHomePage.titleMatching" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_searchWithSearchIteems - 2019.03.25 at 17h 52m 55s.xml">
-      <configuration name="TestHomePage.searchWithSearchIteems" configurationId="TestNG" />
+    <history-entry file="TestHomePage_titleMatching - 2019.03.25 at 19h 55m 11s.xml">
+      <configuration name="TestHomePage.titleMatching" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_searchWithSearchIteems - 2019.03.25 at 17h 53m 46s.xml">
-      <configuration name="TestHomePage.searchWithSearchIteems" configurationId="TestNG" />
+    <history-entry file="TestHomePage_testSpaceScince - 2019.03.25 at 20h 00m 19s.xml">
+      <configuration name="TestHomePage.testSpaceScince" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_searchWithSearchIteems - 2019.03.25 at 17h 54m 14s.xml">
-      <configuration name="TestHomePage.searchWithSearchIteems" configurationId="TestNG" />
+    <history-entry file="TestHomePage_testWorldNews - 2019.03.25 at 20h 05m 09s.xml">
+      <configuration name="TestHomePage.testWorldNews" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testAfricaSorce - 2019.03.25 at 20h 16m 02s.xml">
+      <configuration name="TestHomePage.testAfricaSorce" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testAfricaSorce - 2019.03.25 at 20h 17m 52s.xml">
+      <configuration name="TestHomePage.testAfricaSorce" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testAmericaSource - 2019.03.25 at 20h 20m 27s.xml">
+      <configuration name="TestHomePage.testAmericaSource" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -554,12 +546,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.502052" side_tool="true" weight="0.19444445" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32855436" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.041899443" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.50418997" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44832215" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3547486" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.15502793" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24723756" />
@@ -979,17 +971,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="212">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="imports" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java">
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="31" column="25" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="31" selection-end-column="25" />
+        <state relative-caret-position="217">
+          <caret line="102" column="38" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
         </state>
       </provider>
     </entry>

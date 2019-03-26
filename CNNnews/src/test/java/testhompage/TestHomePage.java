@@ -17,6 +17,64 @@ public class TestHomePage extends CommonAPI {
         driver.navigate().to(homepageUrl);
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
+    @Test
+    public void testBottomHome(){
+        homePage.setBottomHome();
+    }
+    @Test
+    public void testCrimeJusticeSource(){
+        homePage.setCrimeJusticeSource();
+    }
+    @Test
+    public void testEnargyEnvironmentSource(){
+        homePage.setEnargyEnvironmentSource();
+    }
+    @Test
+    public void testExtremeWeather()throws Exception{
+        homePage.setExtremeWeather();
+    }
+    @Test
+    public void testSpaceScince(){
+        homePage.setSpaceScince();
+    }
+    @Test
+    public void testWorldNews(){
+        homePage.setWorldNews();
+    }
+    @Test
+    public void testAfricaSorce(){
+        homePage.setAfricaSouce();
+    }
+    @Test
+    public void testAmericaSource(){
+        homePage.setAmericaSource();
+    }
+    @Test
+    public void testAsiaSoure(){
+        homePage.setAsiaSoure();
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     @Test
     public void clickOnSerchTab() {
@@ -34,6 +92,5 @@ public class TestHomePage extends CommonAPI {
         String str = "CNN - Breaking News, Latest News and Videos";
         Assert.assertEquals(str, driver.getTitle());
     }
-
 
 }
