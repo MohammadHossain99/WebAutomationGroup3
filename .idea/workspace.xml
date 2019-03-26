@@ -136,23 +136,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-              <folding>
-                <element signature="imports" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="102" column="38" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+            <state relative-caret-position="-379">
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <folding>
+                <element signature="imports" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -317,15 +317,6 @@
               <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
               <item name="CNNnews" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="CNNnews" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -354,7 +345,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553559738286" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553562170152" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -387,8 +378,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestHomePage.testAsiaSoure">
-    <configuration name="TestHomePage.testAfricaSorce" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestHomePage.testFactsFirst">
+    <configuration name="TestHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNNnews" />
       <extension name="coverage">
         <pattern>
@@ -398,7 +389,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="testhompage" />
       <option name="MAIN_CLASS_NAME" value="testhompage.TestHomePage" />
-      <option name="METHOD_NAME" value="testAfricaSorce" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomePage.testExtremeWeather" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CNNnews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testhompage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testhompage" />
+      <option name="MAIN_CLASS_NAME" value="testhompage.TestHomePage" />
+      <option name="METHOD_NAME" value="testExtremeWeather" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -406,7 +414,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage.testAmericaSource" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.testFactsFirst" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNNnews" />
       <extension name="coverage">
         <pattern>
@@ -416,7 +424,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testhompage" />
       <option name="MAIN_CLASS_NAME" value="testhompage.TestHomePage" />
-      <option name="METHOD_NAME" value="testAmericaSource" />
+      <option name="METHOD_NAME" value="testFactsFirst" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -424,7 +432,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage.testAsiaSoure" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.testIndiaSource" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNNnews" />
       <extension name="coverage">
         <pattern>
@@ -434,7 +442,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testhompage" />
       <option name="MAIN_CLASS_NAME" value="testhompage.TestHomePage" />
-      <option name="METHOD_NAME" value="testAsiaSoure" />
+      <option name="METHOD_NAME" value="testIndiaSource" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -442,7 +450,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage.testSpaceScince" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.testSuprimeCourtSource" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNNnews" />
       <extension name="coverage">
         <pattern>
@@ -452,25 +460,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testhompage" />
       <option name="MAIN_CLASS_NAME" value="testhompage.TestHomePage" />
-      <option name="METHOD_NAME" value="testSpaceScince" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHomePage.testWorldNews" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CNNnews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testhompage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testhompage" />
-      <option name="MAIN_CLASS_NAME" value="testhompage.TestHomePage" />
-      <option name="METHOD_NAME" value="testWorldNews" />
+      <option name="METHOD_NAME" value="testSuprimeCourtSource" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -480,11 +470,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestHomePage.testAsiaSoure" />
-        <item itemvalue="TestNG.TestHomePage.testAmericaSource" />
-        <item itemvalue="TestNG.TestHomePage.testAfricaSorce" />
-        <item itemvalue="TestNG.TestHomePage.testWorldNews" />
-        <item itemvalue="TestNG.TestHomePage.testSpaceScince" />
+        <item itemvalue="TestNG.TestHomePage.testFactsFirst" />
+        <item itemvalue="TestNG.TestHomePage.testSuprimeCourtSource" />
+        <item itemvalue="TestNG.TestHomePage.testExtremeWeather" />
+        <item itemvalue="TestNG.TestHomePage" />
+        <item itemvalue="TestNG.TestHomePage.testIndiaSource" />
       </list>
     </recent_temporary>
   </component>
@@ -502,35 +492,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHomePage_testEnargyEnvironmentSource - 2019.03.25 at 19h 46m 49s.xml">
-      <configuration name="TestHomePage.testEnargyEnvironmentSource" configurationId="TestNG" />
+    <history-entry file="TestHomePage_testChinaSource - 2019.03.25 at 20h 40m 52s.xml">
+      <configuration name="TestHomePage.testChinaSource" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_testExtremeWeather - 2019.03.25 at 19h 53m 10s.xml">
+    <history-entry file="TestHomePage_testChinaSource - 2019.03.25 at 20h 42m 04s.xml">
+      <configuration name="TestHomePage.testChinaSource" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testEuropeSource - 2019.03.25 at 20h 44m 51s.xml">
+      <configuration name="TestHomePage.testEuropeSource" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testEuropeSource - 2019.03.25 at 20h 45m 26s.xml">
+      <configuration name="TestHomePage.testEuropeSource" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testEuropeSource - 2019.03.25 at 20h 46m 06s.xml">
+      <configuration name="TestHomePage.testEuropeSource" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testMiddleEastSource - 2019.03.25 at 20h 48m 56s.xml">
+      <configuration name="TestHomePage.testMiddleEastSource" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testIndiaSource - 2019.03.25 at 20h 51m 15s.xml">
+      <configuration name="TestHomePage.testIndiaSource" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage - 2019.03.25 at 20h 52m 45s.xml">
+      <configuration name="TestHomePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testExtremeWeather - 2019.03.25 at 20h 53m 25s.xml">
       <configuration name="TestHomePage.testExtremeWeather" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_testExtremeWeather - 2019.03.25 at 19h 53m 41s.xml">
-      <configuration name="TestHomePage.testExtremeWeather" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_titleMatching - 2019.03.25 at 19h 54m 50s.xml">
-      <configuration name="TestHomePage.titleMatching" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_titleMatching - 2019.03.25 at 19h 55m 11s.xml">
-      <configuration name="TestHomePage.titleMatching" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_testSpaceScince - 2019.03.25 at 20h 00m 19s.xml">
-      <configuration name="TestHomePage.testSpaceScince" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_testWorldNews - 2019.03.25 at 20h 05m 09s.xml">
-      <configuration name="TestHomePage.testWorldNews" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_testAfricaSorce - 2019.03.25 at 20h 16m 02s.xml">
-      <configuration name="TestHomePage.testAfricaSorce" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_testAfricaSorce - 2019.03.25 at 20h 17m 52s.xml">
-      <configuration name="TestHomePage.testAfricaSorce" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_testAmericaSource - 2019.03.25 at 20h 20m 27s.xml">
-      <configuration name="TestHomePage.testAmericaSource" configurationId="TestNG" />
+    <history-entry file="TestHomePage_testSuprimeCourtSource - 2019.03.25 at 21h 00m 50s.xml">
+      <configuration name="TestHomePage.testSuprimeCourtSource" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -546,12 +536,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.502052" side_tool="true" weight="0.19444445" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32855436" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.50418997" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3114525" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44832215" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.15502793" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1857542" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24723756" />
@@ -738,31 +728,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FaceBook/target/surefire-reports/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4528">
           <caret line="1197" lean-forward="true" selection-start-line="1197" selection-end-line="1197" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-293">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -791,13 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -971,10 +933,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="72" column="11" lean-forward="true" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        <state relative-caret-position="-379">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding>
             <element signature="imports" />
           </folding>
@@ -983,8 +973,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="102" column="38" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+        <state relative-caret-position="204">
+          <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
         </state>
       </provider>
     </entry>

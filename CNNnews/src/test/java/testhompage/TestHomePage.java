@@ -53,6 +53,31 @@ public class TestHomePage extends CommonAPI {
     public void testAsiaSoure(){
         homePage.setAsiaSoure();
     }
+    @Test
+    public void testChinaSource() throws Exception{
+        homePage.setChinaSoure();
+    }
+    @Test
+    public void testEuropeSource(){
+        homePage.setEuropeSource();
+    }
+    @Test
+    public void testMiddleEastSource(){
+        homePage.setMiddleEast();
+    }
+    @Test
+    public void testIndiaSource(){
+        homePage.setIndiaSource();
+    }
+    @Test
+    public void testSuprimeCourtSource(){
+        homePage.setSuprimeCourtSource();
+    }
+    @Test
+    public void testFactsFirst(){
+        homePage.setFactsFirst();
+    }
+
 
 
 

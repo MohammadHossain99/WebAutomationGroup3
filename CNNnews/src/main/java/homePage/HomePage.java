@@ -39,19 +39,25 @@ public class HomePage extends CommonAPI {
 
      @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[3]")
     WebElement asiaSoure;
-//
-//    @FindBy(id = "search-input-field")
-//    WebElement searchInput;
-//    @FindBy(css = ".search__button.cnn-icon")
-//    WebElement searchTab;
-//
-//    @FindBy(id = "search-input-field")
-//    WebElement searchInput;
-//    @FindBy(css = ".search__button.cnn-icon")
-//    WebElement searchTab;
-//
-//    @FindBy(id = "search-input-field")
-//    WebElement searchInput;
+
+    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[5]/a")
+    WebElement chinaSoure;
+
+    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[6]/a")
+    WebElement europeSource;
+
+    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[7]")
+    WebElement middleEast;
+
+    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[8]")
+    WebElement indiaSource;
+
+    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[4]/li/ol/li[3]")
+    WebElement suprimeCourtSource;
+
+    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[4]/li/ol/li[3]")
+    WebElement factsFirst;
+
 //    @FindBy(css = ".search__button.cnn-icon")
 //    WebElement searchTab;
 //
@@ -101,6 +107,30 @@ public class HomePage extends CommonAPI {
     public void setAsiaSoure(){
         String text = asiaSoure.getText();
         Assert.assertEquals(text,"Asia");
+    }
+    public void setChinaSoure() throws Exception{
+        String text = chinaSoure.getText();
+        Assert.assertEquals(text,"China");
+    }
+    public void setEuropeSource(){
+       boolean selected = europeSource.isDisplayed();
+       Assert.assertTrue(selected);
+    }
+    public void setMiddleEast(){
+        boolean seleted = middleEast.isSelected();
+        Assert.assertFalse(seleted);
+    }
+    public void setIndiaSource(){
+        String text = indiaSource.getText();
+        Assert.assertEquals(text,"India");
+    }
+    public void setSuprimeCourtSource(){
+        boolean selected = suprimeCourtSource.isDisplayed();
+        Assert.assertTrue(selected);
+    }
+    public void setFactsFirst(){
+        String tagName = factsFirst.getTagName();
+        Assert.assertEquals(tagName,"li");
     }
 
 
