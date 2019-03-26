@@ -54,24 +54,6 @@ public class UltaMakeUpPage extends CommonAPI {
     @FindBy(xpath = "//a[@data-nav-description='cn - makeup:allure best of beauty']")
     WebElement allureBestOfBeauty;
 
-    @FindBy()
-    WebElement cs;
-
-    @FindBy()
-    WebElement caa;
-
-    @FindBy()
-    WebElement cs2d;
-
-    @FindBy()
-    WebElement vaaac;
-
-    @FindBy()
-    WebElement cs1;
-
-    @FindBy()
-    WebElement cqwb;
-
     public void setMacPallete(){
         newArrival1stFrame.click();
     }
@@ -116,12 +98,6 @@ public class UltaMakeUpPage extends CommonAPI {
         driver.findElement(By.xpath("//*[@id=\'hide-desk-nav\']/div[2]/ul/li[2]/div/div/div/div[3]/ul/li[1]/a/img")).click();
     }
 
-//    public void hoverOverShopByBrand() throws InterruptedException{
-//        mouseHoverByXpath("//*[@id='hide-desk-nav']/div[2]/ul/li[2]/a");
-//        Thread.sleep(5000);
-//        String urlExpected = "https://www.ulta.com/";
-//        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
-//    }
 
     public void hoverNewArrivals()throws InterruptedException{
         mouseHoverByXpath("//*[@id=\'hide-desk-nav\']/div[2]/ul/li[3]/a");
@@ -243,30 +219,24 @@ public class UltaMakeUpPage extends CommonAPI {
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
-    public void abb(){}
+    public void seeFaceSection (){
+        face.click();
+    }
 
-    public void qe(){}
+    public void seeEyesSection(){eyes.click();}
 
-    public void waq(){}
+    public void seeUltaCollectionSection(){ultaCollection.click();}
 
-    public void da(){}
+    public void seelipsSection(){lips.click();}
 
-    public void dbb(){}
+    public void seeBrushesAndToolsSection(){brushesAndTools.click();}
 
-    public void ae(){}
+    public void seeBagsAndCasesSection(){bagsAndCases.click();}
 
-    public void aq(){}
+    public void seeTravelSizeSection(){travelSize.click();}
 
-    public void a(){}
+    public void seeGiftsAndValueSetsSection(){giftsAndValueSets.click();}
 
-    public void fa(){}
-
-    public void rbb(){}
-
-    public void al(){}
-
-    public void wl(){}
-
-    public void wq(){}
+    public void seeAllureBestOfBeautySection(){allureBestOfBeauty.click();}
 
 }
