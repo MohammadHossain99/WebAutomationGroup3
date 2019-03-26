@@ -146,9 +146,9 @@ public class UltaTestHomePage extends UltaHomePage{
     public void hoverOverBookAppointment()throws InterruptedException{hoverBookAppointment();}
 
 
-//    @Test
-//    public void ac()throws InterruptedException{}
-//
+    @Test
+    public void findsomethin() throws Exception{closeSticky();}
+
 //    @Test
 //    public void av()throws InterruptedException{}
 //

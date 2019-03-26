@@ -147,34 +147,31 @@ public class TestHomePage extends HomePage {
     public void viewSignUpPage(){homePage.signUpPage();}
 
     @Test
-    public void az(){}
+    public void viewHelpCenterPage(){homePage.helpCenterPage();}
 
     @Test
-    public void aa(){}
+    public void viewAboutPage(){homePage.aboutPage();}
 
     @Test
-    public void ada(){}
+    public void viewPressPage(){homePage.pressPage();}
 
     @Test
-    public void ad(){}
+    public void viewBlogPage(){homePage.blogPage();}
 
     @Test
-    public void add(){}
+    public void viewCareersPage(){homePage.careersPage();}
 
     @Test
-    public void ac(){}
+    public void viewDevelopersPage(){homePage.developersPage();}
 
     @Test
-    public void av(){}
+    public void viewTalentPage(){homePage.talentPage();}
 
     @Test
-    public void abb(){}
+    public void viewMarketingPage(){homePage.marketingPage();}
 
     @Test
-    public void ae(){}
-
-    @Test
-    public void aq(){}
+    public void viewSalesPage(){homePage.salesPage();}
 
     @Test
     public void a(){}
