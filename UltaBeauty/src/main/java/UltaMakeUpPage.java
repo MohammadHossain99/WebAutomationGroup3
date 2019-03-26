@@ -27,11 +27,50 @@ public class UltaMakeUpPage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\'show-deskmob-con\']/a/img")
     WebElement UltaBeautyLogo;
 
-//    @FindBy(xpath = "//*[@id=\'hide-desk-nav\']/div[2]/ul/li[4]/a")
-//    WebElement shopByBrand;
-//
-//    @FindBy(xpath = "//*[@id=\'hide-desk-nav\']/div[2]/ul/li[4]/div/div/div/div[1]/ul[1]/li[5]/a")
-//    WebElement macBrand;
+    @FindBy(xpath = "//a[@data-nav-description='cn - makeup:face']")
+    WebElement face;
+
+    @FindBy(xpath = "//a[@data-nav-description='cn - makeup:eyes']")
+    WebElement eyes;
+
+    @FindBy(xpath = "//a[@data-nav-description='cn - makeup:ulta collection']")
+    WebElement ultaCollection;
+
+    @FindBy(xpath = "//a[@data-nav-description='cn - makeup:lips']")
+    WebElement lips;
+
+    @FindBy(xpath = "//a[@data-nav-description='cn - makeup:makeup brushes & tools']")
+    WebElement brushesAndTools;
+
+    @FindBy(xpath = "//a[@data-nav-description='cn - makeup:makeup bags & cases']")
+    WebElement bagsAndCases;
+
+    @FindBy(xpath = "//a[@data-nav-description='cn - makeup:travel size']")
+    WebElement travelSize;
+
+    @FindBy(xpath = "//a[@data-nav-description='cn - makeup:gifts & value sets']")
+    WebElement giftsAndValueSets;
+
+    @FindBy(xpath = "//a[@data-nav-description='cn - makeup:allure best of beauty']")
+    WebElement allureBestOfBeauty;
+
+    @FindBy()
+    WebElement cs;
+
+    @FindBy()
+    WebElement caa;
+
+    @FindBy()
+    WebElement cs2d;
+
+    @FindBy()
+    WebElement vaaac;
+
+    @FindBy()
+    WebElement cs1;
+
+    @FindBy()
+    WebElement cqwb;
 
     public void setMacPallete(){
         newArrival1stFrame.click();
@@ -203,4 +242,31 @@ public class UltaMakeUpPage extends CommonAPI {
         String urlExpected = "https://www.ulta.com/makeup?N=26y1";
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
+
+    public void abb(){}
+
+    public void qe(){}
+
+    public void waq(){}
+
+    public void da(){}
+
+    public void dbb(){}
+
+    public void ae(){}
+
+    public void aq(){}
+
+    public void a(){}
+
+    public void fa(){}
+
+    public void rbb(){}
+
+    public void al(){}
+
+    public void wl(){}
+
+    public void wq(){}
+
 }
