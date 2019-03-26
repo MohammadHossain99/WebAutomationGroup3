@@ -111,12 +111,9 @@
       <change afterPath="$PROJECT_DIR$/../src/homePractice/Home.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../src/homePractice/Program.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../webAutomation/Generic/target/NetFliex-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CNNnews/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/homePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/homePage/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/test-classes/testhompage/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/test-classes/testhompage/TestHomePage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -142,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="220" column="45" lean-forward="true" selection-start-line="220" selection-start-column="45" selection-end-line="220" selection-end-column="45" />
+            <state relative-caret-position="104">
+              <caret line="252" column="25" selection-start-line="252" selection-start-column="25" selection-end-line="252" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -151,10 +148,40 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="180" column="65" selection-start-line="180" selection-start-column="65" selection-end-line="180" selection-end-column="65" />
+            <state relative-caret-position="1035">
+              <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
               <folding>
                 <element signature="imports" />
+                <element signature="method#testBottomHome#0;class#TestHomePage#0" />
+                <element signature="method#testCrimeJusticeSource#0;class#TestHomePage#0" />
+                <element signature="method#testEnargyEnvironmentSource#0;class#TestHomePage#0" />
+                <element signature="method#testExtremeWeather#0;class#TestHomePage#0" />
+                <element signature="method#testSpaceScince#0;class#TestHomePage#0" />
+                <element signature="method#testWorldNews#0;class#TestHomePage#0" />
+                <element signature="method#testAfricaSorce#0;class#TestHomePage#0" />
+                <element signature="method#testAmericaSource#0;class#TestHomePage#0" />
+                <element signature="method#testAsiaSoure#0;class#TestHomePage#0" />
+                <element signature="method#testChinaSource#0;class#TestHomePage#0" />
+                <element signature="method#testEuropeSource#0;class#TestHomePage#0" />
+                <element signature="method#testMiddleEastSource#0;class#TestHomePage#0" />
+                <element signature="method#testIndiaSource#0;class#TestHomePage#0" />
+                <element signature="method#testSuprimeCourtSource#0;class#TestHomePage#0" />
+                <element signature="method#testFactsFirst#0;class#TestHomePage#0" />
+                <element signature="method#testOpinionSource#0;class#TestHomePage#0" />
+                <element signature="method#testFoodSource#0;class#TestHomePage#0" />
+                <element signature="method#testFitnessSource#0;class#TestHomePage#0" />
+                <element signature="method#testWellnessSource#0;class#TestHomePage#0" />
+                <element signature="method#testLiveLonger#0;class#TestHomePage#0" />
+                <element signature="method#testArtSource#0;class#TestHomePage#0" />
+                <element signature="method#testDesignSource#0;class#TestHomePage#0" />
+                <element signature="method#testFashionSource#0;class#TestHomePage#0" />
+                <element signature="method#testLuxurySource#0;class#TestHomePage#0" />
+                <element signature="method#testDestinationSource#0;class#TestHomePage#0" />
+                <element signature="method#testFoodAndDrinks#0;class#TestHomePage#0" />
+                <element signature="method#testCollegeFootballSource#0;class#TestHomePage#0" />
+                <element signature="method#clickOnSerchTab#0;class#TestHomePage#0" />
+                <element signature="method#searchWithSearchIteems#0;class#TestHomePage#0" />
+                <element signature="method#titleMatching#0;class#TestHomePage#0" />
               </folding>
             </state>
           </provider>
@@ -289,6 +316,41 @@
               <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -298,7 +360,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553573632589" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553577562405" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -331,7 +393,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestHomePage.titleMatching">
+  <component name="RunManager" selected="TestNG.TestHomePage">
     <configuration name="TestHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNNnews" />
       <extension name="coverage">
@@ -349,7 +411,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage.testDesignSource" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.testCollegeFootballSource" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNNnews" />
       <extension name="coverage">
         <pattern>
@@ -359,7 +421,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testhompage" />
       <option name="MAIN_CLASS_NAME" value="testhompage.TestHomePage" />
-      <option name="METHOD_NAME" value="testDesignSource" />
+      <option name="METHOD_NAME" value="testCollegeFootballSource" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -367,7 +429,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage.testFashionSource" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.testFoodAndDrinks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNNnews" />
       <extension name="coverage">
         <pattern>
@@ -377,7 +439,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testhompage" />
       <option name="MAIN_CLASS_NAME" value="testhompage.TestHomePage" />
-      <option name="METHOD_NAME" value="testFashionSource" />
+      <option name="METHOD_NAME" value="testFoodAndDrinks" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -423,11 +485,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestHomePage.titleMatching" />
         <item itemvalue="TestNG.TestHomePage" />
+        <item itemvalue="TestNG.TestHomePage.testCollegeFootballSource" />
+        <item itemvalue="TestNG.TestHomePage.testFoodAndDrinks" />
+        <item itemvalue="TestNG.TestHomePage.titleMatching" />
         <item itemvalue="TestNG.TestHomePage.testLuxurySource" />
-        <item itemvalue="TestNG.TestHomePage.testFashionSource" />
-        <item itemvalue="TestNG.TestHomePage.testDesignSource" />
       </list>
     </recent_temporary>
   </component>
@@ -445,21 +507,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHomePage_testLiveLonger - 2019.03.25 at 23h 54m 15s.xml">
-      <configuration name="TestHomePage.testLiveLonger" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_testArtSource - 2019.03.25 at 23h 57m 04s.xml">
-      <configuration name="TestHomePage.testArtSource" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_testDesignSource - 2019.03.25 at 23h 59m 17s.xml">
-      <configuration name="TestHomePage.testDesignSource" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_testFashionSource - 2019.03.26 at 00h 02m 11s.xml">
-      <configuration name="TestHomePage.testFashionSource" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomePage_testFashionSource - 2019.03.26 at 00h 03m 27s.xml">
-      <configuration name="TestHomePage.testFashionSource" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestHomePage_testLuxurySource - 2019.03.26 at 00h 07m 30s.xml">
       <configuration name="TestHomePage.testLuxurySource" configurationId="TestNG" />
     </history-entry>
@@ -475,6 +522,21 @@
     <history-entry file="TestHomePage_titleMatching - 2019.03.26 at 00h 11m 22s.xml">
       <configuration name="TestHomePage.titleMatching" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestHomePage_titleMatching - 2019.03.26 at 00h 11m 53s.xml">
+      <configuration name="TestHomePage.titleMatching" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testFoodAndDrinks - 2019.03.26 at 01h 01m 47s.xml">
+      <configuration name="TestHomePage.testFoodAndDrinks" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage - 2019.03.26 at 01h 05m 53s.xml">
+      <configuration name="TestHomePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testCollegeFootballSource - 2019.03.26 at 01h 06m 02s.xml">
+      <configuration name="TestHomePage.testCollegeFootballSource" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomePage_testCollegeFootballSource - 2019.03.26 at 01h 06m 37s.xml">
+      <configuration name="TestHomePage.testCollegeFootballSource" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
@@ -489,12 +551,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.502052" side_tool="true" weight="0.19444445" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32855436" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6703911" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29189944" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44832215" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22486034" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.053072624" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24723756" />
@@ -854,16 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="509" column="16" selection-start-line="509" selection-start-column="16" selection-end-line="509" selection-end-column="16" />
-          <folding>
-            <element signature="imports" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -916,19 +968,59 @@
     <entry file="file://$PROJECT_DIR$/CNNnews/src/test/resources/file.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3313">
+          <caret line="509" column="16" selection-start-line="509" selection-start-column="16" selection-end-line="509" selection-end-column="16" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="220" column="45" lean-forward="true" selection-start-line="220" selection-start-column="45" selection-end-line="220" selection-end-column="45" />
+        <state relative-caret-position="104">
+          <caret line="252" column="25" selection-start-line="252" selection-start-column="25" selection-end-line="252" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="180" column="65" selection-start-line="180" selection-start-column="65" selection-end-line="180" selection-end-column="65" />
+        <state relative-caret-position="1035">
+          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
           <folding>
             <element signature="imports" />
+            <element signature="method#testBottomHome#0;class#TestHomePage#0" />
+            <element signature="method#testCrimeJusticeSource#0;class#TestHomePage#0" />
+            <element signature="method#testEnargyEnvironmentSource#0;class#TestHomePage#0" />
+            <element signature="method#testExtremeWeather#0;class#TestHomePage#0" />
+            <element signature="method#testSpaceScince#0;class#TestHomePage#0" />
+            <element signature="method#testWorldNews#0;class#TestHomePage#0" />
+            <element signature="method#testAfricaSorce#0;class#TestHomePage#0" />
+            <element signature="method#testAmericaSource#0;class#TestHomePage#0" />
+            <element signature="method#testAsiaSoure#0;class#TestHomePage#0" />
+            <element signature="method#testChinaSource#0;class#TestHomePage#0" />
+            <element signature="method#testEuropeSource#0;class#TestHomePage#0" />
+            <element signature="method#testMiddleEastSource#0;class#TestHomePage#0" />
+            <element signature="method#testIndiaSource#0;class#TestHomePage#0" />
+            <element signature="method#testSuprimeCourtSource#0;class#TestHomePage#0" />
+            <element signature="method#testFactsFirst#0;class#TestHomePage#0" />
+            <element signature="method#testOpinionSource#0;class#TestHomePage#0" />
+            <element signature="method#testFoodSource#0;class#TestHomePage#0" />
+            <element signature="method#testFitnessSource#0;class#TestHomePage#0" />
+            <element signature="method#testWellnessSource#0;class#TestHomePage#0" />
+            <element signature="method#testLiveLonger#0;class#TestHomePage#0" />
+            <element signature="method#testArtSource#0;class#TestHomePage#0" />
+            <element signature="method#testDesignSource#0;class#TestHomePage#0" />
+            <element signature="method#testFashionSource#0;class#TestHomePage#0" />
+            <element signature="method#testLuxurySource#0;class#TestHomePage#0" />
+            <element signature="method#testDestinationSource#0;class#TestHomePage#0" />
+            <element signature="method#testFoodAndDrinks#0;class#TestHomePage#0" />
+            <element signature="method#testCollegeFootballSource#0;class#TestHomePage#0" />
+            <element signature="method#clickOnSerchTab#0;class#TestHomePage#0" />
+            <element signature="method#searchWithSearchIteems#0;class#TestHomePage#0" />
+            <element signature="method#titleMatching#0;class#TestHomePage#0" />
           </folding>
         </state>
       </provider>

@@ -37,7 +37,7 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[2]")
     WebElement americaSource;
 
-     @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[3]")
+    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[3]")
     WebElement asiaSoure;
 
     @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[5]/a")
@@ -87,14 +87,14 @@ public class HomePage extends CommonAPI {
     @FindBy(css = ".l-footer__content div div ol:nth-child(10) li ol li:nth-child(5)")
     WebElement luxurySource;
 
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[6]/a")
-//    WebElement europeSource;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[7]")
-//    WebElement middleEast;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[8]")
-//    WebElement indiaSource;
+    @FindBy(css = ".l-footer__content div div ol:nth-child(11) li ol li:nth-child(1)")
+    WebElement destinationSource;
+
+    @FindBy(css = ".l-footer__content div div ol:nth-child(11) li ol li:nth-child(2)")
+    WebElement foodAndDrinksSource;
+
+    @FindBy(css = ".l-footer__content div div ol:nth-child(12) li ol li:nth-child(2)")
+    WebElement collegeFootball;
 //
 //    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[4]/li/ol/li[3]")
 //    WebElement suprimeCourtSource;
@@ -111,8 +111,6 @@ public class HomePage extends CommonAPI {
 
 
     /***********************/
-
-
 
 
     public void setBottomHome() {
@@ -138,103 +136,129 @@ public class HomePage extends CommonAPI {
         Assert.assertEquals(title, "Extreme Weather - CNN");
         driver.navigate().back();
     }
-    public void setSpaceScince(){
-       boolean scinceTab = spaceScince.isDisplayed();
-       Assert.assertTrue(scinceTab);
+
+    public void setSpaceScince() {
+        boolean scinceTab = spaceScince.isDisplayed();
+        Assert.assertTrue(scinceTab);
     }
-    public void setWorldNews(){
-      String text =  worldNews.getText();
-      Assert.assertEquals(text,"World");
+
+    public void setWorldNews() {
+        String text = worldNews.getText();
+        Assert.assertEquals(text, "World");
     }
-    public void setAfricaSouce(){
+
+    public void setAfricaSouce() {
         boolean selected = africaSouce.isSelected();
         Assert.assertFalse(selected);
     }
-    public void setAmericaSource(){
+
+    public void setAmericaSource() {
         boolean select = americaSource.isEnabled();
         Assert.assertTrue(select);
     }
-    public void setAsiaSoure(){
+
+    public void setAsiaSoure() {
         String text = asiaSoure.getText();
-        Assert.assertEquals(text,"Asia");
+        Assert.assertEquals(text, "Asia");
     }
-    public void setChinaSoure() throws Exception{
+
+    public void setChinaSoure() throws Exception {
         String text = chinaSoure.getText();
-        Assert.assertEquals(text,"China");
+        Assert.assertEquals(text, "China");
     }
-    public void setEuropeSource(){
-       boolean selected = europeSource.isDisplayed();
-       Assert.assertTrue(selected);
+
+    public void setEuropeSource() {
+        boolean selected = europeSource.isDisplayed();
+        Assert.assertTrue(selected);
     }
-    public void setMiddleEast(){
+
+    public void setMiddleEast() {
         boolean seleted = middleEast.isSelected();
         Assert.assertFalse(seleted);
     }
-    public void setIndiaSource(){
+
+    public void setIndiaSource() {
         String text = indiaSource.getText();
-        Assert.assertEquals(text,"India");
+        Assert.assertEquals(text, "India");
     }
-    public void setSuprimeCourtSource(){
+
+    public void setSuprimeCourtSource() {
         boolean selected = suprimeCourtSource.isDisplayed();
         Assert.assertTrue(selected);
     }
-    public void setFactsFirst(){
+
+    public void setFactsFirst() {
         String tagName = factsFirst.getTagName();
-        Assert.assertEquals(tagName,"li");
+        Assert.assertEquals(tagName, "li");
     }
-    public void setOpinioSource(){
+
+    public void setOpinioSource() {
         String text = opinioSource.getText();
-        Assert.assertEquals(text,"Opinion");
+        Assert.assertEquals(text, "Opinion");
     }
-    public void setFoodSource() throws Exception{
+
+    public void setFoodSource() throws Exception {
         Thread.sleep(3000);
         driver.navigate().refresh();
         foodSource.click();
         String text = driver.getTitle();
         System.out.println(text);
-        Assert.assertEquals(text,"Food and Diet - CNN");
+        Assert.assertEquals(text, "Food and Diet - CNN");
     }
-    public void setFitnessSource(){
-       String text = fitnessSource.getText();
-       Assert.assertEquals(text, "Fitness");
+
+    public void setFitnessSource() {
+        String text = fitnessSource.getText();
+        Assert.assertEquals(text, "Fitness");
     }
-    public void setWellnessSource(){
-      boolean select = wellnessSource.isDisplayed();
+
+    public void setWellnessSource() {
+        boolean select = wellnessSource.isDisplayed();
         Assert.assertTrue(select);
     }
-    public void setLiveLongerSource() throws Exception{
+
+    public void setLiveLongerSource() throws Exception {
         Thread.sleep(3000);
-        String title =liveLongerSource.getText();
+        String title = liveLongerSource.getText();
         System.out.println(title);
-        Assert.assertEquals(title,"Live Longer");
+        Assert.assertEquals(title, "Live Longer");
     }
-    public void setArtSource(){
-       boolean selected = artSource.isDisplayed();
-       Assert.assertTrue(selected);
+
+    public void setArtSource() {
+        boolean selected = artSource.isDisplayed();
+        Assert.assertTrue(selected);
     }
-    public void setDesignSource(){
+
+    public void setDesignSource() {
         boolean selected = designSource.isSelected();
         Assert.assertFalse(selected);
     }
-    public void setFasionSoure(){
+
+    public void setFasionSoure() {
         String title = fasionSoure.getText();
-        Assert.assertEquals(title,"Fashion");
+        Assert.assertEquals(title, "Fashion");
     }
-    public void setLuxurySource()throws Exception {
+
+    public void setLuxurySource() throws Exception {
         boolean text = luxurySource.isEnabled();
         Assert.assertTrue(text);
 
     }
+    public void setDestinationSource() {
+        destinationSource.click();
+        driver.navigate().refresh();
+        String title = driver.getTitle();
+        Assert.assertEquals(title, title);
+        driver.navigate().back();
+    }
+    public void setCollegeFootball(){
+        boolean elected = collegeFootball.isDisplayed();
+        Assert.assertTrue(elected);
+    }
 
-
-
-
-
-
-
-
-
-
+    public void setFoodAndDrinksSource() {
+        String text = foodAndDrinksSource.getText();
+        Assert.assertEquals(text,"Food & Drink");
+    }
 
     public void clickOnSearch() {
         searchTab.click();

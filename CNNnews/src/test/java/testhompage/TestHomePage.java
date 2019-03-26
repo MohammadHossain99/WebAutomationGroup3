@@ -138,6 +138,21 @@ public class TestHomePage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePage.setLuxurySource();
     }
+    @Test
+    public void testDestinationSource(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage.setDestinationSource();
+    }
+    @Test
+    public void testFoodAndDrinks(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage.setFoodAndDrinksSource();
+    }
+    @Test
+    public void testCollegeFootballSource(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage.setCollegeFootball();
+    }
 
 
 
@@ -172,7 +187,6 @@ public class TestHomePage extends CommonAPI {
     public void searchWithSearchIteems() throws Exception {
         TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePage.SearchWithtext("christchurch");
-
     }
 
     @Test
