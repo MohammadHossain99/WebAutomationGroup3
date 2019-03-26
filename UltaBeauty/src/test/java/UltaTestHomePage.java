@@ -145,34 +145,29 @@ public class UltaTestHomePage extends UltaHomePage{
     @Test
     public void hoverOverBookAppointment()throws InterruptedException{hoverBookAppointment();}
 
-    @Test
-    public void viewManageAccountsPage() throws Exception{Thread.sleep(5000);manageAccountPage(); Thread.sleep(5000);}
 
-    @Test
-    public void closeStickyPopUp()throws InterruptedException{closeStickyEmail();}
-
-    @Test
-    public void ac()throws InterruptedException{}
-
-    @Test
-    public void av()throws InterruptedException{}
-
-    @Test
-    public void abb(){}
-
-    @Test
-    public void ae(){}
-
-    @Test
-    public void aq(){}
-
-    @Test
-    public void a(){}
-
-    //    @Test
-//    public void fea(){}
-
-
+//    @Test
+//    public void ac()throws InterruptedException{}
+//
+//    @Test
+//    public void av()throws InterruptedException{}
+//
+//    @Test
+//    public void abb(){}
+//
+//    @Test
+//    public void aewd(){}
+//
+//    @Test
+//    public void aqcd(){}
+//
+//    @Test
+//    public void nba(){}
+//
+//    //    @Test
+////    public void fea(){}
+//
+//
 
     //
 //    @Test

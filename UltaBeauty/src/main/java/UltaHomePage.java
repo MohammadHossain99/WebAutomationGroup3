@@ -42,12 +42,6 @@ public class UltaHomePage extends CommonAPI {
     @FindBy(className = "StickyEmailSignUp__submit--signup--msg")
     WebElement submitInStickySignUp;
 
-    @FindBy(xpath = "//*[@id=\'desk-footer\']/ul[5]/li[2]/a")
-    WebElement manageAccount;
-
-    @FindBy(css = "button[aria-label='Close sticky email sign-up form']")
-    WebElement xStickyEmail;
-
     @FindBy()
     WebElement c1;
 
@@ -302,8 +296,6 @@ public class UltaHomePage extends CommonAPI {
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
-    public void manageAccountPage(){manageAccount.click();}
-
     public void ae()throws InterruptedException{
         mouseHoverByXpath("//*[@id=\'hide-desk-nav\']/div[2]/ul/li[3]/a");
         Thread.sleep(5000);
@@ -331,8 +323,6 @@ public class UltaHomePage extends CommonAPI {
         String urlExpected = "https://www.ulta.com/";
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
-
-    public void closeStickyEmail(){xStickyEmail.click();}
 
     public void al(){}
 
