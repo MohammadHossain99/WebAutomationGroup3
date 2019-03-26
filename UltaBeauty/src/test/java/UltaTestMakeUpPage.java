@@ -17,7 +17,7 @@ public class UltaTestMakeUpPage extends UltaMakeUpPage {
     @Test
     public void makeUpPageTitle(){
         driver.getTitle();
-        String expectedTitle = "Makeup | Ulta Beauty";
+         String expectedTitle = "Makeup | Ulta Beauty";
         Assert.assertEquals(driver.getTitle(),expectedTitle);
     }
 
@@ -86,5 +86,57 @@ public class UltaTestMakeUpPage extends UltaMakeUpPage {
         String urlExpected = "https://www.ulta.com/makeup?N=26y1";
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
+
+    @Test
+    public void hoverOverNewArrivals ()throws InterruptedException{hoverNewArrivals();}
+
+    @Test
+    public void hoverOverMakeUp()throws InterruptedException{hoverMakeUp();}
+
+    @Test
+    public void hoverOverNails()throws InterruptedException{hoverNails();}
+
+    @Test
+    public void hoverOverSkinCare()throws InterruptedException{hoverSkinCare();}
+
+    @Test
+    public void hoverOverHair()throws InterruptedException{hoverHair();}
+
+    @Test
+    public void hoverOverToolsAndBrushes()throws InterruptedException{hoverToolsAndBrushes();}
+
+    @Test
+    public void hoverOverFragrance()throws InterruptedException{hoverFragrance();}
+
+    @Test
+    public void hoverOverBathAndBody()throws InterruptedException{hoverBathAndBody();}
+
+    @Test
+    public void hoverOverMen()throws InterruptedException{hoverMen();}
+
+    @Test
+    public void hoverOverUltaCollections() throws InterruptedException{hoverUltaCollections();}
+
+    @Test
+    public void hoverOverGifts()throws InterruptedException{hoverGifts();}
+
+    @Test
+    public void hoverOverSalesAndCoupons()throws InterruptedException{hoverSalesAndCoupon();}
+
+    @Test
+    public void hoverOverCurrentAd()throws InterruptedException{hoverCurrentAd();}
+
+    @Test
+    public void hoverOverBeautyTips()throws InterruptedException{hoverBeautyTips();}
+
+    @Test
+    public void hoverOverAllureWinners()throws InterruptedException{hoverAllureWinners();}
+
+    @Test
+    public void hoverOverBeautyServices()throws InterruptedException{hoverBeautyServices();}
+
+    @Test
+    public void hoverOverBookAppointment()throws InterruptedException{hoverBookAppointment();}
+
 
 }

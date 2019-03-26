@@ -142,4 +142,43 @@ public class TestHomePage extends HomePage {
         String expectedUrl = "https://www.linkedin.com/uas/request-password-reset?trk=uno-reg-guest-home-forgot-password";
         Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
     }
+
+    @Test
+    public void viewSignUpPage(){homePage.signUpPage();}
+
+    @Test
+    public void az(){}
+
+    @Test
+    public void aa(){}
+
+    @Test
+    public void ada(){}
+
+    @Test
+    public void ad(){}
+
+    @Test
+    public void add(){}
+
+    @Test
+    public void ac(){}
+
+    @Test
+    public void av(){}
+
+    @Test
+    public void abb(){}
+
+    @Test
+    public void ae(){}
+
+    @Test
+    public void aq(){}
+
+    @Test
+    public void a(){}
+
+
+
 }

@@ -35,6 +35,46 @@ public class HomePage extends CommonAPI {
     @FindBy(linkText = "Forgot password?")
     WebElement forgotPassword;
 
+    @FindBy(linkText = "Sign Up")
+    WebElement signUp;
+
+    @FindBy()
+    WebElement vc;
+
+    @FindBy()
+    WebElement c1;
+
+    @FindBy()
+    WebElement cb;
+
+    @FindBy()
+    WebElement c;
+
+    @FindBy()
+    WebElement cd;
+
+    @FindBy()
+    WebElement dc;
+
+    @FindBy()
+    WebElement cdd;
+
+    @FindBy()
+    WebElement cddd;
+
+    @FindBy()
+    WebElement ssc;
+
+    @FindBy()
+    WebElement ca;
+
+    @FindBy()
+    WebElement cs;
+
+    @FindBy()
+    WebElement caa;
+
+
     public void inputFirstName(String fName){
         firstNameInput.sendKeys(fName);
     }
@@ -86,4 +126,50 @@ public class HomePage extends CommonAPI {
         enterPasswordLogin(password);
         logIn();
     }
+
+    public void signUpPage(){signUp.click();}
+
+    public void da(){}
+
+    public void dbb(){}
+
+    public void nae(){}
+
+    public void annq(){}
+
+    public void mma(){}
+
+    public void fa(){}
+
+    public void rbb(){}
+
+    public void al(){}
+
+    public void wl(){}
+
+    public void wq(){}
+
+
+//    public void waq(){}
+//
+//    public void da(){}
+//
+//    public void dbb(){}
+//
+//    public void ae(){}
+//
+//    public void aq(){}
+//
+//    public void a(){}
+//
+//    public void fa(){}
+//
+//    public void rbb(){}
+//
+//    public void al(){}
+//
+//    public void wl(){}
+//
+//    public void wq(){}
+
 }

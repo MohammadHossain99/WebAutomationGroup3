@@ -1,5 +1,4 @@
 import base.CommonAPI;
-import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -49,13 +48,13 @@ public class TestFeed extends CommonAPI {
         String expectedUrl="";
         Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
     }
-
-    @Test
-    public void findSomethin() throws Exception{
-        //feed.clickMyNetworkPage();
-        //Thread.sleep(3000);
-        driver.findElement(By.xpath("//*[@id=\'ember1673\']/div/div[1]/button")).click();
-        }
+//
+//    @Test
+//    public void findSomethin() throws Exception{
+//        //feed.clickMyNetworkPage();
+//        //Thread.sleep(3000);
+//        driver.findElement(By.xpath("//*[@id=\'ember1673\']/div/div[1]/button")).click();
+//        }
 
 
     @Test
