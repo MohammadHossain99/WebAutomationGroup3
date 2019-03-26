@@ -58,8 +58,8 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[4]/li/ol/li[3]")
     WebElement factsFirst;
 
-//    @FindBy(css = ".search__button.cnn-icon")
-//    WebElement searchTab;
+    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[6]/li/a")
+    WebElement opinioSource;
 //
 //    @FindBy(id = "search-input-field")
 //    WebElement searchInput;
@@ -131,6 +131,10 @@ public class HomePage extends CommonAPI {
     public void setFactsFirst(){
         String tagName = factsFirst.getTagName();
         Assert.assertEquals(tagName,"li");
+    }
+    public void setOpinioSource(){
+        String text = opinioSource.getText();
+        Assert.assertEquals(text,"Opinion");
     }
 
 
