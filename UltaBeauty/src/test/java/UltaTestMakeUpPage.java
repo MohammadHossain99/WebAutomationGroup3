@@ -17,8 +17,8 @@ public class UltaTestMakeUpPage extends UltaMakeUpPage {
     @Test
     public void makeUpPageTitle(){
         driver.getTitle();
-        String currentUrl = "";
-        Assert.assertEquals(driver.getCurrentUrl(),currentUrl);
+        String expectedTitle = "Makeup | Ulta Beauty";
+        Assert.assertEquals(driver.getTitle(),expectedTitle);
     }
 
     @Test
@@ -78,12 +78,9 @@ public class UltaTestMakeUpPage extends UltaMakeUpPage {
 
     public void hoverShopByBrand() throws InterruptedException{
         hoverShopByBrands();
-        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
-        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     @Test
-
     public void hoverNChoose() throws InterruptedException{
         hoverNChooseFromBrands();
         String urlExpected = "https://www.ulta.com/makeup?N=26y1";

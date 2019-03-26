@@ -67,6 +67,8 @@ public class UltaMakeUpPage extends CommonAPI {
 
         mouseHoverByXpath("//*[@id=\'hide-desk-nav\']/div[2]/ul/li[2]/a");
         Thread.sleep(5000);
+        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void hoverNChooseFromBrands() throws InterruptedException{
