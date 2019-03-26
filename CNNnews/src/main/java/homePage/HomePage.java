@@ -1,6 +1,7 @@
 package homePage;
 
 import base.CommonAPI;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -8,6 +9,8 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
 public class HomePage extends CommonAPI {
+
+    Actions actions = new Actions(driver);
 
     @FindBy(css = ".search__button.cnn-icon")
     WebElement searchTab;
@@ -118,6 +121,51 @@ public class HomePage extends CommonAPI {
 
     @FindBy(css = ".l-footer__content div div ol:nth-child(13) li ol li:nth-child(4)")
     WebElement hlnSource;
+
+    @FindBy(xpath = "//a[@id='logo']")
+    WebElement cnnLogo;
+
+    @FindBy(xpath = "//div[@class='nav-menu-links']/a[1]")
+    WebElement usHeadlines;
+
+    @FindBy(xpath = "//div[@class='nav-menu-links']/a[2]")
+    WebElement worldHeadlines;
+
+    @FindBy(xpath = "//div[@class='nav-menu-links']/a[3]")
+    WebElement politicsHeadlines;
+
+    @FindBy(xpath = "//div[@class='nav-menu-links']/a[4]")
+    WebElement businessHeadlines;
+
+    @FindBy(xpath = "//div[@class='nav-menu-links']/a[5]")
+    WebElement opinionHeadlines;
+
+    @FindBy(xpath = "//div[@class='nav-menu-links']/a[6]")
+    WebElement healthHeadlinesTab;
+
+    @FindBy(xpath = "//div[@class='nav-menu-links']/a[7]")
+    WebElement entertainmentTab;
+
+    @FindBy(xpath = "//div[@class='nav-menu-links']/a[8]")
+    WebElement styleHeadlinetab;
+
+    @FindBy(xpath = "//div[@class='nav-menu-links']/a[9]")
+    WebElement travelHeadlineTab;
+
+    @FindBy(xpath = "//div[@class='nav-menu-links']/a[10]")
+    WebElement sportsHeadlineTab;
+
+    @FindBy(xpath = "//div[@class='nav-menu-links']/a[11]")
+    WebElement videoHeadlineTab;
+
+    @FindBy(id = "nav-mobileTV")
+    WebElement liveTVTab;
+
+    @FindBy(xpath = "//form[@id='search-form']/following-sibling::div/div[text()='U.S.  Edition']")
+    WebElement USEditionTab;
+
+    @FindBy(id = "menu")
+    WebElement menuTab;
 
     /***********************/
 
@@ -257,7 +305,7 @@ public class HomePage extends CommonAPI {
         driver.navigate().refresh();
         String title = driver.getTitle();
         Assert.assertEquals(title, title);
-        driver.navigate().back();
+        driver.navigate().to("https://www.cnn.com/");
     }
 
     public void setCollegeFootball(){
@@ -295,13 +343,13 @@ public class HomePage extends CommonAPI {
         Actions action = new Actions(driver);
         action.moveToElement(cnnFilmsSource).perform();
         action.moveToElement(cnnFilmsSource).click();
-        driver.navigate().back();
+        driver.navigate().to("https://www.cnn.com/");
     }
     public void setHLNSource(){
         Actions action = new Actions(driver);
         action.moveToElement(hlnSource).perform();
         action.moveToElement(hlnSource).click();
-        driver.navigate().back();
+        driver.navigate().to("https://www.cnn.com/");
     }
     public void clickOnSearch() {
         searchTab.click();
@@ -311,6 +359,79 @@ public class HomePage extends CommonAPI {
         searchInput.sendKeys(searchItem, Keys.ENTER);
         Thread.sleep(3000);
         clearInput(".cnn-search__input");
+        driver.navigate().to("https://www.cnn.com/");
         navigateBack();
+    }
+    public void setCnnLogo(){
+        boolean select = cnnLogo.isDisplayed();
+        Assert.assertTrue(select);
+    }
+    public void setUsHeadlines(){
+        String text = usHeadlines.getText();
+        Assert.assertEquals(text,"US");
+    }
+    public void setWorldHeadlines(){
+        actions.moveToElement(worldHeadlines);
+        boolean select = worldHeadlines.isSelected();
+        Assert.assertFalse(select);
+    }
+    public void setPoliticsHeadlines(){
+        actions.moveToElement(politicsHeadlines);
+        Dimension size = politicsHeadlines.getSize();
+        Assert.assertEquals(size,size);
+    }
+    public void setBusinessHeadlines(){
+        actions.moveToElement(businessHeadlines);
+        String text = businessHeadlines.getText();
+        Assert.assertEquals(text,"Business");
+    }
+    public void setOpinionHeadlines(){
+        actions.moveToElement(opinionHeadlines);
+        boolean select = opinionHeadlines.isDisplayed();
+        Assert.assertTrue(select);
+    }
+    public void setHealthHeadlinesTab(){
+        actions.moveToElement(healthHeadlinesTab);
+        boolean select = healthHeadlinesTab.isSelected();
+        Assert.assertFalse(select);
+    }
+    public void setEntertainmentTab(){
+        actions.moveToElement(entertainmentTab);
+        String text = entertainmentTab.getText();
+        Assert.assertEquals(text, "Entertainment");
+    }
+    public void setStyleHeadlinetab(){
+        actions.moveToElement(styleHeadlinetab).build();
+        String text = styleHeadlinetab.getText();
+        Assert.assertEquals(text,"Style");
+    }
+    public void setTravelHeadlineTab(){
+        String text = travelHeadlineTab.getTagName();
+        Assert.assertEquals(text,"a");
+        System.out.println(text);
+    }
+    public void setSportsHeadlineTab(){
+        actions.moveToElement(sportsHeadlineTab);
+        String text = sportsHeadlineTab.getText();
+        Assert.assertEquals(text,"Sports");
+    }
+    public void setVideoHeadlineTab(){
+        actions.moveToElement(videoHeadlineTab);
+        boolean select = videoHeadlineTab.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLiveTVTab(){
+        actions.moveToElement(liveTVTab).build();
+        boolean select = liveTVTab.isDisplayed();
+        Assert.assertTrue(select);
+    }
+    public void setUSEditionTab(){
+        boolean select = USEditionTab.isDisplayed();
+        Assert.assertTrue(select);
+    }
+    public void setMenuTab(){
+        actions.moveToElement(menuTab);
+        boolean select = menuTab.isSelected();
+        Assert.assertFalse(select);
     }
 }

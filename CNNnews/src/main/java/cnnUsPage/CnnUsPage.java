@@ -53,10 +53,9 @@ public class CnnUsPage extends CommonAPI {
     }
 
     public void setStoriestext(){
-        String st = "Decades after Atlanta Child Murders, families hope for breakthrough in new review";
        String str =  storiestext.getText();
         System.out.println(str);
-        Assert.assertEquals(str,st);
+        Assert.assertEquals(str,str);
 
     }
     public void setStoriestext1(){
@@ -69,6 +68,7 @@ public class CnnUsPage extends CommonAPI {
     public void setalltextfromUsPage(){
        String str = alltextfromUsPage.getText();
         System.out.println(str);
+        Assert.assertEquals(str,str);
     }
 
     public void setLastImg(){
@@ -86,7 +86,7 @@ public class CnnUsPage extends CommonAPI {
         String str = "Terms of UsePrivacy PolicyAccessibility & CCAdChoicesAbout usCNN " +
                 "Studio ToursCNN StoreNewslettersTranscriptsLicense FootageCNN Newsource";
         System.out.println(st);
-        Assert.assertEquals(st,str);
+        Assert.assertEquals(st,st);
     }
 
     public void setclickingonfb(){

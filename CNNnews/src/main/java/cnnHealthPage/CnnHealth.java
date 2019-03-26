@@ -57,23 +57,23 @@ public class CnnHealth extends CommonAPI {
     public void setHouseStoris()throws Exception{
         houseStoris.click();
         Thread.sleep(3000);
-        driver.navigate().back();
+        driver.navigate().to("https://www.cnn.com/health");
     }
     public void setPopulerSixthTopic(){
         String str =populerSixthTopic.getText();
         Assert.assertEquals(str,"One-third of uninsured can't afford to take drugs as prescribed");
         populerSixthTopic.click();
-        driver.navigate().back();
+        driver.navigate().to("https://www.cnn.com/health");
     }
     public void setpaidPartnerIMG(){
        boolean img= paidPartnerIMG.isDisplayed();
        Assert.assertTrue(img);
        paidPartnerIMG.click();
-       driver.navigate().back();
+        driver.navigate().to("https://www.cnn.com/health");
     }
     public void setBottomWorldAsianews(){
         bottomWorldAsianews.click();
-        driver.navigate().back();
+        driver.navigate().to("https://www.cnn.com/health");
     }
     public void setbottomWorldAustralia(){
        String st = bottomWorldAustralia.getText();
@@ -82,6 +82,6 @@ public class CnnHealth extends CommonAPI {
     public void setbottomPoliticsCongress(){
         bottomPoliticsCongress.click();
         driver.navigate().refresh();
-        driver.navigate().back();
+        driver.navigate().to("https://www.cnn.com/health");
     }
 }

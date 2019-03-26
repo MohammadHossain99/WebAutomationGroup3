@@ -193,17 +193,106 @@ public class TestHomePage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePage.setHLNSource();
     }
-
     @Test
     public void searchWithSearchIteems() throws Exception {
         TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePage.SearchWithtext("christchurch");
     }
-
     @Test
     public void titleMatching() {
         TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         String str = "CNN - Breaking News, Latest News and Videos";
         Assert.assertEquals(str, driver.getTitle());
     }
+
+         @Test
+         public void testCnnLogo(){
+            TestLogger.log(getClass().getSimpleName() + " : " +
+                    convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            homePage.setCnnLogo();
+        }
+        @Test
+        public void testUsHeadlinesTab(){
+            TestLogger.log(getClass().getSimpleName() + " : " +
+                    convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            homePage.setUsHeadlines();
+        }
+        @Test
+        public void testWorldHeadlines(){
+            TestLogger.log(getClass().getSimpleName() + " : " +
+                    convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            homePage.setWorldHeadlines();
+        }
+        @Test
+        public void testPoliticsHeadlines(){
+            TestLogger.log(getClass().getSimpleName() + " : " +
+                    convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            homePage.setPoliticsHeadlines();
+        }
+        @Test
+        public void testBusinessHeadlinestab(){
+            TestLogger.log(getClass().getSimpleName() + " : " +
+                    convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            homePage.setBusinessHeadlines();
+        }
+        @Test
+        public void testOpinionheadlinesTab(){
+            TestLogger.log(getClass().getSimpleName() + " : " +
+                    convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            homePage.setOpinionHeadlines();
+        }
+        @Test
+        public void testHealthHeadlinesTab(){
+            TestLogger.log(getClass().getSimpleName() + " : " +
+                    convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            homePage.setHealthHeadlinesTab();
+        }
+        @Test
+        public void testEntertainmentTab(){
+            TestLogger.log(getClass().getSimpleName() + " : " +
+                    convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            homePage.setEntertainmentTab();
+        }
+        @Test
+        public void testStyleHeadlineTab(){
+            TestLogger.log(getClass().getSimpleName() + " : " +
+                    convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            homePage.setStyleHeadlinetab();
+        }
+        @Test
+        public void testTravelHeadlineTab(){
+            TestLogger.log(getClass().getSimpleName() + " : " +
+                    convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            homePage.setTravelHeadlineTab();
+        }
+        @Test
+         public void testSportsHeadlineTab(){
+            TestLogger.log(getClass().getSimpleName() + " : " +
+                    convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            homePage.setSportsHeadlineTab();
+        }
+        @Test
+        public void testVideoHeadlineTab(){
+            TestLogger.log(getClass().getSimpleName() + " : " +
+                    convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            homePage.setVideoHeadlineTab();
+        }
+        @Test
+        public void testLiveTVTab(){
+            TestLogger.log(getClass().getSimpleName() + " : " +
+                    convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            homePage.setLiveTVTab();
+        }
+        @Test
+        public void testUSEditionTab(){
+            TestLogger.log(getClass().getSimpleName() + " : " +
+                    convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            homePage.setUSEditionTab();
+        }
+        @Test
+        public void testMenuTab(){
+            TestLogger.log(getClass().getSimpleName() + " : " +
+                    convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+            homePage.setMenuTab();
+        }
 }
