@@ -15,10 +15,11 @@
 
     <test name = "FaceBook Home">
         <classes>
-            <!--<class name="TestSignInPage.TestVerifyingClass"/>-->
-            <!--<class name="TestSignInPage.TestSignInonly"/>-->
-            <!--<class name="FaceBookprofileHome.FaceBookProHome"/>-->
-            <!--<class name="testIdProfileHomePage.TestIdProfilePage"/>-->
+            <class name="TestSignInPage.TestVerifyingClass"/>
+            <class name="testExcleFaceBook.TestExcleExecutor"/>
+            <class name="TestSignInPage.TestSignInonly"/>
+            <class name="FaceBookprofileHome.FaceBookProHome"/>
+            <class name="testIdProfileHomePage.TestIdProfilePage"/>
             <class name="testFaceBookHomeTabsVarifys.TestHomeTabsVarifys"/>
         </classes>
     </test>

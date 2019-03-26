@@ -1,6 +1,7 @@
 package cnnWorld;
 
 import base.CommonAPI;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -58,14 +59,17 @@ public class CNNWorld extends CommonAPI {
     @FindBy(xpath = "//section[@id='world-zone-7']/div[3]/div[2]/div/div/div[7]/article/div/div[2]")
     WebElement latestStories8;
 
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[4]/li/ol/li[3]")
-//    WebElement factsFirst;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[6]/li/a")
-//    WebElement opinioSource;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[7]/li/ol/li[1]/a")
-//    WebElement foodSource;
+    @FindBy(xpath = "//section[@id='world-zone-7']/div[3]/div[2]/div/div/div[9]/article/div/div[2]")
+    WebElement latestStories9;
+
+    @FindBy(xpath = "//section[@id='world-zone-7']/div[3]/div[2]/div/div/div[11]/article/div/div[2]")
+    WebElement latestStories11;
+
+    @FindBy(xpath = "//section[@id='world-zone-7']/div[3]/div[2]/div/div/div[12]/article/div/div[2]")
+    WebElement latestStories12;
+
+    @FindBy(xpath = "//section[@id='world-zone-7']/div[3]/div[2]/div/div/div[13]/article/div/div[2]")
+    WebElement latestStories13;
 
 
 
@@ -144,11 +148,33 @@ public class CNNWorld extends CommonAPI {
     public void setLatestSories7(){
         action.moveToElement(latestSories7).click();
         driver.navigate().refresh();
-        driver.navigate().back();
+        driver.navigate().to("https://www.cnn.com/world");
     }
     public void setLatestStories8(){
         action.moveToElement(latestStories8);
         boolean selectd = latestStories8.isDisplayed();
         Assert.assertTrue(selectd);
+    }
+    public void setLatestStories9()throws Exception{
+        action.moveToElement(latestStories9).doubleClick(latestStories9);
+        Thread.sleep(4000);
+        Dimension st= latestStories9.getSize();
+        System.out.println(st);
+        Assert.assertEquals(st,st);
+    }
+    public void setLatestStories11(){
+        action.moveToElement(latestStories11);
+        String text =latestStories11.getText();
+        Assert.assertEquals(text,text);
+    }
+    public void setLatestStories12(){
+        action.moveToElement(latestStories12);
+        boolean text =latestStories12.isDisplayed();
+        Assert.assertTrue(text);
+    }
+    public void setLatestStories13(){
+        action.moveToElement(latestStories13);
+        boolean select = latestStories13.isEnabled();
+        Assert.assertTrue(select);
     }
 }
