@@ -2,7 +2,7 @@ import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class TestFeed extends CommonAPI {
@@ -12,7 +12,7 @@ public class TestFeed extends CommonAPI {
     //HomePage homePage;
     //homePage.logInLinkedIn("stest7380@gmail.com", "stest312@t");
 
-    @BeforeClass
+    @BeforeMethod
     public void init(){
         driver.navigate().to(homeUrl);
         feed = PageFactory.initElements(driver,Feed.class);

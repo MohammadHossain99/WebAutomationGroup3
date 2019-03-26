@@ -29,8 +29,86 @@ public class JobsPage extends CommonAPI {
     @FindBy(css = "a[class='join-login__button join-login__button--secondary']")
     WebElement signInSecondaryButton;
 
-    @FindBy()
-    WebElement caa;
+    @FindBy(css = "a[class='global-alert__link t-white t-bold']")
+    WebElement cookiePolicy;
+
+    @FindBy(linkText = "Operations")
+    WebElement operations;
+
+    @FindBy(linkText = "Healthcare Services")
+    WebElement healthcareServices;
+
+    @FindBy(linkText = "Human Resources")
+    WebElement humanResources;
+
+    @FindBy(linkText = "Finance")
+    WebElement finance;
+
+    @FindBy(linkText = "Community and Social Services")
+    WebElement communityNFinancial;
+
+    @FindBy(linkText = "Engineering")
+    WebElement engineering;
+
+    @FindBy(linkText = "Sales")
+    WebElement sales;
+
+    @FindBy(linkText = "Support")
+    WebElement support;
+
+    @FindBy(linkText = "Education")
+    WebElement education;
+
+    @FindBy(linkText = "Administrative")
+    WebElement administrative;
+
+    @FindBy(linkText = "Research")
+    WebElement research;
+
+    @FindBy(linkText = "Marketing")
+    WebElement marketing;
+
+    @FindBy(linkText = "Information Technology")
+    WebElement informationTechnology;
+
+    @FindBy(linkText = "Military and Protective Services")
+    WebElement militaryNProtectiveServices;
+
+    @FindBy(linkText = "Entrepreneurship")
+    WebElement entrepreneurship;
+
+    @FindBy(linkText = "Real Estate")
+    WebElement realEstate;
+
+    @FindBy(linkText = "Purchasing")
+    WebElement purchasing;
+
+    @FindBy(linkText = "Program and Project Management")
+    WebElement programNProjectManagement;
+
+    @FindBy(linkText = "Product Management")
+    WebElement productManagement;
+
+    @FindBy(linkText = "Media and Communication")
+    WebElement mediaNCommunication;
+
+    @FindBy(linkText = "Legal")
+    WebElement legal;
+
+    @FindBy(linkText = "Business Development")
+    WebElement businessDevelopment;
+
+    @FindBy(linkText = "Quality Assurance")
+    WebElement QA;
+
+    @FindBy(linkText = "Accounting")
+    WebElement accounting;
+
+    @FindBy(linkText = "Consulting")
+    WebElement consulting;
+
+    @FindBy(linkText = "Arts and Design")
+    WebElement artsNDesign;
 
     @FindBy()
     WebElement csd;
@@ -45,7 +123,10 @@ public class JobsPage extends CommonAPI {
     WebElement cb;
 
 
-//    @FindBy()
+
+
+
+    //    @FindBy()
 //    WebElement c;
 //
 //    @FindBy()
@@ -115,16 +196,116 @@ public class JobsPage extends CommonAPI {
         return expectedAlert ;
     }
 
-
     public void navToSalariesPage (){salariesTab.click();}
 
     public void signIn (){signInSecondaryButton.click();}
-    public void ffd (){}
-    public void fff (){}
-    public void fffd (){}
-    public void ff (){}
+
+    public void viewCookiePolicy (){cookiePolicy.click();}
+
+    public void operationsLinkPage(){operations.click();}
+
+    public void healthcareServicesPage (){healthcareServices.click();}
+
+    public void humanResourcesPage (){humanResources.click();}
+
+    public void financePage(){finance.click();}
+
+    public void communityNFinancialPage(){communityNFinancial.click();}
+
+    public void engineeringPage(){engineering.click();}
+
+    public void salesPage(){sales.click();}
+
+    public void supportPage(){support.click();}
+
+    public void educationPage(){education.click();}
+
+    public void administrativePage(){administrative.click();}
+
+    public void researchPage(){research.click();}
+
+    public void marketingPage(){marketing.click();}
+
+    public void informationTechnologyPage(){informationTechnology.click();}
+
+    public void militaryAndProtectiveServicesPage(){militaryNProtectiveServices.click();}
+
+    public void entrepreneurshipPage(){entrepreneurship.click();}
+
+    public void realEstatePage(){realEstate.click();}
+
+    public void purchasingPage(){purchasing.click();}
+
+    public void programNProjectManagementPage(){programNProjectManagement.click();}
+
+    public void productManagementPage(){productManagement.click();}
+
+    public void mediaAndCommunicationPage(){mediaNCommunication.click();}
+
+    public void legalPage(){legal.click();}
+
+    public void businessDevelopmentPage(){businessDevelopment.click();}
+
+    public void QAPage(){QA.click();}
+
+    public void accountingPage(){accounting.click();}
+
+    public void consultingPage(){consulting.click();}
+
+    public void artsAndDesignPage(){artsNDesign.click();}
+
+    public void waq(){}
+
+    public void da(){}
+
+    public void dbb(){}
+
+    public void ae(){}
+
+    public void aq(){}
+
+    public void a(){}
+
+    public void fa(){}
+
+    public void rbb(){}
+
+    public void al(){}
+
+    public void wl(){}
+
+    public void wq(){}
 
 
+
+
+
+
+    //    public void abb(){}
+//
+//    public void qe(){}
+//
+//    public void waq(){}
+//
+//    public void da(){}
+//
+//    public void dbb(){}
+//
+//    public void ae(){}
+//
+//    public void aq(){}
+//
+//    public void a(){}
+//
+//    public void fa(){}
+//
+//    public void rbb(){}
+//
+//    public void al(){}
+//
+//    public void wl(){}
+//
+//    public void wq(){}
 
 
 

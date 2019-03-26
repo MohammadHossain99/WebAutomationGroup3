@@ -18,6 +18,11 @@ public class UltaTestSignUpPage extends CommonAPI {
     }
 
     @Test
+    public void getTitle(){
+        driver.getTitle();
+    }
+
+    @Test
     public void testEnterFirstName() {
         ultaSignUpPage.enterFirstName("Sylvana");
     }
