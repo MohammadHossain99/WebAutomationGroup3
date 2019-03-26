@@ -24,39 +24,40 @@ public class CNNWorld extends CommonAPI {
 
     @FindBy(css = "#world-zone-1 div:nth-child(2) div div ul li:nth-child(6)")
     WebElement headlines4;
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[2]/li/ol/li[3]")
-//    WebElement extremeWeather;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[2]/li/ol/li[4]")
-//    WebElement spaceScince;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/a")
-//    WebElement worldNews;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[1]")
-//    WebElement africaSouce;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[2]")
-//    WebElement americaSource;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[3]")
-//    WebElement asiaSoure;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[5]/a")
-//    WebElement chinaSoure;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[6]/a")
-//    WebElement europeSource;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[7]")
-//    WebElement middleEast;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[3]/li/ol/li[8]")
-//    WebElement indiaSource;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[4]/li/ol/li[3]")
-//    WebElement suprimeCourtSource;
-//
+
+    @FindBy(css = "#world-zone-1 div:nth-child(2) div div ul li:nth-child(6)")
+    WebElement Headlines5;
+
+    @FindBy(xpath = "//section[@id='world-zone-3']/div[6]/div[2]/div/ul/li[3]")
+    WebElement featureSection;
+
+    @FindBy(xpath = "//section[@id='world-zone-3']/div[6]/div[2]/div/ul/li[4]")
+    WebElement featureSection3;
+
+    @FindBy(xpath = "//section[@id='world-zone-3']/div[6]/div[2]/div/ul/li[6]")
+    WebElement featureSection4;
+
+    @FindBy(xpath = "//section[@id='world-zone-7']/div[3]/div[2]/div/div/div[1]")
+    WebElement latestSories1;
+
+    @FindBy(xpath = "//section[@id='world-zone-7']/div[3]/div[2]/div/div/div[2]")
+    WebElement latestSories2;
+
+    @FindBy(xpath = "//section[@id='world-zone-7']/div[3]/div[2]/div/div/div[3]/article/div/div[2]")
+    WebElement latestStiries4;
+
+    @FindBy(xpath = "//section[@id='world-zone-7']/div[3]/div[2]/div/div/div[4]/article/div/div[2]")
+    WebElement latestStories5;
+
+    @FindBy(xpath = "//section[@id='world-zone-7']/div[3]/div[2]/div/div/div[5]/article/div/div[2]")
+    WebElement latestStories6;
+
+    @FindBy(xpath = "//section[@id='world-zone-7']/div[3]/div[2]/div/div/div[6]/article/div/div[2]")
+    WebElement latestSories7;
+
+    @FindBy(xpath = "//section[@id='world-zone-7']/div[3]/div[2]/div/div/div[7]/article/div/div[2]")
+    WebElement latestStories8;
+
 //    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[4]/li/ol/li[3]")
 //    WebElement factsFirst;
 //
@@ -92,5 +93,62 @@ public class CNNWorld extends CommonAPI {
         boolean selected = headlines4.isSelected();
         Assert.assertFalse(selected);
     }
-
+    public void setHeadlines5(){
+        action.build().perform();
+        action.moveToElement(Headlines5);
+        String text = Headlines5.getText();
+        Assert.assertEquals(text,text);
+    }
+    public void setFeatureSection(){
+        action.moveToElement(featureSection);
+        String text = featureSection.getText();
+        Assert.assertEquals(text,text);
+        System.out.println(text);
+    }
+    public void setFeatureSection3(){
+        action.moveToElement(featureSection3);
+        boolean select = featureSection3.isDisplayed();
+        Assert.assertTrue(select);
+    }
+    public void setFeatureSection4(){
+        boolean selected = featureSection4.isSelected();
+        Assert.assertFalse(selected);
+    }
+    public void setLatestSories1(){
+        action.moveToElement(latestSories1);
+        String text = latestSories1.getText();
+        System.out.println(text);
+        Assert.assertEquals(text,text);
+    }
+    public void setLatestSories2(){
+        action.moveToElement(latestSories2).click();
+       String text = driver.getTitle();
+        System.out.println(text);
+    }
+    public void setLatestStiries4(){
+        action.moveToElement(latestStiries4);
+        String text = latestStiries4.getText();
+        Assert.assertEquals(text,text);
+    }
+    public void setLatestStories5(){
+        action.moveToElement(latestStories5);
+        action.moveToElement(latestStiries4).moveToElement(latestStories5);
+        boolean selected = latestStories5.isDisplayed();
+        Assert.assertTrue(selected);
+    }
+    public void setLatestStories6(){
+        action.moveToElement(latestStories6);
+        boolean select = latestStories6.isSelected();
+        Assert.assertFalse(select);
+    }
+    public void setLatestSories7(){
+        action.moveToElement(latestSories7).click();
+        driver.navigate().refresh();
+        driver.navigate().back();
+    }
+    public void setLatestStories8(){
+        action.moveToElement(latestStories8);
+        boolean selectd = latestStories8.isDisplayed();
+        Assert.assertTrue(selectd);
+    }
 }

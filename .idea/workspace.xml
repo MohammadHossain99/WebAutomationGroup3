@@ -90,8 +90,6 @@
       <change afterPath="$PROJECT_DIR$/../MySample/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MySample/Generic/src/main/java/base/config.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MySample/Generic/src/main/java/datafromExcle/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNNnews/src/main/java/cnnWorld/CNNWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNNnews/src/test/java/testCNNWorld/TestCNNWorld.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../forpractice7/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jewalFramWork/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jewalFramWork/.idea/encodings.xml" afterDir="false" />
@@ -113,8 +111,10 @@
       <change afterPath="$PROJECT_DIR$/../src/homePractice/Home.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../src/homePractice/Program.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../webAutomation/Generic/target/NetFliex-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CNNnews/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNNnews/src/main/java/cnnWorld/CNNWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/main/java/cnnWorld/CNNWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNNnews/src/test/java/testCNNWorld/TestCNNWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/test/java/testCNNWorld/TestCNNWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -140,8 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/cnnWorld/CNNWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+            <state relative-caret-position="285">
+              <caret line="148" column="27" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -149,8 +149,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testCNNWorld/TestCNNWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="22" column="135" lean-forward="true" selection-start-line="22" selection-start-column="135" selection-end-line="22" selection-end-column="135" />
+            <state relative-caret-position="315">
+              <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+              <folding>
+                <element signature="imports" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -218,7 +221,6 @@
         <option value="$PROJECT_DIR$/FaceBook/src/test/java/testIdProfileHomePage/TestIdProfilePage.java" />
         <option value="$PROJECT_DIR$/CNNnews/src/test/java/testDBSearch/TestSearch.java" />
         <option value="$PROJECT_DIR$/CNNnews/src/main/java/searchDBPages/SearchInCNN.java" />
-        <option value="$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml" />
         <option value="$PROJECT_DIR$/FaceBook/src/test/resources/FaceBookTestRunner.xml" />
         <option value="$PROJECT_DIR$/FaceBook/src/main/java/facebookHomeTabsVarifys/HomeTabsVarifys.java" />
         <option value="$PROJECT_DIR$/FaceBook/src/test/java/testFaceBookHomeTabsVarifys/TestHomeTabsVarifys.java" />
@@ -228,8 +230,9 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java" />
         <option value="$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java" />
-        <option value="$PROJECT_DIR$/CNNnews/src/test/java/testCNNWorld/TestCNNWorld.java" />
+        <option value="$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml" />
         <option value="$PROJECT_DIR$/CNNnews/src/main/java/cnnWorld/CNNWorld.java" />
+        <option value="$PROJECT_DIR$/CNNnews/src/test/java/testCNNWorld/TestCNNWorld.java" />
       </list>
     </option>
   </component>
@@ -297,28 +300,7 @@
               <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
               <item name="CNNnews" type="462c0819:PsiDirectoryNode" />
-              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="CNNnews" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="CNNnews" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="CNNnews" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
@@ -342,7 +324,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testhompage" type="462c0819:PsiDirectoryNode" />
+              <item name="testCNNWorld" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -351,7 +333,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553614835205" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553622608642" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -385,8 +367,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestCNNWorld.testHeadlines4">
-    <configuration name="TestCNNWorld.testHeadlines1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestCNNWorld.testLatestStories8">
+    <configuration name="TestCNNWorld.testLatestStories5" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNNnews" />
       <extension name="coverage">
         <pattern>
@@ -396,7 +378,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testCNNWorld" />
       <option name="MAIN_CLASS_NAME" value="testCNNWorld.TestCNNWorld" />
-      <option name="METHOD_NAME" value="testHeadlines1" />
+      <option name="METHOD_NAME" value="testLatestStories5" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -404,7 +386,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCNNWorld.testHeadlines3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCNNWorld.testLatestStories6" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNNnews" />
       <extension name="coverage">
         <pattern>
@@ -414,7 +396,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testCNNWorld" />
       <option name="MAIN_CLASS_NAME" value="testCNNWorld.TestCNNWorld" />
-      <option name="METHOD_NAME" value="testHeadlines3" />
+      <option name="METHOD_NAME" value="testLatestStories6" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -422,7 +404,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCNNWorld.testHeadlines4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCNNWorld.testLatestStories7" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNNnews" />
       <extension name="coverage">
         <pattern>
@@ -432,7 +414,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testCNNWorld" />
       <option name="MAIN_CLASS_NAME" value="testCNNWorld.TestCNNWorld" />
-      <option name="METHOD_NAME" value="testHeadlines4" />
+      <option name="METHOD_NAME" value="testLatestStories7" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -440,7 +422,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCNNWorld.testHeadlones1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCNNWorld.testLatestStories8" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNNnews" />
       <extension name="coverage">
         <pattern>
@@ -450,7 +432,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testCNNWorld" />
       <option name="MAIN_CLASS_NAME" value="testCNNWorld.TestCNNWorld" />
-      <option name="METHOD_NAME" value="testHeadlones1" />
+      <option name="METHOD_NAME" value="testLatestStories8" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -458,18 +440,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCNNWorld.testTopVisibeIMG" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/jewal/IntelliJ/WebAutomationGroup3/CNNnews/src/test/resources/CNNTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNNnews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testCNNWorld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testCNNWorld" />
-      <option name="MAIN_CLASS_NAME" value="testCNNWorld.TestCNNWorld" />
-      <option name="METHOD_NAME" value="testTopVisibeIMG" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -478,11 +452,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestCNNWorld.testHeadlines4" />
-        <item itemvalue="TestNG.TestCNNWorld.testHeadlines3" />
-        <item itemvalue="TestNG.TestCNNWorld.testHeadlones1" />
-        <item itemvalue="TestNG.TestCNNWorld.testHeadlines1" />
-        <item itemvalue="TestNG.TestCNNWorld.testTopVisibeIMG" />
+        <item itemvalue="TestNG.TestCNNWorld.testLatestStories8" />
+        <item itemvalue="TestNG.TestCNNWorld.testLatestStories7" />
+        <item itemvalue="TestNG.TestCNNWorld.testLatestStories6" />
+        <item itemvalue="TestNG./Users/jewal/IntelliJ/WebAutomationGroup3/CNNnews/src/test/resources/CNNTestRunner.xml" />
+        <item itemvalue="TestNG.TestCNNWorld.testLatestStories5" />
       </list>
     </recent_temporary>
   </component>
@@ -500,39 +474,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHomePage_testDigitalStudio - 2019.03.26 at 01h 38m 26s.xml">
-      <configuration name="TestHomePage.testDigitalStudio" configurationId="TestNG" />
+    <history-entry file="TestCNNWorld_testLatestStories12 - 2019.03.26 at 12h 41m 42s.xml">
+      <configuration name="TestCNNWorld.testLatestStories12" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_testCNNFilmSOurce - 2019.03.26 at 01h 43m 56s.xml">
-      <configuration name="TestHomePage.testCNNFilmSOurce" configurationId="TestNG" />
+    <history-entry file="TestCNNWorld_testLatestStories4 - 2019.03.26 at 13h 04m 30s.xml">
+      <configuration name="TestCNNWorld.testLatestStories4" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_testHLNSource - 2019.03.26 at 01h 46m 12s.xml">
-      <configuration name="TestHomePage.testHLNSource" configurationId="TestNG" />
+    <history-entry file="TestCNNWorld_testLatestStories4 - 2019.03.26 at 13h 05m 45s.xml">
+      <configuration name="TestCNNWorld.testLatestStories4" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_testHLNSource - 2019.03.26 at 01h 46m 40s.xml">
-      <configuration name="TestHomePage.testHLNSource" configurationId="TestNG" />
+    <history-entry file="TestCNNWorld_testLatestStories5 - 2019.03.26 at 13h 09m 34s.xml">
+      <configuration name="TestCNNWorld.testLatestStories5" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage - 2019.03.26 at 01h 50m 57s.xml">
-      <configuration name="TestHomePage" configurationId="TestNG" />
+    <history-entry file="_Users_jewal_IntelliJ_WebAutomationGroup3_CNNnews_src_test_resources_CNNTestRunner_xml - 2019.03.26 at 13h 17m 33s.xml">
+      <configuration name="/Users/jewal/IntelliJ/WebAutomationGroup3/CNNnews/src/test/resources/CNNTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCNNWorld_testTopVisibeIMG - 2019.03.26 at 11h 25m 42s.xml">
-      <configuration name="TestCNNWorld.testTopVisibeIMG" configurationId="TestNG" />
+    <history-entry file="_Users_jewal_IntelliJ_WebAutomationGroup3_CNNnews_src_test_resources_CNNTestRunner_xml - 2019.03.26 at 13h 18m 55s.xml">
+      <configuration name="/Users/jewal/IntelliJ/WebAutomationGroup3/CNNnews/src/test/resources/CNNTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCNNWorld_testHeadlines1 - 2019.03.26 at 11h 31m 10s.xml">
-      <configuration name="TestCNNWorld.testHeadlines1" configurationId="TestNG" />
+    <history-entry file="_Users_jewal_IntelliJ_WebAutomationGroup3_CNNnews_src_test_resources_CNNTestRunner_xml - 2019.03.26 at 13h 19m 01s.xml">
+      <configuration name="/Users/jewal/IntelliJ/WebAutomationGroup3/CNNnews/src/test/resources/CNNTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCNNWorld_testHeadlones1 - 2019.03.26 at 11h 33m 12s.xml">
-      <configuration name="TestCNNWorld.testHeadlones1" configurationId="TestNG" />
+    <history-entry file="_Users_jewal_IntelliJ_WebAutomationGroup3_CNNnews_src_test_resources_CNNTestRunner_xml - 2019.03.26 at 13h 20m 33s.xml">
+      <configuration name="/Users/jewal/IntelliJ/WebAutomationGroup3/CNNnews/src/test/resources/CNNTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCNNWorld_testHeadlines3 - 2019.03.26 at 11h 36m 37s.xml">
-      <configuration name="TestCNNWorld.testHeadlines3" configurationId="TestNG" />
+    <history-entry file="TestCNNWorld_testLatestStories6 - 2019.03.26 at 13h 28m 22s.xml">
+      <configuration name="TestCNNWorld.testLatestStories6" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCNNWorld_testHeadlines4 - 2019.03.26 at 11h 39m 00s.xml">
-      <configuration name="TestCNNWorld.testHeadlines4" configurationId="TestNG" />
+    <history-entry file="TestCNNWorld_testLatestStories7 - 2019.03.26 at 13h 32m 48s.xml">
+      <configuration name="TestCNNWorld.testLatestStories7" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49794802" visible="true" weight="0.1881259" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -543,12 +518,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.502052" side_tool="true" weight="0.19444445" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32855436" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35614526" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39106146" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44832215" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37290502" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37011173" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24723756" />
@@ -748,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/secret.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -811,13 +779,6 @@
             <element signature="e#6470#6519#0" />
             <element signature="e#6640#6690#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/resources/FaceBookTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -936,25 +897,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNNnews/src/test/resources/file.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3313">
-          <caret line="509" column="16" selection-start-line="509" selection-start-column="16" selection-end-line="509" selection-end-column="16" />
-          <folding>
-            <element signature="imports" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1003,17 +947,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/resources/FaceBookTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="126" column="48" lean-forward="true" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="62" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/cnnWorld/CNNWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+        <state relative-caret-position="285">
+          <caret line="148" column="27" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testCNNWorld/TestCNNWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="135" lean-forward="true" selection-start-line="22" selection-start-column="135" selection-end-line="22" selection-end-column="135" />
+        <state relative-caret-position="315">
+          <caret line="103" column="34" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+          <folding>
+            <element signature="imports" />
+          </folding>
         </state>
       </provider>
     </entry>
