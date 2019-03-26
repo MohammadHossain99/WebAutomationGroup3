@@ -66,14 +66,54 @@ public class HomePage extends CommonAPI {
     @FindBy(linkText = "Sales")
     WebElement sales;
 
-    @FindBy(linkText = "")
-    WebElement ca;
+    @FindBy(linkText = "Learning")
+    WebElement learning;
 
-    @FindBy()
-    WebElement cs;
+    @FindBy(linkText = "Company Pages")
+    WebElement companyPages;
 
-    @FindBy()
-    WebElement caa;
+    @FindBy(linkText = "Browse by country/region")
+    WebElement browseByRegion;
+
+    //    @FindBy()
+//    WebElement c;
+//
+//    @FindBy()
+//    WebElement cd;
+//
+//    @FindBy()
+//    WebElement dc;
+//
+//    @FindBy()
+//    WebElement cdd;
+//
+//    @FindBy()
+//    WebElement cddd;
+//
+//    @FindBy()
+//    WebElement ssc;
+//
+//    @FindBy()
+//    WebElement ca;
+//
+//    @FindBy()
+//    WebElement cs;
+//
+//    @FindBy()
+//    WebElement caa;
+//
+//    @FindBy()
+//    WebElement csd;
+//
+//    @FindBy()
+//    WebElement vc;
+//
+//    @FindBy()
+//    WebElement c1;
+//
+//    @FindBy()
+//    WebElement cb;
+
 
 
     public void inputFirstName(String fName){
@@ -148,10 +188,31 @@ public class HomePage extends CommonAPI {
 
     public void salesPage(){sales.click();}
 
+    public void learningPage(){learning.click();}
+
+    public void companyPagesLink(){companyPages.click();}
+
+    public void browsByRegionPage(){browseByRegion.click();}
+
+    public void dbb(){}
+
+    public void ae(){}
+
+    public void aq(){}
+
+    public void a(){}
+
+    public void fa(){}
+
+    public void rbb(){}
+
+    public void al(){}
+
+    public void wl(){}
+
     public void wq(){}
 
-
-//    public void waq(){}
+    //    public void waq(){}
 //
 //    public void da(){}
 //

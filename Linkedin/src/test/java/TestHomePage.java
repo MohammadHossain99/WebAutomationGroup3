@@ -174,7 +174,84 @@ public class TestHomePage extends HomePage {
     public void viewSalesPage(){homePage.salesPage();}
 
     @Test
-    public void a(){}
+    public void viewLearningPage(){homePage.learningPage();}
+
+    @Test
+    public void viewCompanyPages(){homePage.companyPagesLink();}
+
+    @Test
+    public void viewBrowsByRegionPage(){homePage.browsByRegionPage();}
+
+//    @Test
+//    public void aa(){}
+//
+//    @Test
+//    public void ada(){}
+//
+//    @Test
+//    public void ad(){}
+//
+//    @Test
+//    public void add(){}
+//
+//    @Test
+//    public void ac(){}
+//
+//    @Test
+//    public void av(){}
+//
+//    @Test
+//    public void abb(){}
+//
+//    @Test
+//    public void ae(){}
+//
+//    @Test
+//    public void aq(){}
+//
+//    @Test
+//    public void a(){}
+//
+
+
+
+    //
+//    @Test
+//    public void ab(){}
+//
+//    @Test
+//    public void az(){}
+//
+//    @Test
+//    public void aa(){}
+//
+//    @Test
+//    public void ada(){}
+//
+//    @Test
+//    public void ad(){}
+//
+//    @Test
+//    public void add(){}
+//
+//    @Test
+//    public void ac(){}
+//
+//    @Test
+//    public void av(){}
+//
+//    @Test
+//    public void abb(){}
+//
+//    @Test
+//    public void ae(){}
+//
+//    @Test
+//    public void aq(){}
+//
+//    @Test
+//    public void a(){}
+
 
 
 
