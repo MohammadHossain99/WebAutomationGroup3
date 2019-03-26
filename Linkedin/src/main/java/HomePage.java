@@ -35,37 +35,38 @@ public class HomePage extends CommonAPI {
     @FindBy(linkText = "Forgot password?")
     WebElement forgotPassword;
 
+
     @FindBy(linkText = "Sign Up")
     WebElement signUp;
 
-    @FindBy()
-    WebElement vc;
+    @FindBy(linkText = "Help Center")
+    WebElement helpCenter;
 
-    @FindBy()
-    WebElement c1;
+    @FindBy(linkText = "About")
+    WebElement about;
 
-    @FindBy()
-    WebElement cb;
+    @FindBy(linkText = "Press")
+    WebElement press;
 
-    @FindBy()
-    WebElement c;
+    @FindBy(linkText = "Blog")
+    WebElement blog;
 
-    @FindBy()
-    WebElement cd;
+    @FindBy(linkText = "Careers")
+    WebElement careers;
 
-    @FindBy()
-    WebElement dc;
+    @FindBy(linkText = "Developers")
+    WebElement developers;
 
-    @FindBy()
-    WebElement cdd;
+    @FindBy(linkText = "Talent")
+    WebElement talent;
 
-    @FindBy()
-    WebElement cddd;
+    @FindBy(linkText = "Marketing")
+    WebElement marketing;
 
-    @FindBy()
-    WebElement ssc;
+    @FindBy(linkText = "Sales")
+    WebElement sales;
 
-    @FindBy()
+    @FindBy(linkText = "")
     WebElement ca;
 
     @FindBy()
@@ -129,23 +130,23 @@ public class HomePage extends CommonAPI {
 
     public void signUpPage(){signUp.click();}
 
-    public void da(){}
+    public void helpCenterPage(){helpCenter.click();}
 
-    public void dbb(){}
+    public void aboutPage(){about.click();}
 
-    public void nae(){}
+    public void pressPage(){press.click();}
 
-    public void annq(){}
+    public void blogPage(){blog.click();}
 
-    public void mma(){}
+    public void careersPage(){careers.click();}
 
-    public void fa(){}
+    public void developersPage(){developers.click();}
 
-    public void rbb(){}
+    public void talentPage(){talent.click();}
 
-    public void al(){}
+    public void marketingPage(){marketing.click();}
 
-    public void wl(){}
+    public void salesPage(){sales.click();}
 
     public void wq(){}
 

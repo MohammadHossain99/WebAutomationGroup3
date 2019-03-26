@@ -1,6 +1,7 @@
 import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
@@ -41,6 +42,10 @@ public class UltaHomePage extends CommonAPI {
 
     @FindBy(className = "StickyEmailSignUp__submit--signup--msg")
     WebElement submitInStickySignUp;
+
+    @FindBy(xpath = "//div[@id='js-stickyEmailSignUpFooter']/div/div/div/button")
+    WebElement exitSticky;
+
 
     @FindBy()
     WebElement c1;
@@ -296,19 +301,14 @@ public class UltaHomePage extends CommonAPI {
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
-    public void ae()throws InterruptedException{
-        mouseHoverByXpath("//*[@id=\'hide-desk-nav\']/div[2]/ul/li[3]/a");
-        Thread.sleep(5000);
-        String urlExpected = "https://www.ulta.com/";
-        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
-    }
+    public void closeSticky()throws Exception{
+        Actions actions = new Actions(driver);
+        Thread.sleep(3000);
+        actions.moveToElement(exitSticky);
 
-    public void aq()throws InterruptedException{
-        mouseHoverByXpath("//*[@id=\'hide-desk-nav\']/div[2]/ul/li[3]/a");
-        Thread.sleep(5000);
-        String urlExpected = "https://www.ulta.com/";
-        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
-    }
+        exitSticky.click();}
+
+    public void aq(){}
 
     public void a()throws InterruptedException{
         mouseHoverByXpath("//*[@id=\'hide-desk-nav\']/div[2]/ul/li[3]/a");
