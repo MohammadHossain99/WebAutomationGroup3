@@ -88,4 +88,129 @@ public class UltaTestHomePage extends UltaHomePage{
         String urlExpected = "https://www.ulta.com/";
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
+
+
+
+    @Test
+    public void hoverShopByBrands() throws InterruptedException{hoverOverShopByBrand();}
+
+    @Test
+    public void hoverOverNewArrivals ()throws InterruptedException{hoverNewArrivals();}
+
+    @Test
+    public void hoverOverMakeUp()throws InterruptedException{hoverMakeUp();}
+
+    @Test
+    public void hoverOverNails()throws InterruptedException{hoverNails();}
+
+    @Test
+    public void hoverOverSkinCare()throws InterruptedException{hoverSkinCare();}
+
+    @Test
+    public void hoverOverHair()throws InterruptedException{hoverHair();}
+
+    @Test
+    public void hoverOverToolsAndBrushes()throws InterruptedException{hoverToolsAndBrushes();}
+
+    @Test
+    public void hoverOverFragrance()throws InterruptedException{hoverFragrance();}
+
+    @Test
+    public void hoverOverBathAndBody()throws InterruptedException{hoverBathAndBody();}
+
+    @Test
+    public void hoverOverMen()throws InterruptedException{hoverMen();}
+
+    @Test
+    public void hoverOverUltaCollections() throws InterruptedException{hoverUltaCollections();}
+
+    @Test
+    public void hoverOverGifts()throws InterruptedException{hoverGifts();}
+
+    @Test
+    public void hoverOverSalesAndCoupons()throws InterruptedException{hoverSalesAndCoupon();}
+
+    @Test
+    public void hoverOverCurrentAd()throws InterruptedException{hoverCurrentAd();}
+
+    @Test
+    public void hoverOverBeautyTips()throws InterruptedException{hoverBeautyTips();}
+
+    @Test
+    public void hoverOverAllureWinners()throws InterruptedException{hoverAllureWinners();}
+
+    @Test
+    public void hoverOverBeautyServices()throws InterruptedException{hoverBeautyServices();}
+
+    @Test
+    public void hoverOverBookAppointment()throws InterruptedException{hoverBookAppointment();}
+
+    @Test
+    public void viewManageAccountsPage() throws Exception{Thread.sleep(5000);manageAccountPage(); Thread.sleep(5000);}
+
+    @Test
+    public void closeStickyPopUp()throws InterruptedException{closeStickyEmail();}
+
+    @Test
+    public void ac()throws InterruptedException{}
+
+    @Test
+    public void av()throws InterruptedException{}
+
+    @Test
+    public void abb(){}
+
+    @Test
+    public void ae(){}
+
+    @Test
+    public void aq(){}
+
+    @Test
+    public void a(){}
+
+    //    @Test
+//    public void fea(){}
+
+
+
+    //
+//    @Test
+//    public void ab(){}
+//
+//    @Test
+//    public void az(){}
+//
+//    @Test
+//    public void aa(){}
+//
+//    @Test
+//    public void ada(){}
+//
+//    @Test
+//    public void ad(){}
+//
+//    @Test
+//    public void add(){}
+//
+//    @Test
+//    public void ac(){}
+//
+//    @Test
+//    public void av(){}
+//
+//    @Test
+//    public void abb(){}
+//
+//    @Test
+//    public void ae(){}
+//
+//    @Test
+//    public void aq(){}
+//
+//    @Test
+//    public void a(){}
+
+
+
 }

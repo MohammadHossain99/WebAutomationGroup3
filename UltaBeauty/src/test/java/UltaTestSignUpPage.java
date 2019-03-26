@@ -73,7 +73,6 @@ public class UltaTestSignUpPage extends CommonAPI {
     @Test
 
     public void testSeePrivacyPolicy()throws Exception {
-
         ultaSignUpPage.seePrivacyPolicy();
         String urlExpected = "https://www.ulta.com/ulta/common/privacyPolicy.jsp";
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
