@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -138,5 +139,65 @@ public class UltaTestMakeUpPage extends UltaMakeUpPage {
     @Test
     public void hoverOverBookAppointment()throws InterruptedException{hoverBookAppointment();}
 
+
+     @Test
+    public void findsomethin() throws Exception{driver.findElement(By.xpath("")).click();}
+
+    @Test
+    public void av()throws InterruptedException{}
+
+    @Test
+    public void abb(){}
+
+    @Test
+    public void aewd(){}
+
+    @Test
+    public void aqcd(){}
+
+    @Test
+    public void nba(){}
+
+    @Test
+    public void fea(){}
+
+
+
+
+    @Test
+    public void ab(){}
+
+    @Test
+    public void az(){}
+
+    @Test
+    public void aa(){}
+
+    @Test
+    public void ada(){}
+
+    @Test
+    public void ad(){}
+
+    @Test
+    public void add(){}
+
+    @Test
+    public void ac(){}
+
+    @Test
+    public void aswv(){}
+
+    @Test
+    public void abswb(){}
+
+    @Test
+    public void ae(){}
+
+    @Test
+    public void aq(){}
+
+    @Test
+    public void a(){}
 
 }
