@@ -3,10 +3,12 @@ package homePage;
 import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
 public class HomePage extends CommonAPI {
+
     @FindBy(css = ".search__button.cnn-icon")
     WebElement searchTab;
 
@@ -95,23 +97,29 @@ public class HomePage extends CommonAPI {
 
     @FindBy(css = ".l-footer__content div div ol:nth-child(12) li ol li:nth-child(2)")
     WebElement collegeFootball;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[4]/li/ol/li[3]")
-//    WebElement suprimeCourtSource;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[4]/li/ol/li[3]")
-//    WebElement factsFirst;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[6]/li/a")
-//    WebElement opinioSource;
-//
-//    @FindBy(xpath = "//div[@class='l-footer__content']/div/div/ol[7]/li/ol/li[1]/a")
-//    WebElement foodSource;
-//
 
+    @FindBy(css = ".l-footer__content div div ol:nth-child(12) li ol li:nth-child(3)")
+    WebElement basketBallSource;
+
+    @FindBy(css = ".l-footer__content div div ol:nth-child(12) li ol li:nth-child(4)")
+    WebElement baseBallSource;
+
+    @FindBy(css = ".l-footer__content div div ol:nth-child(12) li ol li:nth-child(5)")
+    WebElement soccerSource;
+
+    @FindBy(css = ".l-footer__content div div ol:nth-child(12) li ol li:nth-child(6)")
+    WebElement olympicSource;
+
+    @FindBy(css = ".l-footer__content div div ol:nth-child(13) li ol li:nth-child(2)")
+    WebElement digitalStudioSource;
+
+    @FindBy(css = ".l-footer__content div div ol:nth-child(13) li ol li:nth-child(3)")
+    WebElement cnnFilmsSource;
+
+    @FindBy(css = ".l-footer__content div div ol:nth-child(13) li ol li:nth-child(4)")
+    WebElement hlnSource;
 
     /***********************/
-
 
     public void setBottomHome() {
         String text = bottomHome.getTagName();
@@ -243,6 +251,7 @@ public class HomePage extends CommonAPI {
         Assert.assertTrue(text);
 
     }
+
     public void setDestinationSource() {
         destinationSource.click();
         driver.navigate().refresh();
@@ -250,9 +259,10 @@ public class HomePage extends CommonAPI {
         Assert.assertEquals(title, title);
         driver.navigate().back();
     }
+
     public void setCollegeFootball(){
-        boolean elected = collegeFootball.isDisplayed();
-        Assert.assertTrue(elected);
+        boolean selected = collegeFootball.isDisplayed();
+        Assert.assertTrue(selected);
     }
 
     public void setFoodAndDrinksSource() {
@@ -260,6 +270,39 @@ public class HomePage extends CommonAPI {
         Assert.assertEquals(text,"Food & Drink");
     }
 
+    public void setBasketBallSource(){
+        boolean seleted = basketBallSource.isEnabled();
+        Assert.assertTrue(seleted);
+    }
+
+    public void setBaseBallSource(){
+        boolean selected = baseBallSource.isSelected();
+        Assert.assertFalse(selected);
+    }
+    public void setSoccerSource(){
+        String text = soccerSource.getTagName();
+        Assert.assertEquals(text,"li");
+    }
+    public void setOlympicSource(){
+        boolean selected = olympicSource.isDisplayed();
+        Assert.assertTrue(selected);
+    }
+    public void setDigitalStudioSource(){
+        String text = digitalStudioSource.getText();
+        Assert.assertEquals(text,"Digital Studios");
+    }
+    public void setCnnFilmsSource(){
+        Actions action = new Actions(driver);
+        action.moveToElement(cnnFilmsSource).perform();
+        action.moveToElement(cnnFilmsSource).click();
+        driver.navigate().back();
+    }
+    public void setHLNSource(){
+        Actions action = new Actions(driver);
+        action.moveToElement(hlnSource).perform();
+        action.moveToElement(hlnSource).click();
+        driver.navigate().back();
+    }
     public void clickOnSearch() {
         searchTab.click();
     }

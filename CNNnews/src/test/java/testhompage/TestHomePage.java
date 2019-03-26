@@ -153,34 +153,45 @@ public class TestHomePage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePage.setCollegeFootball();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    @Test
+    public void testBasketBallSource(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage.setBasketBallSource();
+    }
+    @Test
+    public void testBaseBallSource(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage.setBaseBallSource();
+    }
+    @Test
+    public void testSoccerSource(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage.setSoccerSource();
+    }
+    @Test
+    public void testOlympicSource(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage.setOlympicSource();
+    }
     @Test
     public void clickOnSerchTab() {
         TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePage.clickOnSearch();
+    }
+    @Test
+    public void testDigitalStudio(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage.setDigitalStudioSource();
+    }
+    @Test
+    public void testCNNFilmSOurce(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage.setCnnFilmsSource();
+    }
+    @Test
+    public void testHLNSource(){
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage.setHLNSource();
     }
 
     @Test
@@ -195,5 +206,4 @@ public class TestHomePage extends CommonAPI {
         String str = "CNN - Breaking News, Latest News and Videos";
         Assert.assertEquals(str, driver.getTitle());
     }
-
 }
