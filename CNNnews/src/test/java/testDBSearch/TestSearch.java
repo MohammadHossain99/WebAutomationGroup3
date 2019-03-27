@@ -16,16 +16,12 @@ public class TestSearch extends CommonAPI {
     public void initialized(){
         driver.get(homeUrl);
         searchInCNN = PageFactory.initElements(driver,SearchInCNN.class);
-
     }
-
 
     @Test
     public void testFromDBsearch() throws Exception{
-        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + " : " +
+                convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchInCNN.searchItemsAndSubmitButton();
-
     }
-
-
 }

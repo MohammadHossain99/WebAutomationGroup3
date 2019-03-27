@@ -12,7 +12,6 @@ import java.util.List;
 
 public class FaceBookProHome extends CommonAPI {
 
-
     @FindBy(id = "email")
     WebElement loginemail;
 
@@ -24,10 +23,13 @@ public class FaceBookProHome extends CommonAPI {
 
     @FindBy(css = "div[class='_4bl9 _42n-'] textarea")
     WebElement inputStatus;
+
     @FindBy(css = "div[class='_5rpb'] div")
     WebElement inputStatusClening;
+
     @FindBy(css = "div[class='_3u17 _3_fz']")
     WebElement inputStatusCloseing;
+
     @FindBy(xpath = "//html[@id='facebook']/body/div[20]/div[2]/div/div/div/div/div[3]/div/div/div[2]/div/button")
     WebElement leavePagepopup;
 
@@ -46,84 +48,82 @@ public class FaceBookProHome extends CommonAPI {
     @FindBy(id = "u_0_h")
     WebElement quickHelpTab;
 
-    public void setLoginTab(){
+    public void setLoginTab() {
         loginTab.click();
     }
 
-    public void setLoginEmail(String logInEmail){
+    public void setLoginEmail(String logInEmail) {
         loginemail.sendKeys(logInEmail);
     }
-    public void setLoginPassword(String password){
+
+    public void setLoginPassword(String password) {
         loginPass.sendKeys(password);
     }
 
-    public void clenInput(){
+    public void clenInput() {
         inputStatusClening.clear();
     }
-    public void closeInput(){
+
+    public void closeInput() {
         inputStatusCloseing.click();
     }
-    public void hendlePopup(){
+
+    public void hendlePopup() {
         leavePagepopup.click();
     }
-    public void setInputStatus (String value)throws Exception{
+
+    public void setInputStatus(String value) throws Exception {
 
         inputStatus.sendKeys(value);
         clenInput();
         closeInput();
-       Alert at= driver.switchTo().alert();
-       at.dismiss();
+        Alert at = driver.switchTo().alert();
+        at.dismiss();
     }
-    public void setHomeTab()throws Exception{
+
+    public void setHomeTab() throws Exception {
         homeTab.click();
         Thread.sleep(3000);
     }
-    public void setTestImage(){
-      boolean img = testImage.isDisplayed();
+
+    public void setTestImage() {
+        boolean img = testImage.isDisplayed();
         Assert.assertTrue(img);
     }
-    public void setFindFriend(){
+
+    public void setFindFriend() {
         findFriend.click();
     }
 
-    public void setSearchTab()throws Exception{
+    public void setSearchTab() throws Exception {
 
         List<String> frindList = new ArrayList<String>();
         frindList.add("Sylvana");
-        frindList.add("Nabil");
+        frindList.add("Jewal Ahmed");
         frindList.add("Amir");
         frindList.add("Mustafizur");
         frindList.add("Hamid Bhai");
         frindList.add("People And Tech");
-        frindList.add("Manhattan");
-        frindList.add("Jewal Ahmed");
+        frindList.add("Manhattan Mall");
+        frindList.add("Nabil");
 
         Iterator<String> str = frindList.listIterator();
-        while (str.hasNext()){
+        while (str.hasNext()) {
             searchTab.sendKeys(str.next());
             Thread.sleep(2000);
             clear();
         }
-
     }
 
-    public void clear(){
+    public void clear() {
         searchTab.clear();
     }
 
-
-    public void getListOfQuickHelp(){
+    public void getListOfQuickHelp() {
         quickHelpTab.click();
-      List<String> str= getTextFromWebElements("ul[class='_43uh']>li",driver);
-      for( String st : str){
-
-          System.out.println(st);
-      }
+        List<String> str = getTextFromWebElements("ul[class='_43uh']>li", driver);
+        for (String st : str) {
+            System.out.println(st);
+        }
     }
-
-
-
-
-
-
 }

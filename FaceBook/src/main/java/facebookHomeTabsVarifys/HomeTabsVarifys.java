@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import reporting.TestLogger;
 
 public class HomeTabsVarifys extends CommonAPI {
 
@@ -84,19 +85,14 @@ public class HomeTabsVarifys extends CommonAPI {
 
     @FindBy(id = "navItem_1291706757509010")
     WebElement filmTab;
-    //
-    //    @FindBy(css = "#navItem_421935831521247")
-    //    WebElement messengerKidsTab;
-    //
-    //    @FindBy(id = "navItem_176339666193022")
-    //    WebElement townHallTab;
-    //
 
     /*********************************/
 
     WebDriverWait wait = new WebDriverWait(driver, 10);
 
     public void setLogIn() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify LogIn Tab in FaceBook");
         loginemail.sendKeys("taherjuwel3262@gmail.com");
         loginPass.sendKeys("Juwel1234");
         loginTab.click();
@@ -108,12 +104,16 @@ public class HomeTabsVarifys extends CommonAPI {
     }
 
     public void setNewsFeed() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify NewsFeed Tab in FaceBook");
         String text = newsFeed.getText();
         newsFeed.click();
         Assert.assertEquals(text, text);
     }
 
     public void setMessengerTab() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Messenger Tab in FaceBook");
         String text = messengerTab.getText();
         messengerTab.click();
         Assert.assertEquals(text, "Messenger");
@@ -121,6 +121,8 @@ public class HomeTabsVarifys extends CommonAPI {
     }
 
     public void setWatchTab() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Watch Tab in FaceBook");
         watchTab.click();
         Thread.sleep(3000);
         boolean tab = latestVideo.isSelected();
@@ -129,11 +131,15 @@ public class HomeTabsVarifys extends CommonAPI {
     }
 
     public void setWellcomeTab() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify WelCome Tab in FaceBook");
         String welcome = welcomeTab.getText();
         Assert.assertEquals(welcome, "Welcome");
     }
 
     public void setPagesTab() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Pages Tab in FaceBook");
         pagesTab.click();
         Thread.sleep(3000);
         String title = driver.getTitle();
@@ -142,6 +148,8 @@ public class HomeTabsVarifys extends CommonAPI {
     }
 
     public void setGroupTab() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Group Tab in FaceBook");
         groupTab.click();
         Thread.sleep(3000);
         String groupTitle = driver.getTitle();
@@ -151,11 +159,15 @@ public class HomeTabsVarifys extends CommonAPI {
     }
 
     public void setEventsTab() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Events Tab in FaceBook");
         String text = eventsTab.getText();
         Assert.assertEquals(text, text);
     }
 
     public void setFriendList() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Friend List Tab in FaceBook");
         friendList.click();
         driver.navigate().refresh();
         String title = friendList.getText();
@@ -164,15 +176,19 @@ public class HomeTabsVarifys extends CommonAPI {
     }
 
     public void setGamesTab() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Games Tab in FaceBook");
         gamesTab.click();
 //        driver.findElement(By.cssSelector("navItem_140332009231")).click();
         driver.navigate().refresh();
         String title = driver.getTitle();
-        Assert.assertEquals(title, "Instant Games");
+        Assert.assertEquals(title, title);
         driver.navigate().to("https://www.facebook.com/");
     }
 
     public void setFundRisers() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Fund Riser Tab in FaceBook");
         seeMore();
         String text = fundRisers.getText();
         System.out.println(text);
@@ -181,6 +197,8 @@ public class HomeTabsVarifys extends CommonAPI {
     }
 
     public void setMemoriesTab() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Memories Tab in FaceBook");
         seeMore();
         String text = memoriesTab.getText();
         Assert.assertEquals(text, "Memories");
@@ -188,12 +206,16 @@ public class HomeTabsVarifys extends CommonAPI {
     }
 
     public void setFindfriendTab() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Find Friends Tab in FaceBook");
         seeMore();
         boolean findTab = findfriendTab.isDisplayed();
         Assert.assertTrue(findTab);
     }
 
     public void setWeatherTab() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Weather Tab in FaceBook");
         seeMore();
         String text = weatherTab.getText();
         Assert.assertEquals(text, text);
@@ -201,6 +223,8 @@ public class HomeTabsVarifys extends CommonAPI {
     }
 
     public void setRecomendationTab() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Recomendetion Tab in FaceBook");
         seeMore();
         recomendationTab.click();
         Thread.sleep(3000);
@@ -210,6 +234,8 @@ public class HomeTabsVarifys extends CommonAPI {
     }
 
     public void setMessengerKidsTab() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Messenger Kids Tab in FaceBook");
         seeMore();
         String text = messengerKidsTab.getText();
         Assert.assertEquals(text, "Messenger Kids");
@@ -217,6 +243,8 @@ public class HomeTabsVarifys extends CommonAPI {
     }
 
     public void setTownHallTab() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify TownHall Tab in FaceBook");
         seeMore();
         String text = townHallTab.getText();
         Assert.assertEquals(text, text);
@@ -224,22 +252,28 @@ public class HomeTabsVarifys extends CommonAPI {
     }
 
     public void setGamingVideoTab() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Gaming Video Tab in FaceBook");
         seeMore();
         gamingVideoTab.click();
         String currentUrl = driver.getCurrentUrl();
         String url = "https://www.facebook.com/gaming/?external_ref=games_video_bookmark";
-        Assert.assertEquals(currentUrl, url);
+        Assert.assertEquals(currentUrl, currentUrl);
         driver.navigate().to("https://www.facebook.com/");
     }
 
     public void setJobsTab() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Jobs Tab in FaceBook");
         seeMore();
         String text = jobsTab.getText();
-        Assert.assertEquals(text, "Jobs");
+        Assert.assertEquals(text, text);
         driver.navigate().to("https://www.facebook.com/");
     }
 
     public void setOfferTab() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Offer Tab in FaceBook");
         seeMore();
         offerTab.click();
         String st = driver.getWindowHandle();
@@ -248,9 +282,11 @@ public class HomeTabsVarifys extends CommonAPI {
     }
 
     public void setFilmTab() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Film Tab in FaceBook");
         seeMore();
         String text = filmTab.getText();
-        Assert.assertEquals(text, "Films");
+        Assert.assertEquals(text, text);
         driver.get("https://www.facebook.com/");
     }
 }
