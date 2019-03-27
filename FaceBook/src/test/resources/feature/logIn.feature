@@ -11,5 +11,5 @@ Feature: Login to Facebook
     Then user click on sign out button
     And user will sign out safely
     Then user navigate to cnn news home
-    But user will click on business page
+    Then user will click on business page
     Then user will quite the browser

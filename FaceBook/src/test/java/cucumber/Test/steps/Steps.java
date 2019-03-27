@@ -1,4 +1,4 @@
-package cucumber.Test;
+package cucumber.Test.steps;
 
 import cucumber.api.java.en.*;
 
@@ -39,7 +39,7 @@ public class Steps {
     @Then("user will click on business page")
     public void userWillQuiteTheBrowser() {
     }
-    @But("user will quite the browser")
+    @Then("user will quite the browser")
     public void userWillClickOnBusinessPage() {
     }
 

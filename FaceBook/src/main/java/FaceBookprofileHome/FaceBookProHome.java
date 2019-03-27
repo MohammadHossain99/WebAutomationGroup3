@@ -5,6 +5,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+import reporting.TestLogger;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -109,7 +110,10 @@ public class FaceBookProHome extends CommonAPI {
 
         Iterator<String> str = frindList.listIterator();
         while (str.hasNext()) {
-            searchTab.sendKeys(str.next());
+            String str1 = str.next();
+            searchTab.sendKeys(str1);
+            TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+            }.getClass().getEnclosingMethod().getName())+"-> "+str1);
             Thread.sleep(2000);
             clear();
         }

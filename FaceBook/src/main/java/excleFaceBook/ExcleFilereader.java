@@ -12,17 +12,12 @@ import java.io.IOException;
 
 public class ExcleFilereader {
 
-
-
-
     HSSFWorkbook workbook;
     HSSFSheet sheet;
-
 
     public String[] getExcelData(String path, int sheetIndex) {
 
         String[] data = {};
-
 
         try {
             File file = new File(path);
