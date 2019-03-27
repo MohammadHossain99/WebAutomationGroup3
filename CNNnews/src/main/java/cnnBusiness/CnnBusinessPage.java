@@ -5,14 +5,15 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+import reporting.TestLogger;
 
 public class CnnBusinessPage extends CommonAPI {
 
     @FindBy(css = "#menu")
     WebElement selectingMenu;
 
-    @FindBy(xpath = "//div[@id='nav']/div[2]/div[2]/a[4]")
-    WebElement clickOnBusiness;
+    @FindBy(xpath = "//div[@id='nav']/div/div[2]/a[2]")
+    WebElement clickOnTech;
 
     @FindBy(xpath = "//a[@class='nav-menu-links__link' and text()='Markets']")
     WebElement marketInBuseness;
@@ -24,14 +25,13 @@ public class CnnBusinessPage extends CommonAPI {
     WebElement inputSearchInBusiness;
 
     @FindBy(xpath = "//img[@class='media__image']")
-    WebElement testImage;  //use boolean to test the image isDispalyed or not
+    WebElement testImage;
 
-    @FindBy(xpath = "//a[@href='/2019/03/18/tech/apple-new-ipad-air-mini/index.html']//img")
+    @FindBy(xpath = "//section[@id='business-zone-1']/div[2]/div/div/ul/li/article/div/div/a/img")
     WebElement topTitleImage;
 
     @FindBy(css = "//label[text()='Credit Cards']")
     WebElement craditCardChosing;
-
 
     @FindBy(xpath = "//div[@id='outbrain_widget_0']//div//div//ul//li[3]")
     WebElement imageInPaidcontent;
@@ -39,50 +39,67 @@ public class CnnBusinessPage extends CommonAPI {
     @FindBy(xpath = "//section[@id='business-zone-4']/div[2]/div/div[1]/div/div[2]/article/div/div[1]/a/img")
     WebElement testImage3;
 
-
-
     public void gotoMenu() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Menu Button in Business Page");
         selectingMenu.click();
-
-    }
-    public void getBusinessPage(){
-        clickOnBusiness.click();
     }
 
-    public void seeMarketaGlance(){
+    public void getBusinessPage() {
+        clickOnTech.click();
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Tech Button in Business Page");
+        driver.navigate().to("https://www.cnn.com/business");
+    }
+
+    public void seeMarketaGlance() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Go To Market in Business Page");
         marketInBuseness.click();
-        driver.navigate().back();
+        driver.navigate().to("https://www.cnn.com/business");
     }
 
-    public void image1(){
+    public void image1() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify IMAGE in Business Page");
         boolean img = testImage.isDisplayed();
         Assert.assertTrue(img);
     }
 
-    public void seeNikeTrade(String locator) throws Exception{
+    public void seeNikeTrade(String locator) throws Exception {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Search for"+locator);
         inputSearchInBusiness.sendKeys(locator, Keys.ENTER);
         Thread.sleep(2000);
     }
-    public void tradeScrolclick(){
-        tredeScrolling.click();
+
+    public void tradeScrolclick() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Trade Button in Business Page");
+        boolean selected = tredeScrolling.isDisplayed();
+        Assert.assertTrue(selected);
     }
 
-    public void setTopTitleImage(){
-       boolean titleVideo = topTitleImage.isDisplayed();
-       Assert.assertTrue(titleVideo);
-    }
-    public void craditCard(){
-//      String str=  craditCardChosing.getText();
-//      Assert.assertEquals(str,"Credit Cards");
-      craditCardChosing.click();
+    public void setTopTitleImage() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Top IMAGE in Business Page");
+        boolean titleVideo = topTitleImage.isDisplayed();
+        Assert.assertTrue(titleVideo);
     }
 
-    public void paidContentImage(){
-       boolean paidContent= imageInPaidcontent.isDisplayed();
-       Assert.assertTrue(paidContent);
-
+    public void craditCard() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Credit Card Button in Business Page");
+//        craditCardChosing.click();
+        String str = craditCardChosing.getText();
+        System.out.println(str);
+        Assert.assertEquals(str, "Credit Cards");
     }
 
-
-
+    public void paidContentImage() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Content IMAGE in Business Page");
+        boolean paidContent = imageInPaidcontent.isDisplayed();
+        Assert.assertTrue(paidContent);
+    }
 }

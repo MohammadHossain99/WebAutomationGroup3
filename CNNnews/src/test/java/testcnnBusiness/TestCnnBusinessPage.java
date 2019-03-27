@@ -10,7 +10,6 @@ import java.util.concurrent.TimeUnit;
 
 public class TestCnnBusinessPage extends CommonAPI {
 
-
     String businessUrl = "https://www.cnn.com/business";
     CnnBusinessPage cnnBusinessPage;
 
@@ -18,17 +17,16 @@ public class TestCnnBusinessPage extends CommonAPI {
     public void initialized() throws Exception{
         driver.get(businessUrl);
         cnnBusinessPage = PageFactory.initElements(driver,CnnBusinessPage.class);
-
     }
 
     @Test(priority = 1)
     public void menubtn() throws Exception{
         cnnBusinessPage.gotoMenu();
         driver.navigate().to(businessUrl);
-
     }
+
     @Test(priority = 2)
-    public void pageBusiness()throws Exception{
+    public void pageTech()throws Exception{
         cnnBusinessPage.getBusinessPage();
     }
 
@@ -44,11 +42,11 @@ public class TestCnnBusinessPage extends CommonAPI {
     @Test(priority = 5)
     public void nikeTraging() throws Exception {
         cnnBusinessPage.seeNikeTrade("Nike");
-        driver.navigate().back();
+        driver.navigate().to(businessUrl);
     }
 
     @Test(priority = 6)
-    public void tradeScroltest()throws Exception{
+    public void tradeScrolTest()throws Exception{
         cnnBusinessPage.tradeScrolclick();
     }
     @Test(priority = 7)
@@ -65,10 +63,5 @@ public class TestCnnBusinessPage extends CommonAPI {
     @Test(priority = 9)
     public void testPaidContent()throws Exception{
         cnnBusinessPage.paidContentImage();
-
     }
-
-
-
-
 }

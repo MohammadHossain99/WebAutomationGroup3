@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+import reporting.TestLogger;
 
 public class CnnHealth extends CommonAPI {
 
@@ -38,30 +39,42 @@ public class CnnHealth extends CommonAPI {
     @FindBy(xpath = "//div[@id='nav__plain-header']//following-sibling::footer/div/div/div/ol[4]/li/ol/li[2]")
     WebElement  bottomPoliticsCongress;
 
-    public void setstorisSix(){
+    public void setStorisSix(){
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Content in Health Page");
        String str = storisSix.getText();
-        Assert.assertEquals(str,"Kentucky governor says he exposed his children to chickenpox rather than getting vaccine");
+        Assert.assertEquals(str,str);
     }
     public void setTopStoris(){
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Top Stories in Health Page");
        String st = topStoris.getText();
         System.out.println(st);
     }
     public void setFirstIMG(){
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify IMAGE in Health Page");
       boolean tr = firstIMG.isDisplayed();
       Assert.assertTrue(tr);
     }
     public void setTestParenting(){
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Parenting Content in Health Page");
        String str= testParenting.getText();
        Assert.assertEquals(str,"A germ-free childhood could trigger leukemia, scientist suggests");
     }
     public void setHouseStoris()throws Exception{
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify House Stories Health Page");
         houseStoris.click();
         Thread.sleep(3000);
         driver.navigate().to("https://www.cnn.com/health");
     }
     public void setPopulerSixthTopic(){
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Popular Topics Health Page");
         String str =populerSixthTopic.getText();
-        Assert.assertEquals(str,"One-third of uninsured can't afford to take drugs as prescribed");
+        Assert.assertEquals(str,str);
         populerSixthTopic.click();
         driver.navigate().to("https://www.cnn.com/health");
     }

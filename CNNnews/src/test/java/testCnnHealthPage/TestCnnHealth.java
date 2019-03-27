@@ -9,7 +9,6 @@ import reporting.TestLogger;
 
 public class TestCnnHealth extends CommonAPI {
 
-
     String cnnHelthUrl = "https://www.cnn.com/health";
 
     CnnHealth health;
@@ -20,19 +19,17 @@ public class TestCnnHealth extends CommonAPI {
         health = PageFactory.initElements(driver,CnnHealth.class);
     }
     @Test
-    public void testsetstorisSix(){
-        TestLogger.log(getClass().getSimpleName() + " : " +
-                convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        health.setstorisSix();
+    public void testSetStorisSix(){
+        health.setStorisSix();
     }
     @Test
-    public void testsettopStoris(){
+    public void testSetTopStoris(){
         TestLogger.log(getClass().getSimpleName() + " : " +
                 convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         health.setTopStoris();
     }
     @Test
-    public void testsetFirstIMG(){
+    public void testSetFirstIMG(){
         TestLogger.log(getClass().getSimpleName() + " : " +
                 convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         health.setFirstIMG();
@@ -44,40 +41,39 @@ public class TestCnnHealth extends CommonAPI {
         health.setTestParenting();
     }
     @Test
-    public void testsetHouseStoris()throws Exception{
+    public void testSetHouseStoris()throws Exception{
         TestLogger.log(getClass().getSimpleName() + " : " +
                 convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         health.setHouseStoris();
     }
     @Test
-    public void testsetPopulerSixthTopic(){
+    public void testSetPopulerSixthTopic(){
         TestLogger.log(getClass().getSimpleName() + " : " +
                 convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         health.setPopulerSixthTopic();
     }
     @Test
-    public void testsetpaidPartnerIMG(){
+    public void testSetPaidPartnerIMG(){
         TestLogger.log(getClass().getSimpleName() + " : " +
                 convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         health.setpaidPartnerIMG();
     }
     @Test
-    public void testsetBottomWorldAsianews(){
+    public void testSetBottomWorldAsianews(){
         TestLogger.log(getClass().getSimpleName() + " : " +
                 convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         health.setBottomWorldAsianews();
     }
     @Test
-    public void testsetbottomWorldAustralia(){
+    public void testSetbottomWorldAustralia(){
         TestLogger.log(getClass().getSimpleName() + " : " +
                 convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         health.setbottomWorldAustralia();
     }
     @Test
-    public void testsetbottomPoliticsCongress(){
+    public void testSetBottomPoliticsCongress(){
         TestLogger.log(getClass().getSimpleName() + " : " +
                 convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         health.setbottomPoliticsCongress();
     }
-
 }
