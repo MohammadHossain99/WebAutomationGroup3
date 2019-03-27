@@ -1,5 +1,4 @@
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -16,8 +15,8 @@ public class TestHomePage extends HomePage {
     }
 
     @Test
-    public void getTitleOfHomePage(){
-        driver.getTitle();
+    public void getTitleOfLinkedInHomePage(){
+     getTitleOfHomePage();
     }
 
     @Test
@@ -47,61 +46,26 @@ public class TestHomePage extends HomePage {
 
     @Test(priority = 6)
     public void registerForLinkedIn() throws Exception{
-        enterFirstName();
-        enterLastName();
-        enterEmail();
-        enterPassword();
-        registerButton();
-        Thread.sleep(4000);
-//        String urlExpected = "https://www.linkedin.com/onboarding/start/profile-location/new/";
-//        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
-
+        homePage.registerLinkedIn();
     }
 
     @Test
     public void registerWithNoLastName() throws Exception{
-        enterFirstName();
-        enterEmail();
-        enterPassword();
-        registerButton();
-        Thread.sleep(3000);
-        String expectedAlert = "Please enter your last name";
-        Assert.assertEquals(homePage.alert.getText(), expectedAlert);
-        System.out.println(homePage.alert.getText());
+        homePage.registerNoLastName();
     }
 
     @Test
     public void registerWithNoEmail() throws Exception{
-        enterFirstName();
-        enterLastName();
-        enterPassword();
-        registerButton();
-        Thread.sleep(3000);
-        String expectedAlert = "Please enter your email address";
-        Assert.assertEquals(homePage.alert.getText(), expectedAlert);
-        System.out.println(homePage.alert.getText());
-
+        homePage.registerNoEmail();
     }
     @Test
     public void registerWithNoPassword() throws Exception{
-        enterFirstName();
-        enterLastName();
-        enterEmail();
-        registerButton();
-        Thread.sleep(3000);
-        String expectedAlert = "Please enter your password";
-        Assert.assertEquals(homePage.alert.getText(), expectedAlert);
-        System.out.println(homePage.alert.getText());
-
+        homePage.registerNoPassword();
     }
 
     @Test
     public void registerWithNoCredentials() throws Exception{
-        registerButton();
-        Thread.sleep(3000);
-        String expectedAlert = "Please enter your first name";
-        Assert.assertEquals(homePage.alert.getText(), expectedAlert);
-        System.out.println(homePage.alert.getText());
+        homePage.registerNoCredentials();
     }
 
     @Test
@@ -114,72 +78,58 @@ public class TestHomePage extends HomePage {
         homePage.enterPasswordLogin("stest312@t");
     }
 
-
     @Test
     public void signIn() throws Exception{
-        emailLogin();
-        passwordLogin();
-        homePage.logIn();
-        Thread.sleep(3000);
-        String expectedUrl = "https://www.linkedin.com/feed/";
-        Assert.assertEquals(driver.getCurrentUrl(), expectedUrl );
+       homePage.logInLinkedIn("stest7380@gmail.com","stest312@t");
     }
 
     @Test
-    public void invalidLogInCredentials() throws Exception{
-        homePage.enterEmailLogin("blah blah blah");
-        homePage.enterPasswordLogin("blah blah");
-        homePage.logIn();
-        Thread.sleep(3000);
-        String expectedUrl = "https://www.linkedin.com/uas/login-submit?loginSubmitSource=GUEST_HOME";
-        Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
+    public void usingInvalidLogInCredentials() throws Exception{
+        homePage.invalidLogInCredentials();
     }
 
     @Test
     public void navigateToForgotPasswordPage() throws Exception{
         homePage.setForgotPassword();
-        Thread.sleep(3000);
-        String expectedUrl = "https://www.linkedin.com/uas/request-password-reset?trk=uno-reg-guest-home-forgot-password";
-        Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
     }
 
     @Test
-    public void viewSignUpPage(){homePage.signUpPage();}
+    public void viewSignUpPage() throws Exception{homePage.signUpPage();}
 
     @Test
-    public void viewHelpCenterPage(){homePage.helpCenterPage();}
+    public void viewHelpCenterPage() throws Exception{homePage.helpCenterPage();}
 
     @Test
-    public void viewAboutPage(){homePage.aboutPage();}
+    public void viewAboutPage() throws Exception{homePage.aboutPage();}
 
     @Test
-    public void viewPressPage(){homePage.pressPage();}
+    public void viewPressPage() throws Exception{homePage.pressPage();}
 
     @Test
-    public void viewBlogPage(){homePage.blogPage();}
+    public void viewBlogPage() throws Exception{homePage.blogPage();}
 
     @Test
-    public void viewCareersPage(){homePage.careersPage();}
+    public void viewCareersPage() throws Exception{homePage.careersPage();}
 
     @Test
-    public void viewDevelopersPage(){homePage.developersPage();}
+    public void viewDevelopersPage() throws Exception{homePage.developersPage();}
 
     @Test
-    public void viewTalentPage(){homePage.talentPage();}
+    public void viewTalentPage() throws Exception{homePage.talentPage();}
 
     @Test
-    public void viewMarketingPage(){homePage.marketingPage();}
+    public void viewMarketingPage() throws Exception{homePage.marketingPage();}
 
     @Test
-    public void viewSalesPage(){homePage.salesPage();}
+    public void viewSalesPage() throws Exception{homePage.salesPage();}
 
     @Test
-    public void viewLearningPage(){homePage.learningPage();}
+    public void viewLearningPage() throws Exception{homePage.learningPage();}
 
     @Test
-    public void viewCompanyPages(){homePage.companyPagesLink();}
+    public void viewCompanyPages() throws Exception{homePage.companyPagesLink();}
 
     @Test
-    public void viewBrowsByRegionPage(){homePage.browsByRegionPage();}
+    public void viewBrowsByRegionPage() throws Exception{homePage.browsByRegionPage();}
 
 }

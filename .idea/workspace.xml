@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="340b4818-5e59-4623-8f8b-5bd30200d5ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/Feed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linkedin/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/TestFeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/test/java/TestFeed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/test/java/TestHomePage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="384">
+              <caret line="229" column="179" selection-start-line="229" selection-start-column="179" selection-end-line="229" selection-end-column="179" />
             </state>
           </provider>
         </entry>
@@ -39,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linkedin/src/test/java/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="996">
+              <caret line="132" column="56" selection-start-line="132" selection-start-column="56" selection-end-line="132" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -84,7 +82,6 @@
         <option value="$PROJECT_DIR$/Linkedin/src/test/java/TestJobsPage.java" />
         <option value="$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestSignUpPage.java" />
         <option value="$PROJECT_DIR$/UltaBeauty/src/main/java/UltaHomePage.java" />
-        <option value="$PROJECT_DIR$/Linkedin/src/test/java/TestHomePage.java" />
         <option value="$PROJECT_DIR$/Linkedin/src/test/resources/LinkedInTestRunner.xml" />
         <option value="$PROJECT_DIR$/UltaBeauty/src/test/resources/UltaBeautyTestRunner.xml" />
         <option value="$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestHomePage.java" />
@@ -99,6 +96,7 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Linkedin/src/main/java/Feed.java" />
         <option value="$PROJECT_DIR$/Linkedin/src/test/java/TestFeed.java" />
+        <option value="$PROJECT_DIR$/Linkedin/src/test/java/TestHomePage.java" />
         <option value="$PROJECT_DIR$/Linkedin/src/main/java/HomePage.java" />
       </list>
     </option>
@@ -252,7 +250,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553646871671" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553649816555" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -294,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestFeed">
+  <component name="RunManager" selected="TestNG.TestHomePage.registerForLinkedIn">
     <configuration name="TestFeed" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Linkedin" />
       <option name="PACKAGE_NAME" value="" />
@@ -341,11 +339,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage.getTitleOfHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomePage.registerForLinkedIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Linkedin" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestHomePage" />
-      <option name="METHOD_NAME" value="getTitleOfHomePage" />
+      <option name="METHOD_NAME" value="registerForLinkedIn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -355,11 +353,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestHomePage.registerForLinkedIn" />
         <item itemvalue="TestNG.TestFeed" />
         <item itemvalue="TestNG.TestFeed.chooseSettingsFromDropDown" />
         <item itemvalue="TestNG.TestFeed.seeNotificationInFeed" />
         <item itemvalue="TestNG.TestFeed.getTitle" />
-        <item itemvalue="TestNG.TestHomePage.getTitleOfHomePage" />
       </list>
     </recent_temporary>
   </component>
@@ -377,9 +375,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHomePage_getTitleOfHomePage - 2019.03.26 at 16h 16m 25s.xml">
-      <configuration name="TestHomePage.getTitleOfHomePage" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestHomePage_getTitleOfHomePage - 2019.03.26 at 16h 19m 39s.xml">
       <configuration name="TestHomePage.getTitleOfHomePage" configurationId="TestNG" />
     </history-entry>
@@ -407,12 +402,15 @@
     <history-entry file="TestFeed - 2019.03.26 at 20h 32m 32s.xml">
       <configuration name="TestFeed" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestHomePage_registerForLinkedIn - 2019.03.26 at 20h 54m 37s.xml">
+      <configuration name="TestHomePage.registerForLinkedIn" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.16131106" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.16131106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -421,12 +419,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010225" side_tool="true" weight="0.24640805" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.055181697" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22072679" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26244953" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24899058" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14939435" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3270525" />
@@ -709,15 +707,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Linkedin/src/test/java/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="996">
+          <caret line="132" column="56" selection-start-line="132" selection-start-column="56" selection-end-line="132" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="384">
+          <caret line="229" column="179" selection-start-line="229" selection-start-column="179" selection-end-line="229" selection-end-column="179" />
         </state>
       </provider>
     </entry>
