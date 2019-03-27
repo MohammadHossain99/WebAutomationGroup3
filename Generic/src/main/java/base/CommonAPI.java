@@ -141,7 +141,6 @@ public class CommonAPI {
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
 
     @BeforeClass
-
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
 
                       @Optional("Windows 10") String os, @Optional("10.0") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
