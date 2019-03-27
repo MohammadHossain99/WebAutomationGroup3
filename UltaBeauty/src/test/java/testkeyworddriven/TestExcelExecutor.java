@@ -11,27 +11,18 @@ public class TestExcelExecutor extends CommonAPI {
 
         ExcelExecutor executor;
 
-
-
         @BeforeClass
-
         public void initialize(){
 
             driver.get("https://www.ulta.com/");
 
             executor = PageFactory.initElements(driver,ExcelExecutor.class);
-
         }
 
-
-
         @Test
-
         public void testUltaBeautyExcel() throws Exception {
 
             executor.runOnexcel();
-
         }
-
     }
 

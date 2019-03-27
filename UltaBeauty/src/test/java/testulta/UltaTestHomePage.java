@@ -1,12 +1,13 @@
 package testulta;
 
+import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 import ulta.UltaHomePage;
 
-public class UltaTestHomePage extends UltaHomePage {
+public class UltaTestHomePage extends CommonAPI {
 
     UltaHomePage ultaHomePage;
     String homePageUrl = "https://www.ulta.com/";
@@ -70,59 +71,59 @@ public class UltaTestHomePage extends UltaHomePage {
     public void ableToSignUpForUltaThroughSticky() throws Exception {
         ultaHomePage.signUpForUltaBeauty();
     }
-
-    @Test
-    public void hoverShopByBrands() throws InterruptedException{hoverOverShopByBrand();}
-
-    @Test
-    public void hoverOverNewArrivals ()throws InterruptedException{hoverNewArrivals();}
-
-    @Test
-    public void hoverOverMakeUp()throws InterruptedException{hoverMakeUp();}
-
-    @Test
-    public void hoverOverNails()throws InterruptedException{hoverNails();}
-
-    @Test
-    public void hoverOverSkinCare()throws InterruptedException{hoverSkinCare();}
-
-    @Test
-    public void hoverOverHair()throws InterruptedException{hoverHair();}
-
-    @Test
-    public void hoverOverToolsAndBrushes()throws InterruptedException{hoverToolsAndBrushes();}
-
-    @Test
-    public void hoverOverFragrance()throws InterruptedException{hoverFragrance();}
-
-    @Test
-    public void hoverOverBathAndBody()throws InterruptedException{hoverBathAndBody();}
-
-    @Test
-    public void hoverOverMen()throws InterruptedException{hoverMen();}
-
-    @Test
-    public void hoverOverUltaCollections() throws InterruptedException{hoverUltaCollections();}
-
-    @Test
-    public void hoverOverGifts()throws InterruptedException{hoverGifts();}
-
-    @Test
-    public void hoverOverSalesAndCoupons()throws InterruptedException{hoverSalesAndCoupon();}
-
-    @Test
-    public void hoverOverCurrentAd()throws InterruptedException{hoverCurrentAd();}
-
-    @Test
-    public void hoverOverBeautyTips()throws InterruptedException{hoverBeautyTips();}
-
-    @Test
-    public void hoverOverAllureWinners()throws InterruptedException{hoverAllureWinners();}
-
-    @Test
-    public void hoverOverBeautyServices()throws InterruptedException{hoverBeautyServices();}
-
-    @Test
-    public void hoverOverBookAppointment()throws InterruptedException{hoverBookAppointment();}
+//
+//    @Test
+//    public void hoverShopByBrands() throws InterruptedException{ultaHomePage.hoverOverShopByBrand();}
+//
+//    @Test
+//    public void hoverOverNewArrivals ()throws InterruptedException{hoverNewArrivals();}
+//
+//    @Test
+//    public void hoverOverMakeUp()throws InterruptedException{hoverMakeUp();}
+//
+//    @Test
+//    public void hoverOverNails()throws InterruptedException{hoverNails();}
+//
+//    @Test
+//    public void hoverOverSkinCare()throws InterruptedException{hoverSkinCare();}
+//
+//    @Test
+//    public void hoverOverHair()throws InterruptedException{hoverHair();}
+//
+//    @Test
+//    public void hoverOverToolsAndBrushes()throws InterruptedException{hoverToolsAndBrushes();}
+//
+//    @Test
+//    public void hoverOverFragrance()throws InterruptedException{hoverFragrance();}
+//
+//    @Test
+//    public void hoverOverBathAndBody()throws InterruptedException{hoverBathAndBody();}
+//
+//    @Test
+//    public void hoverOverMen()throws InterruptedException{hoverMen();}
+//
+//    @Test
+//    public void hoverOverUltaCollections() throws InterruptedException{hoverUltaCollections();}
+//
+//    @Test
+//    public void hoverOverGifts()throws InterruptedException{hoverGifts();}
+//
+//    @Test
+//    public void hoverOverSalesAndCoupons()throws InterruptedException{hoverSalesAndCoupon();}
+//
+//    @Test
+//    public void hoverOverCurrentAd()throws InterruptedException{hoverCurrentAd();}
+//
+//    @Test
+//    public void hoverOverBeautyTips()throws InterruptedException{hoverBeautyTips();}
+//
+//    @Test
+//    public void hoverOverAllureWinners()throws InterruptedException{hoverAllureWinners();}
+//
+//    @Test
+//    public void hoverOverBeautyServices()throws InterruptedException{hoverBeautyServices();}
+//
+//    @Test
+//    public void hoverOverBookAppointment()throws InterruptedException{hoverBookAppointment();}
 
 }

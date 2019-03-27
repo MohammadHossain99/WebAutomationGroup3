@@ -2,41 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="340b4818-5e59-4623-8f8b-5bd30200d5ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testkeyworddriven/TestExcelExecutor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project6/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/linkedin/Feed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/linkedin/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/JobsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/linkedin/JobsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/TestFeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestFeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/TestJobsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestJobsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/resources/LinkedInTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/test/resources/LinkedInTestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UltaBeauty/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UltaBeauty/data/ultaexcelfile.xls" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/data/ultaexcelfile.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/Features.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ItemsToBeSearched.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/TestSearchWithDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testdatadriven/TestSearchWithDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestMakeUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestMakeUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestSignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestSignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/testkeyworddriven/TestKeyword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/resources/UltaBeautyTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/resources/UltaBeautyTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/classes/keyworddriven/Features.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/classes/keyworddriven/ItemsToBeSearched.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/TestSearchWithDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/UltaBeautyTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/UltaBeautyTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/UltaTestHomePage$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/UltaTestHomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/UltaTestMakeUpPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/UltaTestSignUpPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testkeyworddriven/TestKeyword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/testkeyworddriven/TestExcelExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testkeyworddriven/TestExcelExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testkeyworddriven/TestExcelExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testkeyworddriven/TestExcelExecutor.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,46 +32,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestHomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3204">
-              <caret line="178" column="120" selection-start-line="178" selection-start-column="120" selection-end-line="178" selection-end-column="120" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestJobsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3546">
-              <caret line="197" column="74" selection-start-line="197" selection-start-column="74" selection-end-line="197" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestMakeUpPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3834">
-              <caret line="213" column="121" selection-start-line="213" selection-start-column="121" selection-end-line="213" selection-end-column="121" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestSignUpPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1728">
-              <caret line="96" column="109" selection-start-line="96" selection-start-column="109" selection-end-line="96" selection-end-column="109" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+            <state relative-caret-position="159">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
@@ -105,8 +43,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="148" column="25" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
+            <state relative-caret-position="113">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2322">
+              <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
             </state>
           </provider>
         </entry>
@@ -114,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testkeyworddriven/TestExcelExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="241">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -186,6 +142,8 @@
         <option value="$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelFileReader.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/UltaBeauty/src/test/java/testkeyworddriven/TestExcelExecutor.java" />
+        <option value="$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaHomePage.java" />
+        <option value="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestHomePage.java" />
         <option value="$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelExecutor.java" />
       </list>
     </option>
@@ -226,8 +184,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="793" />
-    <option name="width" value="814" />
+    <option name="x" value="683" />
+    <option name="width" value="924" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -317,24 +275,6 @@
               <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
               <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="keyworddriven" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ulta" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -354,6 +294,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testkeyworddriven" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testulta" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -363,7 +312,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553718607814" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553721087725" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GithubDemo" />
@@ -442,30 +391,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJobsPage.jobsPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Linkedin" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testlinkedin.TestJobsPage" />
-      <option name="METHOD_NAME" value="jobsPageTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestJobsPage.viewAccountingPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Linkedin" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testlinkedin.TestJobsPage" />
-      <option name="METHOD_NAME" value="viewAccountingPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestKeyword.testKeyWord" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UltaBeauty" />
       <extension name="coverage">
@@ -484,13 +409,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UltaTestHomePage.ableToSignUpForUltaThroughSticky" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UltaBeauty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testulta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testulta" />
+      <option name="MAIN_CLASS_NAME" value="testulta.UltaTestHomePage" />
+      <option name="METHOD_NAME" value="ableToSignUpForUltaThroughSticky" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UltaTestHomePage.hoverShopByBrands" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UltaBeauty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testulta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testulta" />
+      <option name="MAIN_CLASS_NAME" value="testulta.UltaTestHomePage" />
+      <option name="METHOD_NAME" value="hoverShopByBrands" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestExcelExecutor.testUltaBeautyExcel" />
+        <item itemvalue="TestNG.UltaTestHomePage.ableToSignUpForUltaThroughSticky" />
+        <item itemvalue="TestNG.UltaTestHomePage.hoverShopByBrands" />
         <item itemvalue="TestNG.TestExcelExecutor.testFBinExcle" />
         <item itemvalue="TestNG.TestKeyword.testKeyWord" />
-        <item itemvalue="TestNG.TestJobsPage.jobsPageTitle" />
-        <item itemvalue="TestNG.TestJobsPage.viewAccountingPage" />
       </list>
     </recent_temporary>
   </component>
@@ -508,35 +469,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestJobsPage_jobsPageTitle - 2019.03.26 at 23h 17m 22s.xml">
-      <configuration name="TestJobsPage.jobsPageTitle" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestJobsPage_jobsPageTitle - 2019.03.26 at 23h 18m 39s.xml">
-      <configuration name="TestJobsPage.jobsPageTitle" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestKeyword_testKeyWord - 2019.03.27 at 01h 56m 18s.xml">
-      <configuration name="TestKeyword.testKeyWord" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestKeyword_testKeyWord - 2019.03.27 at 02h 05m 06s.xml">
-      <configuration name="TestKeyword.testKeyWord" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestKeyword_testKeyWord - 2019.03.27 at 02h 07m 33s.xml">
-      <configuration name="TestKeyword.testKeyWord" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestKeyword_testKeyWord - 2019.03.27 at 02h 09m 03s.xml">
-      <configuration name="TestKeyword.testKeyWord" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestKeyword_testKeyWord - 2019.03.27 at 02h 14m 55s.xml">
-      <configuration name="TestKeyword.testKeyWord" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestExcelExecutor_testFBinExcle - 2019.03.27 at 16h 23m 02s.xml">
-      <configuration name="TestExcelExecutor.testFBinExcle" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestExcelExecutor_testFBinExcle - 2019.03.27 at 16h 24m 13s.xml">
-      <configuration name="TestExcelExecutor.testFBinExcle" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestExcelExecutor_testFBinExcle - 2019.03.27 at 16h 25m 44s.xml">
       <configuration name="TestExcelExecutor.testFBinExcle" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestExcelExecutor_testUltaBeautyExcel - 2019.03.27 at 16h 30m 33s.xml">
+      <configuration name="TestExcelExecutor.testUltaBeautyExcel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestExcelExecutor_testUltaBeautyExcel - 2019.03.27 at 16h 35m 55s.xml">
+      <configuration name="TestExcelExecutor.testUltaBeautyExcel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UltaTestHomePage_ableToSignUpForUltaThroughSticky - 2019.03.27 at 16h 39m 28s.xml">
+      <configuration name="UltaTestHomePage.ableToSignUpForUltaThroughSticky" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestExcelExecutor_testUltaBeautyExcel - 2019.03.27 at 16h 48m 33s.xml">
+      <configuration name="TestExcelExecutor.testUltaBeautyExcel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestExcelExecutor_testUltaBeautyExcel - 2019.03.27 at 16h 49m 49s.xml">
+      <configuration name="TestExcelExecutor.testUltaBeautyExcel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UltaTestHomePage_hoverShopByBrands - 2019.03.27 at 16h 56m 15s.xml">
+      <configuration name="UltaTestHomePage.hoverShopByBrands" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UltaTestHomePage_ableToSignUpForUltaThroughSticky - 2019.03.27 at 16h 56m 47s.xml">
+      <configuration name="UltaTestHomePage.ableToSignUpForUltaThroughSticky" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestExcelExecutor_testUltaBeautyExcel - 2019.03.27 at 17h 05m 47s.xml">
+      <configuration name="TestExcelExecutor.testUltaBeautyExcel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestExcelExecutor_testUltaBeautyExcel - 2019.03.27 at 17h 08m 13s.xml">
+      <configuration name="TestExcelExecutor.testUltaBeautyExcel" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -550,9 +511,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.16323908" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.1844473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -561,8 +521,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010225" side_tool="true" weight="0.24640805" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4024226" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26244953" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47240916" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23687753" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
@@ -610,6 +570,42 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelFileReader.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelFileReader.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelFileReader.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelFileReader.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelFileReader.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Generic/src/main/test/test/menuTest/titleTest.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/OutputType.class">
@@ -623,13 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="452" selection-start-line="452" selection-end-line="452" />
         </state>
       </provider>
     </entry>
@@ -777,24 +766,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="106" column="26" lean-forward="true" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-481">
           <caret line="42" column="50" lean-forward="true" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -910,13 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -924,17 +892,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2322">
+          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testkeyworddriven/TestExcelExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="241">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="490" selection-start-line="490" selection-end-line="490" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="148" column="25" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
+        <state relative-caret-position="113">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
         </state>
       </provider>
     </entry>
