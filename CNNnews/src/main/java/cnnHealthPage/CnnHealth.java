@@ -1,6 +1,7 @@
 package cnnHealthPage;
 
 import base.CommonAPI;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
@@ -21,8 +22,8 @@ public class CnnHealth extends CommonAPI {
     @FindBy(css = ".cn.cn-grid-small.cn--idx-0.cn-coverageContainer_F88040B3-E11A-13A0-E56D-DDAFADE02BCB.cn--has-shingle.cn-grid.cn-grid--small div:nth-child(3)")
     WebElement testParenting;
 
-    @FindBy(xpath = "//span[contains(text(),'How to pay off your house ASAP (It's so simple)')]")
-    WebElement houseStoris;
+    @FindBy(id = "searchInputFooter")
+    WebElement InputStoris;
 
     @FindBy(css = ".cn.cn-list-xs.cn--idx-0.cn-container_AE924ECF-E3AC-3569-1D82-DD5D6BE467B7.cn--expandable.cn--collapsed li:nth-child(6)")
     WebElement populerSixthTopic;
@@ -31,68 +32,86 @@ public class CnnHealth extends CommonAPI {
     WebElement paidPartnerIMG;
 
     @FindBy(xpath = "//div[@id='nav__plain-header']//following-sibling::footer/div/div/div/ol[3]/li/ol/li")
-     WebElement bottomWorldAsianews;
+    WebElement bottomWorldAsianews;
 
     @FindBy(xpath = "//div[@id='nav__plain-header']//following-sibling::footer/div/div/div/ol[3]/li/ol/li[4]")
     WebElement bottomWorldAustralia;
 
     @FindBy(xpath = "//div[@id='nav__plain-header']//following-sibling::footer/div/div/div/ol[4]/li/ol/li[2]")
-    WebElement  bottomPoliticsCongress;
+    WebElement bottomPoliticsCongress;
 
-    public void setStorisSix(){
+    public void setStorisSix() {
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Content in Health Page");
-       String str = storisSix.getText();
-        Assert.assertEquals(str,str);
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Content in Health Page");
+        String str = storisSix.getText();
+        Assert.assertEquals(str, str);
     }
-    public void setTopStoris(){
+
+    public void setTopStoris() {
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Top Stories in Health Page");
-       String st = topStoris.getText();
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Top Stories in Health Page");
+        String st = topStoris.getText();
         System.out.println(st);
     }
-    public void setFirstIMG(){
+
+    public void setFirstIMG() {
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify IMAGE in Health Page");
-      boolean tr = firstIMG.isDisplayed();
-      Assert.assertTrue(tr);
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify IMAGE in Health Page");
+        boolean tr = firstIMG.isDisplayed();
+        Assert.assertTrue(tr);
     }
-    public void setTestParenting(){
+
+    public void setTestParenting() {
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Parenting Content in Health Page");
-       String str= testParenting.getText();
-       Assert.assertEquals(str,"A germ-free childhood could trigger leukemia, scientist suggests");
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Parenting Content in Health Page");
+        String str = testParenting.getText();
+        Assert.assertEquals(str, str);
     }
-    public void setHouseStoris()throws Exception{
+
+    public void setHouseStoris(String value) throws Exception {
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify House Stories Health Page");
-        houseStoris.click();
+        }.getClass().getEnclosingMethod().getName()) + "-> " + value);
+        InputStoris.sendKeys(value, Keys.ENTER);
         Thread.sleep(3000);
+//        Assert.assertTrue(st);
         driver.navigate().to("https://www.cnn.com/health");
     }
-    public void setPopulerSixthTopic(){
+
+    public void setPopulerSixthTopic() {
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Popular Topics Health Page");
-        String str =populerSixthTopic.getText();
-        Assert.assertEquals(str,str);
-        populerSixthTopic.click();
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Popular Topics Health Page");
+        boolean str = populerSixthTopic.isSelected();
+        Assert.assertFalse(str);
+
+    }
+
+    public void setPaidPartnerIMG() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify IMAGE in Health Page");
+        boolean img = paidPartnerIMG.isDisplayed();
+        Assert.assertTrue(img);
+        paidPartnerIMG.click();
         driver.navigate().to("https://www.cnn.com/health");
     }
-    public void setpaidPartnerIMG(){
-       boolean img= paidPartnerIMG.isDisplayed();
-       Assert.assertTrue(img);
-       paidPartnerIMG.click();
+
+    public void setBottomWorldAsianews() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify World Asia News in Health Page");
+        boolean bl =bottomWorldAsianews.isDisplayed();
+        Assert.assertTrue(bl);
         driver.navigate().to("https://www.cnn.com/health");
     }
-    public void setBottomWorldAsianews(){
-        bottomWorldAsianews.click();
-        driver.navigate().to("https://www.cnn.com/health");
+
+    public void setbottomWorldAustralia() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Australia News in Health Page");
+        String st = bottomWorldAustralia.getText();
+        Assert.assertEquals(st, "Australia");
     }
-    public void setbottomWorldAustralia(){
-       String st = bottomWorldAustralia.getText();
-       Assert.assertEquals(st,"Australia");
-    }
-    public void setbottomPoliticsCongress(){
+
+    public void setbottomPoliticsCongress() {
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Content Politics Health Page");
         bottomPoliticsCongress.click();
         driver.navigate().refresh();
         driver.navigate().to("https://www.cnn.com/health");
