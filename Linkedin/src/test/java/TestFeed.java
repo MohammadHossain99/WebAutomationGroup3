@@ -1,96 +1,93 @@
 import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class TestFeed extends CommonAPI {
 
-    String homeUrl = "https://www.linkedin.com/"; //feed/";
+    String homeUrl = "https://www.linkedin.com/";
     Feed feed;
-    //HomePage homePage;
-    //homePage.logInLinkedIn("stest7380@gmail.com", "stest312@t");
+
 
     @BeforeMethod
-    public void init(){
+    public void init() {
         driver.navigate().to(homeUrl);
-        feed = PageFactory.initElements(driver,Feed.class);
+        feed = PageFactory.initElements(driver, Feed.class);
         feed.logInLinkedIn("stest7380@gmail.com", "stest312@t");
 
     }
 
-    @Test(priority = 1)
-    public void getTitle(){
-        Assert.assertEquals(driver.getTitle(),"(1) LinkedIn");
+    @Test()
+    public void getTitleOfFeedPage() {
+        TestLogger.log(getClass().getSimpleName() + " : " +
+                convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+       feed.getTitle();
     }
 
 
     @Test
-    public void seeNotification() throws Exception{
-        feed.seeNotifications();
-        Thread.sleep(3000);
-        String urlExpected = "https://www.linkedin.com/notifications/";
-        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
+    public void seeNotificationInFeed() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + " : " +
+                convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        feed.seeNotification();
     }
 
-
-
     @Test
-    public void clickWriteArticle(){
+    public void clickWriteArticle() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + " : " +
+                convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         feed.clickArticle();
-         String expectedUrl ="https://www.linkedin.com/post/new";
-         Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
+
     }
 
     @Test
-    public void navigateToMyNetworkPage(){
+    public void navigateToMyNetworkPage() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + " : " +
+                convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         feed.clickMyNetworkPage();
-        String expectedUrl="";
-        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
-    }
-//
-//    @Test
-//    public void findSomethin() throws Exception{
-//        //feed.clickMyNetworkPage();
-//        //Thread.sleep(3000);
-//        driver.findElement(By.xpath("//*[@id=\'ember1673\']/div/div[1]/button")).click();
-//        }
 
+    }
 
     @Test
-    public void clickSearch(){
+    public void clickSearch() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + " : " +
+                convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         feed.clickSearchBox();
     }
 
     @Test
-    public void search(){
+    public void search() {
+        TestLogger.log(getClass().getSimpleName() + " : " +
+                convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         feed.searchForPeople("John");
     }
 
     @Test
-    public void navigateToJobsPage(){
+    public void navigateToJobsPage() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + " : " +
+                convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         feed.findJobs();
     }
 
     @Test
-    public void openDropDown(){
+    public void openDropDown() {
+        TestLogger.log(getClass().getSimpleName() + " : " +
+                convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         feed.seeDropdown();
     }
 
     @Test
-    public void chooseSettingsFromDropDown() throws Exception{
-        Thread.sleep(3000);
-        feed.seeDropdown();
-        Thread.sleep(5000);
-        feed.clickSettingsInDrop();
-        String expectedUrl = "https://www.linkedin.com/psettings/";
-        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
+    public void chooseSettingsFromDropDown() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + " : " +
+                convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        feed.chooseSettings();
     }
 
     @Test
-    public void clickWorkDropDown(){
-       feed.clickWorkDdown();
+    public void clickWorkDropDown() {
+        TestLogger.log(getClass().getSimpleName() + " : " +
+                convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        feed.clickWorkDdown();
     }
-
-
 }

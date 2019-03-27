@@ -110,60 +110,6 @@ public class JobsPage extends CommonAPI {
     @FindBy(linkText = "Arts and Design")
     WebElement artsNDesign;
 
-    @FindBy()
-    WebElement csd;
-
-    @FindBy()
-    WebElement vc;
-
-    @FindBy()
-    WebElement c1;
-
-    @FindBy()
-    WebElement cb;
-
-
-
-
-
-    //    @FindBy()
-//    WebElement c;
-//
-//    @FindBy()
-//    WebElement cd;
-//
-//    @FindBy()
-//    WebElement dc;
-//
-//    @FindBy()
-//    WebElement cdd;
-//
-//    @FindBy()
-//    WebElement cddd;
-//
-//    @FindBy()
-//    WebElement ssc;
-//
-//    @FindBy()
-//    WebElement ca;
-//
-//    @FindBy()
-//    WebElement cs;
-//
-//    @FindBy()
-//    WebElement caa;
-//
-//    @FindBy()
-//    WebElement csd;
-//
-//    @FindBy()
-//    WebElement vc;
-//
-//    @FindBy()
-//    WebElement c1;
-//
-//    @FindBy()
-//    WebElement cb;
 
     public void searchForJobsBox (String job){jobsBar.sendKeys(job);}
 
@@ -196,119 +142,91 @@ public class JobsPage extends CommonAPI {
         return expectedAlert ;
     }
 
-    public void navToSalariesPage (){salariesTab.click();}
+    public void navToSalariesPage ()throws Exception{salariesTab.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void signIn (){signInSecondaryButton.click();}
+    public void signIn ()throws Exception{signInSecondaryButton.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void viewCookiePolicy (){cookiePolicy.click();}
+    public void viewCookiePolicy ()throws Exception{cookiePolicy.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void operationsLinkPage(){operations.click();}
+    public void operationsLinkPage()throws Exception{operations.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void healthcareServicesPage (){healthcareServices.click();}
+    public void healthcareServicesPage ()throws Exception{healthcareServices.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void humanResourcesPage (){humanResources.click();}
+    public void humanResourcesPage ()throws Exception{humanResources.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void financePage(){finance.click();}
+    public void financePage()throws Exception{finance.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void communityNFinancialPage(){communityNFinancial.click();}
+    public void communityNFinancialPage()throws Exception{communityNFinancial.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void engineeringPage(){engineering.click();}
+    public void engineeringPage()throws Exception{engineering.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void salesPage(){sales.click();}
+    public void salesPage()throws Exception{sales.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void supportPage(){support.click();}
+    public void supportPage()throws Exception{support.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void educationPage(){education.click();}
+    public void educationPage()throws Exception{education.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void administrativePage(){administrative.click();}
+    public void administrativePage()throws Exception{administrative.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void researchPage(){research.click();}
+    public void researchPage()throws Exception{research.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void marketingPage(){marketing.click();}
+    public void marketingPage()throws Exception{marketing.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void informationTechnologyPage(){informationTechnology.click();}
+    public void informationTechnologyPage()throws Exception{informationTechnology.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void militaryAndProtectiveServicesPage(){militaryNProtectiveServices.click();}
+    public void militaryAndProtectiveServicesPage()throws Exception{militaryNProtectiveServices.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void entrepreneurshipPage(){entrepreneurship.click();}
+    public void entrepreneurshipPage()throws Exception{entrepreneurship.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void realEstatePage(){realEstate.click();}
+    public void realEstatePage()throws Exception{realEstate.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void purchasingPage(){purchasing.click();}
+    public void purchasingPage()throws Exception{purchasing.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void programNProjectManagementPage(){programNProjectManagement.click();}
+    public void programNProjectManagementPage()throws Exception{programNProjectManagement.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void productManagementPage(){productManagement.click();}
+    public void productManagementPage()throws Exception{productManagement.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void mediaAndCommunicationPage(){mediaNCommunication.click();}
+    public void mediaAndCommunicationPage()throws Exception{mediaNCommunication.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void legalPage(){legal.click();}
+    public void legalPage()throws Exception{legal.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void businessDevelopmentPage(){businessDevelopment.click();}
+    public void businessDevelopmentPage()throws Exception{businessDevelopment.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void QAPage(){QA.click();}
+    public void QAPage()throws Exception{QA.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void accountingPage(){accounting.click();}
+    public void accountingPage()throws Exception{accounting.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void consultingPage(){consulting.click();}
+    public void consultingPage()throws Exception{consulting.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
-    public void artsAndDesignPage(){artsNDesign.click();}
-
-    public void waq(){}
-
-    public void da(){}
-
-    public void dbb(){}
-
-    public void ae(){}
-
-    public void aq(){}
-
-    public void a(){}
-
-    public void fa(){}
-
-    public void rbb(){}
-
-    public void al(){}
-
-    public void wl(){}
-
-    public void wq(){}
-
-
-
-
-
-
-    //    public void abb(){}
-//
-//    public void qe(){}
-//
-//    public void waq(){}
-//
-//    public void da(){}
-//
-//    public void dbb(){}
-//
-//    public void ae(){}
-//
-//    public void aq(){}
-//
-//    public void a(){}
-//
-//    public void fa(){}
-//
-//    public void rbb(){}
-//
-//    public void al(){}
-//
-//    public void wl(){}
-//
-//    public void wq(){}
-
-
-
-
+    public void artsAndDesignPage()throws Exception{artsNDesign.click();Thread.sleep(3000);String expectedUrl="https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);}
 
 }

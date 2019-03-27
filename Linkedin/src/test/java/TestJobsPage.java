@@ -56,141 +56,90 @@ public class TestJobsPage extends CommonAPI {
     }
 
     @Test
-    public void navigateToSalaries(){jobsPage.navToSalariesPage();}
+    public void navigateToSalaries()throws Exception{jobsPage.navToSalariesPage();}
 
     @Test
-    public void signInSecondaryButton (){jobsPage.signIn();}
+    public void signInSecondaryButton ()throws Exception{jobsPage.signIn();}
 
     @Test
-    public void seeCookiePolicy (){jobsPage.viewCookiePolicy();}
+    public void seeCookiePolicy ()throws Exception{jobsPage.viewCookiePolicy();}
 
     @Test
-    public void viewOperationsPage (){jobsPage.operationsLinkPage();}
+    public void viewOperationsPage ()throws Exception{jobsPage.operationsLinkPage();}
 
     @Test
-    public void viewHealthcareServices (){jobsPage.healthcareServicesPage();}
+    public void viewHealthcareServices ()throws Exception{jobsPage.healthcareServicesPage();}
 
     @Test
-    public void viewHumanResourcesPage (){jobsPage.humanResourcesPage();}
+    public void viewHumanResourcesPage ()throws Exception{jobsPage.humanResourcesPage();}
 
     @Test
-    public void viewFinancePage(){jobsPage.financePage();}
+    public void viewFinancePage()throws Exception{jobsPage.financePage();}
 
     @Test
-    public void viewCommunityNFinancialPage(){jobsPage.communityNFinancialPage();}
+    public void viewCommunityNFinancialPage()throws Exception{jobsPage.communityNFinancialPage();}
 
     @Test
-    public void viewEngineeringPage(){jobsPage.engineeringPage();}
+    public void viewEngineeringPage()throws Exception{jobsPage.engineeringPage();}
 
     @Test
-    public void viewSalesPage(){jobsPage.salesPage();}
+    public void viewSalesPage()throws Exception{jobsPage.salesPage();}
 
     @Test
-    public void viewSupportPage(){jobsPage.supportPage();}
+    public void viewSupportPage()throws Exception{jobsPage.supportPage();}
 
     @Test
-    public void viewEducationPage(){jobsPage.educationPage();}
+    public void viewEducationPage()throws Exception{jobsPage.educationPage();}
 
     @Test
-    public void viewAdministrativePage(){jobsPage.administrativePage();}
+    public void viewAdministrativePage()throws Exception{jobsPage.administrativePage();}
 
     @Test
-    public void viewResearchPage(){jobsPage.researchPage();}
+    public void viewResearchPage()throws Exception{jobsPage.researchPage();}
 
     @Test
-    public void viewMarketingPage(){jobsPage.marketingPage();}
+    public void viewMarketingPage()throws Exception{jobsPage.marketingPage();}
 
     @Test
-    public void viewInformationTechnologyPage(){jobsPage.informationTechnologyPage();}
+    public void viewInformationTechnologyPage()throws Exception{jobsPage.informationTechnologyPage();}
 
     @Test
-    public void viewMilitaryAndProtectiveServicesPage(){jobsPage.militaryAndProtectiveServicesPage();}
+    public void viewMilitaryAndProtectiveServicesPage()throws Exception{jobsPage.militaryAndProtectiveServicesPage();}
 
     @Test
-    public void viewEntrepreneurshipPage(){jobsPage.entrepreneurshipPage();}
+    public void viewEntrepreneurshipPage()throws Exception{jobsPage.entrepreneurshipPage();}
 
     @Test
-    public void viewRealEstatePage(){jobsPage.realEstatePage();}
+    public void viewRealEstatePage()throws Exception{jobsPage.realEstatePage();}
 
     @Test
-    public void viewPurchasingPage(){jobsPage.purchasingPage();}
+    public void viewPurchasingPage()throws Exception{jobsPage.purchasingPage();}
 
     @Test
-    public void viewProgramAndProjectManagementPage(){jobsPage.programNProjectManagementPage();}
+    public void viewProgramAndProjectManagementPage()throws Exception{jobsPage.programNProjectManagementPage();}
 
     @Test
-    public void viewProductManagementPage(){jobsPage.productManagementPage();}
+    public void viewProductManagementPage()throws Exception{jobsPage.productManagementPage();}
 
     @Test
-    public void viewMediaAndCommunicationPage(){jobsPage.mediaAndCommunicationPage();}
+    public void viewMediaAndCommunicationPage()throws Exception{jobsPage.mediaAndCommunicationPage();}
 
     @Test
-    public void viewLegalPage(){jobsPage.legalPage();}
+    public void viewLegalPage()throws Exception{jobsPage.legalPage();}
 
     @Test
-    public void viewBusinessDevelopmentPage(){jobsPage.businessDevelopmentPage();}
+    public void viewBusinessDevelopmentPage()throws Exception{jobsPage.businessDevelopmentPage();}
 
     @Test
-    public void viewQAPage(){jobsPage.QAPage();}
+    public void viewQAPage()throws Exception{jobsPage.QAPage();}
 
     @Test
-    public void viewAccountingPage(){jobsPage.accountingPage();}
+    public void viewAccountingPage()throws Exception{jobsPage.accountingPage();}
 
     @Test
-    public void viewConsultingPage(){jobsPage.consultingPage();}
+    public void viewConsultingPage()throws Exception{jobsPage.consultingPage();}
 
     @Test
-    public void viewArtsAndDesignPage(){jobsPage.artsAndDesignPage();}
-
-//    @Test
-//    public void fea(){}
-
-
-
-    //
-//    @Test
-//    public void ab(){}
-//
-//    @Test
-//    public void az(){}
-//
-//    @Test
-//    public void aa(){}
-//
-//    @Test
-//    public void ada(){}
-//
-//    @Test
-//    public void ad(){}
-//
-//    @Test
-//    public void add(){}
-//
-//    @Test
-//    public void ac(){}
-//
-//    @Test
-//    public void av(){}
-//
-//    @Test
-//    public void abb(){}
-//
-//    @Test
-//    public void ae(){}
-//
-//    @Test
-//    public void aq(){}
-//
-//    @Test
-//    public void a(){}
-
-
-
-
-
-
-
-
-
+    public void viewArtsAndDesignPage()throws Exception{jobsPage.artsAndDesignPage();}
 
 }

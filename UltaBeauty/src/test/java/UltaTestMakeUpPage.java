@@ -1,4 +1,3 @@
-import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -139,65 +138,31 @@ public class UltaTestMakeUpPage extends UltaMakeUpPage {
     @Test
     public void hoverOverBookAppointment()throws InterruptedException{hoverBookAppointment();}
 
-
-     @Test
-    public void findsomethin() throws Exception{driver.findElement(By.xpath("")).click();}
+    @Test
+    public void viewFaceSection(){ultaMakeUpPage.seeFaceSection();}
 
     @Test
-    public void av()throws InterruptedException{}
+    public void viewEyesSection(){ultaMakeUpPage.seeEyesSection();}
 
     @Test
-    public void abb(){}
+    public void viewUltaCollectionSection(){ultaMakeUpPage.seeUltaCollectionSection();}
 
     @Test
-    public void aewd(){}
+    public void viewLipsSection(){ultaMakeUpPage.seelipsSection();}
 
     @Test
-    public void aqcd(){}
+    public void viewBrushesAndToolsSection(){ultaMakeUpPage.seeBrushesAndToolsSection();}
 
     @Test
-    public void nba(){}
+    public void viewBagsAndCasesSection(){ultaMakeUpPage.seeBagsAndCasesSection();}
 
     @Test
-    public void fea(){}
-
-
-
+    public void viewTravelSizeSection(){ultaMakeUpPage.seeTravelSizeSection();}
 
     @Test
-    public void ab(){}
+    public void viewGiftsAndValueSetsSection(){ultaMakeUpPage.seeGiftsAndValueSetsSection();}
 
     @Test
-    public void az(){}
-
-    @Test
-    public void aa(){}
-
-    @Test
-    public void ada(){}
-
-    @Test
-    public void ad(){}
-
-    @Test
-    public void add(){}
-
-    @Test
-    public void ac(){}
-
-    @Test
-    public void aswv(){}
-
-    @Test
-    public void abswb(){}
-
-    @Test
-    public void ae(){}
-
-    @Test
-    public void aq(){}
-
-    @Test
-    public void a(){}
+    public void viewAllureBestOfBeautySection(){ultaMakeUpPage.seeAllureBestOfBeautySection();}
 
 }
