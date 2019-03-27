@@ -1,3 +1,5 @@
+package ulta;
+
 import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;

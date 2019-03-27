@@ -2,8 +2,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
+import ulta.UltaHomePage;
 
-public class UltaTestHomePage extends UltaHomePage{
+public class UltaTestHomePage extends UltaHomePage {
 
     UltaHomePage ultaHomePage;
     String homePageUrl = "https://www.ulta.com/";
