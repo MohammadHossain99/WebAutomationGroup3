@@ -54,38 +54,52 @@ public class UltaMakeUpPage extends CommonAPI {
     @FindBy(xpath = "//a[@data-nav-description='cn - makeup:allure best of beauty']")
     WebElement allureBestOfBeauty;
 
-    public void setMacPallete(){
+    public void setMacPallete() throws Exception{
         newArrival1stFrame.click();
+        Thread.sleep(5000);
+        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void setTarteFaceTape(){
         newArrival2ndFrame.click();
+        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void setBestSeller1stframe(){
         bestSeller1stframe.click();
+        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void setLipsSection1stFrame(){
         lipsSection1stFrame.click();
+        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void setFaceMakeUp3rdFrame(){
         faceMakeUp3rdFrame.click();
+        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void setEyeMakeUp2ndFrame(){
         eyeMakeUp2ndFrame.click();
+        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void verifyLogoImg(){
         boolean ultaImg = UltaBeautyLogo.isDisplayed();
         System.out.println(UltaBeautyLogo.getText());
         Assert.assertTrue(ultaImg);
+        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void hoverShopByBrands() throws InterruptedException{
-
         mouseHoverByXpath("//*[@id=\'hide-desk-nav\']/div[2]/ul/li[2]/a");
         Thread.sleep(5000);
         String urlExpected = "https://www.ulta.com/makeup?N=26y1";
@@ -96,6 +110,8 @@ public class UltaMakeUpPage extends CommonAPI {
         mouseHoverByXpath("//*[@id=\'hide-desk-nav\']/div[2]/ul/li[2]/a");
         Thread.sleep(3000);
         driver.findElement(By.xpath("//*[@id=\'hide-desk-nav\']/div[2]/ul/li[2]/div/div/div/div[3]/ul/li[1]/a/img")).click();
+        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
 

@@ -1,6 +1,5 @@
 import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -57,27 +56,20 @@ public class UltaTestSignUpPage extends CommonAPI {
         ultaSignUpPage.enterCellBox3("7676");
     }
 
-//    @Test
-//    public void testClickSubmit() {
-//        ultaSignUpPage.clickSubmit();
-//    }
+    @Test
+    public void testClickSubmit() {
+        ultaSignUpPage.clickSubmit();
+    }
 
     @Test
     public void testSeeTermsAndConditions() throws Exception{
         ultaSignUpPage.seeTermsAndConditions();
-        String urlExpected = "https://www.ulta.com/ulta/common/sms-help.jsp";
-        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
-
     }
 
     @Test
 
     public void testSeePrivacyPolicy()throws Exception {
         ultaSignUpPage.seePrivacyPolicy();
-        String urlExpected = "https://www.ulta.com/ulta/common/privacyPolicy.jsp";
-        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
-        driver.navigate().back();
-        Thread.sleep(2000);
     }
 
 

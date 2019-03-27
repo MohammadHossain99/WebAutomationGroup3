@@ -1,7 +1,6 @@
 import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
@@ -43,135 +42,74 @@ public class UltaHomePage extends CommonAPI {
     @FindBy(className = "StickyEmailSignUp__submit--signup--msg")
     WebElement submitInStickySignUp;
 
-    @FindBy(xpath = "//div[@id='js-stickyEmailSignUpFooter']/div/div/div/button")
-    WebElement exitSticky;
+
+    public void getTitle(){
+        driver.getTitle();
+        String title = "Cosmetics, Fragrance, Skincare and Beauty Gifts | Ulta Beauty";
+        Assert.assertEquals(driver.getTitle(), title);
+    }
 
 
-    @FindBy()
-    WebElement c1;
-
-    @FindBy()
-    WebElement cb;
-
-        @FindBy()
-    WebElement c;
-
-    @FindBy()
-    WebElement cd;
-
-    @FindBy()
-    WebElement dc;
-
-    @FindBy()
-    WebElement cdd;
-
-    @FindBy()
-    WebElement cddd;
-
-    @FindBy()
-    WebElement ssc;
-
-    @FindBy()
-    WebElement ca;
-
-    @FindBy()
-    WebElement cs;
-
-    @FindBy()
-    WebElement caa;
-
-    @FindBy()
-    WebElement cs2d;
-
-    @FindBy()
-    WebElement vaaac;
-
-    @FindBy()
-    WebElement cs1;
-
-    @FindBy()
-    WebElement cqwb;
-
-
-
-    //    @FindBy()
-//    WebElement c;
-//
-//    @FindBy()
-//    WebElement cd;
-//
-//    @FindBy()
-//    WebElement dc;
-//
-//    @FindBy()
-//    WebElement cdd;
-//
-//    @FindBy()
-//    WebElement cddd;
-//
-//    @FindBy()
-//    WebElement ssc;
-//
-//    @FindBy()
-//    WebElement ca;
-//
-//    @FindBy()
-//    WebElement cs;
-//
-//    @FindBy()
-//    WebElement caa;
-//
-//    @FindBy()
-//    WebElement csd;
-//
-//    @FindBy()
-//    WebElement vc;
-//
-//    @FindBy()
-//    WebElement c1;
-//
-//    @FindBy()
-//    WebElement cb;
-
-    public void findAStore(){
+    public void findAStore() throws Exception{
         findStorePage.click();
+        Thread.sleep(3000);
+        String urlExpected = "https://www.ulta.com/stores/#/?q=&z=12&c=40.67181512990815%2C-73.82387679211968";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void signInPage(){
         signInPage.click();
+        String urlExpected = "https://www.ulta.com/ulta/myaccount/login.jsp";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void signUpPage(){
         signUp.click();
+        String urlExpected = "https://pages.exacttarget.com/ulta-email-signup/";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void mensPage(){
         mensPage.click();
+        String urlExpected = "https://www.ulta.com/men?N=26zq";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
-    public void enterInSearchBox(String search){
+    public void enterInSearchBox(String search)throws Exception{
         searchBox.sendKeys(search, Keys.ENTER);
+        Thread.sleep(3000);
+        String urlExpected = "https://www.ulta.com/fragrance?N=26wa";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
 
     }
 
-    public void salesPage(){
+    public void salesPage() throws Exception{
         salesPage.click();
+        Thread.sleep(3000);
+        String urlExpected = "https://www.ulta.com/promotion/buy-more-save-more/";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void makeUpPage(){
         makeUpPage.click();
+        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void skinCarePage(){
         skinCarePage.click();
+        String urlExpected = "https://www.ulta.com/men?N=26zq";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
-    public void signUpForUltaBeauty(){
+    public void signUpForUltaBeauty() throws Exception{
         firstNameStickySignUp.sendKeys("Sylvana");
         lastNameStickySignUp.sendKeys("Rahman");
         emailStickySignUp.sendKeys("stest7380@gmail.com");
         submitInStickySignUp.click();
-
+        Thread.sleep(5000);
+        String urlExpected = "https://www.ulta.com/";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void hoverOverShopByBrand() throws InterruptedException{
@@ -300,60 +238,5 @@ public class UltaHomePage extends CommonAPI {
         String urlExpected = "https://www.ulta.com/";
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
-
-    public void closeSticky()throws Exception{
-        Actions actions = new Actions(driver);
-        Thread.sleep(3000);
-        actions.moveToElement(exitSticky);
-
-        exitSticky.click();}
-
-    public void aq(){}
-
-    public void a()throws InterruptedException{
-        mouseHoverByXpath("//*[@id=\'hide-desk-nav\']/div[2]/ul/li[3]/a");
-        Thread.sleep(5000);
-        String urlExpected = "https://www.ulta.com/";
-        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
-    }
-
-    public void fa()throws InterruptedException{
-        mouseHoverByXpath("//*[@id=\'hide-desk-nav\']/div[2]/ul/li[3]/a");
-        Thread.sleep(5000);
-        String urlExpected = "https://www.ulta.com/";
-        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
-    }
-
-    public void al(){}
-
-    public void wbl(){}
-
-    public void wqnn(){}
-
-    //    public void abb(){}
-//
-//    public void qe(){}
-//
-//    public void waq(){}
-//
-//    public void da(){}
-//
-//    public void dbb(){}
-//
-//    public void ae(){}
-//
-//    public void aq(){}
-//
-//    public void a(){}
-//
-//    public void fa(){}
-//
-//    public void rbb(){}
-//
-//    public void al(){}
-//
-//    public void wl(){}
-//
-//    public void wq(){}
 
 }

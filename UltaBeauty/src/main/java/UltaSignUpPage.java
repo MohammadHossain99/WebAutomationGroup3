@@ -1,7 +1,9 @@
+import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
-public class UltaSignUpPage {
+public class UltaSignUpPage extends CommonAPI {
 
     @FindBy(id ="first_name")
     WebElement firstName;
@@ -35,42 +37,63 @@ public class UltaSignUpPage {
 
     public void enterFirstName(String enterFirstName){
         firstName.sendKeys(enterFirstName);
+        String expectedUrl="https://pages.exacttarget.com/ulta-email-signup/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
     }
 
     public void enterLastName(String enterLastName){
         lastName.sendKeys(enterLastName);
+        String expectedUrl="https://pages.exacttarget.com/ulta-email-signup/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
     }
 
     public void enterEmail(String enterEmail){
         email.sendKeys(enterEmail);
+        String expectedUrl="https://pages.exacttarget.com/ulta-email-signup/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
     }
 
     public void enterZipCode(String enterZipCode){
         zipCode.sendKeys(enterZipCode);
+        String expectedUrl="https://pages.exacttarget.com/ulta-email-signup/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
     }
 
     public void enterCellBox1(String first3Numbers){
         cellNumBox1.sendKeys(first3Numbers);
+        String expectedUrl="https://pages.exacttarget.com/ulta-email-signup/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
     }
 
     public void enterCellBox2(String second3Numbers){
         cellNumBox1.sendKeys(second3Numbers);
+        String expectedUrl="https://pages.exacttarget.com/ulta-email-signup/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
     }
 
     public void enterCellBox3(String last4Numbers){
         cellNumBox1.sendKeys(last4Numbers);
+        String expectedUrl="https://pages.exacttarget.com/ulta-email-signup/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
     }
 
     public void clickSubmit(){
         submitButton.click();
+        String expectedUrl="https://pages.exacttarget.com/ulta-email-signup/";
+        Assert.assertEquals(driver.getCurrentUrl(),expectedUrl);
     }
 
     public void seeTermsAndConditions(){
         termsAndConditions.click();
+        String urlExpected = "https://www.ulta.com/ulta/common/sms-help.jsp";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void seePrivacyPolicy(){
         privacyPolicy.click();
+        String urlExpected = "https://www.ulta.com/ulta/common/privacyPolicy.jsp";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
+        driver.navigate().back();
     }
 
 }
