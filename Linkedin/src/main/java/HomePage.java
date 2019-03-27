@@ -35,7 +35,6 @@ public class HomePage extends CommonAPI {
     @FindBy(linkText = "Forgot password?")
     WebElement forgotPassword;
 
-
     @FindBy(linkText = "Sign Up")
     WebElement signUp;
 
@@ -74,46 +73,6 @@ public class HomePage extends CommonAPI {
 
     @FindBy(linkText = "Browse by country/region")
     WebElement browseByRegion;
-
-    //    @FindBy()
-//    WebElement c;
-//
-//    @FindBy()
-//    WebElement cd;
-//
-//    @FindBy()
-//    WebElement dc;
-//
-//    @FindBy()
-//    WebElement cdd;
-//
-//    @FindBy()
-//    WebElement cddd;
-//
-//    @FindBy()
-//    WebElement ssc;
-//
-//    @FindBy()
-//    WebElement ca;
-//
-//    @FindBy()
-//    WebElement cs;
-//
-//    @FindBy()
-//    WebElement caa;
-//
-//    @FindBy()
-//    WebElement csd;
-//
-//    @FindBy()
-//    WebElement vc;
-//
-//    @FindBy()
-//    WebElement c1;
-//
-//    @FindBy()
-//    WebElement cb;
-
 
 
     public void inputFirstName(String fName){
@@ -194,44 +153,5 @@ public class HomePage extends CommonAPI {
 
     public void browsByRegionPage(){browseByRegion.click();}
 
-    public void dbb(){}
-
-    public void ae(){}
-
-    public void aq(){}
-
-    public void a(){}
-
-    public void fa(){}
-
-    public void rbb(){}
-
-    public void al(){}
-
-    public void wl(){}
-
-    public void wq(){}
-
-    //    public void waq(){}
-//
-//    public void da(){}
-//
-//    public void dbb(){}
-//
-//    public void ae(){}
-//
-//    public void aq(){}
-//
-//    public void a(){}
-//
-//    public void fa(){}
-//
-//    public void rbb(){}
-//
-//    public void al(){}
-//
-//    public void wl(){}
-//
-//    public void wq(){}
 
 }

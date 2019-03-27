@@ -2,6 +2,7 @@ import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 public class Feed extends CommonAPI {
 
@@ -14,20 +15,8 @@ public class Feed extends CommonAPI {
     @FindBy(id="login-submit")
     WebElement loginButton;
 
-    @FindBy(xpath = "//*[@id='ember868']/div[2]/button")
-    WebElement seeNewPosts;
-
     @FindBy(xpath = "//*[@id=\'notifications-nav-item\']/a")
     WebElement notifications;
-
-    @FindBy(xpath = "//*[@id=\'ember1673\']/div/div[1]/button")
-    WebElement startAPost;
-
-    @FindBy(xpath = "//*[@id=\'ember915\']/div[2]/div/div[1]/div[3]/div")
-    WebElement postBox;
-
-    @FindBy(xpath = "//*[@id=\'ember932\']")
-    WebElement addAPhoto;
 
     @FindBy(linkText = "Write an article")
     WebElement article;
@@ -50,22 +39,43 @@ public class Feed extends CommonAPI {
     @FindBy(css = ".nav-item__title-container")
     WebElement workDropDown;
 
+    public void getTitle() {
+        Assert.assertEquals(driver.getTitle(), "LinkedIn");
+    }
+
+    public void seeNotification() throws Exception {
+        notifications.click();
+        Thread.sleep(3000);
+        String urlExpected = "https://www.linkedin.com/notifications/";
+        Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
+    }
+
+
     public void clickWorkDdown(){
         workDropDown.click();
+        String expectedUrl = "https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
     }
     public void chooseSettings() throws Exception{
-        seeDropdown();
         Thread.sleep(3000);
-        settingsInDrop.click();
+        this.seeDropdown();
+        Thread.sleep(5000);
+        this.clickSettingsInDrop();
+        Thread.sleep(3000);
+        String expectedUrl = "https://www.linkedin.com/psettings/";
+        Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
     }
 
     public void seeDropdown(){
         meDropdown.click();
+        String expectedUrl = "https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
     }
 
     public void clickSettingsInDrop(){
         settingsInDrop.click();
     }
+
 
     public void logInLinkedIn(String email, String password){
     loginEmail.sendKeys(email);
@@ -73,50 +83,41 @@ public class Feed extends CommonAPI {
     loginButton.click();
     }
 
-    public void clickSeeNewPosts(){
-        seeNewPosts.click();
-    }
 
-    public void seeNotifications() {
-        notifications.click();
-    }
-
-    public void clickStartAPost(){
-        startAPost.click();
-    }
-
-    public void writeAPost(String post){
-//       clickStartAPost();
-      postBox.sendKeys(post);
-    }
-
-    public void clickAddPhoto(){
-        addAPhoto.click();
-    }
-
-    public void clickArticle(){
+    public void clickArticle() throws Exception{
         article.click();
+        Thread.sleep(3000);
+        String expectedUrl = "https://www.linkedin.com/post/new";
+        Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
+        driver.quit();
     }
 
-    public void clickMyNetworkPage(){
+    public void clickMyNetworkPage() throws Exception{
+        Thread.sleep(3000);
         myNetwork.click();
+        Thread.sleep(3000);
+        String expectedUrl = "https://www.linkedin.com/mynetwork/";
+        Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
     }
 
-    public void clickSearchBox(){
+    public void clickSearchBox() throws Exception{
         searchBox.click();
+        Thread.sleep(3000);
+        String expectedUrl = "https://www.linkedin.com/";
+        Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
     }
-
-//    public void enterInSearchBox(String search){
-//        searchBox.sendKeys(search);
-//    }
 
     public void searchForPeople(String search){
         searchBox.sendKeys(search, Keys.ENTER);
     }
 
-    public void findJobs(){
+    public void findJobs() throws Exception{
         jobs.click();
+        Thread.sleep(3000);
+        String expectedUrl = "https://www.linkedin.com/jobs";
+        Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
     }
+
 }
 
 
