@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Cigna Automation Script]">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="OS X"/>
+  <parameter name="CloudEnvName" value="browserstack"/>
+  <parameter name="os_version" value="Sierra"/>
+  <parameter name="browserVersion" value="30.0"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="url" value="https://www.cigna.com/"/>
+  <test thread-count="5" verbose="0" name="Cigna Home(failed)">
+    <classes>
+      <class name="individualsandfamilies.VerifyIndividualsAndFamiliesTabByClick">
+        <methods>
+          <include name="setUp"/>
+          <include name="VerifyIndividualsAndFamiliesTabByClick"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- individualsandfamilies.VerifyIndividualsAndFamiliesTabByClick -->
+    </classes>
+  </test> <!-- Cigna Home(failed) -->
+</suite> <!-- Failed suite [Cigna Automation Script] -->
