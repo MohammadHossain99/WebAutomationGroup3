@@ -90,29 +90,6 @@
       <change afterPath="$PROJECT_DIR$/../MySample/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MySample/Generic/src/main/java/base/config.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MySample/Generic/src/main/java/datafromExcle/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FaceBook/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestSignInonly$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestSignInonly$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestSignInonly$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/secret.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ApplicationLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentTestManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../forpractice7/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jewalFramWork/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jewalFramWork/.idea/encodings.xml" afterDir="false" />
@@ -134,35 +111,6 @@
       <change afterPath="$PROJECT_DIR$/../src/homePractice/Home.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../src/homePractice/Program.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../webAutomation/Generic/target/NetFliex-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/src/test/java/testcnnBusiness/TestCnnBusinessPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/test/java/testcnnBusiness/TestCnnBusinessPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/CNNnews-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/CNNnews-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/test/java/TestSignInPage/TestSignInonly.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/test/java/TestSignInPage/TestSignInonly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/test/java/testExcleFaceBook/TestExcleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/test/java/testExcleFaceBook/TestExcleExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/FaceBook-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/FaceBook-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/FaceBookprofileHome/FaceBookProHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/FaceBookprofileHome/FaceBookProHome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/excleFaceBook/ExcleExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/excleFaceBook/ExcleExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/excleFaceBook/ExcleFilereader$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/excleFaceBook/ExcleFilereader$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/excleFaceBook/ExcleFilereader.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/excleFaceBook/ExcleFilereader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/iDprofileHomePage/IDProfileHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/iDprofileHomePage/IDProfileHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/signInPage/SignInOnly.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/signInPage/SignInOnly.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/signInPage/VerfyingLogInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/signInPage/VerfyingLogInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestSignInonly.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestSignInonly.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestVerifyingClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestVerifyingClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testExcleFaceBook/TestExcleExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/testExcleFaceBook/TestExcleExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testFaceBookProHome/TestProfileHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/testFaceBookProHome/TestProfileHome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdProfileHomePage/TestIdProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdProfileHomePage/TestIdProfilePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -188,26 +136,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/secret.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1164">
-              <caret line="138" selection-start-line="138" selection-end-line="138" />
+            <state relative-caret-position="1095">
+              <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -224,6 +154,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>get</find>
+      <find>isD</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -239,49 +170,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Generic/src/main/test/test/menuTest/titleTest.java" />
-        <option value="$PROJECT_DIR$/CNNnews/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/secret.properties" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
-        <option value="$PROJECT_DIR$/CNNnews/src/main/java/searchPages/SearchInCNN.java" />
-        <option value="$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java" />
-        <option value="$PROJECT_DIR$/CNNnews/src/main/java/datasource/DataBase.java" />
-        <option value="$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java" />
-        <option value="$PROJECT_DIR$/FaceBook/pom.xml" />
-        <option value="$PROJECT_DIR$/FaceBook/src/main/java/logInViaExcleFile/UseOfExcle.java" />
-        <option value="$PROJECT_DIR$/FaceBook/src/main/java/signInPage/SignInOnly.java" />
-        <option value="$PROJECT_DIR$/FaceBook/src/test/java/testcreatAccPage/TestCreateAccPage.java" />
-        <option value="$PROJECT_DIR$/CNNnews/src/main/java/cnnBusiness/CnnBusinessPage.java" />
-        <option value="$PROJECT_DIR$/FaceBook/src/main/java/creatAccPage/CreateACCPage.java" />
         <option value="$PROJECT_DIR$/FaceBook/src/main/java/signInPage/VerfyingLogInPage.java" />
         <option value="$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ReadExcle.java" />
         <option value="$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleFaceBook.java" />
-        <option value="$PROJECT_DIR$/FaceBook/src/test/resources/FaceBookTestRunner.xml" />
         <option value="$PROJECT_DIR$/CNNnews/src/test/resources/file.txt" />
         <option value="$PROJECT_DIR$/CNNnews/src/test/java/testCnnUsPage/TestCnnUsPage.java" />
-        <option value="$PROJECT_DIR$/CNNnews/src/main/java/cnnUsPage/CnnUsPage.java" />
-        <option value="$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml" />
-        <option value="$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleFilereader.java" />
-        <option value="$PROJECT_DIR$/CNNnews/src/test/java/testDBSearch/TestSearch.java" />
-        <option value="$PROJECT_DIR$/CNNnews/src/main/java/cnnHealthPage/CnnHealth.java" />
-        <option value="$PROJECT_DIR$/FaceBook/src/main/java/iDprofileHomePage/IDProfileHomePage.java" />
-        <option value="$PROJECT_DIR$/CNNnews/src/test/java/testCnnHealthPage/TestCnnHealth.java" />
-        <option value="$PROJECT_DIR$/CNNnews/src/main/java/searchDBPages/SearchInCNN.java" />
         <option value="$PROJECT_DIR$/FaceBook/src/test/java/testFaceBookProHome/TestProfileHome.java" />
-        <option value="$PROJECT_DIR$/FaceBook/src/test/java/testIdProfileHomePage/TestIdProfilePage.java" />
-        <option value="$PROJECT_DIR$/FaceBook/src/test/java/TestSignInPage/TestVerifyingClass.java" />
-        <option value="$PROJECT_DIR$/FaceBook/src/main/java/FaceBookprofileHome/FaceBookProHome.java" />
-        <option value="$PROJECT_DIR$/CNNnews/src/test/java/testcnnBusiness/TestCnnBusinessPage.java" />
-        <option value="$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleExecutor.java" />
-        <option value="$PROJECT_DIR$/FaceBook/src/test/java/testExcleFaceBook/TestExcleExecutor.java" />
-        <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/FaceBook/src/test/java/TestSignInPage/TestSignInonly.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/main/java/iDprofileHomePage/IDProfileHomePage.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/java/testIdProfileHomePage/TestIdProfilePage.java" />
+        <option value="$PROJECT_DIR$/CNNnews/src/main/java/searchDBPages/SearchInCNN.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/java/testExcleFaceBook/TestExcleExecutor.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/java/TestSignInPage/TestVerifyingClass.java" />
+        <option value="$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml" />
+        <option value="$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java" />
+        <option value="$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java" />
+        <option value="$PROJECT_DIR$/CNNnews/src/test/java/testcnnBusiness/TestCnnBusinessPage.java" />
+        <option value="$PROJECT_DIR$/CNNnews/src/main/java/cnnBusiness/CnnBusinessPage.java" />
+        <option value="$PROJECT_DIR$/CNNnews/src/test/java/testCnnHealthPage/TestCnnHealth.java" />
+        <option value="$PROJECT_DIR$/CNNnews/src/main/java/cnnHealthPage/CnnHealth.java" />
+        <option value="$PROJECT_DIR$/CNNnews/src/main/java/cnnUsPage/CnnUsPage.java" />
+        <option value="$PROJECT_DIR$/CNNnews/src/main/java/cnnWorld/CNNWorld.java" />
+        <option value="$PROJECT_DIR$/CNNnews/src/test/java/testCNNWorld/TestCNNWorld.java" />
+        <option value="$PROJECT_DIR$/CNNnews/src/test/java/testDBSearch/TestSearch.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/main/java/facebookHomeTabsVarifys/HomeTabsVarifys.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/java/testFaceBookHomeTabsVarifys/TestHomeTabsVarifys.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/FaceBook/src/MySteps.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/java/cucumber/Test/logIn.feature" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/java/cucumber/Test/Steps.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleFilereader.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/main/java/FaceBookprofileHome/FaceBookProHome.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/java/cucumber/Test/pomClasses.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/java/cucumber/Test/pageObjectModel/pomClasses.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/java/cucumber/Test/facebookRunner/Runner.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/java/cucumber/Test/steps/Steps.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleExecutor.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/main/java/signInpage/VerfyingLogInPage.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/java/testsignInpage/TestVerifyingClass.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/java/testexclefacebook/TestExcleExecutor.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/java/testfacebookhometabsvarifys/TestHomeTabsVarifys.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/java/testfacebookprohome/TestProfileHome.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/java/testsignInpage/TestSignInonly.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/main/java/facebookhometabsvarifys/HomeTabsVarifys.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/FaceBook/src/test/resources/FaceBookTestRunner.xml" />
+        <option value="$PROJECT_DIR$/FaceBook/pom.xml" />
       </list>
     </option>
   </component>
@@ -301,11 +240,6 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="WebAutomationGroup3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -317,13 +251,9 @@
       <select />
     </treeState>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="814" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -331,20 +261,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553485110125" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553733212524" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.validation" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FaceBook/src/test/resources/feature" />
+      <recent name="$PROJECT_DIR$/CNNnews/src/test/java" />
       <recent name="$PROJECT_DIR$/FaceBook/src/test" />
       <recent name="$PROJECT_DIR$/CNNnews/src/test" />
     </key>
@@ -370,70 +338,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestSignInonly">
-    <configuration name="TestCnnBusinessPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CNNnews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcnnBusiness.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcnnBusiness" />
-      <option name="MAIN_CLASS_NAME" value="testcnnBusiness.TestCnnBusinessPage" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestExcleExecutor" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/jewal/IntelliJ/WebAutomationGroup3/CNNnews/src/test/resources/CNNTestRunner.xml">
+    <configuration name="TestHomeTabsVarifys.testGamesTab" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FaceBook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testExcleFaceBook.*" />
+          <option name="PATTERN" value="testfacebookhometabsvarifys.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testExcleFaceBook" />
-      <option name="MAIN_CLASS_NAME" value="testExcleFaceBook.TestExcleExecutor" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSignInonly" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FaceBook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestSignInPage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestSignInPage" />
-      <option name="MAIN_CLASS_NAME" value="TestSignInPage.TestSignInonly" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSignInonly.testLogInEmail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FaceBook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestSignInPage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestSignInPage" />
-      <option name="MAIN_CLASS_NAME" value="TestSignInPage.TestSignInonly" />
-      <option name="METHOD_NAME" value="testLogInEmail" />
+      <option name="PACKAGE_NAME" value="testfacebookhometabsvarifys" />
+      <option name="MAIN_CLASS_NAME" value="testfacebookhometabsvarifys.TestHomeTabsVarifys" />
+      <option name="METHOD_NAME" value="testGamesTab" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomeTabsVarifys.testOfferTab" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FaceBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testfacebookhometabsvarifys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testfacebookhometabsvarifys" />
+      <option name="MAIN_CLASS_NAME" value="testfacebookhometabsvarifys.TestHomeTabsVarifys" />
+      <option name="METHOD_NAME" value="testOfferTab" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomeTabsVarifys.testRecomendationTab" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FaceBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testfacebookhometabsvarifys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testfacebookhometabsvarifys" />
+      <option name="MAIN_CLASS_NAME" value="testfacebookhometabsvarifys.TestHomeTabsVarifys" />
+      <option name="METHOD_NAME" value="testRecomendationTab" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/jewal/IntelliJ/WebAutomationGroup3/CNNnews/src/test/resources/CNNTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CNNnews" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -452,11 +415,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSignInonly" />
-        <item itemvalue="TestNG.TestSignInonly.testLogInEmail" />
+        <item itemvalue="TestNG./Users/jewal/IntelliJ/WebAutomationGroup3/CNNnews/src/test/resources/CNNTestRunner.xml" />
         <item itemvalue="TestNG./Users/jewal/IntelliJ/WebAutomationGroup3/FaceBook/src/test/resources/FaceBookTestRunner.xml" />
-        <item itemvalue="TestNG.TestExcleExecutor" />
-        <item itemvalue="TestNG.TestCnnBusinessPage" />
+        <item itemvalue="TestNG.TestHomeTabsVarifys.testRecomendationTab" />
+        <item itemvalue="TestNG.TestHomeTabsVarifys.testOfferTab" />
+        <item itemvalue="TestNG.TestHomeTabsVarifys.testGamesTab" />
       </list>
     </recent_temporary>
   </component>
@@ -474,41 +437,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestExcleExecutor - 2019.03.24 at 15h 04m 22s.xml">
-      <configuration name="TestExcleExecutor" configurationId="TestNG" />
+    <history-entry file="TestHomeTabsVarifys_testOfferTab - 2019.03.27 at 18h 32m 50s.xml">
+      <configuration name="TestHomeTabsVarifys.testOfferTab" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestExcleExecutor - 2019.03.24 at 15h 07m 25s.xml">
-      <configuration name="TestExcleExecutor" configurationId="TestNG" />
+    <history-entry file="TestHomeTabsVarifys_testOfferTab - 2019.03.27 at 18h 35m 50s.xml">
+      <configuration name="TestHomeTabsVarifys.testOfferTab" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_jewal_IntelliJ_WebAutomationGroup3_FaceBook_src_test_resources_FaceBookTestRunner_xml - 2019.03.24 at 15h 16m 42s.xml">
+    <history-entry file="TestHomeTabsVarifys_testOfferTab - 2019.03.27 at 18h 37m 00s.xml">
+      <configuration name="TestHomeTabsVarifys.testOfferTab" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomeTabsVarifys_testOfferTab - 2019.03.27 at 18h 37m 58s.xml">
+      <configuration name="TestHomeTabsVarifys.testOfferTab" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_jewal_IntelliJ_WebAutomationGroup3_FaceBook_src_test_resources_FaceBookTestRunner_xml - 2019.03.27 at 18h 43m 24s.xml">
       <configuration name="/Users/jewal/IntelliJ/WebAutomationGroup3/FaceBook/src/test/resources/FaceBookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSignInonly_testLogInEmail - 2019.03.24 at 16h 33m 59s.xml">
-      <configuration name="TestSignInonly.testLogInEmail" configurationId="TestNG" />
+    <history-entry file="_Users_jewal_IntelliJ_WebAutomationGroup3_FaceBook_src_test_resources_FaceBookTestRunner_xml - 2019.03.27 at 19h 12m 05s.xml">
+      <configuration name="/Users/jewal/IntelliJ/WebAutomationGroup3/FaceBook/src/test/resources/FaceBookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSignInonly_testLogInEmail - 2019.03.24 at 16h 38m 29s.xml">
-      <configuration name="TestSignInonly.testLogInEmail" configurationId="TestNG" />
+    <history-entry file="TestHomeTabsVarifys_testRecomendationTab - 2019.03.27 at 19h 29m 22s.xml">
+      <configuration name="TestHomeTabsVarifys.testRecomendationTab" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSignInonly - 2019.03.24 at 16h 57m 25s.xml">
-      <configuration name="TestSignInonly" configurationId="TestNG" />
+    <history-entry file="_Users_jewal_IntelliJ_WebAutomationGroup3_FaceBook_src_test_resources_FaceBookTestRunner_xml - 2019.03.27 at 19h 34m 58s.xml">
+      <configuration name="/Users/jewal/IntelliJ/WebAutomationGroup3/FaceBook/src/test/resources/FaceBookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSignInonly - 2019.03.24 at 18h 13m 05s.xml">
-      <configuration name="TestSignInonly" configurationId="TestNG" />
+    <history-entry file="TestExcleExecutor_testFBinExcle - 2019.03.27 at 20h 26m 42s.xml">
+      <configuration name="TestExcleExecutor.testFBinExcle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSignInonly - 2019.03.24 at 18h 14m 44s.xml">
-      <configuration name="TestSignInonly" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestSignInonly - 2019.03.24 at 18h 18m 02s.xml">
-      <configuration name="TestSignInonly" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestSignInonly - 2019.03.24 at 18h 19m 58s.xml">
-      <configuration name="TestSignInonly" configurationId="TestNG" />
+    <history-entry file="_Users_jewal_IntelliJ_WebAutomationGroup3_CNNnews_src_test_resources_CNNTestRunner_xml - 2019.03.27 at 20h 29m 14s.xml">
+      <configuration name="/Users/jewal/IntelliJ/WebAutomationGroup3/CNNnews/src/test/resources/CNNTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49794802" visible="true" weight="0.17453505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49794802" visible="true" weight="0.13805436" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -517,50 +480,50 @@
       <window_info id="Favorites" order="6" sideWeight="0.502052" side_tool="true" weight="0.19444445" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32855436" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36746988" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44832215" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20843373" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44583333" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.47710842" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.107093185" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.24723756" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.2472067" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Codota" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.266766" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.23962805" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.18541667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49794802" visible="true" weight="0.25696865" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5010225" side_tool="true" weight="0.24640805" />
+      <window_info id="Favorites" order="6" sideWeight="0.502052" side_tool="true" weight="0.19444445" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20916569" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3454759" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32855436" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38194445" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.44583333" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.08813161" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.15138888" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3149236" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.2472067" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Codota" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.35416666" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.26609442" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -588,254 +551,41 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleFilereader.java</url>
-          <line>30</line>
+          <url>file://$PROJECT_DIR$/FaceBook/src/main/java/exclefacebook/ExcleExecutor.java</url>
+          <line>53</line>
           <properties />
-          <option name="timeStamp" value="54" />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleFilereader.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/FaceBook/src/main/java/exclefacebook/ExcleExecutor.java</url>
+          <line>74</line>
           <properties />
-          <option name="timeStamp" value="55" />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleFilereader.java</url>
-          <line>39</line>
+          <url>file://$PROJECT_DIR$/FaceBook/src/test/java/testexclefacebook/TestExcleExecutor.java</url>
+          <line>19</line>
           <properties />
-          <option name="timeStamp" value="56" />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleFilereader.java</url>
-          <line>35</line>
+          <url>file://$PROJECT_DIR$/FaceBook/src/main/java/exclefacebook/ExcleExecutor.java</url>
+          <line>59</line>
           <properties />
-          <option name="timeStamp" value="57" />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FaceBook/src/main/java/exclefacebook/ExcleExecutor.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.jar!/org/apache/poi/POIDocument.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.jar!/org/apache/poi/hssf/usermodel/HSSFWorkbook.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/logInViaExcleFile/UseOfExcle.java" />
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/testcreatAccPage/TestCreateAccPage.java" />
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/creatAccPage/CreateACCPage.java" />
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.jar!/org/apache/poi/hssf/usermodel/HSSFCell.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="410" column="18" selection-start-line="410" selection-start-column="18" selection-end-line="410" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.jar!/org/apache/poi/ss/usermodel/Workbook.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/4.0.1/poi-4.0.1.jar!/org/apache/poi/ss/usermodel/WorkbookFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java" />
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/resources/file.txt" />
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/cnnUsPage/CnnUsPage.java" />
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml" />
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleFaceBook.java" />
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ReadExcle.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="453" selection-start-line="453" selection-end-line="453" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/datasource/DataBase.java" />
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/signInPage/VerfyingLogInPage.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testCnnUsPage/TestCnnUsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/iDprofileHomePage/IDProfileHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-382">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/cnnHealthPage/CnnHealth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testCnnHealthPage/TestCnnHealth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testDBSearch/TestSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/searchDBPages/SearchInCNN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/testFaceBookProHome/TestProfileHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/testIdProfileHomePage/TestIdProfilePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/TestSignInPage/TestVerifyingClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/resources/FaceBookTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/FaceBookprofileHome/FaceBookProHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/cnnBusiness/CnnBusinessPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleFilereader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testcnnBusiness/TestCnnBusinessPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-638">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/testExcleFaceBook/TestExcleExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/signInPage/SignInOnly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1164">
-          <caret line="138" selection-start-line="138" selection-end-line="138" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FaceBook/Extent-Report/ExtentReport.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -844,24 +594,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+    <entry file="file://$PROJECT_DIR$/FaceBook/target/surefire-reports/index.html" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/annotations/BeforeSuite.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        <state relative-caret-position="195">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -872,24 +609,326 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/TestSignInPage/TestSignInonly.java">
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/searchDBPages/SearchInCNN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="315">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/FluentWait.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/resources/file.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/homepage/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6510">
+          <caret line="434" column="33" selection-start-line="434" selection-start-column="33" selection-end-line="434" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testcnnbusiness/TestCnnBusinessPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testcnnhealthpage/TestCnnHealth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/cnnhealthpage/CnnHealth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="80" column="89" lean-forward="true" selection-start-line="80" selection-start-column="89" selection-end-line="80" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testcnnuspage/TestCnnUsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/cnnuspage/CnnUsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testcnnworld/TestCNNWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/cnnworld/CNNWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223">
+          <caret line="120" column="86" selection-start-line="120" selection-start-column="86" selection-end-line="120" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testDBSearch/TestSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/cnnbusiness/CnnBusinessPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="91" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/MySteps.java" />
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/idprofilehomepage/IDProfileHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/signInpage/SignInOnly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/cucumber/Test/steps/Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/resources/feature/logIn.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/cucumber/Test/facebookRunner/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/cucumber/Test/pageObjectModel/pomClasses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/exclefacebook/ExcleFilereader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/exclefacebook/ExcleExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/Facebookprofilehome/FaceBookProHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/testsignInpage/TestVerifyingClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/testsignInpage/TestSignInonly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/testIdprofilehomepage/TestIdProfilePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/testfacebookprohome/TestProfileHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/testexclefacebook/TestExcleExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/signInpage/VerfyingLogInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/main/java/facebookhometabsvarifys/HomeTabsVarifys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="222" column="27" selection-start-line="222" selection-start-column="27" selection-end-line="222" selection-end-column="27" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/java/testfacebookhometabsvarifys/TestHomeTabsVarifys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1373">
+          <caret line="175" column="23" selection-start-line="175" selection-start-column="23" selection-end-line="175" selection-end-column="23" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/src/test/resources/FaceBookTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="1095">
+          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
         </state>
       </provider>
     </entry>

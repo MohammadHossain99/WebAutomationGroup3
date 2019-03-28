@@ -35,7 +35,7 @@ import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
 
-    /********************************/
+    /**************** Reporting ****************/
 
     public static ExtentReports extent;
     @BeforeSuite
@@ -77,7 +77,7 @@ public class CommonAPI {
         if (result.getStatus() == ITestResult.FAILURE) {
             captureScreenshot(driver, result.getName());
         }
-        driver.quit();
+//        driver.quit();
     }
     @AfterSuite
     public void generateReport() {
@@ -89,20 +89,18 @@ public class CommonAPI {
         return calendar.getTime();
     }
 
-
-
-    /********************************/
+    /*************** Reporting *****************/
 
 
     public static WebDriver driver = null;
     public String browserstack_username= "mdabutaherjewal1";
     public String browserstack_accesskey = "mhzLmtQczk7tgqkKwy3w";
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
+    public String saucelabs_username = "Taherjuwel4";
+    public String saucelabs_accesskey = "c8f21f1b-fa5a-470d-be91-8d91913d0e44";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
-    @BeforeMethod
-    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
+    @BeforeClass
+    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("browserstack")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
                               String browserVersion, @Optional("http://www.cnn.com/") String url)throws IOException {
 //        System.setProperty("webdriver.chrome.driver", "/Users/jewal/IntelliJ/WebAutomationGroup3/Generic/browser-driver/chromedriver");
@@ -150,7 +148,6 @@ public class CommonAPI {
             driver = new InternetExplorerDriver();
         }
         return driver;
-
     }
 
 
@@ -173,9 +170,10 @@ public class CommonAPI {
         return driver;
     }
 
-    @AfterMethod
+    @AfterClass
     public void cleanUp() {
-//        driver.close();
+//        driver.quit();
+        driver.close();
     }
 
     //type
@@ -492,7 +490,7 @@ public class CommonAPI {
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
 
-    public void waitUntilVisible(By locator) {
+    public static void waitUntilVisible(By locator) {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
