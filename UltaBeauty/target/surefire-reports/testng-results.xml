@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSearchWithDB" duration-ms="68404" started-at="2019-03-24T14:44:52Z" finished-at="2019-03-24T14:46:01Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="68404" started-at="2019-03-24T14:44:52Z" finished-at="2019-03-24T14:46:01Z">
+      <class name="TestSearchWithDB">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestSearchWithDB@3b81a1bc]" name="setUp" is-config="true" duration-ms="5041" started-at="2019-03-24T14:44:52Z" finished-at="2019-03-24T14:44:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:TestSearchWithDB@3b81a1bc]" name="init" is-config="true" duration-ms="14344" started-at="2019-03-24T14:44:57Z" finished-at="2019-03-24T14:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testSearchDB()[pri:0, instance:TestSearchWithDB@3b81a1bc]" name="testSearchDB" duration-ms="46897" started-at="2019-03-24T14:45:12Z" finished-at="2019-03-24T14:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchDB -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestSearchWithDB@3b81a1bc]" name="cleanUp" is-config="true" duration-ms="2089" started-at="2019-03-24T14:45:58Z" finished-at="2019-03-24T14:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- TestSearchWithDB -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestSearchWithDB -->
+</testng-results>
