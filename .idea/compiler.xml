@@ -10,8 +10,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="CNNnews" target="1.5" />
-      <module name="FaceBook" target="7" />
+      <module name="CNNnews" target="1.8" />
+      <module name="FaceBook" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
