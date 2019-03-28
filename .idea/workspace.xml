@@ -90,6 +90,7 @@
       <change afterPath="$PROJECT_DIR$/../MySample/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MySample/Generic/src/main/java/base/config.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MySample/Generic/src/main/java/datafromExcle/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UltaBeauty/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../forpractice7/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jewalFramWork/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jewalFramWork/.idea/encodings.xml" afterDir="false" />
@@ -111,6 +112,47 @@
       <change afterPath="$PROJECT_DIR$/../src/homePractice/Home.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../src/homePractice/Program.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../webAutomation/Generic/target/NetFliex-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/drivers/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/browser-driver/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/drivers/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/browser-driver/geckodriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/bbc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/bbc-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcAddCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcAddCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcArt.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcArt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcAustralia.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcAustralia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcBusiness.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcBusiness.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcCapital.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcCapital.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcCricket.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcCricket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcCulture.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcCulture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcFootball.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcFootball.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcLibrary.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcLibrary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcMessi.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcMessi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcNZReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcNZReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcPhoto.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcPhoto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcRonaldo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcRonaldo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcShoping.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcShoping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcSports.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcSports.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcUSA.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcUSA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcUrlAssert.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcUrlAssert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcWeather.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcWeather.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcWeatherNY.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcWeatherNY.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcYouTube.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcYouTube.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestHomeElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestHomeElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestLoginAuthentication.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestLoginAuthentication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestSearchApple.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestSearchApple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestTravel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/target/test-classes/test/TestTravel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -133,22 +175,95 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="WebAutomationGroup3" />
+    <favorites_list name="WebAutomationGroup3">
+      <favorite_root url="file://$PROJECT_DIR$/UltaBeauty/pom.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="285">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bbc/pom.xml">
+        <entry file="file://$PROJECT_DIR$/UltaBeauty/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Linkedin/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FaceBook/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="20" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/searchPage/SearchPageClass.java">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/cnnbusiness/CnnBusinessPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNNnews/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testcnnbusiness/TestCnnBusinessPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="134" selection-start-line="134" selection-end-line="134" />
+              <folding>
+                <element signature="imports" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -179,8 +294,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FaceBook/src/main/java/signInPage/VerfyingLogInPage.java" />
-        <option value="$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ReadExcle.java" />
         <option value="$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleFaceBook.java" />
         <option value="$PROJECT_DIR$/CNNnews/src/test/resources/file.txt" />
         <option value="$PROJECT_DIR$/CNNnews/src/test/java/testCnnUsPage/TestCnnUsPage.java" />
@@ -226,10 +339,12 @@
         <option value="$PROJECT_DIR$/FaceBook/src/test/java/testfacebookprohome/TestProfileHome.java" />
         <option value="$PROJECT_DIR$/FaceBook/src/test/java/testsignInpage/TestSignInonly.java" />
         <option value="$PROJECT_DIR$/FaceBook/src/main/java/facebookhometabsvarifys/HomeTabsVarifys.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/FaceBook/src/test/resources/FaceBookTestRunner.xml" />
         <option value="$PROJECT_DIR$/FaceBook/pom.xml" />
+        <option value="$PROJECT_DIR$/Linkedin/pom.xml" />
+        <option value="$PROJECT_DIR$/UltaBeauty/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
       </list>
     </option>
   </component>
@@ -245,15 +360,6 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="WebAutomationGroup3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -265,12 +371,11 @@
       <select />
     </treeState>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="83" />
+    <option name="y" value="23" />
+    <option name="width" value="1357" />
+    <option name="height" value="811" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -278,7 +383,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,35 +390,54 @@
               <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="browser-driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553740663697" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553743688583" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/FaceBook/src/test/resources/feature" />
-      <recent name="$PROJECT_DIR$/CNNnews/src/test/java" />
-      <recent name="$PROJECT_DIR$/FaceBook/src/test" />
-      <recent name="$PROJECT_DIR$/CNNnews/src/test" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UltaBeauty" />
+      <recent name="$PROJECT_DIR$/FaceBook/src/main/java" />
+      <recent name="$PROJECT_DIR$/Generic/src/main/java" />
+      <recent name="$PROJECT_DIR$/Generic" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="datasource" />
       <recent name="base" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/FaceBook/src/main/java" />
-      <recent name="$PROJECT_DIR$/Generic/src/main/java" />
-      <recent name="$PROJECT_DIR$/Generic" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FaceBook/src/test/resources/feature" />
+      <recent name="$PROJECT_DIR$/CNNnews/src/test/java" />
+      <recent name="$PROJECT_DIR$/FaceBook/src/test" />
+      <recent name="$PROJECT_DIR$/CNNnews/src/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,18 +452,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/jewal/IntelliJ/WebAutomationGroup3/CNNnews/src/test/resources/CNNTestRunner.xml">
-    <configuration name="TestHomeTabsVarifys.testGamesTab" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="FaceBook" />
+  <component name="RunManager" selected="TestNG.TestCnnBusinessPage.menubtn">
+    <configuration name="TestCnnBusinessPage.menubtn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CNNnews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testfacebookhometabsvarifys.*" />
+          <option name="PATTERN" value="testcnnbusiness.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testfacebookhometabsvarifys" />
-      <option name="MAIN_CLASS_NAME" value="testfacebookhometabsvarifys.TestHomeTabsVarifys" />
-      <option name="METHOD_NAME" value="testGamesTab" />
+      <option name="PACKAGE_NAME" value="testcnnbusiness" />
+      <option name="MAIN_CLASS_NAME" value="testcnnbusiness.TestCnnBusinessPage" />
+      <option name="METHOD_NAME" value="menubtn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -406,11 +529,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestCnnBusinessPage.menubtn" />
         <item itemvalue="TestNG./Users/jewal/IntelliJ/WebAutomationGroup3/CNNnews/src/test/resources/CNNTestRunner.xml" />
         <item itemvalue="TestNG./Users/jewal/IntelliJ/WebAutomationGroup3/FaceBook/src/test/resources/FaceBookTestRunner.xml" />
         <item itemvalue="TestNG.TestHomeTabsVarifys.testRecomendationTab" />
         <item itemvalue="TestNG.TestHomeTabsVarifys.testOfferTab" />
-        <item itemvalue="TestNG.TestHomeTabsVarifys.testGamesTab" />
       </list>
     </recent_temporary>
   </component>
@@ -428,18 +551,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHomeTabsVarifys_testOfferTab - 2019.03.27 at 18h 32m 50s.xml">
-      <configuration name="TestHomeTabsVarifys.testOfferTab" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomeTabsVarifys_testOfferTab - 2019.03.27 at 18h 35m 50s.xml">
-      <configuration name="TestHomeTabsVarifys.testOfferTab" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomeTabsVarifys_testOfferTab - 2019.03.27 at 18h 37m 00s.xml">
-      <configuration name="TestHomeTabsVarifys.testOfferTab" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomeTabsVarifys_testOfferTab - 2019.03.27 at 18h 37m 58s.xml">
-      <configuration name="TestHomeTabsVarifys.testOfferTab" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_jewal_IntelliJ_WebAutomationGroup3_FaceBook_src_test_resources_FaceBookTestRunner_xml - 2019.03.27 at 18h 43m 24s.xml">
       <configuration name="/Users/jewal/IntelliJ/WebAutomationGroup3/FaceBook/src/test/resources/FaceBookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -458,11 +569,23 @@
     <history-entry file="_Users_jewal_IntelliJ_WebAutomationGroup3_CNNnews_src_test_resources_CNNTestRunner_xml - 2019.03.27 at 20h 29m 14s.xml">
       <configuration name="/Users/jewal/IntelliJ/WebAutomationGroup3/CNNnews/src/test/resources/CNNTestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestCnnBusinessPage_menubtn - 2019.03.27 at 23h 12m 33s.xml">
+      <configuration name="TestCnnBusinessPage.menubtn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCnnBusinessPage_menubtn - 2019.03.27 at 23h 13m 18s.xml">
+      <configuration name="TestCnnBusinessPage.menubtn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCnnBusinessPage_menubtn - 2019.03.27 at 23h 16m 06s.xml">
+      <configuration name="TestCnnBusinessPage.menubtn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCnnBusinessPage_menubtn - 2019.03.27 at 23h 16m 34s.xml">
+      <configuration name="TestCnnBusinessPage.menubtn" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49794802" visible="true" weight="0.1423462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49794802" visible="true" weight="0.14663805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -470,13 +593,13 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.502052" side_tool="true" weight="0.19444445" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32855436" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35180724" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3783032" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.6542169" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44583333" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6048193" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.7192771" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.2472067" />
@@ -575,21 +698,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FaceBook/Extent-Report/ExtentReport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7341">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/target/surefire-reports/index.html" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/annotations/BeforeSuite.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/secret.properties" />
     <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/searchDBPages/SearchInCNN.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -647,13 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testcnnbusiness/TestCnnBusinessPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -716,20 +817,6 @@
           <folding>
             <element signature="imports" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/cnnbusiness/CnnBusinessPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="91" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
@@ -873,32 +960,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1373">
-          <caret line="175" column="23" selection-start-line="175" selection-start-column="23" selection-end-line="175" selection-end-column="23" />
-          <folding>
-            <element signature="imports" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FaceBook/src/test/resources/FaceBookTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNNnews/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -907,15 +974,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bbc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="285">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bbc/pom.xml">
+    <entry file="file://$PROJECT_DIR$/UltaBeauty/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linkedin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/searchPage/SearchPageClass.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/main/java/cnnbusiness/CnnBusinessPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNNnews/src/test/java/testcnnbusiness/TestCnnBusinessPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -969,7 +1094,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>WebAutomationGroup3</last-edited>
+          <last-edited>UltaBeauty</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
