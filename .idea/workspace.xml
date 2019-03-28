@@ -94,6 +94,7 @@
       <change afterPath="$PROJECT_DIR$/Generic/browser-driver/chromedriver.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generic/browser-driver/geckodriver" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/User.java" afterDir="false" />
@@ -118,18 +119,251 @@
       <change afterPath="$PROJECT_DIR$/../src/homePractice/Home.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../src/homePractice/Program.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../webAutomation/Generic/target/NetFliex-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/Linkedin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/target/Linkedin-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/UltaBeauty.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/UltaBeauty-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/Cigna-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/classes/cignahomepage/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/classes/finddoctordentistfacilityPage/FindDDFTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/classes/individualsandfamilypage/IndividualsAndFamilyPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/classes/loginpage/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/test-classes/CignaTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/test-classes/cignahomepage/CignaHomePageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/test-classes/finddoctordentistorfacilitypage/ClickOnFindADoctorDentistOrFacility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/test-classes/individualsandfamiliespage/VerifyIndividualsAndFamiliesTabByClick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/test-classes/logintomycignapage/ClickOnLogInToMyCignaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/test-classes/searchoncignatabpage/SearchOnCignaTabTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/CitiBank-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/searchPage/SearchPageClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/signIn/SignInClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/FaceBook-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/Facebookprofilehome/FaceBookProHome$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/Facebookprofilehome/FaceBookProHome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/exclefacebook/ExcleExecutor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/exclefacebook/ExcleExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/exclefacebook/ExcleFilereader$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/exclefacebook/ExcleFilereader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookhometabsvarifys/HomeTabsVarifys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/idprofilehomepage/IDProfileHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/signInpage/SignInOnly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/signInpage/VerfyingLogInPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/FaceBookTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/cucumber/Test/facebookRunner/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/cucumber/Test/pageObjectModel/pomClasses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/cucumber/Test/steps/Steps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/feature/logIn.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdprofilehomepage/TestIdProfilePage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdprofilehomepage/TestIdProfilePage$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdprofilehomepage/TestIdProfilePage$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdprofilehomepage/TestIdProfilePage$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdprofilehomepage/TestIdProfilePage$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdprofilehomepage/TestIdProfilePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testexclefacebook/TestExcleExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testfacebookhometabsvarifys/TestHomeTabsVarifys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testfacebookprohome/TestProfileHome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testsignInpage/TestSignInonly$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testsignInpage/TestSignInonly$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testsignInpage/TestSignInonly$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testsignInpage/TestSignInonly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testsignInpage/TestVerifyingClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ApplicationLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentTestManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/bbc-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcAddCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcArt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcAustralia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcBusiness.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcCapital.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcCricket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcCulture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcFootball.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcLibrary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcMessi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcNZReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcPhoto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcRonaldo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcShoping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcSports.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcUSA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcUrlAssert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcWeather.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcWeatherNY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/BbcYouTube.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/HomeElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/LoginAuthentication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/SearchApple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/classes/homePage/Travel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/Command line suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcAccount.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcAddCart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcArt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcAustralia.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcBusiness.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcCapital.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcCart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcCricket.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcCulture.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcFootball.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcLibrary.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcLogin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcMessi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcNZReport.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcPhoto.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcReport.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcRonaldo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcSearch.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcShoping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcSports.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcUSA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcUrlAssert.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcWeather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcWeatherNY.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestBbcYouTube.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestHomeElement.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestHomePage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestLoginAuthentication.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestSearchApple.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/junitreports/TEST-test.TestTravel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/Command line test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefire1140859561954744296tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefire1445530545564840895tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefire2948417829378524537tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefire4351147248202577128tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefire4790522852753066482tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefire7786698569407837583tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefire966134475137916808tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefire_03236535501841446318tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefire_05246466656342479634tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefire_05768787902683395491tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefire_06855936765850267163tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefire_06970252690401960627tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefire_08334907215513075023tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefire_08888983468369100016tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefirebooter2115083652114670231.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefirebooter4350836089196383197.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefirebooter5444315929354276478.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefirebooter6318523822102163915.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefirebooter8248404777148294418.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefirebooter8529852712607894696.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/surefire/surefirebooter8779182029621779373.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/bbcTestRuneer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcAddCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcArt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcAustralia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcBusiness.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcCapital.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcCricket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcCulture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcFootball.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcLibrary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcMessi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcNZReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcPhoto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcRonaldo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcShoping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcSports.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcUSA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcUrlAssert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcWeather.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcWeatherNY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestBbcYouTube.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestHomeElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestLoginAuthentication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestSearchApple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/target/test-classes/test/TestTravel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/ebay.iml~HEAD" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/ebay.iml~HEAD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/target/classes/HomePageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/target/classes/signinpage/SignInPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/target/ebay-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -180,7 +414,7 @@
         <entry file="file://$PROJECT_DIR$/FaceBook/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -216,8 +450,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="122" column="16" lean-forward="true" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+            <state relative-caret-position="116">
+              <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
               <folding>
                 <element signature="imports" />
               </folding>
@@ -387,28 +621,29 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553814129775" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553814137783" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/UltaBeauty" />
-      <recent name="$PROJECT_DIR$/FaceBook/src/main/java" />
-      <recent name="$PROJECT_DIR$/Generic/src/main/java" />
-      <recent name="$PROJECT_DIR$/Generic" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="datasource" />
-      <recent name="base" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/FaceBook/src/test/resources/feature" />
       <recent name="$PROJECT_DIR$/CNNnews/src/test/java" />
       <recent name="$PROJECT_DIR$/FaceBook/src/test" />
       <recent name="$PROJECT_DIR$/CNNnews/src/test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="datasource" />
+      <recent name="base" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Generic/browser-driver" />
+      <recent name="$PROJECT_DIR$/UltaBeauty" />
+      <recent name="$PROJECT_DIR$/FaceBook/src/main/java" />
+      <recent name="$PROJECT_DIR$/Generic/src/main/java" />
+      <recent name="$PROJECT_DIR$/Generic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -522,18 +757,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_jewal_IntelliJ_WebAutomationGroup3_CNNnews_src_test_resources_CNNTestRunner_xml - 2019.03.27 at 20h 29m 14s.xml">
-      <configuration name="/Users/jewal/IntelliJ/WebAutomationGroup3/CNNnews/src/test/resources/CNNTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCnnBusinessPage_menubtn - 2019.03.27 at 23h 12m 33s.xml">
-      <configuration name="TestCnnBusinessPage.menubtn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCnnBusinessPage_menubtn - 2019.03.27 at 23h 13m 18s.xml">
-      <configuration name="TestCnnBusinessPage.menubtn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCnnBusinessPage_menubtn - 2019.03.27 at 23h 16m 06s.xml">
-      <configuration name="TestCnnBusinessPage.menubtn" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestCnnBusinessPage_menubtn - 2019.03.27 at 23h 16m 34s.xml">
       <configuration name="TestCnnBusinessPage.menubtn" configurationId="TestNG" />
     </history-entry>
@@ -552,12 +775,23 @@
     <history-entry file="TestBbcAccount_testsearchInput - 2019.03.28 at 18h 50m 17s.xml">
       <configuration name="TestBbcAccount.testsearchInput" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestBbcAccount_testsearchInput - 2019.03.28 at 18h 58m 53s.xml">
+      <configuration name="TestBbcAccount.testsearchInput" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestBbcAccount_testsearchInput - 2019.03.28 at 19h 00m 10s.xml">
+      <configuration name="TestBbcAccount.testsearchInput" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestBbcAccount_testsearchInput - 2019.03.28 at 19h 02m 08s.xml">
+      <configuration name="TestBbcAccount.testsearchInput" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestBbcAccount_testsearchInput - 2019.03.28 at 19h 02m 22s.xml">
+      <configuration name="TestBbcAccount.testsearchInput" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="83" y="23" width="1357" height="811" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49794802" visible="true" weight="0.14878398" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49794802" visible="true" weight="0.1581749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -567,11 +801,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3783032" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6542169" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.44578314" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49932525" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.7192771" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.7190542" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.2472067" />
@@ -1010,7 +1244,7 @@
     <entry file="file://$PROJECT_DIR$/FaceBook/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1030,8 +1264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="122" column="16" lean-forward="true" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+        <state relative-caret-position="116">
+          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
           <folding>
             <element signature="imports" />
           </folding>
