@@ -6,7 +6,7 @@ public class Steps {
 
     @Given("user navigate to the login page")
     public void user_navigate_to_the_login_page(){
-        System.out.println("dhgsdkjfhsdjfkjfsd");
+
     }
 
     @And("user enters an email and an invalid password")
@@ -19,6 +19,7 @@ public class Steps {
 
     @Then("user should go to home Page")
     public void userShouldGoToHomePage() {
+
     }
 
     @Then("user click on sign out button")
@@ -39,6 +40,7 @@ public class Steps {
     @Then("user will click on business page")
     public void userWillQuiteTheBrowser() {
     }
+
     @Then("user will quite the browser")
     public void userWillClickOnBusinessPage() {
     }

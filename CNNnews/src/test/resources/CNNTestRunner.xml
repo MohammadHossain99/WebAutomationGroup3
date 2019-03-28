@@ -17,10 +17,10 @@
         <classes>
             <class name="testhompage.TestHomePage"/>
             <class name="testDBSearch.TestSearch"/>
-            <class name="testcnnBusiness.TestCnnBusinessPage"/>
-            <class name="testCnnUsPage.TestCnnUsPage"/>
-            <class name="testCnnHealthPage.TestCnnHealth"/>
-            <class name="testCNNWorld.TestCNNWorld"/>
+            <class name="testcnnbusiness.TestCnnBusinessPage"/>
+            <class name="testcnnuspage.TestCnnUsPage"/>
+            <class name="testcnnhealthpage.TestCnnHealth"/>
+            <class name="testcnnworld.TestCNNWorld"/>
         </classes>
     </test>
 

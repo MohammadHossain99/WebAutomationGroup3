@@ -35,7 +35,7 @@ import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
 
-    /********************************/
+    /**************** Reporting ****************/
 
     public static ExtentReports extent;
     @BeforeSuite
@@ -89,18 +89,18 @@ public class CommonAPI {
         return calendar.getTime();
     }
 
-    /********************************/
+    /*************** Reporting *****************/
 
 
     public static WebDriver driver = null;
     public String browserstack_username= "mdabutaherjewal1";
     public String browserstack_accesskey = "mhzLmtQczk7tgqkKwy3w";
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
+    public String saucelabs_username = "Taherjuwel4";
+    public String saucelabs_accesskey = "c8f21f1b-fa5a-470d-be91-8d91913d0e44";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeClass
-    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
+    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("browserstack")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
                               String browserVersion, @Optional("http://www.cnn.com/") String url)throws IOException {
 //        System.setProperty("webdriver.chrome.driver", "/Users/jewal/IntelliJ/WebAutomationGroup3/Generic/browser-driver/chromedriver");
@@ -148,7 +148,6 @@ public class CommonAPI {
             driver = new InternetExplorerDriver();
         }
         return driver;
-
     }
 
 
@@ -173,7 +172,8 @@ public class CommonAPI {
 
     @AfterClass
     public void cleanUp() {
-        driver.quit();
+//        driver.quit();
+        driver.close();
     }
 
     //type

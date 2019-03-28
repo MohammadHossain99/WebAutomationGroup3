@@ -1,7 +1,7 @@
 package testhompage;
 
 import base.CommonAPI;
-import homePage.HomePage;
+import homepage.HomePage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
