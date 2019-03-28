@@ -165,7 +165,7 @@ public class TestJobsPage extends CommonAPI {
 
     @Test
     public void viewProgramAndProjectManagementPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view peogram and management page");
+            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view program and management page");
     jobsPage.programNProjectManagementPage();}
 
     @Test

@@ -91,12 +91,9 @@ public class UltaTestSignUpPage extends CommonAPI {
     }
 
     @Test
-
     public void testSeePrivacyPolicy()throws Exception {
         TestLogger.log(getClass().getSimpleName() + " -> " +
                 convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"see privacy policy");
         ultaSignUpPage.seePrivacyPolicy();
     }
-
-
 }

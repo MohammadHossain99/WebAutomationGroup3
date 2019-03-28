@@ -16,20 +16,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+import org.testng.annotations.Optional;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
-import java.io.File;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.io.StringWriter;
+
+import java.io.*;
 import java.lang.reflect.Method;
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 
@@ -101,11 +97,24 @@ public class CommonAPI {
     /********************************/
 
     public static WebDriver driver = null;
-    public String browserstack_username = "";
-    public String browserstack_accesskey = "";
+
+    Properties prop = new Properties();
+
+    public String browserstack_username;
+    public String browserstack_accesskey;
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
+
+    public void setCloudProperties() throws IOException{
+        Properties prop = new Properties();
+        InputStream ism = new FileInputStream("C:\\Users\\Sylvana Rahman\\IntelliJ idea projects\\WebAutomationGroup3\\Generic\\src\\main\\java\\secret.properties");
+        prop.load(ism);
+
+
+         browserstack_username=prop.getProperty("BROWSERSTACK.userName");
+         browserstack_accesskey=prop.getProperty("BROWSERSTACK.accessKey");
+    }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeClass
@@ -179,13 +188,10 @@ public class CommonAPI {
 
 
     @AfterClass
-
     public void cleanUp() {
-
         driver.quit();
-
     }
-    //pe
+
 
     public void typeOnCss(String locator, String value) {
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
@@ -516,7 +522,6 @@ public class CommonAPI {
         //FileUtils.copyFile(file, new File("screenShots.png"));
     }
 
-
     //Synchronization
 
     public void waitUntilClickAble(By locator) {
@@ -532,24 +537,16 @@ public class CommonAPI {
 
 
     public void waitUntilSelectable(By locator) {
-
         WebDriverWait wait = new WebDriverWait(driver, 10);
-
         boolean element = wait.until(ExpectedConditions.elementToBeSelected(locator));
-
     }
 
 
     public void upLoadFile(String locator, String path) {
-
         driver.findElement(By.cssSelector(locator)).sendKeys(path);
-
         /* path example to upload a file/image
-
-           path= "C:\\Users\\rrt\\Pictures\\ds1.png";
-
+       path= "C:\\Users\\rrt\\Pictures\\ds1.png";
          */
-
     }
 
 
@@ -572,12 +569,10 @@ public class CommonAPI {
         return driver1;
     }
 
-
     public static boolean isPopUpWindowDisplayed(WebDriver driver1, String locator) {
         boolean value = driver1.findElement(By.cssSelector(locator)).isDisplayed();
         return value;
     }
-
 
     public void typeOnInputBox(String locator, String value) {
         try {
