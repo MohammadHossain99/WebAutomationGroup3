@@ -111,28 +111,6 @@
       <change afterPath="$PROJECT_DIR$/../src/homePractice/Home.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../src/homePractice/Program.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../webAutomation/Generic/target/NetFliex-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/Extent-Report/ExtentReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/Linkedin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/Feed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/JobsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/TestFeed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/TestHomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/TestJobsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/resources/LinkedInTestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/Extent-Report/ExtentReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/UltaBeauty.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/SearchWithDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/UltaHomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/UltaMakeUpPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/UltaSignUpPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/TestSearchWithDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestHomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestMakeUpPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/UltaTestSignUpPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/resources/UltaBeautyTestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -316,7 +294,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553740568552" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553740663697" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -498,7 +476,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.7927711" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6048193" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.2472067" />
