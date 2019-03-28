@@ -16,6 +16,7 @@
         <module>FaceBook</module>
         <module>Cigna</module>
         <module>ebay</module>
+        <module>CitiBank</module>
     </modules>
 
     <dependencyManagement>
