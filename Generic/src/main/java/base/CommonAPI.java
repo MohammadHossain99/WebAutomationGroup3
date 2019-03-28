@@ -120,7 +120,7 @@ public class CommonAPI {
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver");
-                System.setProperty("webdriver.chrome.driver", "/Users/jewal/IntelliJ/WebAutomationGroup3/Generic/browser-driver/chromedriver");
+//                System.setProperty("webdriver.chrome.driver", "/Users/jewal/IntelliJ/WebAutomationGroup3/Generic/browser-driver/chromedriver");
 
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");

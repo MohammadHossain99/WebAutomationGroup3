@@ -13,8 +13,6 @@
         <module name="ebay" />
         <module name="FaceBook" />
         <module name="Generic" />
-        <module name="Linkedin" />
-        <module name="UltaBeauty" />
       </profile>
     </annotationProcessing>
   </component>
