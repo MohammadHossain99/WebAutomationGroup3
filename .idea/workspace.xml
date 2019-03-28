@@ -90,17 +90,6 @@
       <change afterPath="$PROJECT_DIR$/../MySample/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MySample/Generic/src/main/java/base/config.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MySample/Generic/src/main/java/datafromExcle/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/secret.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../forpractice7/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jewalFramWork/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jewalFramWork/.idea/encodings.xml" afterDir="false" />
@@ -122,183 +111,6 @@
       <change afterPath="$PROJECT_DIR$/../src/homePractice/Home.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../src/homePractice/Program.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../webAutomation/Generic/target/NetFliex-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/src/main/java/cnnBusiness/CnnBusinessPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/main/java/cnnbusiness/CnnBusinessPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/src/main/java/cnnHealthPage/CnnHealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/main/java/cnnhealthpage/CnnHealth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/src/main/java/cnnUsPage/CnnUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/main/java/cnnuspage/CnnUsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/src/main/java/cnnWorld/CNNWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/main/java/cnnworld/CNNWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/src/main/java/homePage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/main/java/homepage/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/src/test/java/testCNNWorld/TestCNNWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/test/java/testcnnworld/TestCNNWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/src/test/java/testCnnHealthPage/TestCnnHealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/test/java/testcnnhealthpage/TestCnnHealth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/src/test/java/testCnnUsPage/TestCnnUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/test/java/testcnnuspage/TestCnnUsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/src/test/java/testcnnBusiness/TestCnnBusinessPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/test/java/testcnnbusiness/TestCnnBusinessPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/test/java/testhompage/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/CNNnews-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/CNNnews-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnBusiness/CnnBusinessPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnHealthPage/CnnHealth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnUsPage/CnnUsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/cnnWorld/CNNWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/classes/homePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/classes/homePage/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/surefire/surefire4073169947073625148tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/surefire/surefire675179078444489008tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/surefire/surefire_07827002660733326245tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/surefire/surefire_08374975491196842916tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/surefire/surefirebooter5257925451524541948.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/surefire/surefirebooter8425865366015674098.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/test-classes/CNNTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/test-classes/CNNTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/test-classes/testCNNWorld/TestCNNWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/test-classes/testCNNWorld/TestCNNWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/test-classes/testCnnHealthPage/TestCnnHealth.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/test-classes/testCnnHealthPage/TestCnnHealth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/test-classes/testCnnUsPage/TestCnnUsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/test-classes/testCnnUsPage/TestCnnUsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/test-classes/testcnnBusiness/TestCnnBusinessPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/test-classes/testcnnBusiness/TestCnnBusinessPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNNnews/target/test-classes/testhompage/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNNnews/target/test-classes/testhompage/TestHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/main/java/FaceBookprofileHome/FaceBookProHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/main/java/Facebookprofilehome/FaceBookProHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/main/java/exclefacebook/ExcleExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/main/java/excleFaceBook/ExcleFilereader.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/main/java/exclefacebook/ExcleFilereader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/main/java/facebookHomeTabsVarifys/HomeTabsVarifys.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/main/java/facebookhometabsvarifys/HomeTabsVarifys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/main/java/iDprofileHomePage/IDProfileHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/main/java/idprofilehomepage/IDProfileHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/main/java/signInPage/SignInOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/main/java/signInpage/SignInOnly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/main/java/signInPage/VerfyingLogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/main/java/signInpage/VerfyingLogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/test/java/TestSignInPage/TestSignInonly.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/test/java/testsignInpage/TestSignInonly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/test/java/TestSignInPage/TestVerifyingClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/test/java/testsignInpage/TestVerifyingClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/test/java/cucumber/Test/facebookRunner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/test/java/cucumber/Test/facebookRunner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/test/java/cucumber/Test/steps/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/test/java/cucumber/Test/steps/Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/test/java/testExcleFaceBook/TestExcleExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/test/java/testexclefacebook/TestExcleExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/test/java/testFaceBookHomeTabsVarifys/TestHomeTabsVarifys.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/test/java/testfacebookhometabsvarifys/TestHomeTabsVarifys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/test/java/testFaceBookProHome/TestProfileHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/test/java/testfacebookprohome/TestProfileHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/test/java/testIdProfileHomePage/TestIdProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/test/java/testIdprofilehomepage/TestIdProfilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/src/test/resources/FaceBookTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/src/test/resources/FaceBookTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/FaceBook-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/FaceBook-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/FaceBookprofileHome/FaceBookProHome$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/FaceBookprofileHome/FaceBookProHome$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/FaceBookprofileHome/FaceBookProHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/FaceBookprofileHome/FaceBookProHome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/excleFaceBook/ExcleExecutor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/excleFaceBook/ExcleExecutor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/excleFaceBook/ExcleExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/excleFaceBook/ExcleExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/excleFaceBook/ExcleFilereader$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/excleFaceBook/ExcleFilereader$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/excleFaceBook/ExcleFilereader.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/excleFaceBook/ExcleFilereader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$21.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/facebookHomeTabsVarifys/HomeTabsVarifys.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/iDprofileHomePage/IDProfileHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/iDprofileHomePage/IDProfileHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/signInPage/SignInOnly.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/signInPage/SignInOnly.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/classes/signInPage/VerfyingLogInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/classes/signInPage/VerfyingLogInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/Command line suite/Command line test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/Command line suite/Command line test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/Command line suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/Command line suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/junitreports/TEST-TestSignInPage.TestSignInonly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/junitreports/TEST-TestSignInPage.TestSignInonly.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/junitreports/TEST-TestSignInPage.TestVerifyingClass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/junitreports/TEST-TestSignInPage.TestVerifyingClass.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/junitreports/TEST-testExcleFaceBook.TestExcleExecutor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/junitreports/TEST-testExcleFaceBook.TestExcleExecutor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/junitreports/TEST-testIdProfileHomePage.TestIdProfilePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/junitreports/TEST-testIdProfileHomePage.TestIdProfilePage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/Command line suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/Command line suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/Command line suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/Command line suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/Command line suite/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/Command line suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/Command line suite/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/Command line suite/reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/Command line suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/Command line suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/Command line suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/FaceBookTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/FaceBookTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestSignInonly$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestSignInonly$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestSignInonly$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestSignInonly$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestSignInonly$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestSignInonly$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestSignInonly.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestSignInonly.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestVerifyingClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/TestSignInPage/TestVerifyingClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/cucumber/Test/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/cucumber/Test/Steps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/cucumber/Test/pomClasses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testExcleFaceBook/TestExcleExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/testExcleFaceBook/TestExcleExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testFaceBookHomeTabsVarifys/TestHomeTabsVarifys.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/testFaceBookHomeTabsVarifys/TestHomeTabsVarifys.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testFaceBookProHome/TestProfileHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/testFaceBookProHome/TestProfileHome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdProfileHomePage/TestIdProfilePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdProfileHomePage/TestIdProfilePage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdProfileHomePage/TestIdProfilePage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdProfileHomePage/TestIdProfilePage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdProfileHomePage/TestIdProfilePage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdProfileHomePage/TestIdProfilePage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdProfileHomePage/TestIdProfilePage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdProfileHomePage/TestIdProfilePage$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdProfileHomePage/TestIdProfilePage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdProfileHomePage/TestIdProfilePage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdProfileHomePage/TestIdProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/FaceBook/target/test-classes/testIdProfileHomePage/TestIdProfilePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -321,34 +133,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNNnews/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNNnews/src/test/resources/CNNTestRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FaceBook/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+            <state relative-caret-position="1095">
+              <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -447,15 +236,6 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="CNNnews" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="CNNnews" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -491,18 +271,28 @@
             <path>
               <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-archiver" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -804,13 +594,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FaceBook/target/surefire-reports/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4528">
-          <caret line="1197" lean-forward="true" selection-start-line="1197" selection-end-line="1197" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceBook/target/surefire-reports/index.html" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/annotations/BeforeSuite.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1126,8 +910,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+        <state relative-caret-position="1095">
+          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
         </state>
       </provider>
     </entry>
