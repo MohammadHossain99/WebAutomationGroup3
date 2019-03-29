@@ -1,7 +1,8 @@
 .idea\
+vcs.xml
+uiDesigner.xml
+misc.xml
+encodings.xml
 workspace.xml
-.idea/
 target/
-target/
-target/
-.idea/
+

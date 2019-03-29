@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CNNnews/CNNnews.iml" filepath="$PROJECT_DIR$/CNNnews/CNNnews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cigna/Cigna.iml" filepath="$PROJECT_DIR$/Cigna/Cigna.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CitiBank/CitiBank.iml" filepath="$PROJECT_DIR$/CitiBank/CitiBank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FaceBook/FaceBook.iml" filepath="$PROJECT_DIR$/FaceBook/FaceBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bbc/bbc.iml" filepath="$PROJECT_DIR$/bbc/bbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ebay/ebay.iml" filepath="$PROJECT_DIR$/ebay/ebay.iml" />
+    </modules>
+  </component>
+</project>
