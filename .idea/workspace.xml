@@ -4,72 +4,6 @@
     <list default="true" id="340b4818-5e59-4623-8f8b-5bd30200d5ac" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../project6/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/linkedin/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/linkedin/Feed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/linkedin/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/linkedin/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/linkedin/JobsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/linkedin/JobsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestFeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestFeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestJobsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestJobsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/datadriven/SearchWithDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/main/java/datadriven/SearchWithDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/main/java/keyworddriven/ExcelFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaMakeUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaMakeUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaSignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaSignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/testdatadriven/TestSearchWithDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testdatadriven/TestSearchWithDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/testkeyworddriven/TestExcelExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testkeyworddriven/TestExcelExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestMakeUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestMakeUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestSignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestSignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestHomePage$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$21.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$23.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$24.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$25.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$26.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$27.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$28.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$29.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$30.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$31.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$32.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$33.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$34.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$35.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$9.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaSignUpPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1825">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="-36">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -224,94 +158,6 @@
               <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="Linkedin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="Linkedin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="Linkedin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="Linkedin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="Linkedin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datadriven" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="keyworddriven" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ulta" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -319,7 +165,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553842100803" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553846543618" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GithubDemo" />
@@ -549,8 +395,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.14395887" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.14395887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -564,7 +411,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28129205" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19919246" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3270525" />
@@ -922,8 +769,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaSignUpPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1825">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-36">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
