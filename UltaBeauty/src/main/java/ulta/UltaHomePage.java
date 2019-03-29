@@ -36,7 +36,7 @@ public class UltaHomePage extends CommonAPI {
     @FindBy(linkText = "MEN")
     WebElement mensPage;
 
-    @FindBy(linkText = "SKIN CARE")
+    @FindBy(xpath = "//*[@id=\'hide-desk-nav\']/div[2]/ul/li[6]/a")
     WebElement skinCarePage;
 
     @FindBy(id = "firstName")
@@ -62,7 +62,8 @@ public class UltaHomePage extends CommonAPI {
     public void findAStore() throws Exception{
         findStorePage.click();
         Thread.sleep(3000);
-        String urlExpected = "https://www.ulta.com/stores/#/?q=&z=12&c=40.67181512990815%2C-73.82387679211968";
+        String urlExpected = driver.getCurrentUrl();
+                //"https://www.ulta.com/stores/#/?q=&z=12&c=40.67181512990815%2C-73.82387679211968";
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
@@ -74,12 +75,13 @@ public class UltaHomePage extends CommonAPI {
 
     public void signUpPage(){
         signUp.click();
-        String urlExpected = "https://pages.exacttarget.com/ulta-email-signup/";
+        String urlExpected = driver.getCurrentUrl();
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
-    public void mensPage(){
+    public void mensPage()throws Exception{
         mensPage.click();
+        Thread.sleep(3000);
         String urlExpected = "https://www.ulta.com/men?N=26zq";
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
@@ -99,15 +101,17 @@ public class UltaHomePage extends CommonAPI {
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
-    public void makeUpPage(){
+    public void makeUpPage() throws Exception{
         makeUpPage.click();
+        Thread.sleep(5000);
         String urlExpected = "https://www.ulta.com/makeup?N=26y1";
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
-    public void skinCarePage(){
+    public void skinCarePage() throws Exception{
         skinCarePage.click();
-        String urlExpected = "https://www.ulta.com/men?N=26zq";
+        Thread.sleep(4000);
+        String urlExpected = "https://www.ulta.com/skin-care?N=2707";
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 

@@ -2,7 +2,8 @@ package testlinkedin;
 
 import linkedin.HomePage;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
@@ -11,11 +12,16 @@ public class TestHomePage extends HomePage {
     HomePage homePage;
     String homePageUrl = "https://www.linkedin.com/";
 
-    @BeforeMethod
+    @BeforeClass
     public void initialize(){
         driver.get(homePageUrl);
         homePage = PageFactory.initElements(driver,HomePage.class);
 
+    }
+
+    @AfterMethod
+    public void reStart(){
+        driver.get(homePageUrl);
     }
 
     @Test
@@ -96,7 +102,7 @@ public class TestHomePage extends HomePage {
         homePage.enterPasswordLogin("stest312@t");
     }
 
-    @Test
+   // @Test
     public void signIn() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
             convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"sign in with valid credentials");
        homePage.logInLinkedIn("stest7380@gmail.com","stest312@t");

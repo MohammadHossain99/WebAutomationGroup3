@@ -3,7 +3,8 @@ package testlinkedin;
 import base.CommonAPI;
 import linkedin.JobsPage;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
@@ -13,12 +14,17 @@ public class TestJobsPage extends CommonAPI {
 
 
     JobsPage jobsPage;
-    String jobsPageUrl = "https://www.linkedin.com/jobs/";
+    String jobsPageUrl = "https://www.linkedin.com/jobs?trk=uno-reg-guest-home-jobs";
 
-    @BeforeMethod
+    @BeforeClass
     public void initialize(){
     driver.navigate().to(jobsPageUrl);
     jobsPage = PageFactory.initElements(driver, JobsPage.class);
+    }
+
+    @AfterMethod
+    public void reStart(){
+        driver.get(jobsPageUrl);
     }
 
     @Test
@@ -52,16 +58,16 @@ public class TestJobsPage extends CommonAPI {
     convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"see languages drop down");
     jobsPage.seeLanguageOptions();}
 
-    @Test
-    public void changeLanguageToFrench() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"change language to french");
-    jobsPage.changeLanguageFrench();}
+//    @Test
+//    public void changeLanguageToFrench() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
+//            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"change language to french");
+//    jobsPage.changeLanguageFrench();}
 
-    @Test
-    public void getAlertMessageInFrench () throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"get Alert message in french");
-        jobsPage.getAlertMessageFrench();
-    }
+//    @Test
+//    public void getAlertMessageInFrench () throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
+//            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"get Alert message in french");
+//        jobsPage.getAlertMessageFrench();
+//    }
 
     @Test
     public void navigateToSalaries()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +

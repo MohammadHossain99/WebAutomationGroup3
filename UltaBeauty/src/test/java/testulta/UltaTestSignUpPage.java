@@ -2,7 +2,8 @@ package testulta;
 
 import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 import ulta.UltaSignUpPage;
@@ -12,12 +13,17 @@ public class UltaTestSignUpPage extends CommonAPI {
     UltaSignUpPage ultaSignUpPage;
     String signUpPageUrl = "https://pages.exacttarget.com/ulta-email-signup/";
 
-    @BeforeMethod
+    @BeforeClass
 
     public void initialize() {
         driver.navigate().to(signUpPageUrl);
         ultaSignUpPage = PageFactory.initElements(driver, UltaSignUpPage.class);
 
+    }
+
+    @AfterMethod
+    public void reStart(){
+        driver.get(signUpPageUrl);
     }
 
     @Test
@@ -76,7 +82,7 @@ public class UltaTestSignUpPage extends CommonAPI {
         ultaSignUpPage.enterCellBox3("7676");
     }
 
-    @Test
+   // @Test
     public void testClickSubmit() {
         TestLogger.log(getClass().getSimpleName() + " -> " +
                 convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"click submit");

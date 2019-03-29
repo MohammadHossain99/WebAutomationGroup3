@@ -3,7 +3,8 @@ package testlinkedin;
 import base.CommonAPI;
 import linkedin.Feed;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
@@ -13,12 +14,18 @@ public class TestFeed extends CommonAPI {
     Feed feed;
 
 
-    @BeforeMethod
+    @BeforeClass
     public void init() {
         driver.navigate().to(homeUrl);
         feed = PageFactory.initElements(driver, Feed.class);
         feed.logInLinkedIn("stest7380@gmail.com", "stest312@t");
 
+    }
+
+
+    @AfterMethod
+    public void reStart(){
+        driver.get(homeUrl);
     }
 
     @Test()
@@ -36,7 +43,7 @@ public class TestFeed extends CommonAPI {
         feed.seeNotification();
     }
 
-    @Test
+    //@Test
     public void clickWriteArticle() throws Exception{
         TestLogger.log(getClass().getSimpleName() + " -> " +
                 convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"click write article");

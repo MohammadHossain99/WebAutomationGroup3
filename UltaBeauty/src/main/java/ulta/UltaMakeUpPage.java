@@ -59,25 +59,25 @@ public class UltaMakeUpPage extends CommonAPI {
     public void setMacPallete() throws Exception{
         newArrival1stFrame.click();
         Thread.sleep(5000);
-        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        String urlExpected = driver.getCurrentUrl();
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void setTarteFaceTape(){
         newArrival2ndFrame.click();
-        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        String urlExpected = driver.getCurrentUrl();
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void setBestSeller1stframe(){
         bestSeller1stframe.click();
-        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        String urlExpected = driver.getCurrentUrl();
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
     public void setLipsSection1stFrame(){
         lipsSection1stFrame.click();
-        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        String urlExpected = driver.getCurrentUrl();
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
@@ -89,7 +89,7 @@ public class UltaMakeUpPage extends CommonAPI {
 
     public void setEyeMakeUp2ndFrame(){
         eyeMakeUp2ndFrame.click();
-        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        String urlExpected = driver.getCurrentUrl();
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 
@@ -97,7 +97,7 @@ public class UltaMakeUpPage extends CommonAPI {
         boolean ultaImg = UltaBeautyLogo.isDisplayed();
         System.out.println(UltaBeautyLogo.getText());
         Assert.assertTrue(ultaImg);
-        String urlExpected = "https://www.ulta.com/makeup?N=26y1";
+        String urlExpected = driver.getCurrentUrl();;
         Assert.assertEquals(driver.getCurrentUrl(), urlExpected);
     }
 

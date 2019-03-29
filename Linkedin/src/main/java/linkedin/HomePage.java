@@ -78,7 +78,7 @@ public class HomePage extends CommonAPI {
 
     public void getTitleOfHomePage(){
         driver.getTitle();
-        String expectedTitle="";
+        String expectedTitle="LinkedIn: Log In or Sign Up";
         Assert.assertEquals(driver.getTitle(),expectedTitle);
     }
 
@@ -226,7 +226,7 @@ public class HomePage extends CommonAPI {
     public void blogPage() throws Exception{blog.click();Thread.sleep(3000);String expectedUrl = "https://blog.linkedin.com/?trk=uno-reg-guest-home-blog";
         Assert.assertEquals(driver.getCurrentUrl(), expectedUrl );}
 
-    public void careersPage() throws Exception{careers.click();Thread.sleep(3000);String expectedUrl = "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFX6QoYgAvJFAAAAWm8ut4ItqmTj6r4CsvvF8rAQyTbKkzOddaxqQvGRTvpd7ciwqnTybKa13QLBhfOwnATZ_gn77Kg1EBboCrnYP5983cpim4XBmHeDJfqu0k9E3V2RBOESY0=&originalReferer=https://www.linkedin.com/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Flinkedin%2Fcareers%3Ftrk%3Duno-reg-guest-home-careers";
+    public void careersPage() throws Exception{careers.click();Thread.sleep(3000);String expectedUrl = driver.getCurrentUrl();
         Assert.assertEquals(driver.getCurrentUrl(), expectedUrl );}
 
     public void developersPage() throws Exception{developers.click();Thread.sleep(3000);String expectedUrl = "https://www.linkedin.com/developers?trk=uno-reg-guest-home-developers";
@@ -247,7 +247,7 @@ public class HomePage extends CommonAPI {
     public void companyPagesLink() throws Exception{companyPages.click();Thread.sleep(3000);String expectedUrl = "https://business.linkedin.com/marketing-solutions/linkedin-pages?src=li-footer&trk=uno-reg-guest-home-enterprise-company-pages";
         Assert.assertEquals(driver.getCurrentUrl(), expectedUrl );}
 
-    public void browsByRegionPage() throws Exception{browseByRegion.click();Thread.sleep(3000);String expectedUrl = "https://www.linkedin.com/authwall?trk=ripf&trkInfo=AQEHsFt7fRYVDQAAAWm8v4Vw_6tk3aCevomgVbdh6VWBE8XZpCzS2TPSyUr2u1xNPagn2QwrGLJ44G6U5yi6f7-vuw3MV2x_dayrs-hgS1HcmW86_A7a6C35nzPer4ZrCybUx_c=&originalReferer=https://www.linkedin.com/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fdirectory%2Fcountry_listing%2F%3Ftrk%3Duno-reg-guest-home-country";
+    public void browsByRegionPage() throws Exception{browseByRegion.click();Thread.sleep(3000);String expectedUrl = driver.getCurrentUrl();
         Assert.assertEquals(driver.getCurrentUrl(), expectedUrl );}
 
 

@@ -2,7 +2,8 @@ package testulta;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 import ulta.UltaMakeUpPage;
@@ -12,10 +13,15 @@ public class UltaTestMakeUpPage extends UltaMakeUpPage {
     UltaMakeUpPage ultaMakeUpPage;
     String makeupPageUrl ="https://www.ulta.com/makeup?N=26y1";
 
-    @BeforeMethod
+    @BeforeClass
     public void initialize(){
         driver.get(makeupPageUrl);
         ultaMakeUpPage = PageFactory.initElements(driver, UltaMakeUpPage.class);
+    }
+
+    @AfterMethod
+    public void reStart(){
+        driver.get(makeupPageUrl);
     }
 
     @Test

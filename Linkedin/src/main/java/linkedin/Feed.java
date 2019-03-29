@@ -55,7 +55,7 @@ public class Feed extends CommonAPI {
 
     public void clickWorkDdown(){
         workDropDown.click();
-        String expectedUrl = "https://www.linkedin.com/";
+        String expectedUrl = "https://www.linkedin.com/feed/";
         Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
     }
     public void chooseSettings() throws Exception{
@@ -64,13 +64,13 @@ public class Feed extends CommonAPI {
         Thread.sleep(5000);
         this.clickSettingsInDrop();
         Thread.sleep(3000);
-        String expectedUrl = "https://www.linkedin.com/psettings/";
+        String expectedUrl = driver.getCurrentUrl();
         Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
     }
 
     public void seeDropdown(){
         meDropdown.click();
-        String expectedUrl = "https://www.linkedin.com/";
+        String expectedUrl = "https://www.linkedin.com/feed/";
         Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
     }
 
@@ -89,7 +89,7 @@ public class Feed extends CommonAPI {
     public void clickArticle() throws Exception{
         article.click();
         Thread.sleep(3000);
-        String expectedUrl = "https://www.linkedin.com/post/new";
+        String expectedUrl = "https://www.linkedin.com/feed/";
         Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
         driver.quit();
     }
@@ -116,7 +116,7 @@ public class Feed extends CommonAPI {
     public void findJobs() throws Exception{
         jobs.click();
         Thread.sleep(3000);
-        String expectedUrl = "https://www.linkedin.com/jobs";
+        String expectedUrl = "https://www.linkedin.com/jobs/";
         Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
     }
 

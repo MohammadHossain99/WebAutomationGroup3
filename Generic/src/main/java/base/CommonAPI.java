@@ -84,7 +84,8 @@ public class CommonAPI {
         extent.flush();
         if (result.getStatus() == ITestResult.FAILURE) {
             captureScreenshot(driver, result.getName());
-        }//       driver.quit();
+        }
+        //       driver.quit();
     }
 
     @AfterSuite
@@ -103,8 +104,8 @@ public class CommonAPI {
     public static WebDriver driver = null;
     public String browserstack_username = "";
     public String browserstack_accesskey = "";
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
+    public String saucelabs_username = "Sylvana785";
+    public String saucelabs_accesskey = "81c41f65-468b-4b66-9e8a-fbbb9d4a78cf";
 
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
@@ -160,11 +161,12 @@ public class CommonAPI {
 
     public WebDriver getCloudDriver(String envName, String envUsername, String envAccessKey, String os, String os_version, String browserName,
                                     String browserVersion) throws IOException {
-        DesiredCapabilities cap = new DesiredCapabilities();
+        DesiredCapabilities cap = DesiredCapabilities.chrome();
         cap.setCapability("browser", browserName);
         cap.setCapability("browser_version", browserVersion);
         cap.setCapability("os", os);
         cap.setCapability("os_version", os_version);
+        cap.setCapability("name","Sylvana's Tests");
         if (envName.equalsIgnoreCase("Saucelabs")) {
             //resolution for Saucelabs
             driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey +
@@ -179,7 +181,6 @@ public class CommonAPI {
 
 
     @AfterClass
-
     public void cleanUp() {
 
         driver.quit();
