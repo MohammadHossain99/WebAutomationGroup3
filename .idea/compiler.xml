@@ -20,15 +20,6 @@
     <bytecodeTargetLevel>
       <module name="Linkedin" target="1.5" />
       <module name="UltaBeauty" target="1.5" />
-
-      <module name="bbc" target="1.8" />
-      <module name="Cigna" target="1.8" />
-      <module name="CitiBank" target="1.8" />
-
-      <module name="ebay" target="1.8" />
-
-      <module name="CNNnews" target="1.8" />
-      <module name="FaceBook" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
