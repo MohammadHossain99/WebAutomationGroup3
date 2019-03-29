@@ -347,7 +347,6 @@ public class CommonAPI {
             String st = web.getText();
             text.add(st);
         }
-
         return text;
     }
 
@@ -359,7 +358,6 @@ public class CommonAPI {
             String st = web.getText();
             text.add(st);
         }
-
         return text;
     }
 
@@ -450,9 +448,7 @@ public class CommonAPI {
             WebElement element = driver.findElement(By.cssSelector(locator));
             Actions action = new Actions(driver);
             action.moveToElement(element).perform();
-
         }
-
     }
 
     //handling Alert
