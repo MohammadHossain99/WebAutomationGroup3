@@ -6,212 +6,207 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import reporting.TestLogger;
 
 public class TestJobsPage extends CommonAPI {
-    //stest7380@gmail.com
-    //stest312@t
-
 
     JobsPage jobsPage;
     String jobsPageUrl = "https://www.linkedin.com/jobs?trk=uno-reg-guest-home-jobs";
 
     @BeforeClass
-    public void initialize(){
-    driver.navigate().to(jobsPageUrl);
-    jobsPage = PageFactory.initElements(driver, JobsPage.class);
+    public void initialize() {
+        driver.navigate().to(jobsPageUrl);
+        jobsPage = PageFactory.initElements(driver, JobsPage.class);
     }
 
     @AfterMethod
-    public void reStart(){
+    public void reStart() {
         driver.get(jobsPageUrl);
     }
 
     @Test
-    public void jobsPageTitle(){
-        TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"jobs Page Title");
-        driver.getTitle();}
+    public void jobsPageTitle() {
+        jobsPage.getTitle();
+    }
 
     @Test
-    public void enterSeleniumTesterInjobs (){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"enter selenium tester jobs");
-    jobsPage.searchForJobsBox("Selenium Tester");}
+    public void enterSeleniumTesterInjobs() {
+        jobsPage.searchForJobsBox("Selenium Tester");
+    }
 
     @Test
-    public void enterWhichLocation (){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"enter the location");
-    jobsPage.clearLocationBox(); jobsPage.searchWhichLocation("NY");}
+    public void enterWhichLocation() {
+        jobsPage.clearLocationBox();
+        jobsPage.searchWhichLocation("NY");
+    }
 
     @Test
-    public void ableToClickSearchButton (){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"able to click search button");
-    jobsPage.clickSearchButton();}
+    public void ableToClickSearchButton() {
+        jobsPage.clickSearchButton();
+    }
 
     @Test
-    public void getAlertText (){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"get Alert text");
-    jobsPage.globalAlertText();}
+    public void getAlertText() {
+        jobsPage.globalAlertText();
+    }
 
     @Test
-    public void seeLanguagesDropDown (){TestLogger.log(getClass().getSimpleName() + " -> " +
-    convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"see languages drop down");
-    jobsPage.seeLanguageOptions();}
+    public void seeLanguagesDropDown() {
+        jobsPage.seeLanguageOptions();
+    }
 
-//    @Test
-//    public void changeLanguageToFrench() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-//            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"change language to french");
-//    jobsPage.changeLanguageFrench();}
+    // @Test
+    public void changeLanguageToFrench() throws Exception {
+        jobsPage.changeLanguageFrench();
+    }
 
-//    @Test
-//    public void getAlertMessageInFrench () throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-//            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"get Alert message in french");
-//        jobsPage.getAlertMessageFrench();
-//    }
-
-    @Test
-    public void navigateToSalaries()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"navigate to salaries page");
-    jobsPage.navToSalariesPage();}
+    //  @Test
+    public void getAlertMessageInFrench() throws Exception {
+        jobsPage.getAlertMessageFrench();
+    }
 
     @Test
-    public void signInSecondaryButton ()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"sign in secondary button at bottom");
-    jobsPage.signIn();}
+    public void navigateToSalaries() throws Exception {
+        jobsPage.navToSalariesPage();
+    }
 
     @Test
-    public void seeCookiePolicy ()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"see cookie policy");
-    jobsPage.viewCookiePolicy();}
+    public void signInSecondaryButton() throws Exception {
+        jobsPage.signIn();
+    }
 
     @Test
-    public void viewOperationsPage ()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view operations page");
-    jobsPage.operationsLinkPage();}
+    public void seeCookiePolicy() throws Exception {
+        jobsPage.viewCookiePolicy();
+    }
 
     @Test
-    public void viewHealthcareServices ()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view healthcare page");
-    jobsPage.healthcareServicesPage();}
+    public void viewOperationsPage() throws Exception {
+        jobsPage.operationsLinkPage();
+    }
 
     @Test
-    public void viewHumanResourcesPage ()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view HR page");
-    jobsPage.humanResourcesPage();}
+    public void viewHealthcareServices() throws Exception {
+        jobsPage.healthcareServicesPage();
+    }
 
     @Test
-    public void viewFinancePage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view finance page");
-    jobsPage.financePage();}
+    public void viewHumanResourcesPage() throws Exception {
+        jobsPage.humanResourcesPage();
+    }
 
     @Test
-    public void viewCommunityNFinancialPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view community page");
-    jobsPage.communityNFinancialPage();}
+    public void viewFinancePage() throws Exception {
+        jobsPage.financePage();
+    }
 
     @Test
-    public void viewEngineeringPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view Engineering page");
-    jobsPage.engineeringPage();}
+    public void viewCommunityNFinancialPage() throws Exception {
+        jobsPage.communityNFinancialPage();
+    }
 
     @Test
-    public void viewSalesPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view sales page");
-    jobsPage.salesPage();}
+    public void viewEngineeringPage() throws Exception {
+        jobsPage.engineeringPage();
+    }
 
     @Test
-    public void viewSupportPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view support page");
-    jobsPage.supportPage();}
+    public void viewSalesPage() throws Exception {
+        jobsPage.salesPage();
+    }
 
     @Test
-    public void viewEducationPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view education page");
-    jobsPage.educationPage();}
+    public void viewSupportPage() throws Exception {
+        jobsPage.supportPage();
+    }
 
     @Test
-    public void viewAdministrativePage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view administrative page");
-    jobsPage.administrativePage();}
+    public void viewEducationPage() throws Exception {
+        jobsPage.educationPage();
+    }
 
     @Test
-    public void viewResearchPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view research page");
-    jobsPage.researchPage();}
+    public void viewAdministrativePage() throws Exception {
+        jobsPage.administrativePage();
+    }
 
     @Test
-    public void viewMarketingPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view marketing page");
-    jobsPage.marketingPage();}
+    public void viewResearchPage() throws Exception {
+        jobsPage.researchPage();
+    }
 
     @Test
-    public void viewInformationTechnologyPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view IT page");
-    jobsPage.informationTechnologyPage();}
+    public void viewMarketingPage() throws Exception {
+        jobsPage.marketingPage();
+    }
 
     @Test
-    public void viewMilitaryAndProtectiveServicesPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view military page");
-    jobsPage.militaryAndProtectiveServicesPage();}
+    public void viewInformationTechnologyPage() throws Exception {
+        jobsPage.informationTechnologyPage();
+    }
 
     @Test
-    public void viewEntrepreneurshipPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view entrepreneurship page");
-    jobsPage.entrepreneurshipPage();}
+    public void viewMilitaryAndProtectiveServicesPage() throws Exception {
+        jobsPage.militaryAndProtectiveServicesPage();
+    }
 
     @Test
-    public void viewRealEstatePage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view real estate page");
-    jobsPage.realEstatePage();}
+    public void viewEntrepreneurshipPage() throws Exception {
+        jobsPage.entrepreneurshipPage();
+    }
 
     @Test
-    public void viewPurchasingPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view purchasing page");
-    jobsPage.purchasingPage();}
+    public void viewRealEstatePage() throws Exception {
+        jobsPage.realEstatePage();
+    }
 
     @Test
-    public void viewProgramAndProjectManagementPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view peogram and management page");
-    jobsPage.programNProjectManagementPage();}
+    public void viewPurchasingPage() throws Exception {
+        jobsPage.purchasingPage();
+    }
 
     @Test
-    public void viewProductManagementPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view product management page");
-    jobsPage.productManagementPage();}
+    public void viewProgramAndProjectManagementPage() throws Exception {
+        jobsPage.programNProjectManagementPage();
+    }
 
     @Test
-    public void viewMediaAndCommunicationPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view media page");
-    jobsPage.mediaAndCommunicationPage();}
+    public void viewProductManagementPage() throws Exception {
+        jobsPage.productManagementPage();
+    }
 
     @Test
-    public void viewLegalPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view legal page");
-    jobsPage.legalPage();}
+    public void viewMediaAndCommunicationPage() throws Exception {
+        jobsPage.mediaAndCommunicationPage();
+    }
 
     @Test
-    public void viewBusinessDevelopmentPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view business page");
-    jobsPage.businessDevelopmentPage();}
+    public void viewLegalPage() throws Exception {
+        jobsPage.legalPage();
+    }
 
     @Test
-    public void viewQAPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view QA page");
-    jobsPage.QAPage();}
+    public void viewBusinessDevelopmentPage() throws Exception {
+        jobsPage.businessDevelopmentPage();
+    }
 
     @Test
-    public void viewAccountingPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view accounting page");
-    jobsPage.accountingPage();}
+    public void viewQAPage() throws Exception {
+        jobsPage.QAPage();
+    }
 
     @Test
-    public void viewConsultingPage()throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view consulting page");
-    jobsPage.consultingPage();}
+    public void viewAccountingPage() throws Exception {
+        jobsPage.accountingPage();
+    }
 
     @Test
-    public void viewArtsAndDesignPage()throws Exception{
-        TestLogger.log(getClass().getSimpleName() + " -> " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view arts and design page");
-    jobsPage.artsAndDesignPage();}
+    public void viewConsultingPage() throws Exception {
+        jobsPage.consultingPage();
+    }
+
+    @Test
+    public void viewArtsAndDesignPage() throws Exception {
+        jobsPage.artsAndDesignPage();
+    }
 
 }

@@ -11,26 +11,14 @@ public class ExcelExecutor extends CommonAPI {
 
     UltaHomePage ultaHomePage = new UltaHomePage(driver);
 
-    public void signUp() throws Exception {
-        ultaHomePage.signUpForUltaBeauty();
-    }
-
-    public void search() throws Exception {
-        ultaHomePage.enterInSearchBox("Concealer");
-    }
-
-    public void hoverOverNewArrivals() throws Exception {
-        ultaHomePage.hoverNewArrivals();
-    }
-
-    public void use_of_Test_Loger_search_for(String name) {
-        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()) + "-> " + name);
-    }
-
 
     String path = "C:\\Users\\Sylvana Rahman\\IntelliJ idea projects\\WebAutomationGroup3\\UltaBeauty\\data\\ultaexcelfile.xls";
+
     public void runOnexcel() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + " -> " +
+                convertToString(new Object() {
+                }.getClass().getEnclosingMethod().getName()) + "using excel to perform tests");
+
         String[] testSteps = reader.getExcelData(path, 0);
         for (String str : testSteps) {
             switch (str) {

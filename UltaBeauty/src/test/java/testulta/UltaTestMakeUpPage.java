@@ -1,223 +1,209 @@
 package testulta;
 
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import reporting.TestLogger;
 import ulta.UltaMakeUpPage;
 
 public class UltaTestMakeUpPage extends UltaMakeUpPage {
 
     UltaMakeUpPage ultaMakeUpPage;
-    String makeupPageUrl ="https://www.ulta.com/makeup?N=26y1";
+    String makeupPageUrl = "https://www.ulta.com/makeup?N=26y1";
 
     @BeforeClass
-    public void initialize(){
+    public void initialize() {
         driver.get(makeupPageUrl);
         ultaMakeUpPage = PageFactory.initElements(driver, UltaMakeUpPage.class);
     }
 
     @AfterMethod
-    public void reStart(){
+    public void reStart() {
         driver.get(makeupPageUrl);
     }
 
     @Test
-    public void makeUpPageTitle(){
-        driver.getTitle();
-         String expectedTitle = "Makeup | Ulta Beauty";
-        Assert.assertEquals(driver.getTitle(),expectedTitle);
+    public void makeUpPageTitle() {
+        ultaMakeUpPage.getTitle();
     }
 
     @Test
-    public void chooseNewArrival1stFrame() throws Exception{
-        TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view first frame of new arrivals");
+    public void chooseNewArrival1stFrame() throws Exception {
         ultaMakeUpPage.setMacPallete();
     }
 
     @Test
-    public void chooseNewArrival2ndFrame(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view second frame of new arrivals");
+    public void chooseNewArrival2ndFrame() {
         ultaMakeUpPage.setTarteFaceTape();
 
     }
 
     @Test
-    public void chooseBestSeller1(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view first frame of Best Sellers");
+    public void chooseBestSeller1() {
         ultaMakeUpPage.setBestSeller1stframe();
     }
 
     @Test
-    public void lipsSection1stFrame(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view first frame of lips section");
+    public void lipsSection1stFrame() {
         ultaMakeUpPage.setLipsSection1stFrame();
     }
 
 
     @Test
-    public void makeUp3rdFrame(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view 3rd frame of face section");
+    public void makeUp3rdFrame() {
         ultaMakeUpPage.setFaceMakeUp3rdFrame();
     }
 
     @Test
-    public void eyeMakeUp2ndFrame(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view second frame of eye section");
+    public void eyeMakeUp2ndFrame() {
         ultaMakeUpPage.setEyeMakeUp2ndFrame();
     }
 
 
     @Test
-    public void verifyLogo(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"verify logo of Ulta Beauty");
+    public void verifyLogo() {
         ultaMakeUpPage.verifyLogoImg();
     }
 
 
     @Test
-
-    public void hoverShopByBrand() throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"hover Shop By Brand");
+    public void hoverShopByBrand() throws InterruptedException {
         hoverShopByBrands();
     }
 
     @Test
-    public void hoverNChoose() throws InterruptedException{ TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"Hover Shop By Brand and choose");
-    hoverNChooseFromBrands(); }
+    public void hoverNChoose() throws InterruptedException {
+        hoverNChooseFromBrands();
+    }
 
     @Test
-    public void hoverOverNewArrivals ()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"Hover over ");
-    hoverNewArrivals();}
+    public void hoverOverNewArrivals() throws InterruptedException {
+        hoverNewArrivals();
+    }
 
     @Test
-    public void hoverOverMakeUp()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"Hover over make up");
-    hoverMakeUp();}
+    public void hoverOverMakeUp() throws InterruptedException {
+        hoverMakeUp();
+    }
 
     @Test
-    public void hoverOverNails()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"Hover over nails");
-    hoverNails();}
+    public void hoverOverNails() throws InterruptedException {
+        hoverNails();
+    }
 
     @Test
-    public void hoverOverSkinCare()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"Hover over skin care");
-    hoverSkinCare();}
+    public void hoverOverSkinCare() throws InterruptedException {
+        hoverSkinCare();
+    }
 
     @Test
-    public void hoverOverHair()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"Hover over hair");
-    hoverHair();}
+    public void hoverOverHair() throws InterruptedException {
+        hoverHair();
+    }
 
     @Test
-    public void hoverOverToolsAndBrushes()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"Hover over tools and brushes");
-    hoverToolsAndBrushes();}
+    public void hoverOverToolsAndBrushes() throws InterruptedException {
+        hoverToolsAndBrushes();
+    }
 
     @Test
-    public void hoverOverFragrance()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"Hover over fragrance");
-    hoverFragrance();}
+    public void hoverOverFragrance() throws InterruptedException {
+        hoverFragrance();
+    }
 
     @Test
-    public void hoverOverBathAndBody()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"Hover over bath and body");
-    hoverBathAndBody();}
+    public void hoverOverBathAndBody() throws InterruptedException {
+        hoverBathAndBody();
+    }
 
     @Test
-    public void hoverOverMen()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"Hover over men");
-    hoverMen();}
+    public void hoverOverMen() throws InterruptedException {
+        hoverMen();
+    }
 
     @Test
-    public void hoverOverUltaCollections() throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"Hover over ulta collection");
-    hoverUltaCollections();}
+    public void hoverOverUltaCollections() throws InterruptedException {
+        hoverUltaCollections();
+    }
 
     @Test
-    public void hoverOverGifts()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"Hover over gifts");
-    hoverGifts();}
+    public void hoverOverGifts() throws InterruptedException {
+        hoverGifts();
+    }
 
     @Test
-    public void hoverOverSalesAndCoupons()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"Hover over sales and coupons");
-    hoverSalesAndCoupon();}
+    public void hoverOverSalesAndCoupons() throws InterruptedException {
+        hoverSalesAndCoupon();
+    }
 
     @Test
-    public void hoverOverCurrentAd()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"hover over current ad");
-    hoverCurrentAd();}
+    public void hoverOverCurrentAd() throws InterruptedException {
+        hoverCurrentAd();
+    }
 
     @Test
-    public void hoverOverBeautyTips()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"hover over beauty tips");
-    hoverBeautyTips();}
+    public void hoverOverBeautyTips() throws InterruptedException {
+        hoverBeautyTips();
+    }
 
     @Test
-    public void hoverOverAllureWinners()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"hover over allure winners");
-    hoverAllureWinners();}
+    public void hoverOverAllureWinners() throws InterruptedException {
+        hoverAllureWinners();
+    }
 
     @Test
-    public void hoverOverBeautyServices()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"hover over beauty services");
-    hoverBeautyServices();}
+    public void hoverOverBeautyServices() throws InterruptedException {
+        hoverBeautyServices();
+    }
 
     @Test
-    public void hoverOverBookAppointment()throws InterruptedException{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"hover over book appointments");
-    hoverBookAppointment();}
+    public void hoverOverBookAppointment() throws InterruptedException {
+        hoverBookAppointment();
+    }
 
     @Test
-    public void viewFaceSection(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"hover over face section");
-    ultaMakeUpPage.seeFaceSection();}
+    public void viewFaceSection() {
+        ultaMakeUpPage.seeFaceSection();
+    }
 
     @Test
-    public void viewEyesSection(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"hover over eyes section");
-    ultaMakeUpPage.seeEyesSection();}
+    public void viewEyesSection() {
+        ultaMakeUpPage.seeEyesSection();
+    }
 
     @Test
-    public void viewUltaCollectionSection(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"hover over ulta collections");
-    ultaMakeUpPage.seeUltaCollectionSection();}
+    public void viewUltaCollectionSection() {
+        ultaMakeUpPage.seeUltaCollectionSection();
+    }
 
     @Test
-    public void viewLipsSection(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view lips section");
-    ultaMakeUpPage.seelipsSection();}
+    public void viewLipsSection() {
+        ultaMakeUpPage.seelipsSection();
+    }
 
     @Test
-    public void viewBrushesAndToolsSection(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view brushes and tools");
-    ultaMakeUpPage.seeBrushesAndToolsSection();}
+    public void viewBrushesAndToolsSection() {
+        ultaMakeUpPage.seeBrushesAndToolsSection();
+    }
 
     @Test
-    public void viewBagsAndCasesSection(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view bags and cases");
-    ultaMakeUpPage.seeBagsAndCasesSection();}
+    public void viewBagsAndCasesSection() {
+        ultaMakeUpPage.seeBagsAndCasesSection();
+    }
 
     @Test
-    public void viewTravelSizeSection(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view travel size");
-    ultaMakeUpPage.seeTravelSizeSection();}
+    public void viewTravelSizeSection() {
+        ultaMakeUpPage.seeTravelSizeSection();
+    }
 
     @Test
-    public void viewGiftsAndValueSetsSection(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view gifts and value sets");
-    ultaMakeUpPage.seeGiftsAndValueSetsSection();}
+    public void viewGiftsAndValueSetsSection() {
+        ultaMakeUpPage.seeGiftsAndValueSetsSection();
+    }
 
     @Test
-    public void viewAllureBestOfBeautySection(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view allure best of beauty section");
-    ultaMakeUpPage.seeAllureBestOfBeautySection();}
+    public void viewAllureBestOfBeautySection() {
+        ultaMakeUpPage.seeAllureBestOfBeautySection();
+    }
 
 }

@@ -13,176 +13,163 @@ public class TestHomePage extends HomePage {
     String homePageUrl = "https://www.linkedin.com/";
 
     @BeforeClass
-    public void initialize(){
+    public void initialize() {
         driver.get(homePageUrl);
-        homePage = PageFactory.initElements(driver,HomePage.class);
+        homePage = PageFactory.initElements(driver, HomePage.class);
 
     }
 
     @AfterMethod
-    public void reStart(){
+    public void reStart() {
         driver.get(homePageUrl);
     }
 
     @Test
-    public void getTitleOfLinkedInHomePage(){
-        TestLogger.log(getClass().getSimpleName() + " -> " +
-                convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"get title of LinkedIn homepage");
-     getTitleOfHomePage();
+    public void getTitleOfLinkedInHomePage() {
+        getTitleOfHomePage();
     }
 
     @Test
-    public void enterFirstName(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"enter first name");
+    public void enterFirstName() {
         homePage.inputFirstName("Selenium");
     }
 
     @Test
-    public void enterLastName(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"enter last name");
+    public void enterLastName() {
         homePage.inputLastName("Test");
     }
 
     @Test
-    public void enterEmail(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"enter email");
+    public void enterEmail() {
         homePage.inputEmail("stest7380@gmail.com");
     }
 
     @Test
-    public void enterPassword(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"enter password");
+    public void enterPassword() {
         homePage.inputPassword("stest312@t");
     }
 
     @Test
-    public void registerButton(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"click registration button");
+    public void registerButton() {
         homePage.submitRegistration();
     }
 
     @Test(priority = 6)
-    public void registerForLinkedIn() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"register for linkedin");
+    public void registerForLinkedIn() throws Exception {
         homePage.registerLinkedIn();
     }
 
     @Test
-    public void registerWithNoLastName() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"register with no last name");
+    public void registerWithNoLastName() throws Exception {
         homePage.registerNoLastName();
     }
 
     @Test
-    public void registerWithNoEmail() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"register with no email");
+    public void registerWithNoEmail() throws Exception {
         homePage.registerNoEmail();
     }
+
     @Test
-    public void registerWithNoPassword() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"register with no password");
+    public void registerWithNoPassword() throws Exception {
         homePage.registerNoPassword();
     }
 
     @Test
-    public void registerWithNoCredentials() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"register with no credential at all");
+    public void registerWithNoCredentials() throws Exception {
         homePage.registerNoCredentials();
     }
 
     @Test
-    public void emailLogin(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"enter email in login section");
+    public void emailLogin() {
         homePage.enterEmailLogin("stest7380@gmail.com");
     }
 
     @Test
-    public void passwordLogin(){TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"enter password in login section");
+    public void passwordLogin() {
         homePage.enterPasswordLogin("stest312@t");
     }
 
-   // @Test
-    public void signIn() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"sign in with valid credentials");
-       homePage.logInLinkedIn("stest7380@gmail.com","stest312@t");
+    // @Test
+    public void signIn() throws Exception {
+        homePage.logInLinkedIn("stest7380@gmail.com", "stest312@t");
     }
 
     @Test
-    public void usingInvalidLogInCredentials() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"sign in with invalid credentials");
+    public void usingInvalidLogInCredentials() throws Exception {
         homePage.invalidLogInCredentials();
     }
 
     @Test
-    public void navigateToForgotPasswordPage() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"navigate to forgot password page");
+    public void navigateToForgotPasswordPage() throws Exception {
         homePage.setForgotPassword();
     }
 
     @Test
-    public void viewSignUpPage() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"view sign up page");
-    homePage.signUpPage();}
+    public void viewSignUpPage() throws Exception {
+        homePage.signUpPage();
+    }
 
     @Test
-    public void viewHelpCenterPage() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"navigate to help center page");
-    homePage.helpCenterPage();}
+    public void viewHelpCenterPage() throws Exception {
+        homePage.helpCenterPage();
+    }
 
     @Test
-    public void viewAboutPage() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"navigate to about page");
-    homePage.aboutPage();}
+    public void viewAboutPage() throws Exception {
+        homePage.aboutPage();
+    }
 
     @Test
-    public void viewPressPage() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"navigate to press page");
-    homePage.pressPage();}
+    public void viewPressPage() throws Exception {
+        homePage.pressPage();
+    }
 
     @Test
-    public void viewBlogPage() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"navigate to blog page");
-    homePage.blogPage();}
+    public void viewBlogPage() throws Exception {
+        homePage.blogPage();
+    }
 
     @Test
-    public void viewCareersPage() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"navigate to careers page");
-    homePage.careersPage();}
+    public void viewCareersPage() throws Exception {
+        homePage.careersPage();
+    }
 
     @Test
-    public void viewDevelopersPage() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"navigate to developers page");
-    homePage.developersPage();}
+    public void viewDevelopersPage() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + " -> " +
+                convertToString(new Object() {
+                }.getClass().getEnclosingMethod().getName()) + "navigate to developers page");
+        homePage.developersPage();
+    }
 
     @Test
-    public void viewTalentPage() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"navigate to talent page");
-    homePage.talentPage();}
+    public void viewTalentPage() throws Exception {
+        homePage.talentPage();
+    }
 
     @Test
-    public void viewMarketingPage() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"navigate to marketing page");
-    homePage.marketingPage();}
+    public void viewMarketingPage() throws Exception {
+        homePage.marketingPage();
+    }
 
     @Test
-    public void viewSalesPage() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"navigate to sales page");
-    homePage.salesPage();}
+    public void viewSalesPage() throws Exception {
+        homePage.salesPage();
+    }
 
     @Test
-    public void viewLearningPage() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"navigate to learning page");
-    homePage.learningPage();}
+    public void viewLearningPage() throws Exception {
+        homePage.learningPage();
+    }
 
     @Test
-    public void viewCompanyPages() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"navigate to company page");
-    homePage.companyPagesLink();}
+    public void viewCompanyPages() throws Exception {
+        homePage.companyPagesLink();
+    }
 
     @Test
-    public void viewBrowsByRegionPage() throws Exception{TestLogger.log(getClass().getSimpleName() + " -> " +
-            convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+"navigate to browse by region page");
-    homePage.browsByRegionPage();}
+    public void viewBrowsByRegionPage() throws Exception {
+        homePage.browsByRegionPage();
+    }
 
 }

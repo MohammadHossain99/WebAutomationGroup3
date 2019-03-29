@@ -12,7 +12,8 @@ import org.testng.Reporter;
 
 
 
-public class TestLogger {
+public class
+TestLogger {
 
     public static void log(final String message){
 
