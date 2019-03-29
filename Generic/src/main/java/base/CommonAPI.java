@@ -18,6 +18,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -84,7 +85,9 @@ public class CommonAPI {
         extent.flush();
         if (result.getStatus() == ITestResult.FAILURE) {
             captureScreenshot(driver, result.getName());
-        }//       driver.quit();
+        }
+
+        //       driver.quit();
     }
 
     @AfterSuite
@@ -370,7 +373,6 @@ public class CommonAPI {
         return text;
     }
 
-
     public static List<String> getTextFromWebElements(String locator, WebDriver driver1) {
         List<WebElement> element = new ArrayList<WebElement>();
         List<String> text = new ArrayList<String>();
@@ -379,16 +381,14 @@ public class CommonAPI {
             String st = web.getText();
             text.add(st);
         }
-        return text;
+      return text;
     }
-
 
     public static List<WebElement> getListOfWebElementsByCss(String locator) {
         List<WebElement> list = new ArrayList<WebElement>();
         list = driver.findElements(By.cssSelector(locator));
         return list;
     }
-
 
     public static List<WebElement> getListOfWebElementsByCss(String locator, WebDriver driver1) {
         List<WebElement> list = new ArrayList<WebElement>();
@@ -401,8 +401,6 @@ public class CommonAPI {
         list = driver.findElements(By.xpath(locator));
         return list;
     }
-
-
     public String getCurrentPageUrl() {
         String url = driver.getCurrentUrl();
         return url;
@@ -422,18 +420,14 @@ public class CommonAPI {
         return st;
     }
 
-
     public String getTextById(String locator) {
         return driver.findElement(By.id(locator)).getText();
     }
-
 
     public String getTextByName(String locator) {
         String st = driver.findElement(By.name(locator)).getText();
         return st;
     }
-
-
     public List<String> getListOfString(List<WebElement> list) {
         List<String> items = new ArrayList<String>();
         for (WebElement element : list) {
@@ -441,7 +435,6 @@ public class CommonAPI {
         }
         return items;
     }
-
 
     public void selectOptionByVisibleText(WebElement element, String value) {
         Select select = new Select(element);
@@ -452,14 +445,11 @@ public class CommonAPI {
         Thread.sleep(sec * 1000);
     }
 
-
     public void mouseHoverByCSS(String locator) {
-
         try {
             WebElement element = driver.findElement(By.cssSelector(locator));
             Actions action = new Actions(driver);
             Actions hover = action.moveToElement(element);
-
         } catch (Exception ex) {
             System.out.println("First attempt has been done, This is second try");
             WebElement element = driver.findElement(By.cssSelector(locator));
@@ -554,16 +544,14 @@ public class CommonAPI {
 
 
     public void clearInput(String locator) {
-
         driver.findElement(By.cssSelector(locator)).clear();
-
     }
+
     public void keysInput(String locator) {
         driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
     }
 
     //Handling New Tabs
-
     public static WebDriver handleNewTab(WebDriver driver1) {
         String oldTab = driver1.getWindowHandle();
         List<String> newTabs = new ArrayList<String>(driver1.getWindowHandles());
@@ -572,12 +560,10 @@ public class CommonAPI {
         return driver1;
     }
 
-
     public static boolean isPopUpWindowDisplayed(WebDriver driver1, String locator) {
         boolean value = driver1.findElement(By.cssSelector(locator)).isDisplayed();
         return value;
     }
-
 
     public void typeOnInputBox(String locator, String value) {
         try {
