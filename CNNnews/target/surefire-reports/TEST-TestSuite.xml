@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="93" failures="5" name="TestSuite" time="204.233" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/jewal/IntelliJ/WebAutomationGroup3"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/jewal/IntelliJ/WebAutomationGroup3"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/5r/blxqt3jn7f98ggm5bzw8flkc0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.0/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jewal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.0/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.4"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.0/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/jewal"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="jewal"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.0/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="/Users/jewal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.0/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="testcnnhealthpage.TestCnnHealth" name="testParenting" time="3.904"/>
+  <testcase classname="testcnnhealthpage.TestCnnHealth" name="testSetBottomPoliticsCongress" time="10.294"/>
+  <testcase classname="testcnnhealthpage.TestCnnHealth" name="testSetBottomWorldAsianews" time="3.024"/>
+  <testcase classname="testcnnhealthpage.TestCnnHealth" name="testSetFirstIMG" time="0.136"/>
+  <testcase classname="testcnnhealthpage.TestCnnHealth" name="testSetHouseStoris" time="7.851"/>
+  <testcase classname="testcnnhealthpage.TestCnnHealth" name="testSetPaidPartnerIMG" time="1.515"/>
+  <testcase classname="testcnnhealthpage.TestCnnHealth" name="testSetPopulerSixthTopic" time="0.156"/>
+  <testcase classname="testcnnhealthpage.TestCnnHealth" name="testSetStorisSix" time="0.115"/>
+  <testcase classname="testcnnhealthpage.TestCnnHealth" name="testSetTopStoris" time="0.196"/>
+  <testcase classname="testcnnhealthpage.TestCnnHealth" name="testSetbottomWorldAustralia" time="0.186"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testFeatureSection" time="2.764"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testFeatureSection3" time="0.177"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testFeatureSection4" time="10.089">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//section[@id=&apos;world-zone-3&apos;]/div[6]/div[2]/div/ul/li[6]&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50126}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 074d33ef94d4e3881b0a5ccd7181f1ef
+*** Element info: {Using=xpath, value=//section[@id=&apos;world-zone-3&apos;]/div[6]/div[2]/div/ul/li[6]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//section[@id=&apos;world-zone-3&apos;]/div[6]/div[2]/div/ul/li[6]&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50126}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 074d33ef94d4e3881b0a5ccd7181f1ef
+*** Element info: {Using=xpath, value=//section[@id=&apos;world-zone-3&apos;]/div[6]/div[2]/div/ul/li[6]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isSelected(Unknown Source)
+	at cnnworld.CNNWorld.setFeatureSection4(CNNWorld.java:137)
+	at testcnnworld.TestCNNWorld.testFeatureSection4(TestCNNWorld.java:60)
+</failure>
+    <system-out>CNNWorld  -&gt; Verify Headlines6 in Cnn World Page
+</system-out>
+  </testcase>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testHeadlines1" time="0.042"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testHeadlines3" time="0.277"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testHeadlines4" time="0.523"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testHeadlines5" time="0.201"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testHeadlones2" time="0.119"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testLatestStories" time="0.163"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testLatestStories11" time="0.209"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testLatestStories12" time="0.173"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testLatestStories13" time="0.515"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testLatestStories2" time="0.015"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testLatestStories4" time="0.069"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testLatestStories5" time="0.04"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testLatestStories6" time="0.104"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testLatestStories7" time="6.656"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testLatestStories8" time="0.171"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testLatestStories9" time="4.715"/>
+  <testcase classname="testcnnworld.TestCNNWorld" name="testTopVisibeIMG" time="0.253"/>
+  <testcase classname="testcnnuspage.TestCnnUsPage" name="testCurrentUrl" time="0.117"/>
+  <testcase classname="testcnnuspage.TestCnnUsPage" name="testalltextfromUsPage" time="10.083">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.cn.cn-list-xs.cn--idx-0.cn-container_DCB8F55B-ECE9-602C-1A45-5919511B4582.cn--expandable.cn--collapsed&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50890}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: dcb9afd630fcacb57c2b9bf40f399a64
+*** Element info: {Using=css selector, value=.cn.cn-list-xs.cn--idx-0.cn-container_DCB8F55B-ECE9-602C-1A45-5919511B4582.cn--expandable.cn--collapsed}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.cn.cn-list-xs.cn--idx-0.cn-container_DCB8F55B-ECE9-602C-1A45-5919511B4582.cn--expandable.cn--collapsed&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50890}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: dcb9afd630fcacb57c2b9bf40f399a64
+*** Element info: {Using=css selector, value=.cn.cn-list-xs.cn--idx-0.cn-container_DCB8F55B-ECE9-602C-1A45-5919511B4582.cn--expandable.cn--collapsed}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.getText(Unknown Source)
+	at cnnuspage.CnnUsPage.setalltextfromUsPage(CnnUsPage.java:77)
+	at testcnnuspage.TestCnnUsPage.testalltextfromUsPage(TestCnnUsPage.java:48)
+</failure>
+    <system-out>CnnUsPage  -&gt; Verify Stories 2 in U.S. Page
+</system-out>
+  </testcase>
+  <testcase classname="testcnnuspage.TestCnnUsPage" name="testsetBottomTopics" time="0.083"/>
+  <testcase classname="testcnnuspage.TestCnnUsPage" name="testsetImage" time="0.162"/>
+  <testcase classname="testcnnuspage.TestCnnUsPage" name="testsetLastImg" time="10.08">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//section[@id=&apos;homepage4-zone-7&apos;]/div/div/div/ul/li/article/div/div/a/img&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50890}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: dcb9afd630fcacb57c2b9bf40f399a64
+*** Element info: {Using=xpath, value=//section[@id=&apos;homepage4-zone-7&apos;]/div/div/div/ul/li/article/div/div/a/img}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//section[@id=&apos;homepage4-zone-7&apos;]/div/div/div/ul/li/article/div/div/a/img&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50890}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: dcb9afd630fcacb57c2b9bf40f399a64
+*** Element info: {Using=xpath, value=//section[@id=&apos;homepage4-zone-7&apos;]/div/div/div/ul/li/article/div/div/a/img}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at cnnuspage.CnnUsPage.setLastImg(CnnUsPage.java:85)
+	at testcnnuspage.TestCnnUsPage.testsetLastImg(TestCnnUsPage.java:52)
+</failure>
+    <system-out>CnnUsPage  -&gt; Verify Image in U.S. Page
+</system-out>
+  </testcase>
+  <testcase classname="testcnnuspage.TestCnnUsPage" name="testsetStoriestext" time="0.038"/>
+  <testcase classname="testcnnuspage.TestCnnUsPage" name="testsetStoriestext1" time="0.237"/>
+  <testcase classname="testcnnuspage.TestCnnUsPage" name="testsetTable1stImg" time="10.048">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ad ad--epic ad--tablet&apos;]//following-sibling::ul/a//following-sibling::li/article/div/div/a/img&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50890}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: dcb9afd630fcacb57c2b9bf40f399a64
+*** Element info: {Using=xpath, value=//div[@class=&apos;ad ad--epic ad--tablet&apos;]//following-sibling::ul/a//following-sibling::li/article/div/div/a/img}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ad ad--epic ad--tablet&apos;]//following-sibling::ul/a//following-sibling::li/article/div/div/a/img&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50890}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: dcb9afd630fcacb57c2b9bf40f399a64
+*** Element info: {Using=xpath, value=//div[@class=&apos;ad ad--epic ad--tablet&apos;]//following-sibling::ul/a//following-sibling::li/article/div/div/a/img}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at cnnuspage.CnnUsPage.setTable1stImg(CnnUsPage.java:55)
+	at testcnnuspage.TestCnnUsPage.testsetTable1stImg(TestCnnUsPage.java:36)
+</failure>
+    <system-out>CnnUsPage  -&gt; Verify IMAGE in U.S. Page
+</system-out>
+  </testcase>
+  <testcase classname="testcnnuspage.TestCnnUsPage" name="testsetaroundtheUsText" time="4.647"/>
+  <testcase classname="testcnnuspage.TestCnnUsPage" name="testsetclickingonfb" time="18.748"/>
+  <testcase classname="testDBSearch.TestSearch" name="testFromDBsearch" time="43.533"/>
+  <testcase classname="testhompage.TestHomePage" name="clickOnSerchTab" time="0.691"/>
+  <testcase classname="testhompage.TestHomePage" name="searchWithSearchIteems" time="11.571"/>
+  <testcase classname="testhompage.TestHomePage" name="testAfricaSorce" time="0.184"/>
+  <testcase classname="testhompage.TestHomePage" name="testAmericaSource" time="0.064"/>
+  <testcase classname="testhompage.TestHomePage" name="testArtSource" time="0.095"/>
+  <testcase classname="testhompage.TestHomePage" name="testAsiaSoure" time="0.05"/>
+  <testcase classname="testhompage.TestHomePage" name="testBaseBallSource" time="0.099"/>
+  <testcase classname="testhompage.TestHomePage" name="testBasketBallSource" time="0.03"/>
+  <testcase classname="testhompage.TestHomePage" name="testBottomHome" time="0.024"/>
+  <testcase classname="testhompage.TestHomePage" name="testBusinessHeadlinestab" time="0.035"/>
+  <testcase classname="testhompage.TestHomePage" name="testCNNFilmSOurce" time="4.822"/>
+  <testcase classname="testhompage.TestHomePage" name="testChinaSource" time="0.081"/>
+  <testcase classname="testhompage.TestHomePage" name="testCnnLogo" time="0.08"/>
+  <testcase classname="testhompage.TestHomePage" name="testCollegeFootballSource" time="0.081"/>
+  <testcase classname="testhompage.TestHomePage" name="testCrimeJusticeSource" time="0.052"/>
+  <testcase classname="testhompage.TestHomePage" name="testDesignSource" time="0.066"/>
+  <testcase classname="testhompage.TestHomePage" name="testDestinationSource" time="8.293"/>
+  <testcase classname="testhompage.TestHomePage" name="testDigitalStudio" time="0.492"/>
+  <testcase classname="testhompage.TestHomePage" name="testEnargyEnvironmentSource" time="0.173"/>
+  <testcase classname="testhompage.TestHomePage" name="testEntertainmentTab" time="0.175"/>
+  <testcase classname="testhompage.TestHomePage" name="testEuropeSource" time="0.197"/>
+  <testcase classname="testhompage.TestHomePage" name="testExtremeWeather" time="1.19">
+    <failure message="unknown error: Element &lt;li class=&quot;m-footer__list-item&quot;&gt;...&lt;/li&gt; is not clickable at point (121, 640). Other element would receive the click: &lt;p class=&quot;banner-content&quot; id=&quot;alert-box-message&quot;&gt;...&lt;/p&gt;
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52334}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 1de54b4844b25a6e5177f87a0db2ea4e" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Element &lt;li class=&quot;m-footer__list-item&quot;&gt;...&lt;/li&gt; is not clickable at point (121, 640). Other element would receive the click: &lt;p class=&quot;banner-content&quot; id=&quot;alert-box-message&quot;&gt;...&lt;/p&gt;
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52334}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 1de54b4844b25a6e5177f87a0db2ea4e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at homepage.HomePage.setExtremeWeather(HomePage.java:198)
+	at testhompage.TestHomePage.testExtremeWeather(TestHomePage.java:44)
+</failure>
+    <system-out>HomePage  -&gt; Verify Bottom Weather Source
+</system-out>
+  </testcase>
+  <testcase classname="testhompage.TestHomePage" name="testFactsFirst" time="3.132"/>
+  <testcase classname="testhompage.TestHomePage" name="testFashionSource" time="0.042"/>
+  <testcase classname="testhompage.TestHomePage" name="testFitnessSource" time="0.322"/>
+  <testcase classname="testhompage.TestHomePage" name="testFoodAndDrinks" time="0.042"/>
+  <testcase classname="testhompage.TestHomePage" name="testFoodSource" time="10.051"/>
+  <testcase classname="testhompage.TestHomePage" name="testHLNSource" time="3.384"/>
+  <testcase classname="testhompage.TestHomePage" name="testHealthHeadlinesTab" time="0.059"/>
+  <testcase classname="testhompage.TestHomePage" name="testIndiaSource" time="0.097"/>
+  <testcase classname="testhompage.TestHomePage" name="testLiveLonger" time="4.357"/>
+  <testcase classname="testhompage.TestHomePage" name="testLiveTVTab" time="0.16"/>
+  <testcase classname="testhompage.TestHomePage" name="testLuxurySource" time="0.079"/>
+  <testcase classname="testhompage.TestHomePage" name="testMenuTab" time="0.228"/>
+  <testcase classname="testhompage.TestHomePage" name="testMiddleEastSource" time="0.038"/>
+  <testcase classname="testhompage.TestHomePage" name="testOlympicSource" time="0.042"/>
+  <testcase classname="testhompage.TestHomePage" name="testOpinionHeadlinesTab" time="0.074"/>
+  <testcase classname="testhompage.TestHomePage" name="testOpinionSource" time="0.056"/>
+  <testcase classname="testhompage.TestHomePage" name="testPoliticsHeadlines" time="0.047"/>
+  <testcase classname="testhompage.TestHomePage" name="testSoccerSource" time="0.047"/>
+  <testcase classname="testhompage.TestHomePage" name="testSpaceScince" time="0.113"/>
+  <testcase classname="testhompage.TestHomePage" name="testSportsHeadlineTab" time="0.068"/>
+  <testcase classname="testhompage.TestHomePage" name="testStyleHeadlineTab" time="0.046"/>
+  <testcase classname="testhompage.TestHomePage" name="testSupremeCourtSource" time="0.045"/>
+  <testcase classname="testhompage.TestHomePage" name="testTravelHeadlineTab" time="0.072"/>
+  <testcase classname="testhompage.TestHomePage" name="testUSEditionTab" time="0.228"/>
+  <testcase classname="testhompage.TestHomePage" name="testUsHeadlinesTab" time="0.053"/>
+  <testcase classname="testhompage.TestHomePage" name="testVideoHeadlineTab" time="0.231"/>
+  <testcase classname="testhompage.TestHomePage" name="testWellnessSource" time="0.036"/>
+  <testcase classname="testhompage.TestHomePage" name="testWorldHeadlines" time="0.065"/>
+  <testcase classname="testhompage.TestHomePage" name="testWorldNews" time="0.038"/>
+  <testcase classname="testhompage.TestHomePage" name="titleMatching" time="0.008"/>
+</testsuite>

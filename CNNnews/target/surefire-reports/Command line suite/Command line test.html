@@ -1,0 +1,1677 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>88/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 29 00:15:30 EDT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>1010 seconds (1010607 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testhompage.TestHomePage.testExtremeWeather()'><b>testExtremeWeather</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1188445627" onClick='toggleBox("Output-1188445627", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1188445627" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1188445627">
+HomePage  -> Verify Bottom Weather Source<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;li class=&quot;m-footer__list-item&quot;&gt;...&lt;/li&gt; is not clickable at point (121, 640). Other element would receive the click: &lt;p class=&quot;banner-content&quot; id=&quot;alert-box-message&quot;&gt;...&lt;/p&gt;
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52334}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 1de54b4844b25a6e5177f87a0db2ea4e
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at homepage.HomePage.setExtremeWeather(HomePage.java:198)
+	at testhompage.TestHomePage.testExtremeWeather(TestHomePage.java:44)
+... Removed 43 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1188445627", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1188445627'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;li class=&quot;m-footer__list-item&quot;&gt;...&lt;/li&gt; is not clickable at point (121, 640). Other element would receive the click: &lt;p class=&quot;banner-content&quot; id=&quot;alert-box-message&quot;&gt;...&lt;/p&gt;
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52334}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 1de54b4844b25a6e5177f87a0db2ea4e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at homepage.HomePage.setExtremeWeather(HomePage.java:198)
+	at testhompage.TestHomePage.testExtremeWeather(TestHomePage.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</pre></div></td>
+<td>1</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testFeatureSection4()'><b>testFeatureSection4</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-65080774" onClick='toggleBox("Output-65080774", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-65080774" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-65080774">
+CNNWorld  -> Verify Headlines6 in Cnn World Page<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//section[@id=&apos;world-zone-3&apos;]/div[6]/div[2]/div/ul/li[6]&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50126}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 074d33ef94d4e3881b0a5ccd7181f1ef
+*** Element info: {Using=xpath, value=//section[@id=&apos;world-zone-3&apos;]/div[6]/div[2]/div/ul/li[6]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isSelected(Unknown Source)
+	at cnnworld.CNNWorld.setFeatureSection4(CNNWorld.java:137)
+	at testcnnworld.TestCNNWorld.testFeatureSection4(TestCNNWorld.java:60)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace65080774", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace65080774'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//section[@id=&apos;world-zone-3&apos;]/div[6]/div[2]/div/ul/li[6]&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50126}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 074d33ef94d4e3881b0a5ccd7181f1ef
+*** Element info: {Using=xpath, value=//section[@id=&apos;world-zone-3&apos;]/div[6]/div[2]/div/ul/li[6]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isSelected(Unknown Source)
+	at cnnworld.CNNWorld.setFeatureSection4(CNNWorld.java:137)
+	at testcnnworld.TestCNNWorld.testFeatureSection4(TestCNNWorld.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</pre></div></td>
+<td>10</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnuspage.TestCnnUsPage.testalltextfromUsPage()'><b>testalltextfromUsPage</b><br>Test class: testcnnuspage.TestCnnUsPage<br/>
+<a href="#Output-1967432164" onClick='toggleBox("Output-1967432164", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1967432164" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1967432164">
+CnnUsPage  -> Verify Stories 2 in U.S. Page<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.cn.cn-list-xs.cn--idx-0.cn-container_DCB8F55B-ECE9-602C-1A45-5919511B4582.cn--expandable.cn--collapsed&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50890}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: dcb9afd630fcacb57c2b9bf40f399a64
+*** Element info: {Using=css selector, value=.cn.cn-list-xs.cn--idx-0.cn-container_DCB8F55B-ECE9-602C-1A45-5919511B4582.cn--expandable.cn--collapsed}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.getText(Unknown Source)
+	at cnnuspage.CnnUsPage.setalltextfromUsPage(CnnUsPage.java:77)
+	at testcnnuspage.TestCnnUsPage.testalltextfromUsPage(TestCnnUsPage.java:48)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1967432164", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1967432164'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.cn.cn-list-xs.cn--idx-0.cn-container_DCB8F55B-ECE9-602C-1A45-5919511B4582.cn--expandable.cn--collapsed&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50890}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: dcb9afd630fcacb57c2b9bf40f399a64
+*** Element info: {Using=css selector, value=.cn.cn-list-xs.cn--idx-0.cn-container_DCB8F55B-ECE9-602C-1A45-5919511B4582.cn--expandable.cn--collapsed}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.getText(Unknown Source)
+	at cnnuspage.CnnUsPage.setalltextfromUsPage(CnnUsPage.java:77)
+	at testcnnuspage.TestCnnUsPage.testalltextfromUsPage(TestCnnUsPage.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</pre></div></td>
+<td>10</td>
+<td>testcnnuspage.TestCnnUsPage@6574b225</td></tr>
+<tr>
+<td title='testcnnuspage.TestCnnUsPage.testsetLastImg()'><b>testsetLastImg</b><br>Test class: testcnnuspage.TestCnnUsPage<br/>
+<a href="#Output-1424439581" onClick='toggleBox("Output-1424439581", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1424439581" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1424439581">
+CnnUsPage  -> Verify Image in U.S. Page<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//section[@id=&apos;homepage4-zone-7&apos;]/div/div/div/ul/li/article/div/div/a/img&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50890}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: dcb9afd630fcacb57c2b9bf40f399a64
+*** Element info: {Using=xpath, value=//section[@id=&apos;homepage4-zone-7&apos;]/div/div/div/ul/li/article/div/div/a/img}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at cnnuspage.CnnUsPage.setLastImg(CnnUsPage.java:85)
+	at testcnnuspage.TestCnnUsPage.testsetLastImg(TestCnnUsPage.java:52)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1424439581", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1424439581'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//section[@id=&apos;homepage4-zone-7&apos;]/div/div/div/ul/li/article/div/div/a/img&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50890}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: dcb9afd630fcacb57c2b9bf40f399a64
+*** Element info: {Using=xpath, value=//section[@id=&apos;homepage4-zone-7&apos;]/div/div/div/ul/li/article/div/div/a/img}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at cnnuspage.CnnUsPage.setLastImg(CnnUsPage.java:85)
+	at testcnnuspage.TestCnnUsPage.testsetLastImg(TestCnnUsPage.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</pre></div></td>
+<td>10</td>
+<td>testcnnuspage.TestCnnUsPage@6574b225</td></tr>
+<tr>
+<td title='testcnnuspage.TestCnnUsPage.testsetTable1stImg()'><b>testsetTable1stImg</b><br>Test class: testcnnuspage.TestCnnUsPage<br/>
+<a href="#Output-1090695601" onClick='toggleBox("Output-1090695601", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1090695601" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1090695601">
+CnnUsPage  -> Verify IMAGE in U.S. Page<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ad ad--epic ad--tablet&apos;]//following-sibling::ul/a//following-sibling::li/article/div/div/a/img&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50890}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: dcb9afd630fcacb57c2b9bf40f399a64
+*** Element info: {Using=xpath, value=//div[@class=&apos;ad ad--epic ad--tablet&apos;]//following-sibling::ul/a//following-sibling::li/article/div/div/a/img}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at cnnuspage.CnnUsPage.setTable1stImg(CnnUsPage.java:55)
+	at testcnnuspage.TestCnnUsPage.testsetTable1stImg(TestCnnUsPage.java:36)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1090695601", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1090695601'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ad ad--epic ad--tablet&apos;]//following-sibling::ul/a//following-sibling::li/article/div/div/a/img&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Mds-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:48b:8da:39ba:6af8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/5r/blxqt3jn7f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50890}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: dcb9afd630fcacb57c2b9bf40f399a64
+*** Element info: {Using=xpath, value=//div[@class=&apos;ad ad--epic ad--tablet&apos;]//following-sibling::ul/a//following-sibling::li/article/div/div/a/img}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at cnnuspage.CnnUsPage.setTable1stImg(CnnUsPage.java:55)
+	at testcnnuspage.TestCnnUsPage.testsetTable1stImg(TestCnnUsPage.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</pre></div></td>
+<td>10</td>
+<td>testcnnuspage.TestCnnUsPage@6574b225</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testhompage.TestHomePage.clickOnSerchTab()'><b>clickOnSerchTab</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-698784309" onClick='toggleBox("Output-698784309", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-698784309" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-698784309">
+HomePage  -> Verify Search Tab<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.searchWithSearchIteems()'><b>searchWithSearchIteems</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-58421994" onClick='toggleBox("Output-58421994", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-58421994" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-58421994">
+HomePage  ->  Christchurch<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testAfricaSorce()'><b>testAfricaSorce</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1876259196" onClick='toggleBox("Output-1876259196", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1876259196" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1876259196">
+HomePage  -> Verify Bottom Africa Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testAmericaSource()'><b>testAmericaSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1740095856" onClick='toggleBox("Output-1740095856", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1740095856" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1740095856">
+HomePage  -> Verify Bottom America Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testArtSource()'><b>testArtSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-826690115" onClick='toggleBox("Output-826690115", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-826690115" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-826690115">
+HomePage  -> Verify Bottom Art Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testAsiaSoure()'><b>testAsiaSoure</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-124540047" onClick='toggleBox("Output-124540047", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-124540047" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-124540047">
+HomePage  -> Verify Bottom Asia Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testBaseBallSource()'><b>testBaseBallSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1333938290" onClick='toggleBox("Output-1333938290", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1333938290" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1333938290">
+HomePage  -> Verify Bottom BaseBall Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testBasketBallSource()'><b>testBasketBallSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1955948959" onClick='toggleBox("Output-1955948959", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1955948959" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1955948959">
+HomePage  -> Verify Bottom BasketBall Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testBottomHome()'><b>testBottomHome</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-49299717" onClick='toggleBox("Output-49299717", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-49299717" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-49299717">
+HomePage  -> Verify Bottom Home Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testBusinessHeadlinestab()'><b>testBusinessHeadlinestab</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1729171313" onClick='toggleBox("Output-1729171313", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1729171313" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1729171313">
+HomePage  -> Verify Title Business Link Tab<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testCNNFilmSOurce()'><b>testCNNFilmSOurce</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-346847161" onClick='toggleBox("Output-346847161", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-346847161" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-346847161">
+HomePage  -> Verify Bottom CNN Film Source<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testChinaSource()'><b>testChinaSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1711393939" onClick='toggleBox("Output-1711393939", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1711393939" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1711393939">
+HomePage  -> Verify Bottom China Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testCnnLogo()'><b>testCnnLogo</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-118363130" onClick='toggleBox("Output-118363130", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-118363130" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-118363130">
+HomePage  -> Verify CNN Logo<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testCollegeFootballSource()'><b>testCollegeFootballSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-390994793" onClick='toggleBox("Output-390994793", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-390994793" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-390994793">
+HomePage  -> Verify Bottom College Football Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testCrimeJusticeSource()'><b>testCrimeJusticeSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1992525817" onClick='toggleBox("Output-1992525817", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1992525817" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1992525817">
+HomePage  -> Verify Bottom Crime And Justice Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testcnnuspage.TestCnnUsPage.testCurrentUrl()'><b>testCurrentUrl</b><br>Test class: testcnnuspage.TestCnnUsPage<br/>
+<a href="#Output-1500379239" onClick='toggleBox("Output-1500379239", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1500379239" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1500379239">
+CnnUsPage  -> Verify url in U.S. Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnuspage.TestCnnUsPage@6574b225</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testDesignSource()'><b>testDesignSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-203409962" onClick='toggleBox("Output-203409962", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-203409962" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-203409962">
+HomePage  -> Verify Bottom Design Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testDestinationSource()'><b>testDestinationSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1046302571" onClick='toggleBox("Output-1046302571", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1046302571" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1046302571">
+HomePage  -> Verify Bottom Destination Source<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testDigitalStudio()'><b>testDigitalStudio</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1048842522" onClick='toggleBox("Output-1048842522", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1048842522" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1048842522">
+HomePage  -> Verify Bottom Digital Studio Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testEnargyEnvironmentSource()'><b>testEnargyEnvironmentSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-95964948" onClick='toggleBox("Output-95964948", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-95964948" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-95964948">
+HomePage  -> Verify Bottom Energy And Environment Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testEntertainmentTab()'><b>testEntertainmentTab</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1022830989" onClick='toggleBox("Output-1022830989", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1022830989" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1022830989">
+HomePage  -> Verify Title Entertainment Link Tab<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testEuropeSource()'><b>testEuropeSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1488395499" onClick='toggleBox("Output-1488395499", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1488395499" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1488395499">
+HomePage  -> Verify Bottom Europe Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testFactsFirst()'><b>testFactsFirst</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-40736485" onClick='toggleBox("Output-40736485", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-40736485" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-40736485">
+HomePage  -> Verify Bottom Facts Source<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testFashionSource()'><b>testFashionSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-2113989903" onClick='toggleBox("Output-2113989903", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2113989903" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2113989903">
+HomePage  -> Verify Bottom Fashion Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testFeatureSection()'><b>testFeatureSection</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-1552221437" onClick='toggleBox("Output-1552221437", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1552221437" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1552221437">
+CNNWorld  -> Verify Feature Section in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testFeatureSection3()'><b>testFeatureSection3</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-1429483328" onClick='toggleBox("Output-1429483328", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1429483328" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1429483328">
+CNNWorld  -> Verify Headlines5 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testFitnessSource()'><b>testFitnessSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-181260145" onClick='toggleBox("Output-181260145", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-181260145" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-181260145">
+HomePage  -> Verify Bottom Fitness Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testFoodAndDrinks()'><b>testFoodAndDrinks</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1607453282" onClick='toggleBox("Output-1607453282", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1607453282" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1607453282">
+HomePage  -> Verify Bottom Food And Drinks Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testFoodSource()'><b>testFoodSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-105194717" onClick='toggleBox("Output-105194717", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-105194717" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-105194717">
+HomePage  -> Verify Bottom Food Source<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testDBSearch.TestSearch.testFromDBsearch()'><b>testFromDBsearch</b><br>Test class: testDBSearch.TestSearch<br/>
+<a href="#Output-1475759966" onClick='toggleBox("Output-1475759966", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1475759966" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1475759966">
+TestSearch : <br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>testDBSearch.TestSearch@2669b199</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testHLNSource()'><b>testHLNSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1202653598" onClick='toggleBox("Output-1202653598", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1202653598" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1202653598">
+HomePage  -> Verify Bottom HLN Source<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testHeadlines1()'><b>testHeadlines1</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-281421502" onClick='toggleBox("Output-281421502", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-281421502" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-281421502">
+CNNWorld  -> Verify Headlines World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testHeadlines3()'><b>testHeadlines3</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-1105416433" onClick='toggleBox("Output-1105416433", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1105416433" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1105416433">
+CNNWorld  -> Verify Headlines2 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testHeadlines4()'><b>testHeadlines4</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-1205559205" onClick='toggleBox("Output-1205559205", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1205559205" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1205559205">
+CNNWorld  -> Verify Headlines3 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testHeadlines5()'><b>testHeadlines5</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-258737099" onClick='toggleBox("Output-258737099", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-258737099" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-258737099">
+CNNWorld  -> Verify Headlines4 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testHeadlones2()'><b>testHeadlones2</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-276748028" onClick='toggleBox("Output-276748028", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-276748028" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-276748028">
+CNNWorld  -> Verify Headlines1 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testHealthHeadlinesTab()'><b>testHealthHeadlinesTab</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-716206126" onClick='toggleBox("Output-716206126", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-716206126" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-716206126">
+HomePage  -> Verify Title Health Link Tab<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testIndiaSource()'><b>testIndiaSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1102181662" onClick='toggleBox("Output-1102181662", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1102181662" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1102181662">
+HomePage  -> Verify Bottom India Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testLatestStories()'><b>testLatestStories</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-124494140" onClick='toggleBox("Output-124494140", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-124494140" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-124494140">
+CNNWorld  -> Verify Headlines7 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testLatestStories11()'><b>testLatestStories11</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-1380044647" onClick='toggleBox("Output-1380044647", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1380044647" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1380044647">
+CNNWorld  -> Verify Headlines15 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testLatestStories12()'><b>testLatestStories12</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-711310213" onClick='toggleBox("Output-711310213", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-711310213" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-711310213">
+CNNWorld  -> Verify Headlines16 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testLatestStories13()'><b>testLatestStories13</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-407493402" onClick='toggleBox("Output-407493402", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-407493402" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-407493402">
+CNNWorld  -> Verify Headlines17 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testLatestStories2()'><b>testLatestStories2</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-665137804" onClick='toggleBox("Output-665137804", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-665137804" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-665137804">
+CNNWorld  -> Verify Headlines8 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testLatestStories4()'><b>testLatestStories4</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-852190062" onClick='toggleBox("Output-852190062", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-852190062" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-852190062">
+CNNWorld  -> Verify Headlines9 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testLatestStories5()'><b>testLatestStories5</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-2021053848" onClick='toggleBox("Output-2021053848", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2021053848" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2021053848">
+CNNWorld  -> Verify Headlines10 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testLatestStories6()'><b>testLatestStories6</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-247515192" onClick='toggleBox("Output-247515192", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-247515192" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-247515192">
+CNNWorld  -> Verify Headlines11 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testLatestStories7()'><b>testLatestStories7</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-1288135425" onClick='toggleBox("Output-1288135425", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1288135425" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1288135425">
+CNNWorld  -> Verify Headlines12 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testLatestStories8()'><b>testLatestStories8</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-1509713998" onClick='toggleBox("Output-1509713998", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1509713998" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1509713998">
+CNNWorld  -> Verify Headlines13 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testLatestStories9()'><b>testLatestStories9</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-813131188" onClick='toggleBox("Output-813131188", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-813131188" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-813131188">
+CNNWorld  -> Verify Headlines14 in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testLiveLonger()'><b>testLiveLonger</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-485237151" onClick='toggleBox("Output-485237151", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-485237151" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-485237151">
+HomePage  -> Verify Bottom Live Longer Source<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testLiveTVTab()'><b>testLiveTVTab</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-247269033" onClick='toggleBox("Output-247269033", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-247269033" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-247269033">
+HomePage  -> Verify Title LiveTV Link Tab<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testLuxurySource()'><b>testLuxurySource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-292856581" onClick='toggleBox("Output-292856581", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-292856581" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-292856581">
+HomePage  -> Verify Bottom Luxury Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testMenuTab()'><b>testMenuTab</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1521132614" onClick='toggleBox("Output-1521132614", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1521132614" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1521132614">
+HomePage  -> Verify Menu Tab<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testMiddleEastSource()'><b>testMiddleEastSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-480118726" onClick='toggleBox("Output-480118726", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-480118726" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-480118726">
+HomePage  -> Verify Bottom Middle East Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testOlympicSource()'><b>testOlympicSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1716855490" onClick='toggleBox("Output-1716855490", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1716855490" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1716855490">
+HomePage  -> Verify Bottom Olympic Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testOpinionHeadlinesTab()'><b>testOpinionHeadlinesTab</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1727026317" onClick='toggleBox("Output-1727026317", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1727026317" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1727026317">
+HomePage  -> Verify Title Opinion Link Tab<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testOpinionSource()'><b>testOpinionSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1071933072" onClick='toggleBox("Output-1071933072", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1071933072" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1071933072">
+HomePage  -> Verify Bottom Opinion Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testcnnhealthpage.TestCnnHealth.testParenting()'><b>testParenting</b><br>Test class: testcnnhealthpage.TestCnnHealth<br/>
+<a href="#Output-1552341957" onClick='toggleBox("Output-1552341957", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1552341957" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1552341957">
+CnnHealth  -> Verify Parenting Content in Health Page<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testcnnhealthpage.TestCnnHealth@32e6e9c3</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testPoliticsHeadlines()'><b>testPoliticsHeadlines</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1821581506" onClick='toggleBox("Output-1821581506", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1821581506" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1821581506">
+HomePage  -> Verify Title Politics Link Tab<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testcnnhealthpage.TestCnnHealth.testSetBottomPoliticsCongress()'><b>testSetBottomPoliticsCongress</b><br>Test class: testcnnhealthpage.TestCnnHealth<br/>
+<a href="#Output-1542520418" onClick='toggleBox("Output-1542520418", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1542520418" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1542520418">
+CnnHealth  -> Verify Content Politics Health Page<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>testcnnhealthpage.TestCnnHealth@32e6e9c3</td></tr>
+<tr>
+<td title='testcnnhealthpage.TestCnnHealth.testSetBottomWorldAsianews()'><b>testSetBottomWorldAsianews</b><br>Test class: testcnnhealthpage.TestCnnHealth<br/>
+<a href="#Output-1402215471" onClick='toggleBox("Output-1402215471", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1402215471" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1402215471">
+CnnHealth  -> Verify World Asia News in Health Page<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testcnnhealthpage.TestCnnHealth@32e6e9c3</td></tr>
+<tr>
+<td title='testcnnhealthpage.TestCnnHealth.testSetFirstIMG()'><b>testSetFirstIMG</b><br>Test class: testcnnhealthpage.TestCnnHealth<br/>
+<a href="#Output-1265508963" onClick='toggleBox("Output-1265508963", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1265508963" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1265508963">
+CnnHealth  -> Verify IMAGE in Health Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnhealthpage.TestCnnHealth@32e6e9c3</td></tr>
+<tr>
+<td title='testcnnhealthpage.TestCnnHealth.testSetHouseStoris()'><b>testSetHouseStoris</b><br>Test class: testcnnhealthpage.TestCnnHealth<br/>
+<a href="#Output-1511574902" onClick='toggleBox("Output-1511574902", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1511574902" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1511574902">
+CnnHealth  -> Politics<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>testcnnhealthpage.TestCnnHealth@32e6e9c3</td></tr>
+<tr>
+<td title='testcnnhealthpage.TestCnnHealth.testSetPaidPartnerIMG()'><b>testSetPaidPartnerIMG</b><br>Test class: testcnnhealthpage.TestCnnHealth<br/>
+<a href="#Output-1504937617" onClick='toggleBox("Output-1504937617", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1504937617" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1504937617">
+CnnHealth  -> Verify IMAGE in Health Page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testcnnhealthpage.TestCnnHealth@32e6e9c3</td></tr>
+<tr>
+<td title='testcnnhealthpage.TestCnnHealth.testSetPopulerSixthTopic()'><b>testSetPopulerSixthTopic</b><br>Test class: testcnnhealthpage.TestCnnHealth<br/>
+<a href="#Output-972865270" onClick='toggleBox("Output-972865270", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-972865270" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-972865270">
+CnnHealth  -> Verify Popular Topics Health Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnhealthpage.TestCnnHealth@32e6e9c3</td></tr>
+<tr>
+<td title='testcnnhealthpage.TestCnnHealth.testSetStorisSix()'><b>testSetStorisSix</b><br>Test class: testcnnhealthpage.TestCnnHealth<br/>
+<a href="#Output-1238616099" onClick='toggleBox("Output-1238616099", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1238616099" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1238616099">
+CnnHealth  -> Verify Content in Health Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnhealthpage.TestCnnHealth@32e6e9c3</td></tr>
+<tr>
+<td title='testcnnhealthpage.TestCnnHealth.testSetTopStoris()'><b>testSetTopStoris</b><br>Test class: testcnnhealthpage.TestCnnHealth<br/>
+<a href="#Output-1506951181" onClick='toggleBox("Output-1506951181", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1506951181" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1506951181">
+CnnHealth  -> Verify Top Stories in Health Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnhealthpage.TestCnnHealth@32e6e9c3</td></tr>
+<tr>
+<td title='testcnnhealthpage.TestCnnHealth.testSetbottomWorldAustralia()'><b>testSetbottomWorldAustralia</b><br>Test class: testcnnhealthpage.TestCnnHealth<br/>
+<a href="#Output-12905860" onClick='toggleBox("Output-12905860", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-12905860" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-12905860">
+CnnHealth  -> Verify Australia News in Health Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnhealthpage.TestCnnHealth@32e6e9c3</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testSoccerSource()'><b>testSoccerSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-162667475" onClick='toggleBox("Output-162667475", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-162667475" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-162667475">
+HomePage  -> Verify Bottom Soccer News Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testSpaceScince()'><b>testSpaceScince</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1176001051" onClick='toggleBox("Output-1176001051", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1176001051" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1176001051">
+HomePage  -> Verify Bottom Space And Science Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testSportsHeadlineTab()'><b>testSportsHeadlineTab</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-690051320" onClick='toggleBox("Output-690051320", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-690051320" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-690051320">
+HomePage  -> Verify Title Sports Link Tab<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testStyleHeadlineTab()'><b>testStyleHeadlineTab</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-765329253" onClick='toggleBox("Output-765329253", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-765329253" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-765329253">
+HomePage  -> Verify Title Style Link Tab<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testSupremeCourtSource()'><b>testSupremeCourtSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1032867484" onClick='toggleBox("Output-1032867484", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1032867484" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1032867484">
+HomePage  -> Verify Bottom Supreme Court Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testcnnworld.TestCNNWorld.testTopVisibeIMG()'><b>testTopVisibeIMG</b><br>Test class: testcnnworld.TestCNNWorld<br/>
+<a href="#Output-1609086753" onClick='toggleBox("Output-1609086753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1609086753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1609086753">
+CNNWorld  -> Verify Image in Cnn World Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnworld.TestCNNWorld@5056dfcb</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testTravelHeadlineTab()'><b>testTravelHeadlineTab</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1987707214" onClick='toggleBox("Output-1987707214", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1987707214" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1987707214">
+HomePage  -> Verify Title Travel Link Tab<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testUSEditionTab()'><b>testUSEditionTab</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1684802151" onClick='toggleBox("Output-1684802151", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1684802151" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1684802151">
+HomePage  -> Verify Title U.S. Edition Tab<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testUsHeadlinesTab()'><b>testUsHeadlinesTab</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1453650546" onClick='toggleBox("Output-1453650546", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1453650546" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1453650546">
+HomePage  -> Verify Title U.S. Link Tab<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testVideoHeadlineTab()'><b>testVideoHeadlineTab</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-1815501246" onClick='toggleBox("Output-1815501246", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1815501246" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1815501246">
+HomePage  -> Verify Title Video Link Tab<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testWellnessSource()'><b>testWellnessSource</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-74735260" onClick='toggleBox("Output-74735260", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-74735260" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-74735260">
+HomePage  -> Verify Bottom Wellness Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testWorldHeadlines()'><b>testWorldHeadlines</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-87784678" onClick='toggleBox("Output-87784678", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-87784678" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-87784678">
+HomePage  -> Verify Title World Link Tab<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.testWorldNews()'><b>testWorldNews</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-830083467" onClick='toggleBox("Output-830083467", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-830083467" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-830083467">
+HomePage  -> Verify Bottom World News Source<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+<tr>
+<td title='testcnnuspage.TestCnnUsPage.testsetBottomTopics()'><b>testsetBottomTopics</b><br>Test class: testcnnuspage.TestCnnUsPage<br/>
+<a href="#Output-257718694" onClick='toggleBox("Output-257718694", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-257718694" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-257718694">
+CnnUsPage  -> Verify Bottom topics in U.S. Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnuspage.TestCnnUsPage@6574b225</td></tr>
+<tr>
+<td title='testcnnuspage.TestCnnUsPage.testsetImage()'><b>testsetImage</b><br>Test class: testcnnuspage.TestCnnUsPage<br/>
+<a href="#Output-2094115865" onClick='toggleBox("Output-2094115865", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2094115865" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2094115865">
+CnnUsPage  -> Verify IMAGE in U.S. Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnuspage.TestCnnUsPage@6574b225</td></tr>
+<tr>
+<td title='testcnnuspage.TestCnnUsPage.testsetStoriestext()'><b>testsetStoriestext</b><br>Test class: testcnnuspage.TestCnnUsPage<br/>
+<a href="#Output-740467528" onClick='toggleBox("Output-740467528", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-740467528" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-740467528">
+CnnUsPage  -> Verify Stories in U.S. Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnuspage.TestCnnUsPage@6574b225</td></tr>
+<tr>
+<td title='testcnnuspage.TestCnnUsPage.testsetStoriestext1()'><b>testsetStoriestext1</b><br>Test class: testcnnuspage.TestCnnUsPage<br/>
+<a href="#Output-920446957" onClick='toggleBox("Output-920446957", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-920446957" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-920446957">
+CnnUsPage  -> Verify Stories 1 in U.S. Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testcnnuspage.TestCnnUsPage@6574b225</td></tr>
+<tr>
+<td title='testcnnuspage.TestCnnUsPage.testsetaroundtheUsText()'><b>testsetaroundtheUsText</b><br>Test class: testcnnuspage.TestCnnUsPage<br/>
+<a href="#Output-238431319" onClick='toggleBox("Output-238431319", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-238431319" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-238431319">
+CnnUsPage  -> Verify Text in U.S. Page<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testcnnuspage.TestCnnUsPage@6574b225</td></tr>
+<tr>
+<td title='testcnnuspage.TestCnnUsPage.testsetclickingonfb()'><b>testsetclickingonfb</b><br>Test class: testcnnuspage.TestCnnUsPage<br/>
+<a href="#Output-202064342" onClick='toggleBox("Output-202064342", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-202064342" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-202064342">
+CnnUsPage  -> Verify Stories 1 in U.S. Page<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>testcnnuspage.TestCnnUsPage@6574b225</td></tr>
+<tr>
+<td title='testhompage.TestHomePage.titleMatching()'><b>titleMatching</b><br>Test class: testhompage.TestHomePage<br/>
+<a href="#Output-402264886" onClick='toggleBox("Output-402264886", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-402264886" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-402264886">
+TestHomePage  -> Verify Page Title <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testhompage.TestHomePage@2344fc66</td></tr>
+</table><p>
+</body>
+</html>

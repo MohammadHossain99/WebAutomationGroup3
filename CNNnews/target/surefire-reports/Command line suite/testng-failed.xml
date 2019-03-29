@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="testcnnworld.TestCNNWorld">
+        <methods>
+          <include name="initialization"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testFeatureSection4"/>
+          <include name="init"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- testcnnworld.TestCNNWorld -->
+      <class name="testcnnuspage.TestCnnUsPage">
+        <methods>
+          <include name="testsetTable1stImg"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testalltextfromUsPage"/>
+          <include name="Initializing"/>
+          <include name="testsetLastImg"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="Init"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- testcnnuspage.TestCnnUsPage -->
+      <class name="testhompage.TestHomePage">
+        <methods>
+          <include name="testExtremeWeather"/>
+          <include name="afterEachTestMethod"/>
+          <include name="initialize"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- testhompage.TestHomePage -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
