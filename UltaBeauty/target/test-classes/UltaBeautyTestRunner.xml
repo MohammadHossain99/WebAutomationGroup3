@@ -8,10 +8,10 @@
 
     <test name = "Ulta Beauty Test">
         <classes>
-            <class name="UltaTestHomePage"/>
-            <class name="UltaTestMakeUpPage"/>
-            <class name="UltaTestSignUpPage"/>
-            <class name="TestSearchWithDB"/>
+            <class name="testulta.UltaTestHomePage"/>
+            <class name="testulta.UltaTestMakeUpPage"/>
+            <class name="testulta.UltaTestSignUpPage"/>
+            <class name="testdatadriven.TestSearchWithDB"/>
         </classes>
     </test>
 
