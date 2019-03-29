@@ -3,98 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="340b4818-5e59-4623-8f8b-5bd30200d5ac" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../project6/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/linkedin/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/linkedin/Feed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/linkedin/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/linkedin/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/main/java/linkedin/JobsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/main/java/linkedin/JobsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestFeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestFeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestJobsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/test/java/testlinkedin/TestJobsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/src/test/resources/LinkedInTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/src/test/resources/LinkedInTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/target/Linkedin-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/target/Linkedin-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linkedin/target/test-classes/LinkedInTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Linkedin/target/test-classes/LinkedInTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaMakeUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaMakeUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/testdatadriven/TestSearchWithDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testdatadriven/TestSearchWithDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/testkeyworddriven/TestExcelExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testkeyworddriven/TestExcelExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestMakeUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestMakeUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestSignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestSignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/src/test/resources/UltaBeautyTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/src/test/resources/UltaBeautyTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/UltaBeauty-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/UltaBeauty-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/classes/keyworddriven/ExcelExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/classes/keyworddriven/ExcelExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/classes/ulta/UltaHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/classes/ulta/UltaHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/classes/ulta/UltaMakeUpPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/classes/ulta/UltaMakeUpPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/UltaBeautyTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/UltaBeautyTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testdatadriven/TestSearchWithDB$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testdatadriven/TestSearchWithDB$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testdatadriven/TestSearchWithDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testdatadriven/TestSearchWithDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testkeyworddriven/TestExcelExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testkeyworddriven/TestExcelExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestHomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestHomePage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$27.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$28.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$30.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$31.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$32.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$33.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$34.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$35.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestMakeUpPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UltaBeauty/target/test-classes/testulta/UltaTestSignUpPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -125,15 +33,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UltaBeauty/src/main/java/ulta/UltaMakeUpPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linkedin/src/test/resources/LinkedInTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
@@ -142,20 +41,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/linkedin/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="225" column="73" lean-forward="true" selection-start-line="225" selection-start-column="73" selection-end-line="225" selection-end-column="73" />
+            <state relative-caret-position="-3529">
+              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/linkedin/Feed.java">
+        <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="66" column="51" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+            <state relative-caret-position="104">
+              <caret line="115" column="85" selection-start-line="115" selection-start-column="85" selection-end-line="115" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestMakeUpPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="220" column="42" selection-start-line="220" selection-start-column="42" selection-end-line="220" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestSignUpPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -214,6 +131,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -337,31 +255,25 @@
             <path>
               <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="Linkedin" type="462c0819:PsiDirectoryNode" />
+              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="Linkedin" type="462c0819:PsiDirectoryNode" />
-              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="Linkedin" type="462c0819:PsiDirectoryNode" />
+              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="Linkedin" type="462c0819:PsiDirectoryNode" />
+              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="Linkedin" type="462c0819:PsiDirectoryNode" />
+              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -369,19 +281,11 @@
             <path>
               <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="Linkedin" type="462c0819:PsiDirectoryNode" />
+              <item name="UltaBeauty" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testlinkedin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup3" type="462c0819:PsiDirectoryNode" />
-              <item name="Linkedin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="testulta" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -390,7 +294,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553837222859" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553837466413" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GithubDemo" />
@@ -616,7 +520,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.14395887" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.14395887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -625,12 +529,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010225" side_tool="true" weight="0.24640805" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47375506" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17362046" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48681897" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.410498" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26379544" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3270525" />
@@ -914,27 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestMakeUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestSignUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="115" column="85" selection-start-line="115" selection-start-column="85" selection-end-line="115" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/resources/UltaBeautyTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1024,8 +907,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Linkedin/src/main/java/linkedin/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="225" column="73" lean-forward="true" selection-start-line="225" selection-start-column="73" selection-end-line="225" selection-end-column="73" />
+        <state relative-caret-position="-3529">
+          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="115" column="85" selection-start-line="115" selection-start-column="85" selection-end-line="115" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestSignUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UltaBeauty/src/test/java/testulta/UltaTestMakeUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="220" column="42" selection-start-line="220" selection-start-column="42" selection-end-line="220" selection-end-column="42" />
         </state>
       </provider>
     </entry>
