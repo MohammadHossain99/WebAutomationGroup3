@@ -1,12 +1,13 @@
 package testulta;
 
+import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import ulta.UltaMakeUpPage;
 
-public class UltaTestMakeUpPage extends UltaMakeUpPage {
+public class UltaTestMakeUpPage extends CommonAPI {
 
     UltaMakeUpPage ultaMakeUpPage;
     String makeupPageUrl = "https://www.ulta.com/makeup?N=26y1";
@@ -68,97 +69,97 @@ public class UltaTestMakeUpPage extends UltaMakeUpPage {
 
     @Test
     public void hoverShopByBrand() throws InterruptedException {
-        hoverShopByBrands();
+        ultaMakeUpPage.hoverShopByBrands();
     }
 
     @Test
     public void hoverNChoose() throws InterruptedException {
-        hoverNChooseFromBrands();
+        ultaMakeUpPage.hoverNChooseFromBrands();
     }
 
     @Test
     public void hoverOverNewArrivals() throws InterruptedException {
-        hoverNewArrivals();
+        ultaMakeUpPage.hoverNewArrivals();
     }
 
     @Test
     public void hoverOverMakeUp() throws InterruptedException {
-        hoverMakeUp();
+        ultaMakeUpPage.hoverMakeUp();
     }
 
     @Test
     public void hoverOverNails() throws InterruptedException {
-        hoverNails();
+        ultaMakeUpPage.hoverNails();
     }
 
     @Test
     public void hoverOverSkinCare() throws InterruptedException {
-        hoverSkinCare();
+        ultaMakeUpPage.hoverSkinCare();
     }
 
     @Test
     public void hoverOverHair() throws InterruptedException {
-        hoverHair();
+        ultaMakeUpPage.hoverHair();
     }
 
     @Test
     public void hoverOverToolsAndBrushes() throws InterruptedException {
-        hoverToolsAndBrushes();
+        ultaMakeUpPage.hoverToolsAndBrushes();
     }
 
     @Test
     public void hoverOverFragrance() throws InterruptedException {
-        hoverFragrance();
+        ultaMakeUpPage.hoverFragrance();
     }
 
     @Test
     public void hoverOverBathAndBody() throws InterruptedException {
-        hoverBathAndBody();
+        ultaMakeUpPage.hoverBathAndBody();
     }
 
     @Test
     public void hoverOverMen() throws InterruptedException {
-        hoverMen();
+        ultaMakeUpPage.hoverBookAppointment();
     }
 
     @Test
     public void hoverOverUltaCollections() throws InterruptedException {
-        hoverUltaCollections();
+        ultaMakeUpPage.hoverUltaCollections();
     }
 
     @Test
     public void hoverOverGifts() throws InterruptedException {
-        hoverGifts();
+        ultaMakeUpPage.hoverGifts();
     }
 
     @Test
     public void hoverOverSalesAndCoupons() throws InterruptedException {
-        hoverSalesAndCoupon();
+        ultaMakeUpPage.hoverSalesAndCoupon();
     }
 
     @Test
     public void hoverOverCurrentAd() throws InterruptedException {
-        hoverCurrentAd();
+        ultaMakeUpPage.hoverCurrentAd();
     }
 
     @Test
     public void hoverOverBeautyTips() throws InterruptedException {
-        hoverBeautyTips();
+        ultaMakeUpPage.hoverBeautyTips();
     }
 
     @Test
     public void hoverOverAllureWinners() throws InterruptedException {
-        hoverAllureWinners();
+        ultaMakeUpPage.hoverAllureWinners();
     }
 
     @Test
     public void hoverOverBeautyServices() throws InterruptedException {
-        hoverBeautyServices();
+        ultaMakeUpPage.hoverBeautyServices();
     }
 
     @Test
     public void hoverOverBookAppointment() throws InterruptedException {
-        hoverBookAppointment();
+        ultaMakeUpPage.hoverBookAppointment();
     }
 
     @Test
@@ -205,5 +206,4 @@ public class UltaTestMakeUpPage extends UltaMakeUpPage {
     public void viewAllureBestOfBeautySection() {
         ultaMakeUpPage.seeAllureBestOfBeautySection();
     }
-
 }
