@@ -1,5 +1,7 @@
 package base;
 
+//import com.relevantcodes.extentreports.ExtentReports;
+//import com.relevantcodes.extentreports.LogStatus;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
 import org.openqa.selenium.*;
@@ -96,12 +98,12 @@ public class CommonAPI {
     public String browserstack_username= "mdabutaherjewal1";
     public String browserstack_accesskey = "mhzLmtQczk7tgqkKwy3w";
     public String saucelabs_username = "Taherjuwel4";
-    public String saucelabs_accesskey = "c8f21f1b-fa5a-470d-be91-8d91913d0e44";
+    public String saucelabs_accesskey = "c8f21f1b-fa50d-be91-8d91913d0e44";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeClass
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("browserstack")String cloudEnvName,
-                      @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("34")
+                      @Optional("Windows") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("34")
                               String browserVersion, @Optional("http://www.cnn.com/") String url)throws IOException {
 //        System.setProperty("webdriver.chrome.driver", "/Users/jewal/IntelliJ/WebAutomationGroup3/Generic/browser-driver/chromedriver");
         if(useCloudEnv==true){

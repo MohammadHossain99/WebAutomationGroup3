@@ -13,9 +13,10 @@
         <module name="ebay" />
         <module name="FaceBook" />
         <module name="Generic" />
-        <module name="Linkedin" />
-        <module name="UltaBeauty" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="restapidepo" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
