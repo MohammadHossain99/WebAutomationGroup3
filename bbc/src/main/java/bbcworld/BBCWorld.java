@@ -403,6 +403,5 @@ public class BBCWorld extends CommonAPI {
         boolean select = latestStories30.isEnabled();
         Assert.assertTrue(select);
     }
-
 }
 
