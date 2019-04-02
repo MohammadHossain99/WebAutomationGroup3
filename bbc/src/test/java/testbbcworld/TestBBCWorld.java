@@ -121,4 +121,44 @@ public class TestBBCWorld extends CommonAPI {
     public void testLatestStories20() {
         world.setLatestStories20();
     }
+    @Test
+    public void testLatestStories21() {
+        world.setLatestStories21();
+    }
+    @Test
+    public void testLatestStories22() {
+        world.setLatestStories22();
+    }
+    @Test
+    public void testLatestStories23() {
+        world.setLatestStories23();
+    }
+    @Test
+    public void testLatestStories24() {
+        world.setLatestStories24();
+    }
+    @Test
+    public void testLatestStories25() {
+        world.setLatestStories25();
+    }
+    @Test
+    public void testLatestStories26() {
+        world.setLatestStories26();
+    }
+    @Test
+    public void testLatestStories27() {
+        world.setLatestStories27();
+    }
+    @Test
+    public void testLatestStories28() {
+        world.setLatestStories28();
+    }
+    @Test
+    public void testLatestStories29() {
+        world.setLatestStories29();
+    }
+    @Test
+    public void testLatestStories30() {
+        world.setLatestStories30();
+    }
 }
