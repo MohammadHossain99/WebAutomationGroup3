@@ -14,14 +14,13 @@ public class TestTravel extends CommonAPI {
     public void initializing() {
         driver.get("https://www.bbc.com");
         travel = PageFactory.initElements(driver, Travel.class);
-
     }
 
     @Test
     public void testsearchInput() {
         travel.setInputSearch();
-
     }
+
     @AfterMethod
     public void cleanUp() {
         driver.close();

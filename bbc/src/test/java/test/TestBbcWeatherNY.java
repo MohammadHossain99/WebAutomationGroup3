@@ -13,18 +13,16 @@ public class TestBbcWeatherNY extends CommonAPI {
     @BeforeMethod
     public void initializing() {
         driver.get("https://www.bbc.com/weather/");
-        driver.findElement(By.cssSelector("#wr-location-name-id"));
+        driver.findElement(By.xpath("//*[@id=\"u7426019377287265\"]/div/div/div[3]/a/span"));
         bbcWeatherNY = PageFactory.initElements(driver, BbcWeatherNY.class);
-
     }
 
     @Test
     public void testsearchInput() {
         bbcWeatherNY.setInputSearch();
         System.out.println("Navigate to Website - BBC : Weather : New York");
-//        String title1 = driver.getPageSource();
-//        Assert.assertEquals(title1, "https://www.bbc.com/");
     }
+
     @AfterMethod
     public void cleanUp() {
         driver.close();

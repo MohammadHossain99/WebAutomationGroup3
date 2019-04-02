@@ -14,16 +14,14 @@ public class TestBbcAddCart extends CommonAPI {
     public void initializing() {
         driver.get("https://bbc.com/");
         bbcAddCart = PageFactory.initElements(driver, BbcAddCart.class);
-
     }
 
     @Test
     public void testsearchInput() {
         bbcAddCart.setInputSearch();
         System.out.println("Navigate to Website - BBC : Weather");
-//        String title1 = driver.getPageSource();
-//        Assert.assertEquals(title1, "https://www.bbc.com/");
     }
+
     @AfterMethod
     public void cleanUp() {
         driver.close();

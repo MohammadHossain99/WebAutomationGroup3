@@ -13,16 +13,14 @@ public class TestBbcPhoto extends CommonAPI {
     public void initializing() {
         driver.get("http://www.bbc.com/culture/story/20181004-fascinating-moments-captured-on-film");
         bbcPhoto = PageFactory.initElements(driver, BbcPhoto.class);
-
     }
 
     @Test
     public void testsearchInput() {
         bbcPhoto.setInputSearch();
         System.out.println("Navigate to Website - BBC : Photo");
-//        String title1 = driver.getPageSource();
-//        Assert.assertEquals(title1, "https://www.bbc.com/");
     }
+
     @AfterMethod
     public void cleanUp() {
         driver.close();

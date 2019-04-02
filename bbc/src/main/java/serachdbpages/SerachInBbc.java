@@ -10,26 +10,26 @@ import java.util.List;
 public class SerachInBbc {
     DataBase dataBase = new DataBase();
 
-
-    @FindBy(css = ".orb-search__button")
-    WebElement searchTab;
+    //*[@id="orb-search-q"]
+//    @FindBy(id = "orb-search__button")
+//    WebElement searchTab;
 
     @FindBy(id = "orb-search-q")
     WebElement searchInput;
 
 
-    public WebElement getSubmitButton() {
-        return searchTab;
-    }
+//    public WebElement getSubmitButton() {
+//        return searchTab;
+//    }
 
     public WebElement getSearchInputWebElement() {
         return searchInput;
     }
 
 
-    public void submitSearchButton(){
-        getSubmitButton().click();
-    }
+//    //public void submitSearchButton(){
+//        getSubmitButton().click();
+//    }
 
 
     public void searchFor(String value){
@@ -42,7 +42,7 @@ public class SerachInBbc {
     }
     public void searchItemsAndSubmitButton()throws Exception{
         List<String> list = dataBase.getItemsListFromDB();
-        submitSearchButton();
+        //submitSearchButton();
         for(int i=0; i<list.size(); i++) {
             searchFor(list.get(i));
             Thread.sleep(3000);

@@ -13,16 +13,14 @@ public class TestBbcLibrary extends CommonAPI {
     public void initializing() {
         driver.get("http://www.bbc.com/culture/story/20190125-the-tiny-library-bringing-books-to-remote-villages");
         bbcLibrary = PageFactory.initElements(driver, BbcLibrary.class);
-
     }
 
     @Test
     public void testsearchInput() {
         bbcLibrary.setInputSearch();
-        System.out.println("Navigate to Website - BBC : Weather");
-//        String title1 = driver.getPageSource();
-//        Assert.assertEquals(title1, "https://www.bbc.com/");
+        System.out.println("Navigate to Website - BBC : Library");
     }
+
     @AfterMethod
     public void cleanUp() {
         driver.close();

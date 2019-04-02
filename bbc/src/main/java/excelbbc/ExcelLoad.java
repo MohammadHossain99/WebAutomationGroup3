@@ -12,8 +12,11 @@ import java.util.List;
 public class ExcelLoad extends CommonAPI {
     ExcelFileReader reader = new ExcelFileReader();
 
-    @FindBy(id = "idcta-username")
+    @FindBy(css = "#idcta-username")
     WebElement loginEmail;
+
+    @FindBy(id = "user-identifier-input")
+    WebElement inputEmail;
 
     @FindBy(xpath = "//*[@id=\'password-input\']")
     WebElement loginPassword;
@@ -21,20 +24,22 @@ public class ExcelLoad extends CommonAPI {
     @FindBy(xpath = "//input[@value='Log In']")
     WebElement loginTab;
 
-    @FindBy(xpath = "//input[@name='q']")
+    @FindBy(css ="#orb-search-button")
     WebElement inputSearch;
 
     public void setLoginTab() {
         loginTab.click();
     }
 
-    public void setLoginEmail(String str) {
-        loginEmail.sendKeys(str);
+    public void setLoginEmail() {
+        loginEmail.click();
     }
 
     public void setLoginPassword(String password) {
         loginPassword.sendKeys(password);
     }
+
+    public void setInputEmail(String email) {inputEmail.sendKeys(email);}
 
     public void setInputSearch(String friends) {
         inputSearch.sendKeys(friends, Keys.ENTER);
@@ -75,7 +80,8 @@ public class ExcelLoad extends CommonAPI {
                     signIn();
                     break;
                 case "search":
-                    searchinput();
+                    //searchinput();
+                    System.out.println("It is searching");
                     break;
                 default:
                     System.out.println("No text found");
@@ -85,9 +91,12 @@ public class ExcelLoad extends CommonAPI {
     }
 
     public void signIn() {
-        setLoginEmail(" ");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+ "LogIn to BBC");
+        setLoginEmail();
+        setInputEmail("mshossain1166@gmail.com");
         setLoginPassword("seci1994");
-        setLoginTab();
+        //setLoginTab();
     }
 
     public void searchinput() throws Exception {

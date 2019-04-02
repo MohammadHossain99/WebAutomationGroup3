@@ -19,8 +19,10 @@ public class TestSearch extends CommonAPI {
 
     @Test
     public void testFromDBsearch() throws Exception{
-        TestLogger.log(getClass().getSimpleName() + " : " +
-                convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        searchInBbc.searchItemsAndSubmitButton();
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+ "Search");
+//        TestLogger.log(getClass().getSimpleName() + " : " +
+//                convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+                searchInBbc.searchItemsAndSubmitButton();
     }
 }

@@ -3,13 +3,17 @@ package homePage;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class BbcFootball extends CommonAPI {
-    @FindBy(css = "#u8190398924052715 > div > nav > div.sp-c-sport-navigation.sp-c-sport-navigation--primary.qa-primary > div > ul > li.sp-c-sport-navigation__item.sp-c-sport-navigation__item--primary-selected > a")
+    @FindBy(xpath = "//*[@id='u12718408435795547']/div/nav/div[1]/div/ul/li[2]/a")
 
     WebElement inputSearch;
 
     public void setInputSearch(){
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Verify Go To BBC Football");
+
         inputSearch.click();
     }
 }

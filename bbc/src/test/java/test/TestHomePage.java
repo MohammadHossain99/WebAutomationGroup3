@@ -26,9 +26,9 @@ public class TestHomePage extends CommonAPI {
         String title1 = driver.getCurrentUrl();
         Assert.assertEquals(title1, "https://www.bbc.com/");
     }
+
     @AfterMethod
     public void cleanUp() {
         driver.close();
     }
-
 }

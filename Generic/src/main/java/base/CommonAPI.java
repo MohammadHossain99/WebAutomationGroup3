@@ -76,9 +76,9 @@ public class CommonAPI {
         }
         ExtentTestManager.endTest();
         extent.flush();
-        if (result.getStatus() == ITestResult.FAILURE) {
-            captureScreenshot(driver, result.getName());
-        }
+//        if (result.getStatus() == ITestResult.FAILURE) {
+//            captureScreenshot(driver, result.getName());
+//        }
 //        driver.quit();
     }
     @AfterSuite
@@ -258,7 +258,7 @@ public class CommonAPI {
         Date date = new Date();
         df.format(date);
 
-        File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        //File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
             //FileUtils.copyFile(file, new File(System.getProperty("user.dir") + "/screenshots/" + screenshotName + " " + df.format(date) + ".png"));
             System.out.println("Screenshot captured");

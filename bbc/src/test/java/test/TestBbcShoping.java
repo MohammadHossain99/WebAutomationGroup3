@@ -16,18 +16,14 @@ public class TestBbcShoping extends CommonAPI {
         driver.get("https://www.bbc.com");
         driver.findElement(By.id("orb-search-q")).sendKeys("shop");//enter apple
         driver.findElement(By.id("orb-search-button")).click(); //click submit button
-        //driver.findElement(By.cssSelector("#headerPanel > div.header-logo > a > img.header-logo-image-small"));
         bbcShoping = PageFactory.initElements(driver, BbcShoping.class);
-
     }
 
     @Test
     public void testsearchInput() {
         bbcShoping.setInputSearch();
-//        System.out.println("Navigate to Website - BBC");
-//        String title1 = driver.getPageSource();
-//        Assert.assertEquals(title1, "https://www.bbc.com/");
     }
+
     @AfterMethod
     public void cleanUp() {
         driver.close();

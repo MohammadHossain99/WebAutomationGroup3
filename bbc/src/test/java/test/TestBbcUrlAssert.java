@@ -30,5 +30,4 @@ public class TestBbcUrlAssert extends CommonAPI {
     public void cleanUp() {
         driver.close();
     }
-
 }

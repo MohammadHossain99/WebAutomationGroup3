@@ -45,6 +45,8 @@
             <class name="test.TestSearchApple"/>
             <class name="test.TestTravel"/>
             <class name="testexcelbbc.TestExcelLoad"/>
+            <class name="testdbserach.TestSearch"/>
+            <class name="testbbcbusiness.TestBbcBusinessPage"/>
         </classes>
 
     </test>

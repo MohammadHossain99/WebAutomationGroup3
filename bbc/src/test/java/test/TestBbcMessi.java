@@ -13,16 +13,14 @@ public class TestBbcMessi extends CommonAPI {
     public void initializing() {
         driver.get("https://www.bbc.com/sport/football/47662363");
         bbcMessi = PageFactory.initElements(driver, BbcMessi.class);
-
     }
 
     @Test
     public void testsearchInput() {
         bbcMessi.setInputSearch();
-        System.out.println("Navigate to Website - BBC : Weather");
-//        String title1 = driver.getPageSource();
-//        Assert.assertEquals(title1, "https://www.bbc.com/");
+        System.out.println("Navigate to Website - BBC : Messi");
     }
+
     @AfterMethod
     public void cleanUp() {
         driver.close();

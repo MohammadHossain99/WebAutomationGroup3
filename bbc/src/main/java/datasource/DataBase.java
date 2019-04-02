@@ -1,6 +1,7 @@
 package datasource;
 
 import databases.ConnectToSqlDB;
+import reporting.TestLogger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +12,7 @@ public class DataBase {
     public static void insertDataIntoDB(){
         List<String> list = getItemValue();
         connectToSqlDB = new ConnectToSqlDB();
-        connectToSqlDB.insertDataFromArrayListToSqlTable(list,"searchList","itemlist");
+        connectToSqlDB.insertDataFromArrayListToSqlTable(list,"searchlist","itemList");
     }
 
     public static List<String> getItemValue(){
@@ -30,16 +31,17 @@ public class DataBase {
 
     public List<String> getItemsListFromDB()throws Exception{
         List<String> list = new ArrayList<String>();
-        list = connectToSqlDB.readDataBase("searchList", "itemlist");
+        list = connectToSqlDB.readDataBase("searchlist", "itemList");
         return list;
     }
 
     public static void main(String[] args)throws Exception{
         ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
-        List<String> list = connectToSqlDB.readDataBase("searchList","itemlist");
+        List<String> list = connectToSqlDB.readDataBase("searchlist","itemList");
         for(String st:list){
             System.out.println(st);
         }
+
 //        insertDataIntoDB();
 
 

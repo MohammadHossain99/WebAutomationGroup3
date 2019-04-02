@@ -15,7 +15,6 @@ public class TestExcelLoad extends CommonAPI {
         load = PageFactory.initElements(driver,ExcelLoad.class);
     }
 
-
     @Test
     public void testFBinExcle() throws Exception {
         load.runOnexcle();
