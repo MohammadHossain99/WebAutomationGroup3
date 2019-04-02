@@ -114,8 +114,28 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
         </dependency>
-
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                 <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFiles>target/test-classes/bbcTestRuneer.xml</suiteXmlFiles>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 
 
