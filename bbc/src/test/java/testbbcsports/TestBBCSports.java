@@ -35,112 +35,57 @@ public class TestBBCSports extends CommonAPI {
     @Test
     public void testFeatureSection4(){sports.setFeatureSection4();}
     @Test
-    public void testLatestStories1(){sports.setLatestSories1();}
-    @Test
     public void testLatestStories2(){sports.setLatestSories2();}
     @Test
-    public void testLatestStories4(){sports.setLatestStiries4();
-    }
-//    @Test
-//    public void testLatestStories5(){
-//        world.setLatestStories5();
-//    }
-//    @Test
-//    public void testLatestStories6(){
-//        world.setLatestStories6();
-//    }
-//    @Test
-//    public void testLatestStories7(){
-//        world.setLatestSories7();
-//    }
-//    @Test
-//    public void testLatestStories8(){
-//        world.setLatestStories8();
-//    }
-//    @Test
-//    public void testLatestStories9() throws Exception{
-//        world.setLatestStories9();
-//    }
-//    @Test
-//    public void testLatestStories11() {
-//        world.setLatestStories11();
-//    }
-//    @Test
-//    public void testLatestStories12() {
-//        world.setLatestStories12();
-//    }
-//    @Test
-//    public void testLatestStories13() {
-//        world.setLatestStories13();
-//    }
-//    @Test
-//    public void testLatestStories14() {
-//        world.setLatestStories14();
-//    }
-//    @Test
-//    public void testLatestStories15() {
-//        world.setLatestStories15();
-//    }
-//    @Test
-//    public void testLatestStories16() {
-//        world.setLatestStories16();
-//    }
-//    @Test
-//    public void testLatestStories17() {
-//        world.setLatestStories17();
-//    }
-//    @Test
-//    public void testLatestStories18() {
-//        world.setLatestStories18();
-//    }
-//    @Test
-//    public void testLatestStories19() {
-//        world.setLatestStories19();
-//    }
-//    @Test
-//    public void testLatestStories20() {
-//        world.setLatestStories20();
-//    }
-//    @Test
-//    public void testLatestStories21() {
-//        world.setLatestStories21();
-//    }
-//    @Test
-//    public void testLatestStories22() {
-//        world.setLatestStories22();
-//    }
-//    @Test
-//    public void testLatestStories23() {
-//        world.setLatestStories23();
-//    }
-//    @Test
-//    public void testLatestStories24() {
-//        world.setLatestStories24();
-//    }
-//    @Test
-//    public void testLatestStories25() {
-//        world.setLatestStories25();
-//    }
-//    @Test
-//    public void testLatestStories26() {
-//        world.setLatestStories26();
-//    }
-//    @Test
-//    public void testLatestStories27() {
-//        world.setLatestStories27();
-//    }
-//    @Test
-//    public void testLatestStories28() {
-//        world.setLatestStories28();
-//    }
-//    @Test
-//    public void testLatestStories29() {
-//        world.setLatestStories29();
-//    }
-//    @Test
-//    public void testLatestStories30() {
-//        world.setLatestStories30();
-//    }
+    public void testLatestStories5(){sports.setLatestStories5();}
+    @Test
+    public void testLatestStories6(){sports.setLatestStories6();}
+    @Test
+    public void testLatestStories7(){sports.setLatestSories7();}
+    @Test
+    public void testLatestStories8(){sports.setLatestStories8();}
+    @Test
+    public void testLatestStories9() throws Exception{sports.setLatestStories9();}
+    @Test
+    public void testLatestStories11() {sports.setLatestStories11();}
+    @Test
+    public void testLatestStories12() {sports.setLatestStories12();}
+    @Test
+    public void testLatestStories13() {sports.setLatestStories13();}
+    @Test
+    public void testLatestStories14() {sports.setLatestStories14();}
+    @Test
+    public void testLatestStories15() {sports.setLatestStories15();}
+    @Test
+    public void testLatestStories16() {sports.setLatestStories16();}
+    @Test
+    public void testLatestStories17() {sports.setLatestStories17();}
+    @Test
+    public void testLatestStories18() {sports.setLatestStories18();}
+    @Test
+    public void testLatestStories19() {sports.setLatestStories19();}
+    @Test
+    public void testLatestStories20() {sports.setLatestStories20();}
+    @Test
+    public void testLatestStories21() {sports.setLatestStories21();}
+    @Test
+    public void testLatestStories22() {sports.setLatestStories22();}
+    @Test
+    public void testLatestStories23() {sports.setLatestStories23();}
+    @Test
+    public void testLatestStories24() {sports.setLatestStories24();}
+    @Test
+    public void testLatestStories25() {sports.setLatestStories25();}
+    @Test
+    public void testLatestStories26() {sports.setLatestStories26();}
+    @Test
+    public void testLatestStories27() {sports.setLatestStories27();}
+    @Test
+    public void testLatestStories28() {sports.setLatestStories28();}
+    @Test
+    public void testLatestStories29() {sports.setLatestStories29();}
+    @Test
+    public void testLatestStories30() {sports.setLatestStories30();}
 }
 
 

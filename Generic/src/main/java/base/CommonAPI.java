@@ -97,8 +97,8 @@ public class CommonAPI {
     public static WebDriver driver = null;
     public String browserstack_username= "mdabutaherjewal1";
     public String browserstack_accesskey = "mhzLmtQczk7tgqkKwy3w";
-    public String saucelabs_username = "Taherjuwel4";
-    public String saucelabs_accesskey = "c8f21f1b-fa50d-be91-8d91913d0e44";
+    public String saucelabs_username = "mshossain1166";
+    public String saucelabs_accesskey = "cd79bb53-1028-471d-be10-94d0a554d82e";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeClass
@@ -157,7 +157,9 @@ public class CommonAPI {
 
     public WebDriver getCloudDriver(String envName,String envUsername, String envAccessKey,String os, String os_version,String browserName,
                                     String browserVersion)throws IOException {
-        DesiredCapabilities cap = new DesiredCapabilities();
+//        DesiredCapabilities cap = new DesiredCapabilities();
+        DesiredCapabilities cap = DesiredCapabilities.chrome();
+
         cap.setCapability("browser",browserName);
         cap.setCapability("browser_version",browserVersion);
         cap.setCapability("os", os);

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="FaceBook Automation " parallel="false">
+<suite name="BBC Automation " parallel="false">
 
     <parameter name="useCloudEnv" value="false"/>
-    <parameter name="cloudEnvName" value="browserstack"/>
-    <parameter name="os" value="OS X"/>
+    <parameter name="cloudEnvName" value="saucelabs"/>
+    <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome-options"/>
     <!--//<parameter name="browserName" value="firefox"/>-->
@@ -23,7 +23,6 @@
             <class name="test.TestBbcCart"/>
             <class name="test.TestBbcCricket"/>
             <class name="test.TestBbcCulture"/>
-            <class name="test.TestBbcFootball"/>
             <class name="test.TestBbcLibrary"/>
             <class name="test.TestBbcLogin"/>
             <class name="test.TestBbcMessi"/>
@@ -32,12 +31,10 @@
             <class name="test.TestBbcReport"/>
             <class name="test.TestBbcRonaldo"/>
             <class name="test.TestBbcSearch"/>
-            <class name="test.TestBbcShoping"/>
             <class name="test.TestBbcSports"/>
             <class name="test.TestBbcUrlAssert"/>
             <class name="test.TestBbcUSA"/>
             <class name="test.TestBbcWeather"/>
-            <class name="test.TestBbcWeatherNY"/>
             <class name="test.TestBbcYouTube"/>
             <class name="test.TestHomeElement"/>
             <class name="test.TestHomePage"/>
@@ -47,6 +44,9 @@
             <class name="testexcelbbc.TestExcelLoad"/>
             <class name="testdbserach.TestSearch"/>
             <class name="testbbcbusiness.TestBbcBusinessPage"/>
+            <class name="testbbcsports.TestBBCSports"/>
+            <class name="testbbcworld.TestBBCWorld"/>
+            <class name="testbbctravel.TestBBCTravel"/>
         </classes>
 
     </test>
