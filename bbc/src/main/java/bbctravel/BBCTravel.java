@@ -29,7 +29,7 @@ public class BBCTravel extends CommonAPI {
     @FindBy(xpath = "//*[@id=\'homepage-two-column\']/div[1]/div[1]/div/img")
     WebElement featureSection3;
 
-    @FindBy(xpath = "//*[@id=\'sport\']/div[1]/nav[1]/div/ul/li[7]/a/span")
+    @FindBy(xpath = "//*[@id=\'homepage-two-column\']/div[1]/div[1]/div/img")
     WebElement featureSection4;
 
     @FindBy(xpath = "//*[@id=\'0599284e-9253-46e3-8be2-5f484c97ebff\']")
@@ -152,13 +152,13 @@ public class BBCTravel extends CommonAPI {
         boolean select = featureSection3.isDisplayed();
         Assert.assertTrue(select);
     }
-//    public void setFeatureSection4() {
-//        driver.get("https://www.bbc.com/sport/tennis");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "BBC Sports: Tennis");
-//        boolean selected = featureSection4.isSelected();
-//        Assert.assertFalse(selected);
-//    }
+    public void setFeatureSection4() {
+        driver.get("http://www.bbc.com/travel/antarctica");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "BBC : Travel to Antarctica");
+        boolean selected = featureSection4.isSelected();
+        Assert.assertFalse(selected);
+    }
 //    public void setLatestSories2(){
 //        driver.get("https://www.bbc.com/sport/athletics");
 //        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {

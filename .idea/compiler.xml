@@ -16,6 +16,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Hotel" target="1.5" />
+      <module name="Hotel.com" target="1.5" />
       <module name="restapidepo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
