@@ -38,10 +38,10 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\'main-col\']/div[1]/div[1]/div[1]/div[3]/h2/a")
     WebElement featureSection;
 
-    @FindBy(xpath = "//*[@id=\'comp-pattern-library-5\']/div/div/a[1]/h3/span")
+    @FindBy(xpath = "//*[@id=\'change-search-form\']")
     WebElement featureSection3;
 
-    @FindBy(xpath = "//*[@id=\'comp-pattern-library-5\']/div/div/a[1]/h3/span")
+    @FindBy(xpath = "//*[@id=\'hdr-rewards\']")
     WebElement featureSection4;
 
     @FindBy(xpath = "//*[@id=\'comp-pattern-library-5\']/div/div/a[1]/h3/span")
@@ -197,21 +197,24 @@ public class HomePage extends CommonAPI {
         Assert.assertEquals(text, text);
         System.out.println(text);
     }
-//
-//    public void setFeatureSection3() {
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page");
-//        action.moveToElement(featureSection3);
-//        boolean select = featureSection3.isDisplayed();
-//        Assert.assertTrue(select);
-//    }
-//
-//    public void setFeatureSection4() {
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page");
-//        boolean selected = featureSection4.isSelected();
-//        Assert.assertFalse(selected);
-//    }
+
+    public void setFeatureSection3() {
+        driver.get("https://www.hotels.com/search.do?resolved-location=CITY%3A1533777%3AUNKNOWN%3AUNKNOWN&destination-id=1533777&q-destination=Niagara%20Falls,%20New%20York,%20United%20States%20of%20America&q-check-in=2019-05-07&q-check-out=2019-05-09&q-rooms=1&q-room-0-adults=2&q-room-0-children=0");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page");
+        action.moveToElement(featureSection3);
+        boolean select = featureSection3.isDisplayed();
+        Assert.assertTrue(select);
+    }
+
+    public void setFeatureSection4() {
+        driver.get("https://www.hotels.com/page/giftcards/?intlid=SEARCHRESULTS%20%3A%3A%20header_main_section");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page");
+        boolean selected = featureSection4.isSelected();
+        Assert.assertFalse(selected);
+    }
+
 //    public void setLatestSories1(){
 //        driver.get("https://www.bbc.com/news/uk");
 //        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {

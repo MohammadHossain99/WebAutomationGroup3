@@ -41,14 +41,12 @@ public class TestHomePage extends CommonAPI {
 
     @Test (priority = 8)
     public void testFeatureSection(){home.setFeatureSection();}
-//    @Test
-//    public void testFeatureSection3(){
-//        world.setFeatureSection3();
-//    }
-//    @Test
-//    public void testFeatureSection4(){
-//        world.setFeatureSection4();
-//    }
+
+    @Test (priority = 9)
+    public void testFeatureSection3(){home.setFeatureSection3();}
+
+    @Test (priority = 10)
+    public void testFeatureSection4(){home.setFeatureSection4();}
 //    @Test
 //    public void testLatestStories(){
 //        world.setLatestSories1();
