@@ -13,6 +13,7 @@
         <module name="ebay" />
         <module name="FaceBook" />
         <module name="Generic" />
+        <module name="hoteldotcom" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BBC Automation " parallel="false">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="saucelabs"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserName" value="chrome-options"/>
+    <!--//<parameter name="browserName" value="firefox"/>-->
+    <parameter name="browserVersion" value="30.0"/>
+    <parameter name="url" value="https://www.hotel.com/"/>
+
+    <test name = "Hotel.com Home">
+
+        <classes>
+            <class name="testhomepage.TestHomePage"/>
+
+        </classes>
+
+    </test>
+
+</suite>
