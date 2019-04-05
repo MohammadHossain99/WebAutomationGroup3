@@ -29,9 +29,6 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\'wizard-tabs\']/div[1]/ul/li[1]")
     WebElement headlines4;
 
-    @FindBy(xpath = "//*[@id=\'tab-activity-tab-hp\']/span[2]")
-    WebElement Headlines5;
-
     @FindBy(xpath = "//*[@id=\'vn1s0p1c0\']/h3")
     WebElement Hotelsearch;
 
@@ -44,28 +41,28 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\'hdr-rewards\']")
     WebElement featureSection4;
 
-    @FindBy(xpath = "//*[@id=\'comp-pattern-library-5\']/div/div/a[1]/h3/span")
+    @FindBy(xpath = "//*[@id=\'main-content\']/div/div/div[1]/div")
     WebElement latestSories1;
 
-    @FindBy(xpath = "//section[@id='world-zone-7']/div[3]/div[2]/div/div/div[2]")
+    @FindBy(css = "./html/body/div[4]/div/section/div[1]/div/button")
     WebElement latestSories2;
 
-    @FindBy(xpath = "//*[@id=\'comp-pattern-library-3\']/div/div/a[1]/h3/span")
+    @FindBy(xpath = "//*[@id=\'allcountries\']/div[2]")
     WebElement latestStiries4;
 
-    @FindBy(xpath = "//*[@id=\'comp-pattern-library-5\']/div/div/a[1]/h3/span")
+    @FindBy(xpath = "//*[@id=\'main-content\']")
     WebElement latestStories5;
 
-    @FindBy(xpath = "//*[@id=\'comp-pattern-library-4\']/div/div/a[1]/h3/span")
+    @FindBy(xpath = "//*[@id=\'search\']/div[1]/div/h1")
     WebElement latestStories6;
 
-    @FindBy(xpath = "//*[@id=\'comp-pattern-library-5\']/div/div/a[1]/h3/span]")
+    @FindBy(xpath = "//*[@id=\'q-destination\']")
     WebElement latestSories7;
 
-    @FindBy(xpath = "//*[@id=\'comp-battenberg\']/div/div/a[1]/h3/span")
+    @FindBy(xpath = "//*[@id=\'countrylanding\']/div[3]/div/div/div/div[2]/div/div/div/form/div[5]/button")
     WebElement latestStories8;
 
-    @FindBy(xpath = "//*[@id=\'comp-battenberg\']/div/div/a[1]/h3/span")
+    @FindBy(xpath = "\"//*[@id=\\'hds-marquee\\']/div[3]/div[1]/div/form/div[1]\'")
     WebElement latestStories9;
 
     @FindBy(xpath = "//*[@id=\'comp-battenberg\']/div/div/a[1]/h3/span")
@@ -77,7 +74,7 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\'comp-pattern-library-5\']/div/div/a[1]/h3")
     WebElement latestStories13;
 
-    @FindBy(xpath = "//*[@id=\'bbccom_leaderboard_1_2_3_4\']")
+    @FindBy(xpath = "//*[@id=\'mainContent\']")
     WebElement latestStories14;
 
     @FindBy(xpath = "//*[@id=\'comp-battenberg\']/div/div/a[1]/h3/span")
@@ -150,8 +147,7 @@ public class HomePage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()) + "-> " + "Searching Hotels for New York");
         boolean selected = headlines2.isSelected();
-        Assert.assertFalse(selected);
-    }
+        Assert.assertFalse(selected);}
 
     public void setHeadlines3() {
         driver.get("https://travel.hotels.com/?intlid=HOME+%3A%3A+header_main_section");
@@ -160,33 +156,20 @@ public class HomePage extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com - Package Deals");
         action.moveToElement(headlines3);
         boolean selected = headlines3.isEnabled();
-        Assert.assertTrue(selected);
-    }
+        Assert.assertTrue(selected);}
 
     public void setHeadlines4() {
         driver.get("https://travel.hotels.com/?intlid=HOME+%3A%3A+header_main_section");
-        clickByXpath("//*[@id=\'tab-flight-tab-hp\']");
+        clickByXpath("//*[@id=\"wizard-tabs\"]/div[1]/ul/li[3]");
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com - Flight Deals");
-    }
-
-    public void setHeadlines5() {
-        clickByXpath("//*[@id=\'tab-activity-tab-hp\']");
-        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com - Things to Do");
-        action.build().perform();
-        action.moveToElement(Headlines5);
-        String text = Headlines5.getText();
-        Assert.assertEquals(text, text);
-    }
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com - Flight Deals");}
 
     public void setHotelsearch(){
         driver.get("http://www.google.com");
         driver.findElement(By.name("q")).sendKeys("Hotel" + Keys.ENTER);
         Hotelsearch.click();
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName())+"-> "+"Hotel search in google");
-    }
+        }.getClass().getEnclosingMethod().getName())+"-> "+"Hotel search in google");}
 
     public void setFeatureSection() {
         driver.get("https://www.hotels.com/customer_care/booking_details.html?confirmationId=8104481098064&itineraryId=8104481098064&surname=c..8-wvWGKuBcc.");
@@ -195,83 +178,103 @@ public class HomePage extends CommonAPI {
         action.moveToElement(featureSection);
         String text = featureSection.getText();
         Assert.assertEquals(text, text);
-        System.out.println(text);
-    }
+        System.out.println(text);}
 
     public void setFeatureSection3() {
         driver.get("https://www.hotels.com/search.do?resolved-location=CITY%3A1533777%3AUNKNOWN%3AUNKNOWN&destination-id=1533777&q-destination=Niagara%20Falls,%20New%20York,%20United%20States%20of%20America&q-check-in=2019-05-07&q-check-out=2019-05-09&q-rooms=1&q-room-0-adults=2&q-room-0-children=0");
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page");
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com - Niagara Falls Hotel Listing");
         action.moveToElement(featureSection3);
         boolean select = featureSection3.isDisplayed();
-        Assert.assertTrue(select);
-    }
+        Assert.assertTrue(select);}
 
     public void setFeatureSection4() {
         driver.get("https://www.hotels.com/page/giftcards/?intlid=SEARCHRESULTS%20%3A%3A%20header_main_section");
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page");
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com - Gift Card");
         boolean selected = featureSection4.isSelected();
-        Assert.assertFalse(selected);
-    }
+        Assert.assertFalse(selected);}
 
-//    public void setLatestSories1(){
-//        driver.get("https://www.bbc.com/news/uk");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines7 in BBC World Page: UK");
-//        action.moveToElement(latestSories1);
-//        String text = latestSories1.getText();
-//        System.out.println(text);
-//        Assert.assertEquals(text,text);
-//    }
-//    public void setLatestSories2(){
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines8 in BBC World Page");
-//        action.moveToElement(latestSories2).click();
-//        String text = driver.getTitle();
-//        System.out.println(text);
-//    }
-//    public void setLatestStiries4(){
-//        driver.get("https://www.bbc.com/news/northern_ireland");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines9 in BBC World Page: Ireland");
-//        action.moveToElement(latestStiries4);
-//        String text = latestStiries4.getText();
-//        Assert.assertEquals(text,text);
-//    }
-//    public void setLatestStories5(){
-//        driver.get("https://www.bbc.com/news/northern_ireland/northern_ireland_politics");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines10 in BBC World Page: Ireland");
-//        action.moveToElement(latestStories5);
-//        action.moveToElement(latestStiries4).moveToElement(latestStories5);
-//        boolean selected = latestStories5.isDisplayed();
-//        Assert.assertTrue(selected);
-//    }
-//    public void setLatestStories6(){
-//        driver.get("https://www.bbc.com/news/scotland");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines11 in BBC World Page: Scotland");
-//        action.moveToElement(latestStories6);
-//        boolean select = latestStories6.isSelected();
-//        Assert.assertFalse(select);
-//    }
-//    public void setLatestSories7(){
-//        driver.get("https://www.bbc.com/news/scotland/scotland_business");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines12 in BBC World Page: Scotland Business");
-//        action.moveToElement(latestSories7).click();
-//        driver.navigate().refresh();
-//    }
-//    public void setLatestStories8(){
-//        driver.get("https://www.bbc.com/news/scotland/glasgow_and_west");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines13 in BBC World Page: Glasgo");
-//        action.moveToElement(latestStories8);
-//        boolean selectd = latestStories8.isDisplayed();
-//        Assert.assertTrue(selectd);
-//    }
-//    public void setLatestStories9()throws Exception{
+    public void setLatestSories1(){
+        driver.get("https://www.hotels.com/hotel-rewards-pillar/hotelscomrewards.html?intlid=HOME+%3A%3A+header_main_section");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com - Reward Page");
+        action.moveToElement(latestSories1);
+        String text = latestSories1.getText();
+        System.out.println(text);
+        Assert.assertEquals(text,text);}
+
+    public void setLatestSories2(){
+        driver.get("https://travel.hotels.com/Hotel-Search?packageType=fh&searchProduct=hotel&c=b8214ff4-41cc-47e3-bd97-93281d338bed&adults=" +
+                        "2&originId=6139058&ftla=NYC&destination=Los+Angeles,+CA,+United+States+(LAX-Los+Angeles+Intl.)&destinationId=5783884&" +
+                        "ttla=LAX&startDate=7/11/2019&endDate=7/14/2019&sort=recommended&tripType=ROUND_TRIP&misId=4bf09de1-3849-4318-b535-ef6af80174af");
+
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotel Search Page");
+        action.moveToElement(latestSories2).click();
+        String text = driver.getTitle();
+        System.out.println(text);}
+
+    public void setLatestStiries4(){
+        driver.get("https://www.hotels.com/allcountries/");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels in all Countries");
+        action.moveToElement(latestStiries4);
+        String text = latestStiries4.getText();
+        Assert.assertEquals(text,text);}
+
+    public void setLatestStories5(){
+        driver.get("https://www.hotels.com/co10233012/hotels-in-bangladesh/");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Search Hotel in Bangladesh");
+        action.moveToElement(latestStories5);
+        action.moveToElement(latestStiries4).moveToElement(latestStories5);
+        boolean selected = latestStories5.isDisplayed();
+        Assert.assertTrue(selected);}
+
+    public void setLatestStories6(){
+       driver.get("https://www.hotels.com/search.do?resolved-location=CITY%3A84064%3AUNKNOWN%3AUNKNOWN&destination-id=84064&q-destination=Dhaka," +
+               "%20Bangladesh&q-check-in=2019-07-10&q-check-out=2019-07-11&q-rooms=1&q-room-0-adults=2&q-room-0-children=0");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotel list in Dhaka");
+        action.moveToElement(latestStories6);
+        boolean select = latestStories6.isSelected();
+        Assert.assertFalse(select);}
+
+    public void setLatestSories7() throws Exception {
+        driver.get("https://www.hotels.com/co10233012/hotels-in-bangladesh/");
+        driver.findElement(By.xpath("//*[@id=\'q-destination\']")).
+                sendKeys("Radisson Blu Dhaka Water Garden, Dhaka, Bangladesh" + Keys.ENTER);
+        driver.wait(300);
+        Thread.sleep(4000);
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Finding Radisson Blue, Dhaka");
+        action.moveToElement(latestSories7).click();
+        driver.navigate().refresh();}
+
+    public void setLatestStories8() throws Exception{
+        driver.get("https://www.hotels.com/co10233012/hotels-in-bangladesh/");
+        driver.findElement(By.xpath("//*[@id=\'countrylanding\']/div[3]/div/div/div/div[2]/div/div/div/form/div[5]/button")).
+                sendKeys("Chittagong, Bangladesh" + Keys.ENTER);
+        Thread.sleep(4000);
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Finding Hotels in Dhaka");
+        action.moveToElement(latestStories8);
+        boolean selectd = latestStories8.isDisplayed();
+        Assert.assertTrue(selectd);}
+
+    public void setLatestStories9()throws Exception{
+        driver.get("https://www.hotels.com/");
+        driver.findElement(By.xpath("//*[@id=\'hds-marquee\']/div[3]/div[1]/div/form/div[1]")).
+        sendKeys("Chittagong, Bangladesh" + Keys.ENTER);
+        driver.wait(5000);
+        Thread.sleep(4000);
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Finding Hotels in Dhaka");
+        action.moveToElement(latestStories8);
+        boolean selectd = latestStories8.isDisplayed();
+        Assert.assertTrue(selectd);}
+
 //        driver.get("https://www.bbc.com/news/scotland/edinburgh_east_and_fife");
 //        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
 //        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines14 in BBC World Page: EdinBurgh");

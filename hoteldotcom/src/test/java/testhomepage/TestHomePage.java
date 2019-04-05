@@ -34,51 +34,57 @@ public class TestHomePage extends CommonAPI {
     public void testHeadlines4(){home.setHeadlines4();}
 
     @Test (priority = 6)
-    public void testHeadlines5(){home.setHeadlines5();}
-
-    @Test (priority = 7)
     public void testHotelSearch() {home.setHotelsearch();}
 
-    @Test (priority = 8)
+    @Test (priority = 7)
     public void testFeatureSection(){home.setFeatureSection();}
 
-    @Test (priority = 9)
+    @Test (priority = 8)
     public void testFeatureSection3(){home.setFeatureSection3();}
 
-    @Test (priority = 10)
+    @Test (priority = 9)
     public void testFeatureSection4(){home.setFeatureSection4();}
-//    @Test
-//    public void testLatestStories(){
-//        world.setLatestSories1();
-//    }
-//    @Test
-//    public void testLatestStories2(){
-//        world.setLatestSories2();
-//    }
-//    @Test
-//    public void testLatestStories4(){
-//        world.setLatestStiries4();
-//    }
-//    @Test
-//    public void testLatestStories5(){
-//        world.setLatestStories5();
-//    }
-//    @Test
-//    public void testLatestStories6(){
-//        world.setLatestStories6();
-//    }
-//    @Test
-//    public void testLatestStories7(){
-//        world.setLatestSories7();
-//    }
-//    @Test
-//    public void testLatestStories8(){
-//        world.setLatestStories8();
-//    }
-//    @Test
-//    public void testLatestStories9() throws Exception{
-//        world.setLatestStories9();
-//    }
+
+    @Test
+    public void testLatestStories(){home.setLatestSories1();}
+
+    @Test
+    public void testLatestStories2(){home.setLatestSories2();}
+
+    @Test
+    public void testLatestStories4(){home.setLatestStiries4();}
+
+    @Test
+    public void testLatestStories5(){home.setLatestStories5();}
+
+    @Test
+    public void testLatestStories6(){home.setLatestStories6();}
+
+    @Test
+    public void testLatestStories7(){
+        try {
+            home.setLatestSories7();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    @Test
+    public void testLatestStories8(){
+        try {
+            home.setLatestStories8();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void testLatestStories9(){
+        try {
+            home.setLatestStories9();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 //    @Test
 //    public void testLatestStories11() {
 //        world.setLatestStories11();
