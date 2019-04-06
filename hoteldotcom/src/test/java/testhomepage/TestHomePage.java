@@ -45,22 +45,22 @@ public class TestHomePage extends CommonAPI {
     @Test (priority = 9)
     public void testFeatureSection4(){home.setFeatureSection4();}
 
-    @Test
+    @Test (priority = 10)
     public void testLatestStories(){home.setLatestSories1();}
 
-    @Test
+    @Test (priority = 11)
     public void testLatestStories2(){home.setLatestSories2();}
 
-    @Test
+    @Test (priority = 12)
     public void testLatestStories4(){home.setLatestStiries4();}
 
-    @Test
+    @Test (priority = 13)
     public void testLatestStories5(){home.setLatestStories5();}
 
-    @Test
+    @Test (priority = 14)
     public void testLatestStories6(){home.setLatestStories6();}
 
-    @Test
+    @Test (priority = 15)
     public void testLatestStories7(){
         try {
             home.setLatestSories7();
@@ -68,7 +68,7 @@ public class TestHomePage extends CommonAPI {
             e.printStackTrace();
         }
     }
-    @Test
+    @Test (priority = 16)
     public void testLatestStories8(){
         try {
             home.setLatestStories8();
@@ -77,7 +77,7 @@ public class TestHomePage extends CommonAPI {
         }
     }
 
-    @Test
+    @Test (priority = 17)
     public void testLatestStories9(){
         try {
             home.setLatestStories9();
@@ -85,18 +85,36 @@ public class TestHomePage extends CommonAPI {
             e.printStackTrace();
         }
     }
-//    @Test
-//    public void testLatestStories11() {
-//        world.setLatestStories11();
-//    }
-//    @Test
-//    public void testLatestStories12() {
-//        world.setLatestStories12();
-//    }
-//    @Test
-//    public void testLatestStories13() {
-//        world.setLatestStories13();
-//    }
+
+    @Test (priority = 18)
+    public void testLatestStories10(){
+        try {
+            home.setLatestStories10();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    @Test (priority = 19)
+    public void testLatestStories11() {
+        try {
+            home.setLatestStories11();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test (priority = 20)
+    public void testLatestStories12() {
+        try {
+            home.setLatestStories12();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void testLatestStories13() {home.setLatestStories13();}
+
 //    @Test
 //    public void testLatestStories14() {
 //        world.setLatestStories14();

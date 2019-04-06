@@ -65,13 +65,16 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "\"//*[@id=\\'hds-marquee\\']/div[3]/div[1]/div/form/div[1]\'")
     WebElement latestStories9;
 
-    @FindBy(xpath = "//*[@id=\'comp-battenberg\']/div/div/a[1]/h3/span")
+    @FindBy(xpath = "//*[@id=\'currency-popup\']/div")
+    WebElement latestStories10;
+
+    @FindBy(xpath = "//*[@id=\'header-toggle-currency\']")
     WebElement latestStories11;
 
-    @FindBy(xpath = "//*[@id=\'comp-pattern-library-3\']/div/div/a[1]/h3/span")
+    @FindBy(xpath = "//*[@id='hdr-customer-bookings']")
     WebElement latestStories12;
 
-    @FindBy(xpath = "//*[@id=\'comp-pattern-library-5\']/div/div/a[1]/h3")
+    @FindBy(xpath = "//*[@id=\'main-content\']/div/div/div[1]/div[2]/div/h1")
     WebElement latestStories13;
 
     @FindBy(xpath = "//*[@id=\'mainContent\']")
@@ -267,7 +270,7 @@ public class HomePage extends CommonAPI {
         driver.get("https://www.hotels.com/");
         driver.findElement(By.xpath("//*[@id=\'hds-marquee\']/div[3]/div[1]/div/form/div[1]")).
         sendKeys("Chittagong, Bangladesh" + Keys.ENTER);
-        driver.wait(5000);
+        driver.wait(8000);
         Thread.sleep(4000);
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()) + "-> " + "Finding Hotels in Dhaka");
@@ -275,39 +278,51 @@ public class HomePage extends CommonAPI {
         boolean selectd = latestStories8.isDisplayed();
         Assert.assertTrue(selectd);}
 
-//        driver.get("https://www.bbc.com/news/scotland/edinburgh_east_and_fife");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines14 in BBC World Page: EdinBurgh");
-//        action.moveToElement(latestStories9).doubleClick(latestStories9);
-//       Thread.sleep(4000);
-//        Dimension st= latestStories9.getSize();
-//        System.out.println(st);
-//        Assert.assertEquals(st,st);
-//    }
-//    public void setLatestStories11(){
-//        driver.get("https://www.bbc.com/news/scotland/highlands_and_islands");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines15 in BBC World Page: Highland");
-//        action.moveToElement(latestStories11);
-//        String text =latestStories11.getText();
-//        Assert.assertEquals(text,text);
-//    }
-//    public void setLatestStories12(){
-//        driver.get("https://www.bbc.com/news/wales");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines16 in BBC World Page: Wales");
-//        action.moveToElement(latestStories12);
-//        boolean text =latestStories12.isDisplayed();
-//        Assert.assertTrue(text);
-//    }
-//    public void setLatestStories13(){
-//        driver.get("https://www.bbc.com/news/wales/wales_politics");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines17 in BBC World Page: Wales Politics");
-//        action.moveToElement(latestStories13);
-//        boolean select = latestStories13.isEnabled();
-//        Assert.assertTrue(select);
-//    }
+    public void setLatestStories10()throws Exception{
+        driver.get("https://www.hotels.com/search.do?resolved-location=CITY%3A1517774%3AUNKNOWN%3AUNKNOWN&destination-id=1517774&q" +
+                "-destination=Astoria,%20New%20York,%20United%20States%20of%20America&q-check-in=2019-04-09&q-check-out=2019-04-13&q-rooms=" +
+                "2&q-room-0-adults=2&q-room-0-children=0&q-room-1-adults=2&q-room-1-children=0");
+        driver.findElement(By.xpath("//*[@id=\'currency-popup\']/div"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Finding Hotel in Astoria");
+        action.moveToElement(latestStories10).doubleClick(latestStories10);
+       Thread.sleep(4000);
+        Dimension st= latestStories9.getSize();
+        System.out.println(st);
+        Assert.assertEquals(st,st);}
+
+    public void setLatestStories11()throws Exception{
+        driver.get("https://groups.hotels.com/Group-Rate/?locale=en_US&intlid=SEARCHRESULTS+%3A%3A+header_main_section&kw=header");
+        driver.findElement(By.xpath("//*[@id=\'header-toggle-currency\']"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Searching venue for Group Meeting");
+        Thread.sleep(4000);
+        Dimension st= latestStories9.getSize();
+        System.out.println(st);
+        action.moveToElement(latestStories11);
+        String text =latestStories11.getText();
+        Assert.assertEquals(text,text);}
+
+    public void setLatestStories12()throws Exception{
+        driver.get("https://www.hotels.com/profile/signin.html?target=H4sIAAAAAAAAABXCMQqFMAwA0NO4tqLbBxERweFPVmeptdhgm" +
+                "4iJ9Pri4wWRi39a55xVIPGRlaOkrXP0oOiN6AQ8OAKLCpJiCygR9sYM3dSP02CW_2yKqizq7luVwdvd32uygCt7J0D4AoYKQvJkAAAA");
+        driver.findElement(By.xpath("//*[@id='hdr-customer-bookings']"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com Booking");
+        Thread.sleep(4000);
+        action.moveToElement(latestStories12);
+        boolean text =latestStories12.isDisplayed();
+        Assert.assertTrue(text);}
+
+    public void setLatestStories13(){
+        driver.get("https://www.hotels.com/go/usa/things-to-do-myrtle-beach?intlid=gghcty|trend");
+        driver.findElement(By.xpath("//*[@id=\'main-content\']/div/div/div[1]/div[2]/div/h1"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Things to do in Myrtle Beach");
+        action.moveToElement(latestStories13);
+        boolean select = latestStories13.isEnabled();
+        Assert.assertTrue(select);
+    }
 //    public void setLatestStories14(){
 //        driver.get("https://www.bbc.com/news/wales/north_west_wales");
 //        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
