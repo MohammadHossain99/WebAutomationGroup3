@@ -77,13 +77,13 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\'main-content\']/div/div/div[1]/div[2]/div/h1")
     WebElement latestStories13;
 
-    @FindBy(xpath = "//*[@id=\'mainContent\']")
+    @FindBy(xpath = "//*[@id=\'main-content\']/div/div/div[1]/div[1]/nav/ul/li[4]/span")
     WebElement latestStories14;
 
-    @FindBy(xpath = "//*[@id=\'comp-battenberg\']/div/div/a[1]/h3/span")
+    @FindBy(xpath = "//*[@id=\'main-content\']/div/div/div[1]/div[1]/nav/ul/li[4]")
     WebElement latestStories15;
 
-    @FindBy(xpath = "//*[@id=\'bbccom_leaderboard_1_2_3_4\']")
+    @FindBy(xpath = "//*[@id=\'main-content\']/div/div/div[1]/div[2]" )
     WebElement latestStories16;
 
     @FindBy(xpath = "//*[@id=\'bbccom_leaderboard_1_2_3_4\']")
@@ -323,62 +323,69 @@ public class HomePage extends CommonAPI {
         boolean select = latestStories13.isEnabled();
         Assert.assertTrue(select);
     }
-//    public void setLatestStories14(){
-//        driver.get("https://www.bbc.com/news/wales/north_west_wales");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: Wales - North West");
-//        action.moveToElement(latestStories14);
-//        boolean select = latestStories14.isEnabled();
-//        Assert.assertTrue(select);
-//    }
-//    public void setLatestStories15(){
-//        driver.get("https://www.bbc.com/news/wales/north_east_wales");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: Wales - North East");
-//        action.moveToElement(latestStories15);
-//        boolean select = latestStories15.isEnabled();
-//        Assert.assertTrue(select);
-//    }
-//    public void setLatestStories16(){
-//        driver.get("https://www.bbc.com/news/wales/mid_wales");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: Wales - Mid");
-//        action.moveToElement(latestStories16);
-//        boolean select = latestStories16.isEnabled();
-//        Assert.assertTrue(select);
-//    }
-//    public void setLatestStories17(){
-//        driver.get("https://www.bbc.com/news/wales/south_west_wales");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: Wales - South West");
-//        action.moveToElement(latestStories17);
-//        boolean select = latestStories17.isEnabled();
-//        Assert.assertTrue(select);
-//    }
-//    public void setLatestStories18(){
-//        driver.get("https://www.bbc.com/news/wales/south_east_wales");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: Wales - South East");
-//        action.moveToElement(latestStories18);
-//        boolean select = latestStories18.isEnabled();
-//        Assert.assertTrue(select);
-//    }
-//    public void setLatestStories19(){
-//        driver.get("https://www.bbc.com/news/england");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: England");
-//        action.moveToElement(latestStories19);
-//        boolean select = latestStories19.isEnabled();
-//        Assert.assertTrue(select);
-//    }
-//    public void setLatestStories20(){
-//        driver.get("https://www.bbc.com/news/politics");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: England");
-//        action.moveToElement(latestStories20);
-//        boolean select = latestStories20.isEnabled();
-//        Assert.assertTrue(select);
-//    }
+    public void setLatestStories14(){
+        driver.get("https://www.hotels.com/go/usa/san-francisco?intlid=gghcty|alsopop");
+        driver.findElement(By.xpath("//*[@id=\'main-content\']/div/div/div[1]/div[1]/nav/ul/li[4]/span"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Voisit San Francisco");
+        action.moveToElement(latestStories14);
+        boolean select = latestStories14.isEnabled();
+        Assert.assertTrue(select);}
+
+    public void setLatestStories15(){
+         driver.get("https://www.hotels.com/go/usa/los-angeles?intlid=gghcnt|topdes");
+        driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/div/div[1]/div[1]/nav/ul/li[4]/span"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit Los Angeles");
+        action.moveToElement(latestStories14);
+        boolean select = latestStories14.isEnabled();
+        Assert.assertTrue(select);}
+
+    public void setLatestStories16(){
+        driver.get("https://www.hotels.com/go/usa/hawaii?intlid=gghcnt|keepexp");
+        driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/div/div[1]"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit Hawai");
+        action.moveToElement(latestStories14);
+        boolean select = latestStories14.isEnabled();
+        Assert.assertTrue(select);}
+
+    public void setLatestStories17(){
+        driver.get("https://www.hotels.com/go/usa/los-angeles?intlid=gghcnt|topdes");
+        driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/div/div[1]/div[1]/nav/ul/li[4]/span"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit Los Angeles");
+        action.moveToElement(latestStories14);
+        boolean select = latestStories14.isEnabled();
+        Assert.assertTrue(select);}
+
+    public void setLatestStories18(){
+        driver.get("https://www.hotels.com/go/usa/los-angeles?intlid=gghcnt|topdes");
+        driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/div/div[1]/div[1]/nav/ul/li[4]/span"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit Los Angeles");
+        action.moveToElement(latestStories14);
+        boolean select = latestStories14.isEnabled();
+        Assert.assertTrue(select);}
+
+    public void setLatestStories19(){
+        driver.get("https://www.hotels.com/go/usa/los-angeles?intlid=gghcnt|topdes");
+        driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/div/div[1]/div[1]/nav/ul/li[4]/span"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit Los Angeles");
+        action.moveToElement(latestStories14);
+        boolean select = latestStories14.isEnabled();
+        Assert.assertTrue(select);}
+
+    public void setLatestStories20(){
+        driver.get("https://www.hotels.com/go/usa/los-angeles?intlid=gghcnt|topdes");
+        driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/div/div[1]/div[1]/nav/ul/li[4]/span"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit Los Angeles");
+        action.moveToElement(latestStories14);
+        boolean select = latestStories14.isEnabled();
+        Assert.assertTrue(select);}
+
 //    public void setLatestStories21(){
 //        driver.get("https://www.bbc.com/news/world/latin_america");
 //        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
@@ -459,4 +466,5 @@ public class HomePage extends CommonAPI {
 //        boolean select = latestStories30.isEnabled();
 //        Assert.assertTrue(select);
 //    }
+
 }

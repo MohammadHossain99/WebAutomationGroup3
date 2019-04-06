@@ -115,18 +115,15 @@ public class TestHomePage extends CommonAPI {
     @Test
     public void testLatestStories13() {home.setLatestStories13();}
 
-//    @Test
-//    public void testLatestStories14() {
-//        world.setLatestStories14();
-//    }
-//    @Test
-//    public void testLatestStories15() {
-//        world.setLatestStories15();
-//    }
-//    @Test
-//    public void testLatestStories16() {
-//        world.setLatestStories16();
-//    }
+    @Test
+    public void testLatestStories14() {home.setLatestStories14();}
+
+    @Test
+    public void testLatestStories15() {home.setLatestStories15();}
+
+    @Test
+    public void testLatestStories16() {home.setLatestStories16();}
+
 //    @Test
 //    public void testLatestStories17() {
 //        world.setLatestStories17();
