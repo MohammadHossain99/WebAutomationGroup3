@@ -83,50 +83,92 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\'main-content\']/div/div/div[1]/div[1]/nav/ul/li[4]")
     WebElement latestStories15;
 
-    @FindBy(xpath = "//*[@id=\'main-content\']/div/div/div[1]/div[2]" )
-    WebElement latestStories16;
-
-    @FindBy(xpath = "//*[@id=\'bbccom_leaderboard_1_2_3_4\']")
+    @FindBy(xpath = "//*[@id=\'header-full\']/header/nav[1]/div/div/div[1]/a/img")
     WebElement latestStories17;
 
-    @FindBy(xpath = "//*[@id=\'comp-battenberg\']/div/div/a[1]/h3/span")
+    @FindBy(xpath = "//*[@id=\'citylanding-core\']/div[1]/div/div/div[1]/div/div[1]")
     WebElement latestStories18;
 
-    @FindBy(xpath = "//*[@id=\'comp-pattern-library-4\']/div/div/a[1]/h3/span")
+    @FindBy(xpath = "//*[@id=\"citylanding-core\"]/div[1]/div")
     WebElement latestStories19;
 
-    @FindBy(xpath = "//*[@id=\'comp-pattern-library-5\']/div/div/a[1]/h3/span")
+    @FindBy(xpath = "//*[@id=\'citylanding-core\']/div[3]/div[1]/div[1]/div/div/div/div[2]/div/div/div")
     WebElement latestStories20;
 
-    @FindBy(xpath = "//*[@id=\'comp-pattern-library-5\']/div/div/a[1]/h3/span")
+    @FindBy(xpath = "//*[@id=\'citylanding-core\']/div[1]/div/div/div[2]/div[2]/div/div[1]")
     WebElement latestStories21;
 
-    @FindBy(xpath = "//*[@id=\'page\']/div[1]/div[2]/div/div[1]/div[1]/h1")
+    @FindBy(xpath = "//*[@id=\'citylanding-core\']/div[1]/div/div/div[2]/div[2]/div/div[1]/div")
     WebElement latestStories22;
 
-    @FindBy(xpath = "//*[@id=\'page\']/div[1]/div[2]/div/div[1]/div[1]/h1")
+    @FindBy(id = "star5")
     WebElement latestStories23;
 
-    @FindBy(xpath = "//*[@id=\'page\']/div[1]/div[2]/div/div[1]/div[1]/h1")
+    @FindBy(id = "star4")
     WebElement latestStories24;
 
-    @FindBy(xpath = "//*[@id=\'page\']/div[1]/div[2]/div/div[1]/div[1]/h1")
+    @FindBy(id = "star3")
     WebElement latestStories25;
 
-    @FindBy(xpath = "//*[@id=\'page\']/div[1]/div[2]/div/div[1]/div[1]/h1")
+    @FindBy(xpath = "//*[@id=\'main-content\']/main/div")
     WebElement latestStories26;
 
-    @FindBy(xpath = "//*[@id=\'page\']/div[1]/div[2]/div/div[1]/div[1]/h1")
+    @FindBy(xpath = "/html/body/form/main")
     WebElement latestStories27;
 
-    @FindBy(xpath = "//*[@id=\'page\']/div[1]/div[2]/div/div[1]/div[1]/h1")
+    @FindBy(xpath = "//*[@id=\'main-content\']/main/div/div/div/div[1]/div/div/div/img")
     WebElement latestStories28;
 
-    @FindBy(xpath = "//*[@id=\'page\']/div[1]/div[2]/div/div[1]/div[1]/h1")
+    @FindBy(xpath = "//*[@id=\'panel panel-default central-taap\']")
     WebElement latestStories29;
 
-    @FindBy(xpath = "//*[@id=\'page\']/div[1]/div[2]/div/div[1]/div[1]/h1")
+    @FindBy(xpath = "//*[@id=\'content\']")
     WebElement latestStories30;
+
+    @FindBy(xpath = "//*[@id=\'termsandconditions\']/div")
+    WebElement latestStories31;
+
+    @FindBy(xpath = "//*[@id=\'privacypolicy\']")
+    WebElement latestStories32;
+
+    @FindBy(xpath = "//*[@id=\'cookiepolicy\']/div")
+    WebElement latestStories33;
+
+    @FindBy(xpath = "//*[@id=\'main-content\']/main/div/div/div/div/div/div/div")
+    WebElement latestStories34;
+
+    @FindBy(xpath = "//*[@id=\'citylanding-core\']/div[1]/div/div/div[1]/div/div[1]")
+    WebElement latestStories35;
+
+    @FindBy(xpath = "//*[@id=\'citylanding-core\']/div[1]/div/div/div[2]/div[2]/div/div[1]/div/form/input[1]")
+    WebElement latestStories36;
+
+    @FindBy(xpath = "//*[@id=\'citylanding-core\']/div[1]/div/div/div[2]/div[2]/div/div[1]/div/form/div[5]")
+    WebElement latestStories37;
+
+    @FindBy(xpath = "//*[@id=\'property-header\']/div")
+    WebElement latestStories38;
+
+    @FindBy(xpath = "//*[@id=\'main-content\']/div/div/div[1]/div[2]")
+    WebElement latestStories39;
+
+    @FindBy(xpath = "//*[@id=\'main-content\']/div/div/div[1]/div[3]")
+    WebElement latestStories40;
+
+    @FindBy(xpath = "//*[@id=\'main-content\']/div/div/div[1]/div[3]")
+    WebElement latestStories41;
+
+    @FindBy(xpath = "//*[@id='main-content']/div/div/div[1]/div[3]")
+    WebElement latestStories42;
+
+    @FindBy(xpath = "//*[@id='main-content']/div/div/div[1]/div[3]")
+    WebElement latestStories43;
+
+    @FindBy(xpath = "//*[@id=\'main-content\']/div/div/div[1]/div[2]")
+    WebElement latestStories44;
+
+    @FindBy(xpath ="//*[@id=\'main-content\']/div/div/div[1]/div[3]")
+    WebElement latestStories45;
 
     public void setHeadlines() {
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
@@ -211,7 +253,6 @@ public class HomePage extends CommonAPI {
         driver.get("https://travel.hotels.com/Hotel-Search?packageType=fh&searchProduct=hotel&c=b8214ff4-41cc-47e3-bd97-93281d338bed&adults=" +
                         "2&originId=6139058&ftla=NYC&destination=Los+Angeles,+CA,+United+States+(LAX-Los+Angeles+Intl.)&destinationId=5783884&" +
                         "ttla=LAX&startDate=7/11/2019&endDate=7/14/2019&sort=recommended&tripType=ROUND_TRIP&misId=4bf09de1-3849-4318-b535-ef6af80174af");
-
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotel Search Page");
         action.moveToElement(latestSories2).click();
@@ -334,137 +375,276 @@ public class HomePage extends CommonAPI {
 
     public void setLatestStories15(){
          driver.get("https://www.hotels.com/go/usa/los-angeles?intlid=gghcnt|topdes");
-        driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/div/div[1]/div[1]/nav/ul/li[4]/span"));
+        //driver.findElement(By.xpath("//*[@id=\'main-content\']/div/div/div[5]/div/div/div/div/div[1]/div[2]/a"));
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit Los Angeles");
-        action.moveToElement(latestStories14);
-        boolean select = latestStories14.isEnabled();
-        Assert.assertTrue(select);}
-
-    public void setLatestStories16(){
-        driver.get("https://www.hotels.com/go/usa/hawaii?intlid=gghcnt|keepexp");
-        driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/div/div[1]"));
-        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit Hawai");
-        action.moveToElement(latestStories14);
-        boolean select = latestStories14.isEnabled();
+        action.moveToElement(latestStories15);
+        boolean select = latestStories15.isEnabled();
         Assert.assertTrue(select);}
 
     public void setLatestStories17(){
-        driver.get("https://www.hotels.com/go/usa/los-angeles?intlid=gghcnt|topdes");
-        driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/div/div[1]/div[1]/nav/ul/li[4]/span"));
+        driver.get("https://www.hotels.com");
+        driver.findElement(By.xpath("//*[@id=\'header-full\']/header/nav[1]/div/div/div[1]/a/img"));
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit Los Angeles");
-        action.moveToElement(latestStories14);
-        boolean select = latestStories14.isEnabled();
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "URL Testing");
+        action.moveToElement(latestStories17);
+        boolean select = latestStories17.isEnabled();
         Assert.assertTrue(select);}
 
     public void setLatestStories18(){
-        driver.get("https://www.hotels.com/go/usa/los-angeles?intlid=gghcnt|topdes");
-        driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/div/div[1]/div[1]/nav/ul/li[4]/span"));
+        driver.get("https://www.hotels.com/de1404711/hotels-orlando-florida/");
+        driver.findElement(By.xpath("//*[@id=\'citylanding-core\']/div[1]/div/div/div[1]/div/div[1]"));
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit Los Angeles");
-        action.moveToElement(latestStories14);
-        boolean select = latestStories14.isEnabled();
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit Orlando");
+        action.moveToElement(latestStories18);
+        boolean select = latestStories18.isEnabled();
         Assert.assertTrue(select);}
 
     public void setLatestStories19(){
-        driver.get("https://www.hotels.com/go/usa/los-angeles?intlid=gghcnt|topdes");
-        driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/div/div[1]/div[1]/nav/ul/li[4]/span"));
+        driver.get("https://www.hotels.com/de1497539/hotels-chicago-illinois/");
+        driver.findElement(By.xpath("//*[@id=\'citylanding-core\']/div[1]/div/div/div[1]/div/div[1]"));
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit Los Angeles");
-        action.moveToElement(latestStories14);
-        boolean select = latestStories14.isEnabled();
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit Chicago");
+        action.moveToElement(latestStories19);
+        boolean select = latestStories19.isEnabled();
         Assert.assertTrue(select);}
 
     public void setLatestStories20(){
-        driver.get("https://www.hotels.com/go/usa/los-angeles?intlid=gghcnt|topdes");
-        driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/div/div[1]/div[1]/nav/ul/li[4]/span"));
+        driver.get("https://www.hotels.com/de1483250/hotels-san-diego-california/");
+        driver.findElement(By.xpath("//*[@id=\'citylanding-core\']/div[3]/div[1]/div[1]/div/div/div/div[2]/div/div/div"));
         TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit Los Angeles");
-        action.moveToElement(latestStories14);
-        boolean select = latestStories14.isEnabled();
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit San Diego");
+        action.moveToElement(latestStories20);
+        boolean select = latestStories20.isEnabled();
         Assert.assertTrue(select);}
 
-//    public void setLatestStories21(){
-//        driver.get("https://www.bbc.com/news/world/latin_america");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: Latin America: Uruguay");
-//        action.moveToElement(latestStories21);
-//        boolean select = latestStories21.isEnabled();
-//        Assert.assertTrue(select);
-//    }
-//    public void setLatestStories22(){
-//        driver.get("https://www.bbc.com/news/world-latin-america-47781249");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: Latin America: Venezuela");
-//        action.moveToElement(latestStories22);
-//        boolean select = latestStories22.isEnabled();
-//        Assert.assertTrue(select);
-//    }
-//    public void setLatestStories23(){
-//        driver.get("https://www.bbc.com/news/world-latin-america-47750729");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: Latin America: Red Cross-Venezuela");
-//        action.moveToElement(latestStories23);
-//        boolean select = latestStories23.isEnabled();
-//        Assert.assertTrue(select);
-//    }
-//    public void setLatestStories24(){
-//        driver.get("https://www.bbc.com/news/world-europe-47785258");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: Europe - Macedonia");
-//        action.moveToElement(latestStories24);
-//        boolean select = latestStories24.isEnabled();
-//        Assert.assertTrue(select);
-//    }
-//    public void setLatestStories25(){
-//        driver.get("https://www.bbc.com/news/world-europe-47785097");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: Europe - Spain");
-//        action.moveToElement(latestStories25);
-//        boolean select = latestStories25.isEnabled();
-//        Assert.assertTrue(select);
-//    }
-//    public void setLatestStories26(){
-//        driver.get("https://www.bbc.com/news/world-europe-47785095");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: Europe - Turkey");
-//        action.moveToElement(latestStories26);
-//        boolean select = latestStories26.isEnabled();
-//        Assert.assertTrue(select);
-//    }
-//    public void setLatestStories27(){
-//        driver.get("https://www.bbc.com/news/world-europe-47781254");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: Europe - EU");
-//        action.moveToElement(latestStories27);
-//        boolean select = latestStories27.isEnabled();
-//        Assert.assertTrue(select);
-//    }
-//    public void setLatestStories28(){
-//        driver.get("https://www.bbc.com/news/world-europe-47785088");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: Europe - France");
-//        action.moveToElement(latestStories28);
-//        boolean select = latestStories28.isEnabled();
-//        Assert.assertTrue(select);
-//    }
-//    public void setLatestStories29(){
-//        driver.get("https://www.bbc.com/news/business-47746141");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: Europe - Turkey Business");
-//        action.moveToElement(latestStories29);
-//        boolean select = latestStories29.isEnabled();
-//        Assert.assertTrue(select);
-//    }
-//    public void setLatestStories30(){
-//        driver.get("https://www.bbc.com/news/world-europe-47772604");
-//        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()) + "-> " + "Verify Headlines in BBC World Page: Europe - France");
-//        action.moveToElement(latestStories30);
-//        boolean select = latestStories30.isEnabled();
-//        Assert.assertTrue(select);
-//    }
+    public void setLatestStories21(){
+        driver.get("https://www.hotels.com/de1504033/hotels-las-vegas-nevada/");
+        driver.findElement(By.xpath("//*[@id=\"citylanding-core\"]/div[1]/div/div/div[2]/div[2]/div/div[1]/div"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit Las Vegas");
+        action.moveToElement(latestStories21);
+        boolean select = latestStories21.isEnabled();
+        Assert.assertTrue(select);}
 
+    public void setLatestStories22(){
+        driver.get("https://www.hotels.com/de1490932/hotels-san-antonio-texas/");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Visit San Antonio");
+        action.moveToElement(latestStories22);
+        boolean select = latestStories22.isEnabled();
+        Assert.assertTrue(select);}
+
+    public void setLatestStories23(){
+        driver.get("https://www.hotels.com/customer_care/star_rating.html");
+        driver.findElement(By.id("star5"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotel rating explanation: 5 star");
+        action.moveToElement(latestStories23);
+        boolean select = latestStories23.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories24(){
+        driver.get("https://www.hotels.com/customer_care/star_rating.html");
+        driver.findElement(By.id("star4"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotel rating explanation: 4 star");
+        action.moveToElement(latestStories24);
+        boolean select = latestStories24.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories25(){
+        driver.get("https://www.hotels.com/customer_care/star_rating.html");
+        driver.findElement(By.id("star3"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotel rating explanation: 3 star");
+        action.moveToElement(latestStories25);
+        boolean select = latestStories25.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories26() throws Exception{
+        driver.get("https://www.hotels.com/customer_care/about_us.html");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotel.com - Company Information");
+        action.moveToElement(latestStories26);
+        Thread.sleep(8000);
+        boolean select = latestStories26.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories27(){
+        driver.get("https://secure.opinionlab.com/ccc01/comment_card.asp?time1=1554617244220&time2=1554618336437&prev=https" +
+                "%3A%2F%2Fwww%2Ehotels%2Ecom%2F&referer=https%3A%2F%2Fen_US%2Ewww%2Ehotels%2Ecom%2Falltop50cities%2F&height=" +
+                "864&width=1536&custom_var=%22c13f2fa0-a31c-4f9e-899e-2350340ed236:-1370871878%22|undefined");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com - Customer Opinion");
+        action.moveToElement(latestStories27);
+        boolean select = latestStories27.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories28(){
+        driver.get("https://www.hotels.com/page/travel-affiliate-program/");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com Affiliation");
+        action.moveToElement(latestStories28);
+        boolean select = latestStories28.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories29(){
+        driver.get("https://travelagencies.hotels.com/Taap/?lang=en");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : Travel Agency");
+        action.moveToElement(latestStories29);
+        boolean select = latestStories29.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories30(){
+        driver.get("http://press.hotels.com/us/");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : Press Wing");
+        action.moveToElement(latestStories30);
+        boolean select = latestStories30.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories31(){
+        driver.get("https://www.hotels.com/customer_care/terms_conditions.html");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : Terms and Condition");
+        action.moveToElement(latestStories31);
+        boolean select = latestStories31.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories32(){
+        driver.get("https://www.hotels.com/customer_care/privacy.html");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : Terms and Condition");
+        action.moveToElement(latestStories32);
+        boolean select = latestStories32.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories33(){
+        driver.get("https://www.hotels.com/customer_care/cookie_policy.html");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : Cookie Policy");
+        action.moveToElement(latestStories32);
+        boolean select = latestStories33.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories34(){
+        driver.get("https://www.hotels.com/customer_care/about_our_ads.html");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : Cookie Policy");
+        action.moveToElement(latestStories34);
+        boolean select = latestStories34.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories35(){
+        driver.get("https://www.hotels.com/de1496137/hotels-atlanta-georgia/");
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : Atlanta Hotels");
+        action.moveToElement(latestStories35);
+        boolean select = latestStories35.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories36(){
+        driver.get("https://www.hotels.com/de1481165/hotels-seattle-washington/");
+        driver.findElement(By.xpath("//*[@id=\'citylanding-core\']/div[1]/div/div/div[2]/div[2]/div/div[1]/div/form/input[1]"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : Seattle Hotels");
+        action.moveToElement(latestStories36);
+        boolean select = latestStories36.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories37(){
+        driver.get("https://www.hotels.com/de549499/hotels-london-united-kingdom/");
+        driver.findElement(By.xpath("//*[@id=\'citylanding-core\']/div[1]/div/div/div[2]/div[2]/div/div[1]/div/form/div[5]"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : London Hotels");
+        action.moveToElement(latestStories37);
+        boolean select = latestStories37.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories38(){
+        driver.get("https://www.hotels.com/ho626428768/?q-check-out=2019-04-27&FPQ=2&q-check-in=2019-04-26&WOE=6&WOD=" +
+                        "5&q-room-0-children=0&pa=2&tab=description&q-room-1-children=0&JHR=1&q-room-0-adults=2&q-room-1" +
+                        "-adults=2&YGF=14&MGT=1&ZSX=0&SYE=3");
+        driver.findElement(By.xpath("//*[@id=\'property-header\']/div"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : London Hotels Listing");
+        action.moveToElement(latestStories38);
+        boolean select = latestStories38.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories39 () throws InterruptedException {
+        driver.get("https://www.hotels.com/go/france/paris?intlid=gghome|topdes");
+        driver.findElement(By.xpath("//*[@id=\'main-content\']/div/div/div[1]/div[2]"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : Visit Paris");
+        Thread.sleep(3000);
+        action.moveToElement(latestStories39);
+        boolean select = latestStories39.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories40 () throws InterruptedException {
+        driver.get("https://www.hotels.com/go/japan?intlid=gghome|topdes");
+        driver.findElement(By.xpath("//*[@id=\'main-content\']/div/div/div[1]/div[3]"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : Visit Japan");
+        Thread.sleep(3000);
+        action.moveToElement(latestStories40);
+        boolean select = latestStories40.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories41 () throws InterruptedException {
+        driver.get("https://www.hotels.com/go/italy/venice?intlid=gghome|topdes");
+        driver.findElement(By.xpath("//*[@id=\"main-content\"]/div/div/div[1]/div[3]"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : Visit Venice");
+        Thread.sleep(3000);
+        action.moveToElement(latestStories41);
+        boolean select = latestStories41.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories42 () throws InterruptedException {
+        driver.get("https://www.hotels.com/go/canada/toronto-movie-locations?intlid=gghome|trend");
+        driver.findElement(By.xpath("//*[@id=\'main-content\']/div/div/div[1]/div[3]"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : Top Places in Toronto");
+        Thread.sleep(3000);
+        action.moveToElement(latestStories42);
+        boolean select = latestStories42.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories43 () throws InterruptedException {
+        driver.get("https://www.hotels.com/go/italy/family-things-to-do-rome?intlid=gghome|trend");
+        driver.findElement(By.xpath("//*[@id=\'main-content\']/div/div/div[1]/div[3]"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : Top places in Rome");
+        Thread.sleep(3000);
+        action.moveToElement(latestStories43);
+        boolean select = latestStories43.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories44 () throws InterruptedException {
+        driver.get("https://www.hotels.com/go/germany/budget-things-to-do-munich?intlid=gghome|trend");
+        driver.findElement(By.xpath("//*[@id=\'main-content\']/div/div/div[1]/div[2]"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : Top places in Munich");
+        Thread.sleep(3000);
+        action.moveToElement(latestStories44);
+        boolean select = latestStories44.isEnabled();
+        Assert.assertTrue(select);
+    }
+    public void setLatestStories45 () throws InterruptedException {
+        driver.get("https://www.hotels.com/go/usa/best-national-parks-usa?intlid=gghome|trend");
+        driver.findElement(By.xpath("//*[@id=\'main-content\']/div/div/div[1]/div[3]"));
+        TestLogger.log(getClass().getSimpleName() + "  " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + "-> " + "Hotels.com : 11 best National Park in USA");
+        Thread.sleep(3000);
+        action.moveToElement(latestStories45);
+        boolean select = latestStories45.isEnabled();
+        Assert.assertTrue(select);
+    }
 }
+
+
+

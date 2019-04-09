@@ -112,72 +112,105 @@ public class TestHomePage extends CommonAPI {
         }
     }
 
-    @Test
+    @Test (priority = 21)
     public void testLatestStories13() {home.setLatestStories13();}
 
-    @Test
+    @Test (priority =22)
     public void testLatestStories14() {home.setLatestStories14();}
 
-    @Test
+    @Test (priority =23)
     public void testLatestStories15() {home.setLatestStories15();}
 
     @Test
-    public void testLatestStories16() {home.setLatestStories16();}
+    public void testLatestStories17() {home.setLatestStories17();}
 
-//    @Test
-//    public void testLatestStories17() {
-//        world.setLatestStories17();
-//    }
-//    @Test
-//    public void testLatestStories18() {
-//        world.setLatestStories18();
-//    }
-//    @Test
-//    public void testLatestStories19() {
-//        world.setLatestStories19();
-//    }
-//    @Test
-//    public void testLatestStories20() {
-//        world.setLatestStories20();
-//    }
-//    @Test
-//    public void testLatestStories21() {
-//        world.setLatestStories21();
-//    }
-//    @Test
-//    public void testLatestStories22() {
-//        world.setLatestStories22();
-//    }
-//    @Test
-//    public void testLatestStories23() {
-//        world.setLatestStories23();
-//    }
-//    @Test
-//    public void testLatestStories24() {
-//        world.setLatestStories24();
-//    }
-//    @Test
-//    public void testLatestStories25() {
-//        world.setLatestStories25();
-//    }
-//    @Test
-//    public void testLatestStories26() {
-//        world.setLatestStories26();
-//    }
-//    @Test
-//    public void testLatestStories27() {
-//        world.setLatestStories27();
-//    }
-//    @Test
-//    public void testLatestStories28() {
-//        world.setLatestStories28();
-//    }
-//    @Test
-//    public void testLatestStories29() {
-//        world.setLatestStories29();
-//    }
-//    @Test
-//    public void testLatestStories30() {
-//        world.setLatestStories30();
-//    }
+    @Test
+    public void testLatestStories18() {home.setLatestStories18();}
+
+    @Test
+    public void testLatestStories19() {home.setLatestStories19();}
+
+    @Test
+    public void testLatestStories20() {home.setLatestStories20();}
+
+    @Test
+    public void testLatestStories21() {home.setLatestStories21();}
+
+    @Test
+    public void testLatestStories22() {home.setLatestStories22();}
+
+    @Test
+    public void testLatestStories23() {home.setLatestStories23();}
+
+    @Test
+    public void testLatestStories24() {home.setLatestStories24();}
+
+    @Test
+    public void testLatestStories25() {home.setLatestStories25();}
+
+    @Test
+    public void testLatestStories26() {
+        try {
+            home.setLatestStories26();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void testLatestStories27() {home.setLatestStories27();}
+
+    @Test
+    public void testLatestStories28() {home.setLatestStories28();}
+
+    @Test
+    public void testLatestStories29() {home.setLatestStories29();}
+
+    @Test
+    public void testLatestStories30() {home.setLatestStories30();}
+
+    @Test
+    public void testLatestStories31() {home.setLatestStories31();}
+
+    @Test
+    public void testLatestStories32() {home.setLatestStories32();}
+
+    @Test
+    public void testLatestStories33() {home.setLatestStories33();}
+
+    @Test
+    public void testLatestStories34() {home.setLatestStories34();}
+
+    @Test
+    public void testLatestStories35() {home.setLatestStories35();}
+
+    @Test
+    public void testLatestStories36() {home.setLatestStories36();}
+
+    @Test
+    public void testLatestStories37() {home.setLatestStories37();}
+
+    @Test
+    public void testLatestStories38() {home.setLatestStories38();}
+
+    @Test
+    public void testLatestStories39() throws InterruptedException {home.setLatestStories39();}
+
+    @Test
+    public void testLatestStories40() throws InterruptedException {home.setLatestStories40();}
+
+    @Test
+    public void testLatestStories41() throws InterruptedException {home.setLatestStories41();}
+
+    @Test
+    public void testLatestStories42() throws InterruptedException {home.setLatestStories42();}
+
+    @Test
+    public void testLatestStories43() throws InterruptedException {home.setLatestStories43();}
+
+    @Test
+    public void testLatestStories44() throws InterruptedException {home.setLatestStories44();}
+
+    @Test
+    public void testLatestStories45() throws InterruptedException {home.setLatestStories45();}
 }
